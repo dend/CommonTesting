@@ -1,3 +1,4 @@
 {
-    "cadence" : 10
+    "cadence" : 10,
+    "allowManualControl" : false
 }
