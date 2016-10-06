@@ -1,5 +1,5 @@
-{
-    "conditions": [{
+[
+    {
         "condition": "foreachfile",
         "target": "global.json",
         "trigger": "dotnet restore"
@@ -8,4 +8,4 @@
         "target": "project.json",
         "trigger": "dotnet restore | dotnet build"
     }]
-}
+]
