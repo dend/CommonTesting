@@ -1,0 +1,11 @@
+[
+    {
+        "condition": "foreachfile",
+        "target": "global.json",
+        "trigger": "dotnet restore"
+    }, {
+        "condition": "foreachfile",
+        "target": "project.json",
+        "trigger": "dotnet restore | dotnet build"
+    }]
+]
