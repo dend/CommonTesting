@@ -1,1 +1,39 @@
-{"Repo":{"Url":"https://github.com","Owner":null,"RepoStatus":null,"LogEntries":null,"Branches":[],"Stakeholders":[],"Id":"7e7045b9-7c41-4194-3abe-08d3e3e9a064","DateAdded":"2016-09-23T12:41:34.9992769","DateModified":"0001-01-01T00:00:00","Type":"Constructors.Common.Models.RepositoryManagement.Repository"},"Folder":"123123","Agent":0,"PostSampleTrigger":"","PostCompletionTrigger":"","Dependencies":[{"Name":"TestDEp","Location":"https://bing.com","Version":"1.0.rc32","Id":"c37d6750-01dc-4ad4-8a23-08d3e3e9ce43","DateAdded":"2016-09-23T12:42:51.6859854","DateModified":"0001-01-01T00:00:00","Type":"Constructors.Common.Models.Configuration.Dependency"},{"Name":"TestDEp","Location":"https://bing.com","Version":"1.0.rc32","Id":"c37d6750-01dc-4ad4-8a23-08d3e3e9ce43","DateAdded":"2016-09-23T12:42:51.6859854","DateModified":"0001-01-01T00:00:00","Type":"Constructors.Common.Models.Configuration.Dependency"},{"Name":"TestDEp","Location":"https://bing.com","Version":"1.0.rc32","Id":"c37d6750-01dc-4ad4-8a23-08d3e3e9ce43","DateAdded":"2016-09-23T12:42:51.6859854","DateModified":"0001-01-01T00:00:00","Type":"Constructors.Common.Models.Configuration.Dependency"},{"Name":"TestDEp","Location":"https://bing.com","Version":"1.0.rc32","Id":"c37d6750-01dc-4ad4-8a23-08d3e3e9ce43","DateAdded":"2016-09-23T12:42:51.6859854","DateModified":"0001-01-01T00:00:00","Type":"Constructors.Common.Models.Configuration.Dependency"}],"Preset":{"Name":"Blank","Location":"https://google.com","Id":"674a6937-ec11-4a75-85cf-08d3e3f00aec","DateAdded":"2016-09-23T13:27:30.4731323","DateModified":"0001-01-01T00:00:00","Type":"Constructors.Common.Models.Configuration.Preset"},"Id":"94bb8bb6-51cf-40c0-d2fe-08d3e97573ae","DateAdded":"2016-09-30T14:05:05.2745602","DateModified":"0001-01-01T00:00:00","Type":"Constructors.Common.Models.Configuration.ConfigCarrier"}
+{
+    "Repo": {
+        "Url": "https://github.com/dend/CommonTesting",
+        "Owner": null,
+        "RepoStatus": null,
+        "LogEntries": null,
+        "Branches": [],
+        "Stakeholders": [],
+        "Id": "b24fe016-da36-4f85-4316-08d3edb383fc",
+        "DateAdded": "2016-10-05T23:39:26.3893434",
+        "DateModified": "0001-01-01T00:00:00",
+        "Type": "Constructors.Common.Models.RepositoryManagement.Repository"
+    },
+    "Folder": "samples",
+    "Agent": 0,
+    "PostSampleTrigger": "",
+    "PostCompletionTrigger": "",
+    "Dependencies": [{
+        "Name": "NetCoreSdk",
+        "Location": "https://raw.githubusercontent.com/dend/CommonTesting/master/dependencies/netcore_10.json",
+        "Version": "1.0",
+        "Id": "83e26ca2-3612-42ab-2ad4-08d3edb3c88d",
+        "DateAdded": "2016-10-05T23:41:20.9025509",
+        "DateModified": "0001-01-01T00:00:00",
+        "Type": "Constructors.Common.Models.Configuration.Dependency"
+    }],
+    "Preset": {
+        "Name": "NetCore",
+        "Location": "https://raw.githubusercontent.com/dend/CommonTesting/master/presets/netcore.json",
+        "Id": "119341e4-ef0f-4def-90a0-08d3edb3de5e",
+        "DateAdded": "2016-10-05T23:41:57.5080148",
+        "DateModified": "0001-01-01T00:00:00",
+        "Type": "Constructors.Common.Models.Configuration.Preset"
+    },
+    "Id": "5086001c-3792-40cb-73c9-08d3edb3eba7",
+    "DateAdded": "2016-10-05T23:42:19.8896763",
+    "DateModified": "0001-01-01T00:00:00",
+    "Type": "Constructors.Common.Models.Configuration.ConfigCarrier"
+}
