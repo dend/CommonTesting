@@ -3,7 +3,6 @@
     "downloadUrl": "https://raw.githubusercontent.com/dotnet/cli/rel/1.0.0-preview2/scripts/obtain/dotnet-install.ps1",
     "version":"1.0.0-preview2",
     "type":"dlscript",
-    "arguments":[
-      {"test":"TEST"}
-    ]
+    "arguments":
+      {"test":"TEST","banan":"TEST"}
 }
