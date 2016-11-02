@@ -23,6 +23,15 @@
         "DateAdded": "2016-10-05T23:41:20.9025509",
         "DateModified": "0001-01-01T00:00:00",
         "Type": "Constructors.Common.Models.Configuration.Dependency"
+    },
+    {
+        "Name": "NetCoreSdk2",
+        "Location": "https://raw.githubusercontent.com/dend/CommonTesting/master/dependencies/netcore_10.json",
+        "Version": "1.0",
+        "Id": "83e26ca2-3612-42ab-2ad4-08d3edb3c88d",
+        "DateAdded": "2016-10-05T23:41:20.9025509",
+        "DateModified": "0001-01-01T00:00:00",
+        "Type": "Constructors.Common.Models.Configuration.Dependency"
     }],
     "Preset": {
         "Name": "NetCore",
