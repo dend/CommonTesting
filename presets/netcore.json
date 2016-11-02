@@ -1,11 +1,7 @@
 [
     {
-        "condition": "execute",
-        "target": "ps",
-        "trigger": "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/dotnet/core-docs/master/ci-scripts/getlist.ps1')"
-    }, {
-        "condition": "execute",
-        "target": "ps",
-        "trigger": "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/dotnet/core-docs/master/ci-scripts/itbuild.ps1')"
+        "condition": "forfile",
+        "target": "project.json",
+        "trigger": "dotnet build"
     }
 ]
