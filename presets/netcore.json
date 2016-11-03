@@ -7,6 +7,6 @@
     {
         "condition": "forfile",
         "target": "*.csproj",
-        "trigger": "Write-Host \"Found a CSPROJ!\""
+        "trigger": "Write-Host Something"
     }
 ]
