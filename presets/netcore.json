@@ -3,5 +3,10 @@
         "condition": "forfile",
         "target": "project.json",
         "trigger": "dotnet build"
+    },
+    {
+        "condition": "forfile",
+        "target": "*.csproj",
+        "trigger": "Write-Host Something"
     }
 ]
