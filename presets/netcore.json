@@ -8,5 +8,15 @@
         "condition": "forfile",
         "target": "*.csproj",
         "trigger": "Write-Host Something"
+    },
+    {
+        "condition": "psc",
+        "target": "ver",
+        "trigger": ""
+    },
+    {
+        "condition": "forfolder",
+        "target": "sample",
+        "trigger": "ver"
     }
 ]
