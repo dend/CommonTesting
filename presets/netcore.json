@@ -11,12 +11,12 @@
     },
     {
         "condition": "psc",
-        "target": "ver",
+        "target": "[environment]::OSVersion.Version",
         "trigger": ""
     },
     {
         "condition": "forfolder",
         "target": "sample",
-        "trigger": "ver"
+        "trigger": "[environment]::OSVersion.Version"
     }
 ]
