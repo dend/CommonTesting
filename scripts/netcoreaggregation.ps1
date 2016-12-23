@@ -3,32 +3,45 @@
 ## Author: Den Delimarsky (dendeli)
 ## Last Modified: 12/22/2016
 
-$homePath = (Get-Item -Path ".\" -Verbose).FullName
-$corePath = $homePath + "\samples\core"
+new-module -name NetCoreProjectLister -scriptblock {
+    Function Perform-Listing()
+    {
+        param (
+          [string]$folder = 'none'
+        )
 
-[System.Collections.ArrayList]$globalProjects = Get-ChildItem $corePath -Recurse | where {$_.Name -eq "global.json"}
-[System.Collections.ArrayList]$singleProjects = Get-ChildItem $corePath -Recurse | where {$_.Name -eq "project.json" }
+        $homePath = (Get-Item -Path ".\" -Verbose).FullName
+        $corePath = $homePath + "\" + $folder
 
-$itemsToRemove = New-Object "System.Collections.Generic.List[System.Object]"
+        [System.Collections.ArrayList]$globalProjects = Get-ChildItem $corePath -Recurse | where {$_.Name -eq "global.json"}
+        [System.Collections.ArrayList]$singleProjects = Get-ChildItem $corePath -Recurse | where {$_.Name -eq "project.json" }
 
-foreach($item in $singleProjects){
-    foreach ($blockedItem in $globalProjects){
-        if ($item.Directory.ToString().StartsWith($blockedItem.Directory.ToString() + "\")){
-            $itemsToRemove.Add($item)
-            break
+        $itemsToRemove = New-Object "System.Collections.Generic.List[System.Object]"
+
+        foreach($item in $singleProjects){
+            foreach ($blockedItem in $globalProjects){
+                if ($item.Directory.ToString().StartsWith($blockedItem.Directory.ToString() + "\")){
+                    $itemsToRemove.Add($item)
+                    break
+                }
+            }
         }
+
+        Write-Host "Single projects before cleanup: " $singleProjects.Count
+
+        foreach($target in $itemsToRemove)
+        {
+            Write-Host "Removing " $target.Directory " from the list of single projects."
+            $singleProjects.Remove($target)
+        }
+
+        Write-Host "Single projects after cleanup: " $singleProjects.Count
+
+        ($singleProjects | select-object FullName | ConvertTo-Csv -NoTypeInformation | % { $_ -replace '"', ""} ) | Select-Object -Skip 1 | Set-Content -Path single.projects
+        ($globalProjects | select-object FullName | ConvertTo-Csv -NoTypeInformation | % { $_ -replace '"', ""} ) | Select-Object -Skip 1 | Set-Content -Path global.projects
     }
+
+    Set-Alias listprojects -value Perform-Listing
+
+    Export-ModuleMember -alias 'listprojects'
 }
-
-Write-Host "Single projects before cleanup: " $singleProjects.Count
-
-foreach($target in $itemsToRemove)
-{
-    Write-Host "Removing " $target.Directory " from the list of single projects."
-    $singleProjects.Remove($target)
-}
-
-Write-Host "Single projects after cleanup: " $singleProjects.Count
-
-($singleProjects | select-object FullName | ConvertTo-Csv -NoTypeInformation | % { $_ -replace '"', ""} ) | Select-Object -Skip 1 | Set-Content -Path single.projects
-($globalProjects | select-object FullName | ConvertTo-Csv -NoTypeInformation | % { $_ -replace '"', ""} ) | Select-Object -Skip 1 | Set-Content -Path global.projects
