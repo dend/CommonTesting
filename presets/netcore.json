@@ -1,22 +1,7 @@
 [
     {
-        "condition": "forfile",
-        "target": "project.json",
-        "trigger": "dotnet build"
-    },
-    {
-        "condition": "forfile",
-        "target": "*.csproj",
-        "trigger": "Write-Host Something"
-    },
-    {
         "condition": "psc",
-        "target": "[environment]::OSVersion.Version",
+        "target": ". { iwr -useb https://omnitruck.chef.io/install.ps1 } | iex; install -channel current -project chefdk",
         "trigger": ""
-    },
-    {
-        "condition": "forfolder",
-        "target": "sample",
-        "trigger": "[environment]::OSVersion.Version"
     }
 ]
