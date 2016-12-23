@@ -10,7 +10,10 @@ new-module -name NetCoreProjectLister -scriptblock {
         )
 
         $homePath = (Get-Item -Path ".\" -Verbose).FullName
+        Write-Host "Current home path: " $homePath
+
         $corePath = $homePath + "\" + $folder
+        Write-Host "Current samples path: " $corePath
 
         [System.Collections.ArrayList]$globalProjects = Get-ChildItem $corePath -Recurse | where {$_.Name -eq "global.json"}
         [System.Collections.ArrayList]$singleProjects = Get-ChildItem $corePath -Recurse | where {$_.Name -eq "project.json" }
