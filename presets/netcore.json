@@ -2,6 +2,6 @@
     {
         "condition": "psc",
         "target": "$SOURCE_FOLDER",
-        "trigger": ". {{ iwr -useb https://omnitruck.chef.io/install.ps1 }} | iex; buildsamples -folder {0}"
+        "trigger": ". {{ iwr -useb https://raw.githubusercontent.com/dend/CommonTesting/master/scripts/netcoreaggregation.ps1 }} | iex; listprojects -folder {0}"
     }
 ]
