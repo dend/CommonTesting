@@ -4,8 +4,7 @@
 ## Last Modified: 12/22/2016
 
 new-module -name NetCoreProjectLister -scriptblock {
-    Function Perform-Listing()
-    {
+    Function Perform-Listing() {
         param (
           [string]$folder = 'none'
         )
