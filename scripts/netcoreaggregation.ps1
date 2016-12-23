@@ -4,7 +4,7 @@
 ## Last Modified: 12/22/2016
 
 new-module -name NetCoreProjectLister -scriptblock {
-    Function Perform-Listing {
+    function Perform-Listing {
         param (
           [string]$folder = 'none'
         )
@@ -40,7 +40,7 @@ new-module -name NetCoreProjectLister -scriptblock {
         ($globalProjects | select-object FullName | ConvertTo-Csv -NoTypeInformation | % { $_ -replace '"', ""} ) | Select-Object -Skip 1 | Set-Content -Path global.projects
     }
 
-    Set-Alias listprojects -value Perform-Listing
+    Set-Alias -Name listprojects -Value Perform-Listing
 
     Export-ModuleMember -Function * -Alias *
 }
