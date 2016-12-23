@@ -42,5 +42,5 @@ new-module -name NetCoreProjectLister -scriptblock {
 
     Set-Alias listprojects -value Perform-Listing
 
-    Export-ModuleMember -alias 'listprojects'
+    Export-ModuleMember -Function * -Alias *
 }
