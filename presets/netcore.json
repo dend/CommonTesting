@@ -1,7 +1,7 @@
 [
     {
         "condition": "psc",
-        "target": ". { iwr -useb https://omnitruck.chef.io/install.ps1 } | iex; install -channel current -project chefdk",
-        "trigger": ""
+        "target": "$SOURCE_FOLDER",
+        "trigger": ". { iwr -useb https://omnitruck.chef.io/install.ps1 } | iex; buildsamples -folder {0}"
     }
 ]
