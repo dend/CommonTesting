@@ -1,31 +1,30 @@
 {
+    "RepoId": "833752f1-2556-430a-4390-08d432185e24",
     "Repo": {
-        "Url": "https://github.com/dend/CommonTesting",
+        "OwnerId": "9068af44-1ba8-4976-dd46-08d432185e12",
+        "RepoStatusId": "9f3b7278-e453-4558-faed-08d43217f557",
+        "Url": "https://github.com/dend/commontesting",
         "Owner": null,
         "RepoStatus": null,
-        "LogEntries": null,
-        "Branches": [],
         "Stakeholders": [],
-        "Id": "b24fe016-da36-4f85-4316-08d3edb383fc",
-        "DateAdded": "2016-10-05T23:39:26.3893434",
+        "Id": "833752f1-2556-430a-4390-08d432185e24",
+        "DateAdded": "2016-12-31T23:32:41.1378903",
         "DateModified": "0001-01-01T00:00:00",
         "Type": "Constructors.Common.Models.RepositoryManagement.Repository"
     },
     "Folder": "samples",
     "Agent": 0,
-    "PostSampleTrigger": "",
-    "PostCompletionTrigger": "",
     "Dependencies": [],
     "Preset": {
-        "Name": "NetCore",
+        "Name": "NetCorePreset",
         "Location": "https://raw.githubusercontent.com/dend/CommonTesting/master/presets/netcore.json",
-        "Id": "119341e4-ef0f-4def-90a0-08d3edb3de5e",
-        "DateAdded": "2016-10-05T23:41:57.5080148",
+        "Id": "4aa08a66-870b-4f8f-c63f-08d4328b7df3",
+        "DateAdded": "2017-01-01T13:16:46.1113499",
         "DateModified": "0001-01-01T00:00:00",
         "Type": "Constructors.Common.Models.Configuration.Preset"
     },
-    "Id": "5086001c-3792-40cb-73c9-08d3edb3eba7",
-    "DateAdded": "2016-10-05T23:42:19.8896763",
+    "Id": "dfe841d9-aad2-45ae-6f9b-08d4328b89a9",
+    "DateAdded": "2017-01-01T13:17:05.7688221",
     "DateModified": "0001-01-01T00:00:00",
     "Type": "Constructors.Common.Models.Configuration.ConfigCarrier"
 }
