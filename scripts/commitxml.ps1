@@ -4,6 +4,9 @@ Get-ChildItem $srcFolder | Where {$_.PSIsContainer -and ($_ -match '^_xml.*$')} 
 Rename-Item -Path ($Env:BUILD_REPOSITORY_LOCALPATH +"\mdoc-output") -newName _xml
 Get-ChildItem $srcFolder | Where {$_.PSIsContainer -and ($_ -match '^_mdoc.*$')} | Remove-Item -Recurse
 
+# Remove the warning, that otherwise breaks the build
+git config --global core.safecrlf false
+
 ls
 git add .
 git commit -m ("Updating content based on build " + $Env:BUILD_BUILDNUMBER)
