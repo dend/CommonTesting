@@ -31,5 +31,5 @@ Write-Output "Attempting to Git ADD..."
 git add .
 
 Write-Output "Trying to commit changes."
-git commit -m ("Updating content based on build " + $Env:BUILD_BUILDNUMBER)
-git push origin HEAD:garbage
+git commit -m ("Updating content based on build " + $Env:BUILD_BUILDNUMBER) --quiet
+git push origin HEAD:garbage --quiet
