@@ -1,7 +1,7 @@
 ﻿$exePath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\mdoc\mdoc.exe")
 Write-Output $exePath
 
-$azureLibs = ($Env:BUILD_REPOSITORY_LOCALPATH + "\azuresdkfornet")
+$azureLibs = ($Env:BUILD_REPOSITORY_LOCALPATH + "\nue-out")
 Write-Output $azureLibs
 
 $outputFolder = ($Env:BUILD_REPOSITORY_LOCALPATH + "\mdoc-output")
