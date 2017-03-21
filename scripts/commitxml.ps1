@@ -9,8 +9,9 @@ Get-ChildItem $srcFolder | Where {$_.PSIsContainer -and ($_ -match '^mdoc\.zip*$
 # Remove the warning, that otherwise breaks the build
 git config --global core.safecrlf false
 
-git config --global user.name ($GitHub.CustomUserName)
-git config --global user.email ($GitHub.CustomEmail)
+git config --global user.name ($Env:GITHUB_CUSTOMUSERNAME)
+git config --global user.email ($Env:GITHUB_CUSTOMEMAIL)
+git commit --amend --reset-author
 
 ls
 git add .
