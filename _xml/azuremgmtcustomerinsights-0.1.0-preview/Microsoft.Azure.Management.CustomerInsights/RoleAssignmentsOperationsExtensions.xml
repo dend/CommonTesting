@@ -1,0 +1,510 @@
+<Type Name="RoleAssignmentsOperationsExtensions" FullName="Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class RoleAssignmentsOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RoleAssignmentsOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CustomerInsights</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods for RoleAssignmentsOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat BeginCreateOrUpdate (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat BeginCreateOrUpdate(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The assignment name
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate RoleAssignment operation.
+            </param>
+        <summary>
+            Creates or updates a role assignment in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; BeginCreateOrUpdateAsync (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; BeginCreateOrUpdateAsync(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The assignment name
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate RoleAssignment operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Creates or updates a role assignment in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat CreateOrUpdate (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat CreateOrUpdate(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The assignment name
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate RoleAssignment operation.
+            </param>
+        <summary>
+            Creates or updates a role assignment in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The assignment name
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate RoleAssignment operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Creates or updates a role assignment in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The name of the role assignment.
+            </param>
+        <summary>
+            Deletes the role assignment in the hub.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions/&lt;DeleteAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The name of the role assignment.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Deletes the role assignment in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat Get (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat Get(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The name of the role assignment.
+            </param>
+        <summary>
+            Gets the role assignment in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; GetAsync (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; GetAsync(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, string assignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions/&lt;GetAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="assignmentName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="assignmentName">
+            The name of the role assignment.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets the role assignment in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHub">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; ListByHub (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; ListByHub(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <summary>
+            Gets all the role assignments for the specified hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHubAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;&gt; ListByHubAsync (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;&gt; ListByHubAsync(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string resourceGroupName, string hubName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions/&lt;ListByHubAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets all the role assignments for the specified hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHubNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; ListByHubNext (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt; ListByHubNext(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <summary>
+            Gets all the role assignments for the specified hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHubNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;&gt; ListByHubNextAsync (this Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;&gt; ListByHubNextAsync(class Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions/&lt;ListByHubNextAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets all the role assignments for the specified hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,79 @@
+<Type Name="JobHistoryFilter" FullName="Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter">
+  <TypeSignature Language="C#" Value="public class JobHistoryFilter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobHistoryFilter extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobHistoryFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the JobHistoryFilter class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobHistoryFilter (Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus&gt; status = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus&gt; status) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="status" Type="System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="status">To be added.</param>
+        <summary>
+            Initializes a new instance of the JobHistoryFilter class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus&gt; Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus&gt; Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="status")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the job execution status. Possible values include:
+            'Completed', 'Failed', 'Postponed'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,242 @@
+<Type Name="TestUtilities" FullName="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities">
+  <TypeSignature Language="C#" Value="public static class TestUtilities" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TestUtilities extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime.Azure.TestFramework</AssemblyName>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AsFormattedString">
+      <MemberSignature Language="C#" Value="public static string AsFormattedString (this System.Collections.Generic.IDictionary&lt;string,object&gt; parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsFormattedString(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.AsFormattedString(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateGuid">
+      <MemberSignature Language="C#" Value="public static Guid GenerateGuid (string methodName = &quot;testframework_failed&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Guid GenerateGuid(string methodName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GenerateGuid(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerMemberName</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateName">
+      <MemberSignature Language="C#" Value="public static string GenerateName (string prefix = &quot;azsmnet&quot;, string methodName = &quot;testframework_failed&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateName(string prefix, string methodName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GenerateName(System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="prefix" Type="System.String" />
+        <Parameter Name="methodName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerMemberName</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="prefix">To be added.</param>
+        <param name="methodName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCallingClass">
+      <MemberSignature Language="C#" Value="public static string GetCallingClass (int index = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCallingClass(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GetCallingClass(System.Int32)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCurrentMethodName">
+      <MemberSignature Language="C#" Value="public static string GetCurrentMethodName (int index = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCurrentMethodName(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GetCurrentMethodName(System.Int32)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCurrentMethodName">
+      <MemberSignature Language="C#" Value="public static string GetCurrentMethodName (string methodName = &quot;testframework_failed_to_get_current_method_anem&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCurrentMethodName(string methodName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GetCurrentMethodName(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerMemberName</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParseConnectionString">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;string,string&gt; ParseConnectionString (string connectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IDictionary`2&lt;string, string&gt; ParseConnectionString(string connectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.ParseConnectionString(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryOnHttp500">
+      <MemberSignature Language="C#" Value="public static Func&lt;System.Net.HttpStatusCode,bool&gt; RetryOnHttp500;" />
+      <MemberSignature Language="ILAsm" Value=".field public static class System.Func`2&lt;valuetype System.Net.HttpStatusCode, bool&gt; RetryOnHttp500" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.RetryOnHttp500" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Func&lt;System.Net.HttpStatusCode,System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Wait">
+      <MemberSignature Language="C#" Value="public static void Wait (int milliseconds);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Wait(int32 milliseconds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.Wait(System.Int32)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="milliseconds" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="milliseconds">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Wait">
+      <MemberSignature Language="C#" Value="public static void Wait (TimeSpan timeout);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Wait(valuetype System.TimeSpan timeout) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.Wait(System.TimeSpan)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timeout" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="timeout">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,73 @@
+<Type Name="HttpOperationResponse&lt;TBody,THeader&gt;" FullName="Microsoft.Rest.HttpOperationResponse&lt;TBody,THeader&gt;">
+  <TypeSignature Language="C#" Value="public class HttpOperationResponse&lt;TBody,THeader&gt; : Microsoft.Rest.HttpOperationResponse&lt;TBody&gt;, Microsoft.Rest.IHttpOperationHeaderResponse&lt;THeader&gt;, Microsoft.Rest.IHttpOperationResponse&lt;TBody,THeader&gt;, Microsoft.Rest.IHttpOperationResponse&lt;TBody&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HttpOperationResponse`2&lt;TBody, THeader&gt; extends Microsoft.Rest.HttpOperationResponse`1&lt;!TBody&gt; implements class Microsoft.Rest.IHttpOperationHeaderResponse`1&lt;!THeader&gt;, class Microsoft.Rest.IHttpOperationResponse, class Microsoft.Rest.IHttpOperationResponse`1&lt;!TBody&gt;, class Microsoft.Rest.IHttpOperationResponse`2&lt;!TBody, !THeader&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.HttpOperationResponse`2" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TBody" />
+    <TypeParameter Name="THeader" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Rest.HttpOperationResponse&lt;TBody&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">TBody</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Rest.IHttpOperationHeaderResponse&lt;THeader&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Rest.IHttpOperationResponse&lt;TBody,THeader&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Rest.IHttpOperationResponse&lt;TBody&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="TBody">To be added.</typeparam>
+    <typeparam name="THeader">To be added.</typeparam>
+    <summary>
+            Represents the base return type of all ServiceClient REST operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HttpOperationResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.HttpOperationResponse`2.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Headers">
+      <MemberSignature Language="C#" Value="public THeader Headers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !THeader Headers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Rest.HttpOperationResponse`2.Headers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>THeader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the response header object.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

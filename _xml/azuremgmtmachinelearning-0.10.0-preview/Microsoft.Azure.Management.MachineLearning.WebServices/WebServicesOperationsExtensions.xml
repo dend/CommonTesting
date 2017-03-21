@@ -1,0 +1,1208 @@
+<Type Name="WebServicesOperationsExtensions" FullName="Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class WebServicesOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WebServicesOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            This class was added as a temporary fix for the AutoRest generated client code, which does not handle
+            the request id for async operations properly. Basically, if an async operation fails during execution,
+            the AutoRest library will resturn an exception with the request id of the latest GET call that was
+            polling for the async operation status. This is not desired, as all logs for the execution of the 
+            operation and stored under the request id of the initial PUT/PATCH/DELETE call that initiated the 
+            operation.
+            
+            Here, we capture that request id after the initial async call, and return it with the final operation
+            result or any CloudException thrown during execution.
+            </summary>
+    <summary>
+            Extension methods for WebServicesOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService BeginCreateOrUpdate (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService BeginCreateOrUpdate(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="createOrUpdatePayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="createOrUpdatePayload">
+            The payload that is used to create or update the web service.
+            </param>
+        <summary>
+            Create or update a web service. This call will overwrite an existing web
+            service. Note that there is no warning or confirmation. This is a
+            nonrecoverable operation. If your intent is to create a new web service,
+            call the Get operation first to verify that it does not exist.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; BeginCreateOrUpdateAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; BeginCreateOrUpdateAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="createOrUpdatePayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="createOrUpdatePayload">
+            The payload that is used to create or update the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Create or update a web service. This call will overwrite an existing web
+            service. Note that there is no warning or confirmation. This is a
+            nonrecoverable operation. If your intent is to create a new web service,
+            call the Get operation first to verify that it does not exist.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginPatch">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService BeginPatch (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService BeginPatch(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.BeginPatch(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="patchPayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="patchPayload">
+            The payload to use to patch the web service.
+            </param>
+        <summary>
+            Modifies an existing web service resource. The PATCH API call is an
+            asynchronous operation. To determine whether it has completed
+            successfully, you must perform a Get operation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginPatchAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; BeginPatchAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; BeginPatchAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.BeginPatchAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;BeginPatchAsync&gt;d__15))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="patchPayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="patchPayload">
+            The payload to use to patch the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Modifies an existing web service resource. The PATCH API call is an
+            asynchronous operation. To determine whether it has completed
+            successfully, you must perform a Get operation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRemove">
+      <MemberSignature Language="C#" Value="public static void BeginRemove (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginRemove(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.BeginRemove(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <summary>
+            Deletes the specified web service.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRemoveAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginRemoveAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginRemoveAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.BeginRemoveAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;BeginRemoveAsync&gt;d__19))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Deletes the specified web service.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService CreateOrUpdate (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService CreateOrUpdate(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="createOrUpdatePayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="createOrUpdatePayload">
+            The payload that is used to create or update the web service.
+            </param>
+        <summary>
+            Create or update a web service. This call will overwrite an existing web
+            service. Note that there is no warning or confirmation. This is a
+            nonrecoverable operation. If your intent is to create a new web service,
+            call the Get operation first to verify that it does not exist.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="createOrUpdatePayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="createOrUpdatePayload">
+            The payload that is used to create or update the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Create or update a web service. This call will overwrite an existing web
+            service. Note that there is no warning or confirmation. This is a
+            nonrecoverable operation. If your intent is to create a new web service,
+            call the Get operation first to verify that it does not exist.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateWithRequestId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService CreateOrUpdateWithRequestId (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, string resourceGroupName, string webServiceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService CreateOrUpdateWithRequestId(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, string resourceGroupName, string webServiceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.CreateOrUpdateWithRequestId(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="createOrUpdatePayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="createOrUpdatePayload">
+            The payload to create or update the Azure ML web service.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group.
+            </param>
+        <param name="webServiceName">
+            The Azure ML web service name which you want to reach.
+            </param>
+        <summary>
+            Create a new Azure ML web service or update an existing one.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            In case of an error, the thrown CloudException contains the proper request id to monitor the reasons for the failure
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateWithRequestIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; CreateOrUpdateWithRequestIdAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, string resourceGroupName, string webServiceName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; CreateOrUpdateWithRequestIdAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService createOrUpdatePayload, string resourceGroupName, string webServiceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.CreateOrUpdateWithRequestIdAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;CreateOrUpdateWithRequestIdAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="createOrUpdatePayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="createOrUpdatePayload">
+            The payload to create or update the Azure ML web service.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group.
+            </param>
+        <param name="webServiceName">
+            The Azure ML web service name which you want to reach.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Create a new Azure ML web service or update an existing one.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            In case of an error, the thrown CloudException contains the proper request id to monitor the reasons for the failure
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService Get (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService Get(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.Get(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <summary>
+            Gets the Web Service Definiton as specified by a subscription, resource
+            group, and name. Note that the storage credentials and web service keys
+            are not returned by this call. To get the web service access keys, call
+            List Keys.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; GetAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; GetAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.GetAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;GetAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets the Web Service Definiton as specified by a subscription, resource
+            group, and name. Note that the storage credentials and web service keys
+            are not returned by this call. To get the web service access keys, call
+            List Keys.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; List (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string skiptoken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; List(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string skiptoken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.List(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="skiptoken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="skiptoken">
+            Continuation token for pagination.
+            </param>
+        <summary>
+            Gets the web services in the specified subscription.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string skiptoken = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string skiptoken, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;ListAsync&gt;d__25))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="skiptoken" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="skiptoken">
+            Continuation token for pagination.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets the web services in the specified subscription.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByResourceGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; ListByResourceGroup (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string skiptoken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; ListByResourceGroup(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string skiptoken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="skiptoken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="skiptoken">
+            Continuation token for pagination.
+            </param>
+        <summary>
+            Gets the web services in the specified resource group.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByResourceGroupAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListByResourceGroupAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string skiptoken = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListByResourceGroupAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string skiptoken, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;ListByResourceGroupAsync&gt;d__23))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="skiptoken" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="skiptoken">
+            Continuation token for pagination.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets the web services in the specified resource group.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByResourceGroupNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <summary>
+            Gets the web services in the specified resource group.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByResourceGroupNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListByResourceGroupNextAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListByResourceGroupNextAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;ListByResourceGroupNextAsync&gt;d__27))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets the web services in the specified resource group.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListKeys">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebServiceKeys ListKeys (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebServiceKeys ListKeys(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListKeys(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebServiceKeys</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <summary>
+            Gets the access keys for the specified web service.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListKeysAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebServiceKeys&gt; ListKeysAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebServiceKeys&gt; ListKeysAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListKeysAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;ListKeysAsync&gt;d__21))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebServiceKeys&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets the access keys for the specified web service.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; ListNext (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; ListNext(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListNext(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <summary>
+            Gets the web services in the specified subscription.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;ListNextAsync&gt;d__29))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets the web services in the specified subscription.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patch">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService Patch (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService Patch(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.Patch(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="patchPayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="patchPayload">
+            The payload to use to patch the web service.
+            </param>
+        <summary>
+            Modifies an existing web service resource. The PATCH API call is an
+            asynchronous operation. To determine whether it has completed
+            successfully, you must perform a Get operation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; PatchAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; PatchAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.PatchAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;PatchAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="patchPayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="patchPayload">
+            The payload to use to patch the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Modifies an existing web service resource. The PATCH API call is an
+            asynchronous operation. To determine whether it has completed
+            successfully, you must perform a Get operation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchWithRequestId">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService PatchWithRequestId (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, string resourceGroupName, string webServiceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService PatchWithRequestId(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, string resourceGroupName, string webServiceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.PatchWithRequestId(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="patchPayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="patchPayload">
+            The payload to patch the Azure ML web service with.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group.
+            </param>
+        <param name="webServiceName">
+            The Azure ML web service name which you want to reach.
+            </param>
+        <summary>
+            Patch an existing Azure ML web service resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchWithRequestIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; PatchWithRequestIdAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, string resourceGroupName, string webServiceName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt; PatchWithRequestIdAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService patchPayload, string resourceGroupName, string webServiceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.PatchWithRequestIdAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;PatchWithRequestIdAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="patchPayload" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="patchPayload">
+            The payload to patch the Azure ML web service with.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group.
+            </param>
+        <param name="webServiceName">
+            The Azure ML web service name which you want to reach.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Patch an existing Azure ML web service resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public static void Remove (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Remove(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.Remove(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <summary>
+            Deletes the specified web service.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task RemoveAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RemoveAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.RemoveAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;RemoveAsync&gt;d__17))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group in which the web service is located.
+            </param>
+        <param name="webServiceName">
+            The name of the web service.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Deletes the specified web service.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveWithRequestId">
+      <MemberSignature Language="C#" Value="public static void RemoveWithRequestId (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RemoveWithRequestId(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.RemoveWithRequestId(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group.
+            </param>
+        <param name="webServiceName">
+            The Azure ML web service name which you want to reach.
+            </param>
+        <summary>
+            Remove an existing Azure ML web service.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveWithRequestIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task RemoveWithRequestIdAsync (this Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RemoveWithRequestIdAsync(class Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations operations, string resourceGroupName, string webServiceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions.RemoveWithRequestIdAsync(Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.MachineLearning.WebServices.WebServicesOperationsExtensions/&lt;RemoveWithRequestIdAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.MachineLearning.WebServices.IWebServicesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="webServiceName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group.
+            </param>
+        <param name="webServiceName">
+            The Azure ML web service name which you want to reach.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Remove an existing Azure ML web service.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

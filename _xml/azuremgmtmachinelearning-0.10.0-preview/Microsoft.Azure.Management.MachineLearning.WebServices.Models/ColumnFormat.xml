@@ -1,0 +1,293 @@
+<Type Name="ColumnFormat" FullName="Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat">
+  <TypeSignature Language="C#" Value="public static class ColumnFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ColumnFormat extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines values for ColumnFormat.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Byte">
+      <MemberSignature Language="C#" Value="public const string Byte;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Byte" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Byte" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Char">
+      <MemberSignature Language="C#" Value="public const string Char;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Char" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Char" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Complex128">
+      <MemberSignature Language="C#" Value="public const string Complex128;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Complex128" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Complex128" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Complex64">
+      <MemberSignature Language="C#" Value="public const string Complex64;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Complex64" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Complex64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTime">
+      <MemberSignature Language="C#" Value="public const string DateTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DateTime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.DateTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeOffset">
+      <MemberSignature Language="C#" Value="public const string DateTimeOffset;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DateTimeOffset" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.DateTimeOffset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Double">
+      <MemberSignature Language="C#" Value="public const string Double;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Double" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Double" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public const string Duration;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Duration" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Duration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Float">
+      <MemberSignature Language="C#" Value="public const string Float;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Float" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Float" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Int16">
+      <MemberSignature Language="C#" Value="public const string Int16;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Int16" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Int16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Int32">
+      <MemberSignature Language="C#" Value="public const string Int32;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Int32" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Int32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Int64">
+      <MemberSignature Language="C#" Value="public const string Int64;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Int64" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Int64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Int8">
+      <MemberSignature Language="C#" Value="public const string Int8;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Int8" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Int8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uint16">
+      <MemberSignature Language="C#" Value="public const string Uint16;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Uint16" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Uint16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uint32">
+      <MemberSignature Language="C#" Value="public const string Uint32;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Uint32" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Uint32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uint64">
+      <MemberSignature Language="C#" Value="public const string Uint64;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Uint64" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Uint64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uint8">
+      <MemberSignature Language="C#" Value="public const string Uint8;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Uint8" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ColumnFormat.Uint8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

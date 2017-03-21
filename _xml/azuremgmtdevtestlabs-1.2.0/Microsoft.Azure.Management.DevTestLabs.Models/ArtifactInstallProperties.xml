@@ -1,0 +1,106 @@
+<Type Name="ArtifactInstallProperties" FullName="Microsoft.Azure.Management.DevTestLabs.Models.ArtifactInstallProperties">
+  <TypeSignature Language="C#" Value="public class ArtifactInstallProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ArtifactInstallProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactInstallProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Properties of an artifact.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArtifactInstallProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactInstallProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ArtifactInstallProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArtifactInstallProperties (string artifactId = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DevTestLabs.Models.ArtifactParameterProperties&gt; parameters = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string artifactId, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.ArtifactParameterProperties&gt; parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactInstallProperties.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.DevTestLabs.Models.ArtifactParameterProperties})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="artifactId" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DevTestLabs.Models.ArtifactParameterProperties&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="artifactId">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>
+            Initializes a new instance of the ArtifactInstallProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArtifactId">
+      <MemberSignature Language="C#" Value="public string ArtifactId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ArtifactId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactInstallProperties.ArtifactId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="artifactId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The artifact's identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DevTestLabs.Models.ArtifactParameterProperties&gt; Parameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.ArtifactParameterProperties&gt; Parameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactInstallProperties.Parameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="parameters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DevTestLabs.Models.ArtifactParameterProperties&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The parameters of the artifact.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

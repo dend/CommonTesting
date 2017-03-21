@@ -1,0 +1,45 @@
+<Type Name="IApplicationAuthenticationProvider" FullName="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider">
+  <TypeSignature Language="C#" Value="public interface IApplicationAuthenticationProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IApplicationAuthenticationProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime.Azure.Authentication</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Interface to platform-specific methods for securely storing client credentials
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AuthenticateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AuthenticateAsync (string clientId, string audience, Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AuthenticateAsync(string clientId, string audience, class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider.AuthenticateAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="audience" Type="System.String" />
+        <Parameter Name="context" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" />
+      </Parameters>
+      <Docs>
+        <param name="clientId">The active directory client Id of the application.</param>
+        <param name="audience">The audience to target</param>
+        <param name="context">The authentication context</param>
+        <summary>
+            Retrieve ClientCredentials for an active directory application.
+            </summary>
+        <returns>authentication result which can be used for authentication with the given audience.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,187 @@
+<Type Name="ImagesOperationsExtensions" FullName="Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class ImagesOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImagesOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CustomerInsights</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods for ImagesOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetUploadUrlForData">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition GetUploadUrlForData (this Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition GetUploadUrlForData(class Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, class Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForData(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IImagesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the GetUploadUrlForData operation.
+            </param>
+        <summary>
+            Gets data image upload URL.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUploadUrlForDataAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition&gt; GetUploadUrlForDataAsync (this Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition&gt; GetUploadUrlForDataAsync(class Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, class Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForDataAsync(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions/&lt;GetUploadUrlForDataAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IImagesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the GetUploadUrlForData operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets data image upload URL.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUploadUrlForEntityType">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition GetUploadUrlForEntityType (this Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition GetUploadUrlForEntityType(class Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, class Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForEntityType(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IImagesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the GetUploadUrlForEntityType operation.
+            </param>
+        <summary>
+            Gets entity type (profile or interaction) image upload URL.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUploadUrlForEntityTypeAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition&gt; GetUploadUrlForEntityTypeAsync (this Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition&gt; GetUploadUrlForEntityTypeAsync(class Microsoft.Azure.Management.CustomerInsights.IImagesOperations operations, string resourceGroupName, string hubName, class Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForEntityTypeAsync(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions/&lt;GetUploadUrlForEntityTypeAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IImagesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the GetUploadUrlForEntityType operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets entity type (profile or interaction) image upload URL.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

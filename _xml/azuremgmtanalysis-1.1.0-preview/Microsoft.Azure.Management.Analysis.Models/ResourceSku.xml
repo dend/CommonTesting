@@ -1,0 +1,137 @@
+<Type Name="ResourceSku" FullName="Microsoft.Azure.Management.Analysis.Models.ResourceSku">
+  <TypeSignature Language="C#" Value="public class ResourceSku" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceSku extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Analysis.Models.ResourceSku" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Analysis</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents the SKU name and Azure pricing tier for Analysis Services
+            resource.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResourceSku ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.ResourceSku.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ResourceSku class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResourceSku (string name, string tier = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string tier) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.ResourceSku.#ctor(System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="tier" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">Name of the SKU level for the server being
+            provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.
+            Possible values include: 'S1', 'S2', 'S4', 'D1'</param>
+        <param name="tier">The name of the Azure pricing tier to which the
+            SKU applies. Possible values are: 'Development' and 'Standard'.
+            Possible values include: 'Development', 'Standard'</param>
+        <summary>
+            Initializes a new instance of the ResourceSku class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.ResourceSku.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="name")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets name of the SKU level for the server being
+            provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.
+            Possible values include: 'S1', 'S2', 'S4', 'D1'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tier">
+      <MemberSignature Language="C#" Value="public string Tier { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.ResourceSku.Tier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tier")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the Azure pricing tier to which the SKU
+            applies. Possible values are: 'Development' and 'Standard'.
+            Possible values include: 'Development', 'Standard'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.ResourceSku.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

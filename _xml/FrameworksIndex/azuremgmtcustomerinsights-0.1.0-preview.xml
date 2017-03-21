@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azuremgmtcustomerinsights-0.1.0-preview">
+  <Namespace Name="Microsoft.Azure.Management.CustomerInsights">
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.RegeneratePrimaryKey(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.RegeneratePrimaryKeyAsync(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.RegenerateSecondaryKey(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.AuthorizationPoliciesOperationsExtensions.RegenerateSecondaryKeyAsync(Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.ListByConnector(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.ListByConnectorAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.ListByConnectorNext(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorMappingsOperationsExtensions.ListByConnectorNextAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ConnectorsOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient" Id="T:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.AuthorizationPolicies" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.ConnectorMappings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Connectors" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Hubs" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Images" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Interactions" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Kpi" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Links" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Profiles" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.RelationshipLinks" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Relationships" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.RoleAssignments" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Roles" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.SubscriptionId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.Views" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.CustomerInsightsManagementClient.WidgetTypes" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.Hub)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.Hub,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.List(Microsoft.Azure.Management.CustomerInsights.IHubsOperations)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.ListAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.ListNext(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.Update(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.Hub)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.HubsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.CustomerInsights.IHubsOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.Hub,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations.RegeneratePrimaryKeyWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IAuthorizationPoliciesOperations.RegenerateSecondaryKeyWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations.ListByConnectorNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorMappingsOperations.ListByConnectorWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IConnectorsOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient" Id="T:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient">
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.AuthorizationPolicies" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.ConnectorMappings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Connectors" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Hubs" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Images" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Interactions" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Kpi" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Links" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Profiles" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.RelationshipLinks" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Relationships" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.RoleAssignments" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Roles" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.SubscriptionId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.Views" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.ICustomerInsightsManagementClient.WidgetTypes" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IHubsOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IHubsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.Hub,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.ListByResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IHubsOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.Hub,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IImagesOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IImagesOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IImagesOperations.GetUploadUrlForDataWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IImagesOperations.GetUploadUrlForEntityTypeWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IKpiOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IKpiOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IKpiOperations.ReprocessWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.ILinksOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.ILinksOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ILinksOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ILinksOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ILinksOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ILinksOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ILinksOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ILinksOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForData(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForDataAsync(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForEntityType(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ImagesOperationsExtensions.GetUploadUrlForEntityTypeAsync(Microsoft.Azure.Management.CustomerInsights.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IProfilesOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IProfilesOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IRolesOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IRolesOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRolesOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IRolesOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IViewsOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IViewsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IViewsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IViewsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IViewsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IViewsOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IViewsOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations" Id="T:Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations.ListByHubNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations.ListByHubWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.BeginDelete(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.Reprocess(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.KpiOperationsExtensions.ReprocessAsync(Microsoft.Azure.Management.CustomerInsights.IKpiOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.LinksOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.ILinksOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.BeginDelete(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ProfilesOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IProfilesOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.BeginDelete(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipLinksOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipLinksOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RelationshipsOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IRelationshipsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RoleAssignmentsOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.RolesOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.RolesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RolesOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IRolesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RolesOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IRolesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RolesOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IRolesOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.RolesOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IRolesOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.Delete(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.ViewsOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IViewsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions" Id="T:Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.WidgetTypesOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IWidgetTypesOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Management.CustomerInsights.Models">
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal.#ctor(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal.PrincipalId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal.PrincipalMetadata" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal.PrincipalType" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy.#ctor(System.Collections.Generic.IList{System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.PermissionTypes}},System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy.Permissions" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy.PolicyName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy.PrimaryKey" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicy.SecondaryKey" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat.#ctor(System.Collections.Generic.IList{System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.PermissionTypes}},System.String,System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat.Permissions" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat.PolicyName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat.PrimaryKey" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AuthorizationPolicyResourceFormat.SecondaryKey" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.AzureBlobConnectorProperties" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.AzureBlobConnectorProperties">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AzureBlobConnectorProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AzureBlobConnectorProperties.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.AzureBlobConnectorProperties.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.AzureBlobConnectorProperties.ConnectionKeyVaultUrl" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.CalculationWindowTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.CalculationWindowTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CalculationWindowTypes.Day" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CalculationWindowTypes.Hour" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CalculationWindowTypes.Month" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CalculationWindowTypes.Week" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes.ManyToMany" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes.OneToMany" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes.OneToOne" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.CompletionOperationTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.CompletionOperationTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CompletionOperationTypes.DeleteFile" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CompletionOperationTypes.DoNothing" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.CompletionOperationTypes.MoveFile" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability.#ctor(System.Int32,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability.Frequency" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability.Interval" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingCompleteOperation" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingCompleteOperation">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingCompleteOperation.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingCompleteOperation.#ctor(System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.CompletionOperationTypes},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingCompleteOperation.CompletionOperationType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingCompleteOperation.DestinationFolder" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.ErrorManagementTypes,System.Nullable{System.Int32})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement.ErrorLimit" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement.ErrorManagementType" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.#ctor(System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.ArraySeparator" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.ColumnDelimiter" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.FormatType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.QuoteCharacter" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat.QuoteEscapeCharacter" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingErrorManagement,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingFormat,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingAvailability,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure},Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingCompleteOperation,System.String,System.String,System.Nullable{System.Boolean})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.Availability" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.CompleteOperation" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.ErrorManagement" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.FileFilter" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.FolderPath" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.Format" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.HasHeader" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties.Structure" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes,System.String,Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingProperties,System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates},System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.ConnectorMappingName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.ConnectorName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.ConnectorType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.Created" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.DataFormatId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.EntityType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.EntityTypeName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.LastModified" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.MappingProperties" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.NextRunTime" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.RunId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.State" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingResourceFormat.TenantId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates.Created" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates.Creating" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates.Expiring" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates.Failed" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates.Ready" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates.Running" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStates.Stopped" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure.#ctor(System.String,System.String,System.String,System.Nullable{System.Boolean})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure.ColumnName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure.CustomFormatSpecifier" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure.IsEncrypted" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorMappingStructure.PropertyName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates},System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorProperties" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.Created" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.LastModified" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.State" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.TenantId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates.Created" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates.Creating" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates.Deleting" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates.Expiring" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates.Failed" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates.Ready" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes.AzureBlob" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes.CRM" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes.Salesforce" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities.#ctor(System.String,System.String,System.Nullable{System.Boolean})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities.IsProfile" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities.LogicalName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.#ctor(System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorEntities},System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.AccessToken" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.ConnectionString" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.Entities" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.OrganizationId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.CrmConnectorProperties.OrganizationUrl" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.#ctor(System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IList{System.String}},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.String}},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition},System.Nullable{System.Int32},System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.ApiEntitySetName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.EntityType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.Fields" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.InstancesCount" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.LastChangedUtc" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.SchemaItemTypeLink" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.TenantId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.TimestampFieldName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.TypeName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes.Interaction" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes.None" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes.Profile" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes.Relationship" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ErrorManagementTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ErrorManagementTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ErrorManagementTypes.RejectAndContinue" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ErrorManagementTypes.RejectUntilLimit" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ErrorManagementTypes.StopImport" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes.Day" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes.Hour" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes.Minute" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes.Month" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.FrequencyTypes.Week" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput.EntityType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput.EntityTypeName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.GetImageUploadUrlInput.RelativePath" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.Hub" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.Hub">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Hub.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Hub.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.String,System.Nullable{System.Int32},Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Hub.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Hub.ApiEndpoint" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Hub.HubBillingInfo" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Hub.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Hub.TenantFeatures" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Hub.WebEndpoint" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat.#ctor(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat.MaxUnits" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat.MinUnits" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.HubBillingInfoFormat.SkuName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition.#ctor(System.Nullable{System.Boolean},System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition.ContentUrl" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition.ImageExists" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ImageDefinition.RelativePath" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.#ctor(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IList{System.String}},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.String}},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition},System.Nullable{System.Int32},System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.Participant},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.ApiEntitySetName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.Attributes" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.EntityType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.Fields" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.IdPropertyNames" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.InstancesCount" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.LargeImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.LastChangedUtc" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.LocalizedAttributes" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.MediumImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.ParticipantProfiles" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.PrimaryParticipantProfilePropertyName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.SchemaItemTypeLink" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.SmallImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.TenantId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.TimestampFieldName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat.TypeName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias.AliasName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias.Expression" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract.Expression" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract.ExtractName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions.Avg" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions.Count" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions.Last" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions.Max" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions.Min" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions.None" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions.Sum" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata.#ctor(System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata.FieldName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata.FieldType" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.KpiParticipantProfilesMetadata" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.KpiParticipantProfilesMetadata">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiParticipantProfilesMetadata.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiParticipantProfilesMetadata.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiParticipantProfilesMetadata.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiParticipantProfilesMetadata.TypeName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes,System.String,Microsoft.Azure.Management.CustomerInsights.Models.CalculationWindowTypes,Microsoft.Azure.Management.CustomerInsights.Models.KpiFunctions,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.KpiGroupByMetadata},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.KpiParticipantProfilesMetadata},System.String,Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.KpiAlias},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.KpiExtract})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Aliases" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.CalculationWindow" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.EntityType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.EntityTypeName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Expression" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Extracts" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Filter" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Function" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.GroupBy" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.GroupByMetadata" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.KpiName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.ParticipantProfilesMetadata" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.TenantId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.ThresHolds" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiResourceFormat.Unit" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds.#ctor(System.Decimal,System.Decimal,System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds.IncreasingKpi" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds.LowerLimit" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.KpiThresholds.UpperLimit" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.#ctor(System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping},System.String,System.Nullable{System.Boolean})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.LinkName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.Mappings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.ParticipantPropertyReferences" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.ReferenceOnly" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.SourceInteractionType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.TargetProfileType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.TenantId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.LinkTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.LinkTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.LinkTypes.CopyIfNull" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.LinkTypes.UpdateAlways" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.#ctor(System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IList{System.String}},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.String}},System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.Attributes" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.LargeImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.LocalizedAttributes" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.MediumImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase.SmallImage" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.Page`1" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.Page`1">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Page`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Page`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Page`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Page`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.Participant" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.Participant">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Participant.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Participant.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference},System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Participant.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Participant.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Participant.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Participant.ParticipantName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Participant.ParticipantPropertyReferences" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Participant.ProfileTypeName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Participant.Role" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference.InteractionPropertyName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference.ProfilePropertyName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.PermissionTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.PermissionTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.PermissionTypes.Manage" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.PermissionTypes.Read" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.PermissionTypes.Write" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ProfileEnumValidValuesFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ProfileEnumValidValuesFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ProfileEnumValidValuesFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ProfileEnumValidValuesFormat.#ctor(System.Nullable{System.Int32},System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileEnumValidValuesFormat.LocalizedValueNames" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileEnumValidValuesFormat.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.#ctor(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IList{System.String}},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.String}},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition},System.Nullable{System.Int32},System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.StrongId})" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.ApiEntitySetName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.Attributes" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.EntityType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.Fields" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.InstancesCount" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.LargeImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.LastChangedUtc" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.LocalizedAttributes" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.MediumImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.SchemaItemTypeLink" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.SmallImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.StrongIds" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.TenantId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.TimestampFieldName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProfileResourceFormat.TypeName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.ProfileEnumValidValuesFormat},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.ArrayValueSeparator" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.EnumValidValues" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.FieldName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.FieldType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.IsArray" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.IsEnum" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.IsFlagEnum" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.IsImage" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.IsLocalizedString" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.IsName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.IsRequired" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.PropertyId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition.SchemaItemPropLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ProvisioningStates" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ProvisioningStates">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ProvisioningStates.Failed" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ProvisioningStates.Provisioning" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.ProvisioningStates.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource.Id" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource.Name" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping.#ctor(System.String,System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.LinkTypes})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping.InteractionFieldName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping.LinkType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping.RelationshipFieldName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference},System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkFieldMapping},System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.InteractionType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.LinkName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.Mappings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.ProfilePropertyReferences" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.RelatedProfilePropertyReferences" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.RelationshipGuidId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.RelationshipName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipLinkResourceFormat.TenantId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.#ctor(System.String,System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.DateTime},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeMapping},System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.Cardinality" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.ExpiryDateTimeUtc" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.Fields" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.LookupMappings" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.ProfileType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.RelatedProfileType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.RelationshipGuidId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.RelationshipName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipResourceFormat.TenantId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping.ProfileFieldName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping.RelatedProfileKeyProperty" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeMapping" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeMapping">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeMapping.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeMapping.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeFieldMapping})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeMapping.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RelationshipTypeMapping.FieldMappings" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.Resource" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.Resource">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Resource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Resource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.Resource.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Resource.Id" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Resource.Location" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Resource.Name" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Resource.Tags" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.Resource.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription.#ctor(System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String})" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription.Elements" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription.Exceptions" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.AssignmentPrincipal},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.ProvisioningStates},Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription,Microsoft.Azure.Management.CustomerInsights.Models.ResourceSetDescription)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.AssignmentName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Connectors" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Interactions" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Kpis" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Links" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Principals" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Profiles" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.RelationshipLinks" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Relationships" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Role" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.RoleAssignments" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.SasPolicies" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.TenantId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.Views" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleAssignmentResourceFormat.WidgetTypes" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RoleResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RoleResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RoleResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.RoleResourceFormat.#ctor(System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.RoleResourceFormat.RoleName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes">
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes.Admin" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes.DataAdmin" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes.DataReader" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes.ManageAdmin" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes.ManageReader" />
+      <Member Id="F:Microsoft.Azure.Management.CustomerInsights.Models.RoleTypes.Reader" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.SalesforceConnectorProperties" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceConnectorProperties">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceConnectorProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceConnectorProperties.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.SalesforceDiscoverSetting,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceConnectorProperties.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceConnectorProperties.Salesforcetables" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceConnectorProperties.Usersetting" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.SalesforceDiscoverSetting" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceDiscoverSetting">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceDiscoverSetting.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceDiscoverSetting.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceDiscoverSetting.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceDiscoverSetting.SalesforceConnectionStringSecretUrl" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.#ctor(System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.IsProfile" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.TableCategory" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.TableName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.TableRemarks" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.SalesforceTable.TableSchema" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.StrongId" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.StrongId">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.StrongId.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.StrongId.#ctor(System.Collections.Generic.IList{System.String},System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.StrongId.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.StrongId.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.StrongId.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.StrongId.KeyPropertyNames" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.StrongId.StrongIdName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping.#ctor(System.String,System.String,System.Nullable{System.Boolean},System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.LinkTypes})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping.InteractionTypePropertyName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping.IsProfileTypeId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping.LinkType" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping.ProfileTypePropertyName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.Changed" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.Created" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.Definition" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.TenantId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.UserId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.ViewResourceFormat.ViewName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat" Id="T:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat">
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
+      <Member Id="M:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.Changed" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.Created" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.Definition" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.Description" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.ImageUrl" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.TenantId" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.WidgetTypeName" />
+      <Member Id="P:Microsoft.Azure.Management.CustomerInsights.Models.WidgetTypeResourceFormat.WidgetVersion" />
+    </Type>
+  </Namespace>
+</Framework>

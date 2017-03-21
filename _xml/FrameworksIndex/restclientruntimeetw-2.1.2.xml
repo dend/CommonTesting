@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="restclientruntimeetw-2.1.2">
+  <Namespace Name="Microsoft.Rest.Tracing.Etw">
+    <Type Name="Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor" Id="T:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor">
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.#ctor" />
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.Configuration(System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.EnterMethod(System.String,System.Object,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.ExitMethod(System.String,System.Object)" />
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.Information(System.String)" />
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.ReceiveResponse(System.String,System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.SendRequest(System.String,System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Rest.Tracing.Etw.EtwTracingInterceptor.TraceError(System.String,System.Exception)" />
+    </Type>
+  </Namespace>
+</Framework>

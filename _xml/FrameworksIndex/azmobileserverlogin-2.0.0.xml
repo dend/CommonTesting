@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Framework Name="azmobileserverlogin-2.0.0">
-  <Namespace Name="Microsoft.Azure.Mobile.Server.Login">
-    <Type Name="Microsoft.Azure.Mobile.Server.Login.AppServiceLoginHandler" Id="T:Microsoft.Azure.Mobile.Server.Login.AppServiceLoginHandler">
-      <Member Id="M:Microsoft.Azure.Mobile.Server.Login.AppServiceLoginHandler.CreateToken(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String,System.String,System.String,System.Nullable{System.TimeSpan})" />
-    </Type>
-  </Namespace>
-</Framework>

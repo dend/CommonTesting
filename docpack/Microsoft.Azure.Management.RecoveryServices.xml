@@ -1,0 +1,868 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.Management.RecoveryServices</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.Credentials">
+            <summary>
+            Credentials needed for the client to connect to Azure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.SubscriptionId">
+            <summary>
+            The subscription Id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.ApiVersion">
+            <summary>
+            Client Api Version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running
+            Operations. Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is
+            generated and included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.IRecoveryServicesClient.Vaults">
+            <summary>
+            Gets the IVaultsOperations.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.IVaultsOperations">
+            <summary>
+            VaultsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.IVaultsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get the Vault details.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault
+            is present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.IVaultsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.RecoveryServices.Models.Vault,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Creates or updates a Recovery Services vault.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault
+            is present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='vault'>
+            Recovery Services Vault to be created.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.IVaultsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes a vault.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault
+            is present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.IVaultsOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault
+            is present.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.IVaultsOperations.ListByResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.Credentials">
+            <summary>
+            Credentials needed for the client to connect to Azure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.SubscriptionId">
+            <summary>
+            The subscription Id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.ApiVersion">
+            <summary>
+            Client Api Version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running Operations.
+            Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is generated and
+            included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.Vaults">
+            <summary>
+            Gets the IVaultsOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the RecoveryServicesClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient.Initialize">
+            <summary>
+            Initializes client properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.VaultsOperations">
+            <summary>
+            VaultsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperations.#ctor(Microsoft.Azure.Management.RecoveryServices.RecoveryServicesClient)">
+            <summary>
+            Initializes a new instance of the VaultsOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.VaultsOperations.Client">
+            <summary>
+            Gets a reference to the RecoveryServicesClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get the Vault details.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.RecoveryServices.Models.Vault,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Creates or updates a Recovery Services vault.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='vault'>
+            Recovery Services Vault to be created.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes a vault.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperations.ListByResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions">
+            <summary>
+            Extension methods for VaultsOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.Get(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.String)">
+            <summary>
+            Get the Vault details.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.GetAsync(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get the Vault details.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.String,Microsoft.Azure.Management.RecoveryServices.Models.Vault)">
+            <summary>
+            Creates or updates a Recovery Services vault.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='vault'>
+            Recovery Services Vault to be created.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.String,Microsoft.Azure.Management.RecoveryServices.Models.Vault,System.Threading.CancellationToken)">
+            <summary>
+            Creates or updates a Recovery Services vault.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='vault'>
+            Recovery Services Vault to be created.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.Delete(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.String)">
+            <summary>
+            Deletes a vault.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes a vault.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='vaultName'>
+            The name of the recovery services vault.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group where the recovery services vault is
+            present.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.VaultsOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.RecoveryServices.IVaultsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieve a list of Vaults.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.Models.Page`1">
+            <summary>
+            Defines a page in Azure responses.
+            </summary>
+            <typeparam name="T">Type of the page content items</typeparam>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Page`1.NextPageLink">
+            <summary>
+            Gets the link to the next page.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Page`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Page`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Resource.#ctor">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Resource.#ctor(System.String,System.String,System.String,System.String,Microsoft.Azure.Management.RecoveryServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+            <param name="id">Resource Id</param>
+            <param name="name">Resource Name</param>
+            <param name="type">Resource Type</param>
+            <param name="location">Resource Location</param>
+            <param name="tags">Resource Tags</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Resource.Id">
+            <summary>
+            Gets resource Id
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Resource.Name">
+            <summary>
+            Gets resource Name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Resource.Type">
+            <summary>
+            Gets resource Type
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Resource.Location">
+            <summary>
+            Gets or sets resource Location
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Resource.Sku">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Resource.Tags">
+            <summary>
+            Gets or sets resource Tags
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Resource.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.Models.Sku">
+            <summary>
+            Identifies the unique system identifier for each Azure resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Sku.#ctor">
+            <summary>
+            Initializes a new instance of the Sku class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Sku.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the Sku class.
+            </summary>
+            <param name="name">The Sku name. Possible values include:
+            'Standard', 'RS0'</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Sku.Name">
+            <summary>
+            Gets or sets the Sku name. Possible values include: 'Standard',
+            'RS0'
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Sku.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.Models.SkuName">
+            <summary>
+            Defines values for SkuName.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.Models.Vault">
+            <summary>
+            Resource information, as returned by the resource provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Vault.#ctor">
+            <summary>
+            Initializes a new instance of the Vault class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Vault.#ctor(System.String,System.String,System.String,System.String,Microsoft.Azure.Management.RecoveryServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.String,Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties)">
+            <summary>
+            Initializes a new instance of the Vault class.
+            </summary>
+            <param name="id">Resource Id</param>
+            <param name="name">Resource Name</param>
+            <param name="type">Resource Type</param>
+            <param name="location">Resource Location</param>
+            <param name="tags">Resource Tags</param>
+            <param name="etag">ETag of the Vault.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Vault.Etag">
+            <summary>
+            Gets eTag of the Vault.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.Vault.Properties">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.Vault.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties">
+            <summary>
+            Properties of the vault.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties.#ctor">
+            <summary>
+            Initializes a new instance of the VaultProperties class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the VaultProperties class.
+            </summary>
+            <param name="provisioningState">Provisioning State.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties.ProvisioningState">
+            <summary>
+            Gets provisioning State.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="restclientruntimeazuretestframework-1.6.0">
+  <Namespace Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework">
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString">
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString.#ctor" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString.Parse(System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString.ToString" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString.KeyValuePairs" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionString.ParseErrors" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys">
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.AADAuthUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.AADClientIdKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.AADTenantKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.AADTokenAudienceUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.BaseUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.DataLakeAnalyticsJobAndCatalogServiceUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.DataLakeStoreServiceUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.EnvironmentKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.GalleryUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.GraphTokenAudienceUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.GraphUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.HttpRecorderModeKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.IbizaPortalUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.ManagementCertificateKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.PasswordKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.PublishSettingsFileUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.RawGraphTokenKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.RawTokenKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.RdfePortalUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.ResourceManagementUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.ServiceManagementUriKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.ServicePrincipalKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.ServicePrincipalSecretKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.SubscriptionIdKey" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.UserIdKey" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ConnectionStringKeys.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames">
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames.Current" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames.Custom" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames.Dogfood" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames.Next" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames.Prod" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods">
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.Clear(System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.ContainsCaseInsensitiveKey(System.Collections.Generic.Dictionary{System.String,System.String},System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.GetValueUsingCaseInsensitiveKey(System.Collections.Generic.Dictionary{System.String,System.String},System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.IsAny``1(System.Collections.Generic.IEnumerable{``0})" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.ListValues(Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.UpdateDictionary(System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.String)" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext">
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.disposed" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.#ctor" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.AddHandlers(Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.Dispose" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.Dispose(System.Boolean)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.GetGraphServiceClient``1(Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment,System.Boolean,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.GetGraphServiceClient``1(System.Boolean,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.GetServiceClient``1(Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment,System.Boolean,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.GetServiceClient``1(System.Boolean,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.GetServiceClientWithCredentials``1(Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment,System.Object,System.Boolean,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.GetServiceClientWithCredentials``1(Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment,System.Object,System.Uri,System.Boolean,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.GetServiceClientWithCredentials``1(System.Object,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.Start(System.String,System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.MockContext.Stop" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ResourceGroupCleaner" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ResourceGroupCleaner">
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ResourceGroupCleaner.#ctor(Microsoft.Rest.TokenCredentials)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ResourceGroupCleaner.DeleteResourceGroups" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ResourceGroupCleaner.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.SubscriptionInfo" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.SubscriptionInfo">
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.SubscriptionInfo.#ctor(Newtonsoft.Json.Linq.JObject)" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.SubscriptionInfo.DisplayName" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.SubscriptionInfo.Id" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.SubscriptionInfo.State" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.SubscriptionInfo.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestBase" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestBase">
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestBase.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints">
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.AADAuthUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.AADTokenAudienceUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.DataLakeAnalyticsJobAndCatalogServiceUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.DataLakeStoreServiceUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.GalleryUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.GraphTokenAudienceUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.GraphUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.IbizaPortalUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.Name" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.PublishingSettingsFileUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.RdfePortalUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.ResourceManagementUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEndpoints.ServiceManagementUri" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment">
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.EnvEndpoints" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.#ctor" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.#ctor(System.String)" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.BaseUri" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.ConnectionString" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.Endpoints" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.SubscriptionId" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.Tenant" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.TokenInfo" />
+      <Member Id="P:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironment.UserName" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironmentFactory" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironmentFactory">
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestEnvironmentFactory.GetTestEnvironment" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor">
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.#ctor" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.Configuration(System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.EnterMethod(System.String,System.Object,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.ExitMethod(System.String,System.Object)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.Information(System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.ReceiveResponse(System.String,System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.SendRequest(System.String,System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestingTracingInterceptor.TraceError(System.String,System.Exception)" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits">
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.AcceptanceType" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.CheckIn" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.LiveBVT" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.MockedBVT" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities">
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.RetryOnHttp500" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.AsFormattedString(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GenerateGuid(System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GenerateName(System.String,System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GetCallingClass(System.Int32)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GetCurrentMethodName(System.Int32)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.GetCurrentMethodName(System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.ParseConnectionString(System.String)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.Wait(System.Int32)" />
+      <Member Id="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.Wait(System.TimeSpan)" />
+    </Type>
+    <Type Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TokenAudience" Id="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TokenAudience">
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TokenAudience.Graph" />
+      <Member Id="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TokenAudience.Management" />
+    </Type>
+  </Namespace>
+</Framework>

@@ -1,0 +1,182 @@
+<Type Name="ServicePrincipalCreateParameters" FullName="Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters">
+  <TypeSignature Language="C#" Value="public class ServicePrincipalCreateParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServicePrincipalCreateParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Request parameters for create a new service principal
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServicePrincipalCreateParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ServicePrincipalCreateParameters
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServicePrincipalCreateParameters (string appId, bool accountEnabled, System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; keyCredentials = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; passwordCredentials = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string appId, bool accountEnabled, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; keyCredentials, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; passwordCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.#ctor(System.String,System.Boolean,System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.KeyCredential},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.PasswordCredential})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="appId" Type="System.String" />
+        <Parameter Name="accountEnabled" Type="System.Boolean" />
+        <Parameter Name="keyCredentials" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt;" />
+        <Parameter Name="passwordCredentials" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="appId">application Id</param>
+        <param name="accountEnabled">Specifies if the account is enabled</param>
+        <param name="keyCredentials">the list of KeyCredential objects</param>
+        <param name="passwordCredentials">the list of PasswordCredential objects</param>
+        <summary>
+            Initializes a new instance of the ServicePrincipalCreateParameters
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccountEnabled">
+      <MemberSignature Language="C#" Value="public bool AccountEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AccountEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.AccountEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="accountEnabled")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets specifies if the account is enabled
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppId">
+      <MemberSignature Language="C#" Value="public string AppId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AppId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.AppId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="appId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets application Id
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyCredentials">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; KeyCredentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; KeyCredentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.KeyCredentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="keyCredentials")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the list of KeyCredential objects
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordCredentials">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; PasswordCredentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; PasswordCredentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.PasswordCredentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="passwordCredentials")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the list of PasswordCredential objects
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

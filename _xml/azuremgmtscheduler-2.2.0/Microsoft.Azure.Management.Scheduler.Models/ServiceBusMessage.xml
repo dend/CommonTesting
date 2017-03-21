@@ -1,0 +1,209 @@
+<Type Name="ServiceBusMessage" FullName="Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage">
+  <TypeSignature Language="C#" Value="public class ServiceBusMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceBusMessage extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceBusMessage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ServiceBusMessage class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceBusMessage (Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication authentication = null, Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties brokeredMessageProperties = null, System.Collections.Generic.IDictionary&lt;string,string&gt; customMessageProperties = null, string message = null, string namespaceProperty = null, Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType&gt; transportType = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication authentication, class Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties brokeredMessageProperties, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; customMessageProperties, string message, string namespaceProperty, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType&gt; transportType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.#ctor(Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication,Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="authentication" Type="Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication" />
+        <Parameter Name="brokeredMessageProperties" Type="Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties" />
+        <Parameter Name="customMessageProperties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="namespaceProperty" Type="System.String" />
+        <Parameter Name="transportType" Type="System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="authentication">To be added.</param>
+        <param name="brokeredMessageProperties">To be added.</param>
+        <param name="customMessageProperties">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="namespaceProperty">To be added.</param>
+        <param name="transportType">To be added.</param>
+        <summary>
+            Initializes a new instance of the ServiceBusMessage class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Authentication">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication Authentication { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication Authentication" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.Authentication" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="authentication")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Service Bus authentication.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrokeredMessageProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties BrokeredMessageProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties BrokeredMessageProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.BrokeredMessageProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="brokeredMessageProperties")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the brokered message properties.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomMessageProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; CustomMessageProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; CustomMessageProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.CustomMessageProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="customMessageProperties")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the custom message properties.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="message")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the message.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NamespaceProperty">
+      <MemberSignature Language="C#" Value="public string NamespaceProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NamespaceProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.NamespaceProperty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="namespace")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the namespace.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransportType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType&gt; TransportType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType&gt; TransportType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.TransportType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transportType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the transport type. Possible values include:
+            'NotSpecified', 'NetMessaging', 'AMQP'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

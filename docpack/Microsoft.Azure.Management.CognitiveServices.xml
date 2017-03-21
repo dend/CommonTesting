@@ -1,0 +1,1705 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.Management.CognitiveServices</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations">
+            <summary>
+            CognitiveServicesAccountsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.#ctor(Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient)">
+            <summary>
+            Initializes a new instance of the CognitiveServicesAccountsOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.Client">
+            <summary>
+            Gets a reference to the CognitiveServicesManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create Cognitive Services Account. Accounts is a resource group wide
+            resource type. It holds the keys for developer to access intelligent APIs.
+            It's also the resource type for billing.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='parameters'>
+            The parameters to provide for the created account.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Updates a Cognitive Services account
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='sku'>
+            </param>
+            <param name='tags'>
+            Gets or sets a list of key value pairs that describe the resource. These
+            tags can be used in viewing and grouping this resource (across resource
+            groups). A maximum of 15 tags can be provided for a resource. Each tag must
+            have a key no greater than 128 characters and value no greater than 256
+            characters.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes a Cognitive Services account from the resource group.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.GetPropertiesWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Returns a Cognitive Services account specified by the parameters.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Returns all the resources of a particular type belonging to a resource
+            group
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Returns all the resources of a particular type belonging to a subscription.
+            </summary>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.ListKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Lists the account keys for the specified Cognitive Services account.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Congitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.RegenerateKeyWithHttpMessagesAsync(System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Regenerates the specified account key for the specified Cognitive Services
+            account.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='keyName'>
+            key name to generate (Key1|Key2). Possible values include: 'Key1', 'Key2'
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperations.ListSkusWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            List available SKUs for the requested Cognitive Services account
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions">
+            <summary>
+            Extension methods for CognitiveServicesAccountsOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.Create(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters)">
+            <summary>
+            Create Cognitive Services Account. Accounts is a resource group wide
+            resource type. It holds the keys for developer to access intelligent APIs.
+            It's also the resource type for billing.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='parameters'>
+            The parameters to provide for the created account.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters,System.Threading.CancellationToken)">
+            <summary>
+            Create Cognitive Services Account. Accounts is a resource group wide
+            resource type. It holds the keys for developer to access intelligent APIs.
+            It's also the resource type for billing.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='parameters'>
+            The parameters to provide for the created account.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.Update(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Updates a Cognitive Services account
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='sku'>
+            </param>
+            <param name='tags'>
+            Gets or sets a list of key value pairs that describe the resource. These
+            tags can be used in viewing and grouping this resource (across resource
+            groups). A maximum of 15 tags can be provided for a resource. Each tag must
+            have a key no greater than 128 characters and value no greater than 256
+            characters.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)">
+            <summary>
+            Updates a Cognitive Services account
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='sku'>
+            </param>
+            <param name='tags'>
+            Gets or sets a list of key value pairs that describe the resource. These
+            tags can be used in viewing and grouping this resource (across resource
+            groups). A maximum of 15 tags can be provided for a resource. Each tag must
+            have a key no greater than 128 characters and value no greater than 256
+            characters.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.Delete(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)">
+            <summary>
+            Deletes a Cognitive Services account from the resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes a Cognitive Services account from the resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.GetProperties(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)">
+            <summary>
+            Returns a Cognitive Services account specified by the parameters.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.GetPropertiesAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Returns a Cognitive Services account specified by the parameters.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String)">
+            <summary>
+            Returns all the resources of a particular type belonging to a resource
+            group
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Returns all the resources of a particular type belonging to a resource
+            group
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.List(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations)">
+            <summary>
+            Returns all the resources of a particular type belonging to a subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.Threading.CancellationToken)">
+            <summary>
+            Returns all the resources of a particular type belonging to a subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListKeys(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)">
+            <summary>
+            Lists the account keys for the specified Cognitive Services account.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Congitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListKeysAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Lists the account keys for the specified Cognitive Services account.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Congitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.RegenerateKey(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName})">
+            <summary>
+            Regenerates the specified account key for the specified Cognitive Services
+            account.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='keyName'>
+            key name to generate (Key1|Key2). Possible values include: 'Key1', 'Key2'
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.RegenerateKeyAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName},System.Threading.CancellationToken)">
+            <summary>
+            Regenerates the specified account key for the specified Cognitive Services
+            account.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='keyName'>
+            key name to generate (Key1|Key2). Possible values include: 'Key1', 'Key2'
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListSkus(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)">
+            <summary>
+            List available SKUs for the requested Cognitive Services account
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListSkusAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            List available SKUs for the requested Cognitive Services account
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified resource
+            group. Cognitive Services account names must be between 3 and 24 characters
+            in length and use numbers and lower-case letters only.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient">
+            <summary>
+            Cognitive Services Management Client
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.Credentials">
+            <summary>
+            Credentials needed for the client to connect to Azure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.SubscriptionId">
+            <summary>
+            Azure Subscription ID.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.ApiVersion">
+            <summary>
+            Version of the API to be used with the client request. Current version is
+            2016-02-01-preview
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running Operations.
+            Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is generated and
+            included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.CognitiveServicesAccounts">
+            <summary>
+            Gets the ICognitiveServicesAccountsOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the CognitiveServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.Initialize">
+            <summary>
+            Initializes client properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations">
+            <summary>
+            CognitiveServicesAccountsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create Cognitive Services Account. Accounts is a resource group
+            wide resource type. It holds the keys for developer to access
+            intelligent APIs. It's also the resource type for billing.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified
+            resource group. Cognitive Services account names must be between 3
+            and 24 characters in length and use numbers and lower-case letters
+            only.
+            </param>
+            <param name='parameters'>
+            The parameters to provide for the created account.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Updates a Cognitive Services account
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified
+            resource group. Cognitive Services account names must be between 3
+            and 24 characters in length and use numbers and lower-case letters
+            only.
+            </param>
+            <param name='sku'>
+            </param>
+            <param name='tags'>
+            Gets or sets a list of key value pairs that describe the resource.
+            These tags can be used in viewing and grouping this resource
+            (across resource groups). A maximum of 15 tags can be provided for
+            a resource. Each tag must have a key no greater than 128 characters
+            and value no greater than 256 characters.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes a Cognitive Services account from the resource group.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified
+            resource group. Cognitive Services account names must be between 3
+            and 24 characters in length and use numbers and lower-case letters
+            only.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.GetPropertiesWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Returns a Cognitive Services account specified by the parameters.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified
+            resource group. Cognitive Services account names must be between 3
+            and 24 characters in length and use numbers and lower-case letters
+            only.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Returns all the resources of a particular type belonging to a
+            resource group
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Returns all the resources of a particular type belonging to a
+            subscription.
+            </summary>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Lists the account keys for the specified Cognitive Services
+            account.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified
+            resource group. Congitive Services account names must be between 3
+            and 24 characters in length and use numbers and lower-case letters
+            only.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.RegenerateKeyWithHttpMessagesAsync(System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Regenerates the specified account key for the specified Cognitive
+            Services account.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified
+            resource group. Cognitive Services account names must be between 3
+            and 24 characters in length and use numbers and lower-case letters
+            only.
+            </param>
+            <param name='keyName'>
+            key name to generate (Key1|Key2). Possible values include: 'Key1',
+            'Key2'
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListSkusWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            List available SKUs for the requested Cognitive Services account
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group within the user's subscription.
+            </param>
+            <param name='accountName'>
+            The name of the cognitive services account within the specified
+            resource group. Cognitive Services account names must be between 3
+            and 24 characters in length and use numbers and lower-case letters
+            only.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient">
+            <summary>
+            Cognitive Services Management Client
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.Credentials">
+            <summary>
+            Credentials needed for the client to connect to Azure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.SubscriptionId">
+            <summary>
+            Azure Subscription ID.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.ApiVersion">
+            <summary>
+            Version of the API to be used with the client request. Current
+            version is 2016-02-01-preview
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running
+            Operations. Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is generated
+            and included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.CognitiveServicesAccounts">
+            <summary>
+            Gets the ICognitiveServicesAccountsOperations.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount">
+            <summary>
+            Cognitive Services Account is an Azure resource representing the
+            provisioned account, its type, location and SKU.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.#ctor">
+            <summary>
+            Initializes a new instance of the CognitiveServicesAccount class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.#ctor(System.String,System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState},System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.String)">
+            <summary>
+            Initializes a new instance of the CognitiveServicesAccount class.
+            </summary>
+            <param name="etag">Entity Tag</param>
+            <param name="id">The id of the created account</param>
+            <param name="kind">Type of cognitive service account.</param>
+            <param name="location">The location of the resource</param>
+            <param name="name">The name of the created account</param>
+            <param name="provisioningState">Gets the status of the cognitive
+            services account at the time the operation was called. Possible
+            values include: 'Creating', 'ResolvingDNS', 'Succeeded',
+            'Failed'</param>
+            <param name="endpoint">Endpoint of the created account</param>
+            <param name="tags">Gets or sets a list of key value pairs that
+            describe the resource. These tags can be used in viewing and
+            grouping this resource (across resource groups). A maximum of 15
+            tags can be provided for a resource. Each tag must have a key no
+            greater than 128 characters and value no greater than 256
+            characters.</param>
+            <param name="type">Resource type</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Etag">
+            <summary>
+            Gets or sets entity Tag
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Id">
+            <summary>
+            Gets or sets the id of the created account
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Kind">
+            <summary>
+            Gets or sets type of cognitive service account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Location">
+            <summary>
+            Gets or sets the location of the resource
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Name">
+            <summary>
+            Gets or sets the name of the created account
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.ProvisioningState">
+            <summary>
+            Gets the status of the cognitive services account at the time the
+            operation was called. Possible values include: 'Creating',
+            'ResolvingDNS', 'Succeeded', 'Failed'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Endpoint">
+            <summary>
+            Gets or sets endpoint of the created account
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Sku">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Tags">
+            <summary>
+            Gets or sets a list of key value pairs that describe the resource.
+            These tags can be used in viewing and grouping this resource
+            (across resource groups). A maximum of 15 tags can be provided for
+            a resource. Each tag must have a key no greater than 128 characters
+            and value no greater than 256 characters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Type">
+            <summary>
+            Gets or sets resource type
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters">
+            <summary>
+            The parameters to provide for the account.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.#ctor">
+            <summary>
+            Initializes a new instance of the
+            CognitiveServicesAccountCreateParameters class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.#ctor(Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.String,System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Initializes a new instance of the
+            CognitiveServicesAccountCreateParameters class.
+            </summary>
+            <param name="kind">Required. Indicates the type of cognitive
+            service account. Possible values include: 'Academic',
+            'Bing.Autosuggest', 'Bing.Search', 'Bing.Speech',
+            'Bing.SpellCheck', 'ComputerVision', 'ContentModerator', 'Emotion',
+            'Face', 'LUIS', 'Recommendations', 'SpeakerRecognition', 'Speech',
+            'SpeechTranslation', 'TextAnalytics', 'TextTranslation',
+            'WebLM'</param>
+            <param name="location">Required. Gets or sets the location of the
+            resource. This will be one of the supported and registered Azure
+            Geo Regions (e.g. West US, East US, Southeast Asia, etc.). The geo
+            region of a resource cannot be changed once it is created, but if
+            an identical geo region is specified on update the request will
+            succeed.</param>
+            <param name="properties">Must exist in the request. Must not be
+            null.</param>
+            <param name="tags">Gets or sets a list of key value pairs that
+            describe the resource. These tags can be used in viewing and
+            grouping this resource (across resource groups). A maximum of 15
+            tags can be provided for a resource. Each tag must have a key no
+            greater than 128 characters and value no greater than 256
+            characters.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Sku">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Kind">
+            <summary>
+            Gets or sets required. Indicates the type of cognitive service
+            account. Possible values include: 'Academic', 'Bing.Autosuggest',
+            'Bing.Search', 'Bing.Speech', 'Bing.SpellCheck', 'ComputerVision',
+            'ContentModerator', 'Emotion', 'Face', 'LUIS', 'Recommendations',
+            'SpeakerRecognition', 'Speech', 'SpeechTranslation',
+            'TextAnalytics', 'TextTranslation', 'WebLM'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Location">
+            <summary>
+            Gets or sets required. Gets or sets the location of the resource.
+            This will be one of the supported and registered Azure Geo Regions
+            (e.g. West US, East US, Southeast Asia, etc.). The geo region of a
+            resource cannot be changed once it is created, but if an identical
+            geo region is specified on update the request will succeed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Tags">
+            <summary>
+            Gets or sets a list of key value pairs that describe the resource.
+            These tags can be used in viewing and grouping this resource
+            (across resource groups). A maximum of 15 tags can be provided for
+            a resource. Each tag must have a key no greater than 128 characters
+            and value no greater than 256 characters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Properties">
+            <summary>
+            Gets or sets must exist in the request. Must not be null.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult">
+            <summary>
+            The list of cognitive services accounts operation response.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult.#ctor">
+            <summary>
+            Initializes a new instance of the
+            CognitiveServicesAccountEnumerateSkusResult class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku})">
+            <summary>
+            Initializes a new instance of the
+            CognitiveServicesAccountEnumerateSkusResult class.
+            </summary>
+            <param name="value">Gets the list of Cognitive Services accounts
+            and their properties.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult.Value">
+            <summary>
+            Gets the list of Cognitive Services accounts and their properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys">
+            <summary>
+            The access keys for the cognitive services account.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.#ctor">
+            <summary>
+            Initializes a new instance of the CognitiveServicesAccountKeys
+            class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the CognitiveServicesAccountKeys
+            class.
+            </summary>
+            <param name="key1">Gets the value of key 1.</param>
+            <param name="key2">Gets the value of key 2.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.Key1">
+            <summary>
+            Gets the value of key 1.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.Key2">
+            <summary>
+            Gets the value of key 2.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters">
+            <summary>
+            The parameters to provide for the account.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.#ctor">
+            <summary>
+            Initializes a new instance of the
+            CognitiveServicesAccountUpdateParameters class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.#ctor(Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Initializes a new instance of the
+            CognitiveServicesAccountUpdateParameters class.
+            </summary>
+            <param name="tags">Gets or sets a list of key value pairs that
+            describe the resource. These tags can be used in viewing and
+            grouping this resource (across resource groups). A maximum of 15
+            tags can be provided for a resource. Each tag must have a key no
+            greater than 128 characters and value no greater than 256
+            characters.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.Sku">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.Tags">
+            <summary>
+            Gets or sets a list of key value pairs that describe the resource.
+            These tags can be used in viewing and grouping this resource
+            (across resource groups). A maximum of 15 tags can be provided for
+            a resource. Each tag must have a key no greater than 128 characters
+            and value no greater than 256 characters.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.#ctor">
+            <summary>
+            Initializes a new instance of the CognitiveServicesResourceAndSku
+            class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.#ctor(System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku)">
+            <summary>
+            Initializes a new instance of the CognitiveServicesResourceAndSku
+            class.
+            </summary>
+            <param name="resourceType">Resource Namespace and Type</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.ResourceType">
+            <summary>
+            Gets or sets resource Namespace and Type
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.Sku">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Error.#ctor">
+            <summary>
+            Initializes a new instance of the Error class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Error.#ctor(Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody)">
+            <summary>
+            Initializes a new instance of the Error class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.Error.ErrorProperty">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Error.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.#ctor">
+            <summary>
+            Initializes a new instance of the ErrorBody class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the ErrorBody class.
+            </summary>
+            <param name="code">error code</param>
+            <param name="message">error message</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.Code">
+            <summary>
+            Gets or sets error code
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.Message">
+            <summary>
+            Gets or sets error message
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+            <summary>
+            Exception thrown for an invalid response with Error information.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.Request">
+            <summary>
+            Gets information about the associated HTTP request.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.Response">
+            <summary>
+            Gets information about the associated HTTP response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.Body">
+            <summary>
+            Gets or sets the body object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor">
+            <summary>
+            Initializes a new instance of the ErrorException class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the ErrorException class.
+            </summary>
+            <param name="message">The exception message.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the ErrorException class.
+            </summary>
+            <param name="message">The exception message.</param>
+            <param name="innerException">Inner exception.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the ErrorException class.
+            </summary>
+            <param name="info">Serialization info.</param>
+            <param name="context">Streaming context.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Serializes content of the exception.
+            </summary>
+            <param name="info">Serialization info.</param>
+            <param name="context">Streaming context.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.KeyName">
+            <summary>
+            Defines values for KeyName.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.Kind">
+            <summary>
+            Defines values for Kind.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.Page`1">
+            <summary>
+            Defines a page in Azure responses.
+            </summary>
+            <typeparam name="T">Type of the page content items</typeparam>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.Page`1.NextPageLink">
+            <summary>
+            Gets the link to the next page.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Page`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Page`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState">
+            <summary>
+            Defines values for ProvisioningState.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters">
+            <summary>
+            Regenerate key parameters.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters.#ctor">
+            <summary>
+            Initializes a new instance of the RegenerateKeyParameters class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters.#ctor(System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName})">
+            <summary>
+            Initializes a new instance of the RegenerateKeyParameters class.
+            </summary>
+            <param name="keyName">key name to generate (Key1|Key2). Possible
+            values include: 'Key1', 'Key2'</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters.KeyName">
+            <summary>
+            Gets or sets key name to generate (Key1|Key2). Possible values
+            include: 'Key1', 'Key2'
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.Sku">
+            <summary>
+            The SKU of the cognitive services account.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Sku.#ctor">
+            <summary>
+            Initializes a new instance of the Sku class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Sku.#ctor(System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.SkuTier})">
+            <summary>
+            Initializes a new instance of the Sku class.
+            </summary>
+            <param name="name">Gets or sets the sku name. Required for account
+            creation, optional for update. Possible values include: 'F0', 'P0',
+            'P1', 'P2', 'S0', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6'</param>
+            <param name="tier">Gets the sku tier. This is based on the SKU
+            name. Possible values include: 'Free', 'Standard',
+            'Premium'</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.Sku.Name">
+            <summary>
+            Gets or sets the sku name. Required for account creation, optional
+            for update. Possible values include: 'F0', 'P0', 'P1', 'P2', 'S0',
+            'S1', 'S2', 'S3', 'S4', 'S5', 'S6'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.CognitiveServices.Models.Sku.Tier">
+            <summary>
+            Gets the sku tier. This is based on the SKU name. Possible values
+            include: 'Free', 'Standard', 'Premium'
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.CognitiveServices.Models.Sku.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.SkuName">
+            <summary>
+            Defines values for SkuName.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.CognitiveServices.Models.SkuTier">
+            <summary>
+            Defines values for SkuTier.
+            </summary>
+        </member>
+    </members>
+</doc>

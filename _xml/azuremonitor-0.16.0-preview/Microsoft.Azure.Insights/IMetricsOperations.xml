@@ -1,0 +1,85 @@
+<Type Name="IMetricsOperations" FullName="Microsoft.Azure.Insights.IMetricsOperations">
+  <TypeSignature Language="C#" Value="public interface IMetricsOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMetricsOperations" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Insights.IMetricsOperations" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Monitor</AssemblyName>
+    <AssemblyVersion>0.15.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            MetricsOperations operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ListWithHttpMessagesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.Metric&gt;&gt;&gt; ListWithHttpMessagesAsync (string resourceUri, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.Metric&gt; odataQuery = null, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.Metric&gt;&gt;&gt; ListWithHttpMessagesAsync(string resourceUri, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.Metric&gt; odataQuery, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.IMetricsOperations.ListWithHttpMessagesAsync(System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.Metric},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.15.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.Metric&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceUri" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.Metric&gt;" />
+        <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+        <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+        <param name="customHeaders">
+            The headers that will be added to request.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            **Lists the metric values for a resource**.&lt;br&gt;The
+            **$filter** is used to reduce the set of metric data returned. Some
+            common properties for this expression will be: name.value,
+            aggregationType, startTime, endTime, timeGrain. The filter
+            expression uses these properties with comparison operators (eg. eq,
+            gt, lt) and multiple expressions can be combined with parentheses
+            and 'and/or' operators.&lt;br&gt;Some example filter expressions
+            are:&lt;br&gt;- $filter=(name.value eq 'RunsSucceeded') and
+            aggregationType eq 'Total' and startTime eq 2016-02-20 and endTime
+            eq 2016-02-21 and timeGrain eq duration'PT1M',&lt;br&gt;-
+            $filter=(name.value eq 'RunsSucceeded') and (aggregationType eq
+            'Total' or aggregationType eq 'Average') and startTime eq
+            2016-02-20 and endTime eq 2016-02-21 and timeGrain eq
+            duration'PT1H',&lt;br&gt;- $filter=(name.value eq
+            'ActionsCompleted' or name.value eq 'RunsSucceeded') and
+            (aggregationType eq 'Total' or aggregationType eq 'Average') and
+            startTime eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq
+            duration'PT1M'.&lt;br&gt;&lt;br&gt; &gt;**NOTE**: When a metrics
+            query comes in with multiple metrics, but with no aggregation types
+            defined, the service will pick the Primary aggregation type of the
+            first metrics to be used as the default aggregation type for all
+            the metrics.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+        <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

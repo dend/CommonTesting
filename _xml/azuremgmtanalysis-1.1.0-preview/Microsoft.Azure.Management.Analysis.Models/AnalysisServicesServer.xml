@@ -1,0 +1,244 @@
+<Type Name="AnalysisServicesServer" FullName="Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer">
+  <TypeSignature Language="C#" Value="public class AnalysisServicesServer : Microsoft.Azure.Management.Analysis.Models.Resource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AnalysisServicesServer extends Microsoft.Azure.Management.Analysis.Models.Resource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Analysis</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Analysis.Models.Resource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Represents an instance of an Analysis Services resource.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AnalysisServicesServer ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the AnalysisServicesServer class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AnalysisServicesServer (string location, Microsoft.Azure.Management.Analysis.Models.ResourceSku sku, string id = null, string name = null, string type = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, Microsoft.Azure.Management.Analysis.Models.ServerAdministrators asAdministrators = null, Microsoft.Azure.Management.Analysis.Models.BackupConfiguration backupConfiguration = null, string state = null, string provisioningState = null, string serverFullName = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string location, class Microsoft.Azure.Management.Analysis.Models.ResourceSku sku, string id, string name, string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Microsoft.Azure.Management.Analysis.Models.ServerAdministrators asAdministrators, class Microsoft.Azure.Management.Analysis.Models.BackupConfiguration backupConfiguration, string state, string provisioningState, string serverFullName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.#ctor(System.String,Microsoft.Azure.Management.Analysis.Models.ResourceSku,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.Analysis.Models.ServerAdministrators,Microsoft.Azure.Management.Analysis.Models.BackupConfiguration,System.String,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="sku" Type="Microsoft.Azure.Management.Analysis.Models.ResourceSku" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="type" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="asAdministrators" Type="Microsoft.Azure.Management.Analysis.Models.ServerAdministrators" />
+        <Parameter Name="backupConfiguration" Type="Microsoft.Azure.Management.Analysis.Models.BackupConfiguration" />
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="serverFullName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="location">Location of the Analysis Services
+            resource.</param>
+        <param name="sku">The SKU of the Analysis Services
+            resource.</param>
+        <param name="id">An identifier that represents the Analysis
+            Services resource.</param>
+        <param name="name">The name of the Analysis Services
+            resource.</param>
+        <param name="type">The type of the Analysis Services
+            resource.</param>
+        <param name="tags">Key-value pairs of additional resource
+            provisioning properties.</param>
+        <param name="asAdministrators">To be added.</param>
+        <param name="backupConfiguration">To be added.</param>
+        <param name="state">The current state of Analysis Services
+            resource. The state is to indicate more states outside of
+            resource provisioning. Possible values include: 'Deleting',
+            'Succeeded', 'Failed', 'Paused', 'Suspended', 'Provisioning',
+            'Updating', 'Suspending', 'Pausing', 'Resuming', 'Preparing',
+            'Scaling'</param>
+        <param name="provisioningState">The current deployment state of
+            Analysis Services resource. The provisioningState is to indicate
+            states for resource provisioning. Possible values include:
+            'Deleting', 'Succeeded', 'Failed', 'Paused', 'Suspended',
+            'Provisioning', 'Updating', 'Suspending', 'Pausing', 'Resuming',
+            'Preparing', 'Scaling'</param>
+        <param name="serverFullName">The full name of the Analysis
+            Services resource.</param>
+        <summary>
+            Initializes a new instance of the AnalysisServicesServer class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsAdministrators">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Analysis.Models.ServerAdministrators AsAdministrators { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Analysis.Models.ServerAdministrators AsAdministrators" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.AsAdministrators" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.asAdministrators")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Analysis.Models.ServerAdministrators</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary />
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackupConfiguration">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Analysis.Models.BackupConfiguration BackupConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Analysis.Models.BackupConfiguration BackupConfiguration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.BackupConfiguration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.backupConfiguration")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Analysis.Models.BackupConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary />
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public string ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.provisioningState")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current deployment state of Analysis Services resource.
+            The provisioningState is to indicate states for resource
+            provisioning. Possible values include: 'Deleting', 'Succeeded',
+            'Failed', 'Paused', 'Suspended', 'Provisioning', 'Updating',
+            'Suspending', 'Pausing', 'Resuming', 'Preparing', 'Scaling'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerFullName">
+      <MemberSignature Language="C#" Value="public string ServerFullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServerFullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.ServerFullName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.serverFullName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the full name of the Analysis Services resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public string State { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.state")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the current state of Analysis Services resource. The state is
+            to indicate more states outside of resource provisioning.
+            Possible values include: 'Deleting', 'Succeeded', 'Failed',
+            'Paused', 'Suspended', 'Provisioning', 'Updating', 'Suspending',
+            'Pausing', 'Resuming', 'Preparing', 'Scaling'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public override void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,41 @@
+<Type Name="JsonTransformationAttribute" FullName="Microsoft.Rest.Serialization.JsonTransformationAttribute">
+  <TypeSignature Language="C#" Value="public class JsonTransformationAttribute : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JsonTransformationAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.Serialization.JsonTransformationAttribute" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.AttributeUsage(System.AttributeTargets.Class, AllowMultiple=false)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Instructs the Microsoft.Rest.Serialization.TransformationJsonConverter to 
+            transform properties of the type based on dot convention.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JsonTransformationAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Serialization.JsonTransformationAttribute.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

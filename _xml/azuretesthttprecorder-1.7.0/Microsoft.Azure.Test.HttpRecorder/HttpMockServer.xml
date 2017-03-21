@@ -1,0 +1,396 @@
+<Type Name="HttpMockServer" FullName="Microsoft.Azure.Test.HttpRecorder.HttpMockServer">
+  <TypeSignature Language="C#" Value="public class HttpMockServer : System.Net.Http.DelegatingHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi HttpMockServer extends System.Net.Http.DelegatingHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Test.HttpRecorder.HttpMockServer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Test.HttpRecorder</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Net.Http.DelegatingHandler</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CallerIdentity">
+      <MemberSignature Language="C#" Value="public static string CallerIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CallerIdentity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.CallerIdentity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateInstance">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Test.HttpRecorder.HttpMockServer CreateInstance ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Test.HttpRecorder.HttpMockServer CreateInstance() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.CreateInstance" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Test.HttpRecorder.HttpMockServer</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileSystemUtilsObject">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Test.HttpRecorder.FileSystemUtils FileSystemUtilsObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Azure.Test.HttpRecorder.FileSystemUtils FileSystemUtilsObject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.FileSystemUtilsObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Test.HttpRecorder.FileSystemUtils</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="public static void Flush (string outputPath = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Flush(string outputPath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Flush(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="outputPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="outputPath">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAssetGuid">
+      <MemberSignature Language="C#" Value="public static Guid GetAssetGuid (string testName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Guid GetAssetGuid(string testName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.GetAssetGuid(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="testName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="testName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAssetName">
+      <MemberSignature Language="C#" Value="public static string GetAssetName (string testName, string prefix);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAssetName(string testName, string prefix) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.GetAssetName(System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="testName" Type="System.String" />
+        <Parameter Name="prefix" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="testName">To be added.</param>
+        <param name="prefix">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCurrentMode">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode GetCurrentMode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode GetCurrentMode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.GetCurrentMode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVariable">
+      <MemberSignature Language="C#" Value="public static string GetVariable (string variableName, string variableValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetVariable(string variableName, string variableValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.GetVariable(System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="variableName" Type="System.String" />
+        <Parameter Name="variableValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="variableName">To be added.</param>
+        <param name="variableValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public static void Initialize (string callerIdentity, string testIdentity);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Initialize(string callerIdentity, string testIdentity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Initialize(System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callerIdentity" Type="System.String" />
+        <Parameter Name="testIdentity" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="callerIdentity">To be added.</param>
+        <param name="testIdentity">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public static void Initialize (Type callerIdentity, string testIdentity);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Initialize(class System.Type callerIdentity, string testIdentity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Initialize(System.Type,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callerIdentity" Type="System.Type" />
+        <Parameter Name="testIdentity" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="callerIdentity">To be added.</param>
+        <param name="testIdentity">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public static void Initialize (string callerIdentity, string testIdentity, Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode mode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Initialize(string callerIdentity, string testIdentity, valuetype Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode mode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Initialize(System.String,System.String,Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callerIdentity" Type="System.String" />
+        <Parameter Name="testIdentity" Type="System.String" />
+        <Parameter Name="mode" Type="Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode" />
+      </Parameters>
+      <Docs>
+        <param name="callerIdentity">To be added.</param>
+        <param name="testIdentity">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public static void Initialize (Type callerIdentity, string testIdentity, Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode mode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Initialize(class System.Type callerIdentity, string testIdentity, valuetype Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode mode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Initialize(System.Type,System.String,Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callerIdentity" Type="System.Type" />
+        <Parameter Name="testIdentity" Type="System.String" />
+        <Parameter Name="mode" Type="Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode" />
+      </Parameters>
+      <Docs>
+        <param name="callerIdentity">To be added.</param>
+        <param name="testIdentity">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InjectRecordEntry">
+      <MemberSignature Language="C#" Value="public void InjectRecordEntry (Microsoft.Azure.Test.HttpRecorder.RecordEntry record);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InjectRecordEntry(class Microsoft.Azure.Test.HttpRecorder.RecordEntry record) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.InjectRecordEntry(Microsoft.Azure.Test.HttpRecorder.RecordEntry)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="record" Type="Microsoft.Azure.Test.HttpRecorder.RecordEntry" />
+      </Parameters>
+      <Docs>
+        <param name="record">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Matcher">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Test.HttpRecorder.IRecordMatcher Matcher { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.Azure.Test.HttpRecorder.IRecordMatcher Matcher" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Matcher" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Test.HttpRecorder.IRecordMatcher</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode Mode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode Mode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Mode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Test.HttpRecorder.HttpRecorderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecordsDirectory">
+      <MemberSignature Language="C#" Value="public static string RecordsDirectory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property string RecordsDirectory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.RecordsDirectory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAsync">
+      <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; SendAsync (System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; SendAsync(class System.Net.Http.HttpRequestMessage request, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TestIdentity">
+      <MemberSignature Language="C#" Value="public static string TestIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property string TestIdentity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.TestIdentity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Variables">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,string&gt; Variables { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.Dictionary`2&lt;string, string&gt; Variables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Test.HttpRecorder.HttpMockServer.Variables" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,85 @@
+<Type Name="CardinalityTypes" FullName="Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes">
+  <TypeSignature Language="C#" Value="public enum CardinalityTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CardinalityTypes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CustomerInsights</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Defines values for CardinalityTypes.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ManyToMany">
+      <MemberSignature Language="C#" Value="ManyToMany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes ManyToMany = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes.ManyToMany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="ManyToMany")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OneToMany">
+      <MemberSignature Language="C#" Value="OneToMany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes OneToMany = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes.OneToMany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="OneToMany")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OneToOne">
+      <MemberSignature Language="C#" Value="OneToOne" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes OneToOne = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes.OneToOne" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="OneToOne")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.CardinalityTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

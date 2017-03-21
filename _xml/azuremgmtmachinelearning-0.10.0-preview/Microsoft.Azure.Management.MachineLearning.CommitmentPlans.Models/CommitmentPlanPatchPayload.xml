@@ -1,0 +1,107 @@
+<Type Name="CommitmentPlanPatchPayload" FullName="Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanPatchPayload">
+  <TypeSignature Language="C#" Value="public class CommitmentPlanPatchPayload" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommitmentPlanPatchPayload extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanPatchPayload" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The properties of a commitment plan which may be updated via PATCH.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommitmentPlanPatchPayload ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanPatchPayload.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the CommitmentPlanPatchPayload class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommitmentPlanPatchPayload (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.ResourceSku sku = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.ResourceSku sku) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanPatchPayload.#ctor(System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.ResourceSku)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="sku" Type="Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.ResourceSku" />
+      </Parameters>
+      <Docs>
+        <param name="tags">User-defined tags for the commitment
+            plan.</param>
+        <param name="sku">The commitment plan SKU.</param>
+        <summary>
+            Initializes a new instance of the CommitmentPlanPatchPayload class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sku">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.ResourceSku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.ResourceSku Sku" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanPatchPayload.Sku" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="sku")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.ResourceSku</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the commitment plan SKU.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Tags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Tags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanPatchPayload.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tags")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets user-defined tags for the commitment plan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,131 @@
+<Type Name="JobCollectionProperties" FullName="Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties">
+  <TypeSignature Language="C#" Value="public class JobCollectionProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobCollectionProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobCollectionProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the JobCollectionProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobCollectionProperties (Microsoft.Azure.Management.Scheduler.Models.Sku sku = null, Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobCollectionState&gt; state = null, Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota quota = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.Scheduler.Models.Sku sku, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobCollectionState&gt; state, class Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota quota) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.#ctor(Microsoft.Azure.Management.Scheduler.Models.Sku,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobCollectionState},Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="sku" Type="Microsoft.Azure.Management.Scheduler.Models.Sku" />
+        <Parameter Name="state" Type="System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobCollectionState&gt;" />
+        <Parameter Name="quota" Type="Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota" />
+      </Parameters>
+      <Docs>
+        <param name="sku">To be added.</param>
+        <param name="state">To be added.</param>
+        <param name="quota">To be added.</param>
+        <summary>
+            Initializes a new instance of the JobCollectionProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quota">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota Quota { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota Quota" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.Quota" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="quota")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the job collection quota.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sku">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.Sku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.Sku Sku" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.Sku" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="sku")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.Sku</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the SKU.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobCollectionState&gt; State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobCollectionState&gt; State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="state")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobCollectionState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the state. Possible values include: 'Enabled',
+            'Disabled', 'Suspended', 'Deleted'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

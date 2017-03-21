@@ -1,0 +1,913 @@
+<Type Name="ApplicationTokenProvider" FullName="Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider">
+  <TypeSignature Language="C#" Value="public class ApplicationTokenProvider : Microsoft.Rest.ITokenProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationTokenProvider extends System.Object implements class Microsoft.Rest.ITokenProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime.Azure.Authentication</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Rest.ITokenProvider</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Provides tokens for Azure Active Directory applications. 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationTokenProvider (Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" />
+        <Parameter Name="tokenAudience" Type="System.String" />
+        <Parameter Name="certificate" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate" />
+        <Parameter Name="authenticationResult" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult" />
+      </Parameters>
+      <Docs>
+        <param name="context">The authentication context to use when retrieving tokens.</param>
+        <param name="tokenAudience">The token audience to use when retrieving tokens.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="authenticationResult">The token details provided when authenticating with the client credentials.</param>
+        <summary>
+            Create an application token provider that can retrieve tokens for the given application from the given context, using the given audience 
+            and certificate.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationTokenProvider (Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" />
+        <Parameter Name="tokenAudience" Type="System.String" />
+        <Parameter Name="credential" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential" />
+        <Parameter Name="authenticationResult" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult" />
+      </Parameters>
+      <Docs>
+        <param name="context">The authentication context to use when retrieving tokens.</param>
+        <param name="tokenAudience">The token audience to use when retrieving tokens.</param>
+        <param name="credential">The client credential for this application.</param>
+        <param name="authenticationResult">The token details provided when authenticating with the client credentials.</param>
+        <summary>
+            Create an application token provider that can retrieve tokens for the given application from the given context, using the given audience 
+            and credential.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationTokenProvider (Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, string clientId, Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationStore, Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, string clientId, class Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationStore, class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" />
+        <Parameter Name="tokenAudience" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="authenticationStore" Type="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" />
+        <Parameter Name="authenticationResult" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult" />
+      </Parameters>
+      <Docs>
+        <param name="context">The authentication context to use when retrieving tokens.</param>
+        <param name="tokenAudience">The token audience to use when retrieving tokens</param>
+        <param name="clientId">The client Id for this active directory application</param>
+        <param name="authenticationStore">The source of authentication information for this application.</param>
+        <param name="authenticationResult">The authenticationResult of initial authentication with the application credentials.</param>
+        <summary>
+            Create an application token provider that can retrieve tokens for the given application from the given context, using the given audience 
+            and credential store.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationTokenProvider (Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, string clientId, Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationStore, Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult, DateTimeOffset tokenExpiration);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext context, string tokenAudience, string clientId, class Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationStore, class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult authenticationResult, valuetype System.DateTimeOffset tokenExpiration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult,System.DateTimeOffset)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="context" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" />
+        <Parameter Name="tokenAudience" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="authenticationStore" Type="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" />
+        <Parameter Name="authenticationResult" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult" />
+        <Parameter Name="tokenExpiration" Type="System.DateTimeOffset" />
+      </Parameters>
+      <Docs>
+        <param name="context">The authentication context to use when retrieving tokens.</param>
+        <param name="tokenAudience">The token audience to use when retrieving tokens</param>
+        <param name="clientId">The client Id for this active directory application</param>
+        <param name="authenticationStore">The source of authentication information for this application.</param>
+        <param name="authenticationResult">The authenticationResult of initial authentication with the application credentials.</param>
+        <param name="tokenExpiration">The date of expiration for the current access token.</param>
+        <summary>
+            Create an application token provider that can retrieve tokens for the given application from the given context, using the given audience 
+            and credential store.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessTokenExpired">
+      <MemberSignature Language="C#" Value="protected virtual bool AccessTokenExpired { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AccessTokenExpired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.AccessTokenExpired" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAuthenticationHeaderAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Net.Http.Headers.AuthenticationHeaderValue&gt; GetAuthenticationHeaderAsync (System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.Headers.AuthenticationHeaderValue&gt; GetAuthenticationHeaderAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.GetAuthenticationHeaderAsync(System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;GetAuthenticationHeaderAsync&gt;d__32))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.Headers.AuthenticationHeaderValue&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>
+            Gets an access token from the token cache or from AD authentication endpoint. 
+            Attempts to refresh the access token if it has expired.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__20))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="credential" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="credential">The client credential (client id and secret) for this active directory application.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a client credential. Uses the default token cache and the default 
+            service settings for azure resource manager (authority, token audience) during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__22))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="credential" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="credential">The client credential (client id and secret) for this active directory application.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a client credential. Uses the default service settings 
+            for azure resource manager (authority, token audience) during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__24))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="credential" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="credential">The client credential (client id and secret) for this active directory application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a client credential. Uses the default token cache for authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, class Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__28))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="authenticationProvider" Type="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="authenticationProvider">A source for the secure secret for this application.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application. Uses the default token cache and default 
+            service settings (authority and token audience) for authenticating with azure resource manager.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, string secret);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, string secret) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__12))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="secret" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="secret">The secret for this active directory application.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using client credentials. Uses the default token cache and the default 
+            service settings (authority, token audience) for log in to azure resource manager during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__27))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="certificate" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a certificate credential.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential credential, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__26))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="credential" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="credential">The client credential (client id and secret) for this active directory application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a client credential.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, class Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__29))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="authenticationProvider" Type="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="authenticationProvider">A source for the secure secret for this application.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application. Uses the default service settings 
+            (authority and token audience) for authenticating with azure resource manager.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, class Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__30))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="authenticationProvider" Type="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="authenticationProvider">A source for the secure secret for this application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application. Uses the default shared token cache.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, byte[] certificate, string password);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, unsigned int8[] certificate, string password) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="certificate" Type="System.Byte[]" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="password">The certificate password.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using certificate credentials. Uses the default token cache and the default 
+            service settings (authority, token audience) for log in to azure resource manager during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, string secret, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, string secret, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__14))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="secret" Type="System.String" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="secret">The secret for this active directory application.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using client credentials. Uses the default service settings 
+            (authority, token audience) for log in to azure resource manager during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, string secret, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, string secret, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__16))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="secret" Type="System.String" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="secret">The secret for this active directory application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using client credentials. 
+            Uses the default token cache during authentication. 
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/"> Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, class Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider authenticationProvider, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__31))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="authenticationProvider" Type="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="authenticationProvider">A source for the secure secret for this application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, byte[] certificate, string password, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, unsigned int8[] certificate, string password, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__15))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="certificate" Type="System.Byte[]" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="password">The certificate password.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using certificate credentials. Uses the default service settings 
+            (authority, token audience) for log in to azure resource manager during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, byte[] certificate, string password, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, unsigned int8[] certificate, string password, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__17))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="certificate" Type="System.Byte[]" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="password">The certificate password.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using certificate credentials. 
+            Uses the default token cache during authentication. 
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/"> Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, string secret, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, string secret, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__18))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="secret" Type="System.String" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="secret">The secret for this active directory application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using client credentials.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync (string domain, string clientId, byte[] certificate, string password, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentAsync(string domain, string clientId, unsigned int8[] certificate, string password, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentAsync&gt;d__19))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="certificate" Type="System.Byte[]" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="clientId">The active directory clientId for the application.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="password">The certificate password.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using certificate credential.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentWithCertificateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentWithCertificateAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentWithCertificateAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentWithCertificateAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentWithCertificateAsync&gt;d__21))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="certificate" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a certificate credential. Uses the default token cache and the default 
+            service settings for azure resource manager (authority, token audience) during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentWithCertificateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentWithCertificateAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentWithCertificateAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache cache) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentWithCertificateAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentWithCertificateAsync&gt;d__23))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="certificate" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate" />
+        <Parameter Name="cache" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="cache">The token cache to target during authentication.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a certificate credential. Uses the default service settings 
+            for azure resource manager (authority, token audience) during authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginSilentWithCertificateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentWithCertificateAsync (string domain, Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.ServiceClientCredentials&gt; LoginSilentWithCertificateAsync(string domain, class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate certificate, class Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentWithCertificateAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider/&lt;LoginSilentWithCertificateAsync&gt;d__25))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.ServiceClientCredentials&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="certificate" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate" />
+        <Parameter Name="settings" Type="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" />
+      </Parameters>
+      <Docs>
+        <param name="domain">The active directory domain or tenantId to authenticate with.</param>
+        <param name="certificate">The certificate associated with Active Directory application.</param>
+        <param name="settings">The active directory service side settings, including authority and token audience.</param>
+        <summary>
+            Creates ServiceClientCredentials for authenticating requests as an active directory application using a certificate credential. Uses the default token cache for authentication.
+            See <see href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-devquickstarts-dotnet/">Active Directory Quickstart for .Net</see> 
+            for detailed instructions on creating an Azure Active Directory application.
+            </summary>
+        <returns>A ServiceClientCredentials object that can authenticate http requests as the given application.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

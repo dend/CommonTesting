@@ -1,0 +1,81 @@
+<Type Name="ServerAdministrators" FullName="Microsoft.Azure.Management.Analysis.Models.ServerAdministrators">
+  <TypeSignature Language="C#" Value="public class ServerAdministrators" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServerAdministrators extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Analysis</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An array of administrator user identities
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerAdministrators ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ServerAdministrators class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerAdministrators (System.Collections.Generic.IList&lt;string&gt; members = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;string&gt; members) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators.#ctor(System.Collections.Generic.IList{System.String})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="members" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="members">An array of administrator user
+            identities.</param>
+        <summary>
+            Initializes a new instance of the ServerAdministrators class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Members">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Members { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Members" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators.Members" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="members")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets an array of administrator user identities.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

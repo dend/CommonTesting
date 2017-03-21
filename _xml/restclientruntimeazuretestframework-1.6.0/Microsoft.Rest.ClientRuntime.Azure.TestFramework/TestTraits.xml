@@ -1,0 +1,83 @@
+<Type Name="TestTraits" FullName="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits">
+  <TypeSignature Language="C#" Value="public static class TestTraits" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TestTraits extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime.Azure.TestFramework</AssemblyName>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcceptanceType">
+      <MemberSignature Language="C#" Value="public const string AcceptanceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AcceptanceType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.AcceptanceType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckIn">
+      <MemberSignature Language="C#" Value="public const string CheckIn;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CheckIn" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.CheckIn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LiveBVT">
+      <MemberSignature Language="C#" Value="public const string LiveBVT;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LiveBVT" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.LiveBVT" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MockedBVT">
+      <MemberSignature Language="C#" Value="public const string MockedBVT;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string MockedBVT" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestTraits.MockedBVT" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

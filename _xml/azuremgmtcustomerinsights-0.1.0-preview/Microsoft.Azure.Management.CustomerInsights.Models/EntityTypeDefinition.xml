@@ -1,0 +1,346 @@
+<Type Name="EntityTypeDefinition" FullName="Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition">
+  <TypeSignature Language="C#" Value="public class EntityTypeDefinition : Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EntityTypeDefinition extends Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CustomerInsights</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.CustomerInsights.Models.MetadataDefinitionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes an entity.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EntityTypeDefinition ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the EntityTypeDefinition class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EntityTypeDefinition (System.Collections.Generic.IDictionary&lt;string,System.Collections.Generic.IList&lt;string&gt;&gt; attributes = null, System.Collections.Generic.IDictionary&lt;string,string&gt; description = null, System.Collections.Generic.IDictionary&lt;string,string&gt; displayName = null, System.Collections.Generic.IDictionary&lt;string,System.Collections.Generic.IDictionary&lt;string,string&gt;&gt; localizedAttributes = null, string smallImage = null, string mediumImage = null, string largeImage = null, string apiEntitySetName = null, Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes&gt; entityType = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition&gt; fields = null, Nullable&lt;int&gt; instancesCount = null, Nullable&lt;DateTime&gt; lastChangedUtc = null, string provisioningState = null, string schemaItemTypeLink = null, string tenantId = null, string timestampFieldName = null, string typeName = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, class System.Collections.Generic.IList`1&lt;string&gt;&gt; attributes, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; description, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; displayName, class System.Collections.Generic.IDictionary`2&lt;string, class System.Collections.Generic.IDictionary`2&lt;string, string&gt;&gt; localizedAttributes, string smallImage, string mediumImage, string largeImage, string apiEntitySetName, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes&gt; entityType, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition&gt; fields, valuetype System.Nullable`1&lt;int32&gt; instancesCount, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; lastChangedUtc, string provisioningState, string schemaItemTypeLink, string tenantId, string timestampFieldName, string typeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.#ctor(System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IList{System.String}},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Collections.Generic.IDictionary{System.String,System.String}},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition},System.Nullable{System.Int32},System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="attributes" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Collections.Generic.IList&lt;System.String&gt;&gt;" />
+        <Parameter Name="description" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="displayName" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="localizedAttributes" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;&gt;" />
+        <Parameter Name="smallImage" Type="System.String" />
+        <Parameter Name="mediumImage" Type="System.String" />
+        <Parameter Name="largeImage" Type="System.String" />
+        <Parameter Name="apiEntitySetName" Type="System.String" />
+        <Parameter Name="entityType" Type="System.Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes&gt;" />
+        <Parameter Name="fields" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition&gt;" />
+        <Parameter Name="instancesCount" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="lastChangedUtc" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="schemaItemTypeLink" Type="System.String" />
+        <Parameter Name="tenantId" Type="System.String" />
+        <Parameter Name="timestampFieldName" Type="System.String" />
+        <Parameter Name="typeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="attributes">The attributes for the Type.</param>
+        <param name="description">Localized descriptions for the
+            property.</param>
+        <param name="displayName">Localized display names for the
+            property.</param>
+        <param name="localizedAttributes">Any custom localized attributes
+            for the Type.</param>
+        <param name="smallImage">Small Image associated with the Property
+            or EntityType.</param>
+        <param name="mediumImage">Medium Image associated with the Property
+            or EntityType.</param>
+        <param name="largeImage">Large Image associated with the Property
+            or EntityType.</param>
+        <param name="apiEntitySetName">The api entity set name. This
+            becomes the odata entity set name for the entity Type being refered
+            in this object.</param>
+        <param name="entityType">Type of entity. Possible values include:
+            'None', 'Profile', 'Interaction', 'Relationship'</param>
+        <param name="fields">The properties of the Profile.</param>
+        <param name="instancesCount">The instance count.</param>
+        <param name="lastChangedUtc">The last changed time for the type
+            definition.</param>
+        <param name="provisioningState">The provisioning state of the
+            Type.</param>
+        <param name="schemaItemTypeLink">The schema org link. This helps
+            ACI identify and suggest semantic models.</param>
+        <param name="tenantId">The hub name.</param>
+        <param name="timestampFieldName">The timestamp property name.
+            Represents the time when the interaction or profile update
+            happened.</param>
+        <param name="typeName">The name of the entity.</param>
+        <summary>
+            Initializes a new instance of the EntityTypeDefinition class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiEntitySetName">
+      <MemberSignature Language="C#" Value="public string ApiEntitySetName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiEntitySetName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.ApiEntitySetName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="apiEntitySetName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the api entity set name. This becomes the odata entity
+            set name for the entity Type being refered in this object.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes&gt; EntityType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes&gt; EntityType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.EntityType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="entityType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.EntityTypes&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets type of entity. Possible values include: 'None',
+            'Profile', 'Interaction', 'Relationship'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fields">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition&gt; Fields { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition&gt; Fields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.Fields" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="fields")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.PropertyDefinition&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the properties of the Profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstancesCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; InstancesCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; InstancesCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.InstancesCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="instancesCount")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the instance count.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastChangedUtc">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastChangedUtc { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastChangedUtc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.LastChangedUtc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="lastChangedUtc")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the last changed time for the type definition.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public string ProvisioningState { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="provisioningState")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the provisioning state of the Type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchemaItemTypeLink">
+      <MemberSignature Language="C#" Value="public string SchemaItemTypeLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SchemaItemTypeLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.SchemaItemTypeLink" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="schemaItemTypeLink")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the schema org link. This helps ACI identify and
+            suggest semantic models.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TenantId">
+      <MemberSignature Language="C#" Value="public string TenantId { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TenantId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.TenantId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tenantId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the hub name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimestampFieldName">
+      <MemberSignature Language="C#" Value="public string TimestampFieldName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TimestampFieldName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.TimestampFieldName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="timestampFieldName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the timestamp property name. Represents the time when
+            the interaction or profile update happened.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TypeName">
+      <MemberSignature Language="C#" Value="public string TypeName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TypeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.EntityTypeDefinition.TypeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="typeName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the entity.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

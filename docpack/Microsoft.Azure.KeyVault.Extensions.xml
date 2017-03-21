@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.KeyVault.Extensions</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.KeyVault.AggregateKeyResolver">
+            <summary>
+            The collection of key resolvers that would iterate on a key id to resolve to <see cref="T:Microsoft.Azure.KeyVault.Core.IKey"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.AggregateKeyResolver.Add(Microsoft.Azure.KeyVault.Core.IKeyResolver)">
+            <summary>
+            Adds a key resolver to the collection of key resolvers.
+            </summary>
+            <param name="resolver">The key resolver to add to the collection</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.AggregateKeyResolver.ResolveKeyAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Resolve a key indicated by its ID to the corresponding <see cref="T:Microsoft.Azure.KeyVault.Core.IKey"/>
+            </summary>
+            <param name="kid"> the key identifier </param>
+            <param name="token"> the cancellation token </param>
+            <returns> task result of the <see cref="T:Microsoft.Azure.KeyVault.Core.IKey"/></returns>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.CachingKeyResolver">
+            <summary>
+            A simple caching Key Resolver using a LRU cache
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.CachingKeyResolver.#ctor(System.Int32,Microsoft.Azure.KeyVault.Core.IKeyResolver)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="capacity">The maximim capacity for the cache</param>
+            <param name="inner">The IKeyResolver to wrap</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.CachingKeyResolver.ResolveKeyAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Resolve a key indicated by its ID to the corresponding <see cref="T:Microsoft.Azure.KeyVault.Core.IKey"/>
+            </summary>
+            <param name="kid"> the key identifier </param>
+            <param name="token"> the cancellation token </param>
+            <returns> task result of the <see cref="T:Microsoft.Azure.KeyVault.Core.IKey"/></returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.CachingKeyResolver.Dispose">
+            <summary>
+            Disposes the object
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.CachingKeyResolver.CacheKey">
+            <summary>
+            This class wraps the key that is cached using <see cref="T:Microsoft.Azure.KeyVault.CachingKeyResolver"/>
+            The main purpose of <see cref="T:Microsoft.Azure.KeyVault.CachingKeyResolver.CacheKey"/> is to evict disposing cached key from the cache.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.CachingKeyResolver.CacheKey.Dispose(System.Boolean)">
+            <summary>
+            Disposes the cached key only when cache is disposing
+            </summary>
+            <param name="force"> whether to force dispose </param>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.KeyVaultKey">
+            <summary>
+            Key Vault key that performs cryptography operations at REST
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.KeyVaultKeyResolver">
+            <summary>
+            Azure Key Vault KeyResolver. This class resolves Key Vault Key Identifiers and
+            Secret Identifiers to implementations of IKey. Secret Identifiers can only
+            be resolved if the Secret is a byte array with a length matching one of the AES
+            key lengths (128, 192, 256) and the content-type of the secret is application/octet-stream.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.KeyVaultKeyResolver.#ctor(Microsoft.Azure.KeyVault.KeyVaultClient.AuthenticationCallback)">
+            <summary>
+            Creates a new Key Vault KeyResolver that uses a KeyVaultClient constructed
+            with the provided authentication callback.
+            </summary>
+            <param name="authenticationCallback">Key Vault authentication callback</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.KeyVaultKeyResolver.#ctor(Microsoft.Azure.KeyVault.KeyVaultClient)">
+            <summary>
+            Create a new Key Vault KeyResolver that uses the specified KeyVaultClient
+            </summary>
+            <param name="client">Key Vault client</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.KeyVaultKeyResolver.#ctor(System.String,Microsoft.Azure.KeyVault.KeyVaultClient.AuthenticationCallback)">
+            <summary>
+            Creates a new Key Vault KeyResolver that uses a KeyVaultClient constructed
+            with the provided authentication callback and only resolves keys for the 
+            specified key vault
+            </summary>
+            <param name="vaultName">The URL for the Key Vault, e.g. https://myvault.vault.azure.net/ </param>
+            <param name="authenticationCallback">Key Vault authentication callback</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.KeyVaultKeyResolver.#ctor(System.String,Microsoft.Azure.KeyVault.KeyVaultClient)">
+            <summary>
+            Creates a new Key Vault KeyResolver that uses the specified KeyVaultClient
+            and only resolves keys for the specified key vault
+            </summary>
+            <param name="vaultName">The URL for the Key Vault, e.g. https://myvault.vault.azure.net/ </param>
+            <param name="client">Key Vault client</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.KeyVaultKeyResolver.ResolveKeyAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Provides an IKey implementation for the specified key or secret identifier.
+            </summary>
+            <param name="kid">The key or secret identifier to resolve</param>
+            <param name="token">Cancellation token</param>
+            <returns>The resolved IKey implementation or null</returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.KeyVaultKeyResolver.FromBase64UrlString(System.String)">
+            <summary>
+            Converts a Base64 or Base64Url encoded string to a byte array
+            </summary>
+            <param name="input">The Base64Url encoded string</param>
+            <returns>The byte array represented by the enconded string</returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.KeyVaultKeyResolver.Pad(System.String)">
+            <summary>
+            Adds padding to the input
+            </summary>
+            <param name="input"> the input string </param>
+            <returns> the padded string </returns>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.LRUCache`2">
+            <summary>
+            A simple Least Recently Used Cache
+            </summary>
+            <typeparam name="K">The type of the key</typeparam>
+            <typeparam name="V">The type of the value</typeparam>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.LRUCache`2.#ctor(System.Int32)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="capacity">The maximum capacity of the cache</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.LRUCache`2.Add(`0,`1)">
+            <summary>
+            Adds a key and value to the cache.
+            </summary>
+            <param name="key">The key</param>
+            <param name="value">The value</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.LRUCache`2.Get(`0)">
+            <summary>
+            Gets a value from the cache.
+            </summary>
+            <param name="key">The key</param>
+            <returns>The value for the key or null</returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.LRUCache`2.Remove(`0)">
+            <summary>
+            Removes a key and its value from the cache
+            </summary>
+            <param name="key">The key to remove</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.LRUCache`2.Reset">
+            <summary>
+            Resets the content of the cache.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.LRUCache`2.GetEnumerator">
+            <summary>
+            Get enumerator on the cached values
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

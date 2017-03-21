@@ -1,0 +1,142 @@
+<Type Name="SafeJsonConvert" FullName="Microsoft.Rest.Serialization.SafeJsonConvert">
+  <TypeSignature Language="C#" Value="public static class SafeJsonConvert" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SafeJsonConvert extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.Serialization.SafeJsonConvert" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Provides an alternative to JSON.NET's JsonConvert that does not inherit any settings from
+            JsonConvert.DefaultSettings.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeserializeObject&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T DeserializeObject&lt;T&gt; (string json, Newtonsoft.Json.JsonConverter[] converters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DeserializeObject&lt;T&gt;(string json, class Newtonsoft.Json.JsonConverter[] converters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Serialization.SafeJsonConvert.DeserializeObject``1(System.String,Newtonsoft.Json.JsonConverter[])" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="json" Type="System.String" />
+        <Parameter Name="converters" Type="Newtonsoft.Json.JsonConverter[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type to which to deserialize.</typeparam>
+        <param name="json">The JSON to deserialize.</param>
+        <param name="converters">A collection of JsonConverters to control deserialization.</param>
+        <summary>
+            Deserializes the given JSON into an instance of type T using the given JsonConverters.
+            </summary>
+        <returns>An instance of type T deserialized from the given JSON.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeserializeObject&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T DeserializeObject&lt;T&gt; (string json, Newtonsoft.Json.JsonSerializerSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DeserializeObject&lt;T&gt;(string json, class Newtonsoft.Json.JsonSerializerSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Serialization.SafeJsonConvert.DeserializeObject``1(System.String,Newtonsoft.Json.JsonSerializerSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="json" Type="System.String" />
+        <Parameter Name="settings" Type="Newtonsoft.Json.JsonSerializerSettings" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type to which to deserialize.</typeparam>
+        <param name="json">The JSON to deserialize.</param>
+        <param name="settings">JsonSerializerSettings to control deserialization.</param>
+        <summary>
+            Deserializes the given JSON into an instance of type T.
+            </summary>
+        <returns>An instance of type T deserialized from the given JSON.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializeObject">
+      <MemberSignature Language="C#" Value="public static string SerializeObject (object obj, Newtonsoft.Json.JsonConverter[] converters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SerializeObject(object obj, class Newtonsoft.Json.JsonConverter[] converters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Serialization.SafeJsonConvert.SerializeObject(System.Object,Newtonsoft.Json.JsonConverter[])" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="converters" Type="Newtonsoft.Json.JsonConverter[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to serialize.</param>
+        <param name="converters">A collection of JsonConverters to control serialization.</param>
+        <summary>
+            Serializes the given object into JSON using the given JsonConverters.
+            </summary>
+        <returns>A string containing the JSON representation of the given object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializeObject">
+      <MemberSignature Language="C#" Value="public static string SerializeObject (object obj, Newtonsoft.Json.JsonSerializerSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SerializeObject(object obj, class Newtonsoft.Json.JsonSerializerSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Serialization.SafeJsonConvert.SerializeObject(System.Object,Newtonsoft.Json.JsonSerializerSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="settings" Type="Newtonsoft.Json.JsonSerializerSettings" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to serialize.</param>
+        <param name="settings">JsonSerializerSettings to control serialization.</param>
+        <summary>
+            Serializes the given object into JSON.
+            </summary>
+        <returns>A string containing the JSON representation of the given object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

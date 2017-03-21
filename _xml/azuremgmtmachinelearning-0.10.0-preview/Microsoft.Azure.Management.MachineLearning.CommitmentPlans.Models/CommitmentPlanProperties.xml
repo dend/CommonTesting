@@ -1,0 +1,333 @@
+<Type Name="CommitmentPlanProperties" FullName="Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties">
+  <TypeSignature Language="C#" Value="public class CommitmentPlanProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommitmentPlanProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Properties of an Azure ML commitment plan.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommitmentPlanProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the CommitmentPlanProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommitmentPlanProperties (Nullable&lt;bool&gt; chargeForOverage = null, Nullable&lt;bool&gt; chargeForPlan = null, Nullable&lt;DateTime&gt; creationDate = null, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.PlanQuantity&gt; includedQuantities = null, Nullable&lt;int&gt; maxAssociationLimit = null, Nullable&lt;int&gt; maxCapacityLimit = null, Nullable&lt;int&gt; minCapacityLimit = null, string planMeter = null, Nullable&lt;int&gt; refillFrequencyInDays = null, Nullable&lt;bool&gt; suspendPlanOnOverage = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;bool&gt; chargeForOverage, valuetype System.Nullable`1&lt;bool&gt; chargeForPlan, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; creationDate, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.PlanQuantity&gt; includedQuantities, valuetype System.Nullable`1&lt;int32&gt; maxAssociationLimit, valuetype System.Nullable`1&lt;int32&gt; maxCapacityLimit, valuetype System.Nullable`1&lt;int32&gt; minCapacityLimit, string planMeter, valuetype System.Nullable`1&lt;int32&gt; refillFrequencyInDays, valuetype System.Nullable`1&lt;bool&gt; suspendPlanOnOverage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.#ctor(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.DateTime},System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.PlanQuantity},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.Nullable{System.Boolean})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="chargeForOverage" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="chargeForPlan" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="creationDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="includedQuantities" Type="System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.PlanQuantity&gt;" />
+        <Parameter Name="maxAssociationLimit" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="maxCapacityLimit" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="minCapacityLimit" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="planMeter" Type="System.String" />
+        <Parameter Name="refillFrequencyInDays" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="suspendPlanOnOverage" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="chargeForOverage">Indicates whether usage beyond the
+            commitment plan's included quantities will be charged.</param>
+        <param name="chargeForPlan">Indicates whether the commitment plan
+            will incur a charge.</param>
+        <param name="creationDate">The date at which this commitment plan
+            was created, in ISO 8601 format.</param>
+        <param name="includedQuantities">The included resource quantities
+            this plan gives you.</param>
+        <param name="maxAssociationLimit">The maximum number of commitment
+            associations that can be children of this commitment plan.</param>
+        <param name="maxCapacityLimit">The maximum scale-out capacity for
+            this commitment plan.</param>
+        <param name="minCapacityLimit">The minimum scale-out capacity for
+            this commitment plan.</param>
+        <param name="planMeter">The Azure meter which will be used to
+            charge for this commitment plan.</param>
+        <param name="refillFrequencyInDays">The frequency at which this
+            commitment plan's included quantities are refilled.</param>
+        <param name="suspendPlanOnOverage">Indicates whether this
+            commitment plan will be moved into a suspended state if usage
+            beyond the commitment plan's included quantities is
+            incurred.</param>
+        <summary>
+            Initializes a new instance of the CommitmentPlanProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChargeForOverage">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ChargeForOverage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ChargeForOverage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.ChargeForOverage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="chargeForOverage")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets indicates whether usage beyond the commitment plan's included
+            quantities will be charged.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChargeForPlan">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ChargeForPlan { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ChargeForPlan" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.ChargeForPlan" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="chargeForPlan")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets indicates whether the commitment plan will incur a charge.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreationDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.CreationDate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="creationDate")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the date at which this commitment plan was created, in ISO
+            8601 format.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludedQuantities">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.PlanQuantity&gt; IncludedQuantities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.PlanQuantity&gt; IncludedQuantities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.IncludedQuantities" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="includedQuantities")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.PlanQuantity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the included resource quantities this plan gives you.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxAssociationLimit">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxAssociationLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxAssociationLimit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.MaxAssociationLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="maxAssociationLimit")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the maximum number of commitment associations that can be
+            children of this commitment plan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxCapacityLimit">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxCapacityLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxCapacityLimit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.MaxCapacityLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="maxCapacityLimit")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the maximum scale-out capacity for this commitment plan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinCapacityLimit">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MinCapacityLimit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MinCapacityLimit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.MinCapacityLimit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="minCapacityLimit")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the minimum scale-out capacity for this commitment plan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlanMeter">
+      <MemberSignature Language="C#" Value="public string PlanMeter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PlanMeter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.PlanMeter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="planMeter")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Azure meter which will be used to charge for this
+            commitment plan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefillFrequencyInDays">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; RefillFrequencyInDays { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; RefillFrequencyInDays" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.RefillFrequencyInDays" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="refillFrequencyInDays")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the frequency at which this commitment plan's included
+            quantities are refilled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuspendPlanOnOverage">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; SuspendPlanOnOverage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; SuspendPlanOnOverage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentPlanProperties.SuspendPlanOnOverage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="suspendPlanOnOverage")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets indicates whether this commitment plan will be moved into a
+            suspended state if usage beyond the commitment plan's included
+            quantities is incurred.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

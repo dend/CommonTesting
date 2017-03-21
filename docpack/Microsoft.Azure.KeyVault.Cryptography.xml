@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.KeyVault.Cryptography</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithm">
+            <summary>
+            Abstract Algorithm.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.KeyVault.Cryptography.Algorithm.Name">
+            <summary>
+            The name of the algorithm
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver">
+            <summary>
+            Resolves algorithm name to implementations.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.Item(System.String)">
+            <summary>
+            Returns the implementation for an algorithm name
+            </summary>
+            <param name="algorithmName">The algorithm name</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.AddAlgorithm(System.String,Microsoft.Azure.KeyVault.Cryptography.Algorithm)">
+            <summary>
+            Adds an algorithm to the resolver
+            </summary>
+            <param name="algorithmName">The algorithm name</param>
+            <param name="provider">The provider for the algorithm</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.RemoveAlgorithm(System.String)">
+            <summary>
+            Removes an algorithm from the resolver
+            </summary>
+            <param name="algorithmName">The algorithm name</param>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.EncryptionAlgorithm">
+            <summary>
+            Abstract Encryption Algorithm
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.AsymmetricEncryptionAlgorithm">
+            <summary>
+            Abstract Asymmetric Encryption Algorithm
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.AsymmetricEncryptionAlgorithm.CreateEncryptor(System.Security.Cryptography.AsymmetricAlgorithm)">
+            <summary>
+            Create an encryptor for the specified key
+            </summary>
+            <param name="key">The key used to create the encryptor</param>
+            <returns>An ICryptoTransform for encrypting data</returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.AsymmetricEncryptionAlgorithm.CreateDecryptor(System.Security.Cryptography.AsymmetricAlgorithm)">
+            <summary>
+            Create a decryptor for the specified key
+            </summary>
+            <param name="key">The key used to create decryptor</param>
+            <returns>An ICryptoTransform for encrypting data</returns>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.SymmetricEncryptionAlgorithm">
+            <summary>
+            Abstract SymmetricEncryption Algorithm
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.SymmetricEncryptionAlgorithm.CreateEncryptor(System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            Create an encryptor for the specified key
+            </summary>
+            <param name="key">The key material to be used</param>
+            <param name="iv">The initialization vector to be used</param>
+            <param name="authenticationData">The authentication data to be used with authenticating encryption algorithms (ignored for non-authenticating algorithms)</param>
+            <returns>An ICryptoTranform for encrypting data</returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.SymmetricEncryptionAlgorithm.CreateDecryptor(System.Byte[],System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            Create a decryptor for the specified key
+            </summary>
+            <param name="key">The key material to be used</param>
+            <param name="iv">The initialization vector to be used</param>
+            <param name="authenticationData">The authentication data to be used with authenticating encryption algorithms (ignored for non-authenticating algorithms)</param>
+            <param name="authenticationTag">The authentication tag to verify when using authenticating encryption algorithms (ignored for non-authenticating algorithms)</param>
+            <returns>An ICryptoTransform for decrypting data</returns>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.HashAlgorithmName">
+            <summary>
+            Supported algorithm names. Do not add to this enumeration
+            without also modifying IncrementHash.Create / CreateHMAC
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.ISignatureTransform">
+            <summary>
+            Abstract signature transform.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.ISignatureTransform.Sign(System.Byte[])">
+            <summary>
+            Signs the supplied digest value.
+            </summary>
+            <param name="digest">The message digest.</param>
+            <returns>The signature value.</returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.ISignatureTransform.Verify(System.Byte[],System.Byte[])">
+            <summary>
+            Verifies that the supplied signature corresponds with
+            the supplied message digest.
+            </summary>
+            <param name="digest">The message digest.</param>
+            <param name="signature">The signature to be verified.</param>
+            <returns>true if the signature is valid.</returns>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.KeyWrapAlgorithm">
+            <summary>
+            An abstract Key Wrap Algorithm
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.KeyWrapAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])">
+            <summary>
+            Create an encryptor for the specified key
+            </summary>
+            <param name="key">The key</param>
+            <param name="iv">The initialization vector</param>
+            <returns>An ICryptoTranform for encrypting data</returns>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.KeyWrapAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])">
+            <summary>
+            Crea a decryptor for the specified key
+            </summary>
+            <param name="key">The key</param>
+            <param name="iv">The initialization vector</param>
+            <returns>An ICryptoTransform for decrypting data</returns>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.SignatureAlgorithm">
+            <summary>
+            Abstract SignatureAlgorithm
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.AsymmetricSignatureAlgorithm">
+            <summary>
+            Abstract Asymmetric Signature algorithm
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.AsymmetricSignatureAlgorithm.CreateSignatureTransform(System.Security.Cryptography.AsymmetricAlgorithm)">
+            <summary>
+            Creates a signature transformation implementation that may
+            be used to sign or verify.
+            </summary>
+            <param name="key">The asymmetric key to use.</param>
+            <returns>An ISignatureTransform implementation.</returns>
+            <remarks>The transform implementation "borrows" the supplied
+            AsymmetricAlgorithm; callers should not call Dispose on the
+            AsymmetricAlgorithm until use of the transform implementation
+            is complete.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.Cryptography.TaskException.FromException``1(System.Exception)">
+            <summary>
+            Downlevel support for tasks that throw.
+            </summary>
+            <typeparam name="T">The parameterized type of the Task</typeparam>
+            <param name="ex">The exception result.</param>
+            <returns>A Task.</returns>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Aes128CbcHmacSha256">
+            <summary>
+            JWE A128CBC-HS256: https://tools.ietf.org/html/rfc7518#section-5.2.3
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Aes192CbcHmacSha384">
+            <summary>
+            JWE A192CBC-HS384: https://tools.ietf.org/html/rfc7518#section-5.2.4
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Aes256CbcHmacSha512">
+            <summary>
+            JWE A256CBC-HS512: https://tools.ietf.org/html/rfc7518#section-5.2.5
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesCbc">
+            <summary>
+            Abstract base class for vanilla AESCBC
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Aes128Cbc">
+            <summary>
+            AESCBC 128bit key with PKCS7 Padding
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Aes192Cbc">
+            <summary>
+            AESCBC 192bit key with PKCS7 Padding
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Aes256Cbc">
+            <summary>
+            AESCBC 256bit key with PKCS7 Padding
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesCbcHmacSha2">
+            <summary>
+            Abstract base class for AESCBC-HMAC algorithms.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw">
+            <summary>
+            Abstract AES Key Wrap algoritm.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw128">
+            <summary>
+            JWE A128KW: https://tools.ietf.org/html/rfc7518#section-4.4
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw192">
+            <summary>
+            JWE A192KW: https://tools.ietf.org/html/rfc7518#section-4.4
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw256">
+            <summary>
+            JWE A256KW: https://tools.ietf.org/html/rfc7518#section-4.4
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.NativeMethods.AsymmetricPaddingMode">
+            <summary>
+                Padding modes 
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Rs256">
+            <summary>
+            RSA SHA-256 Signature algorithim.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Rsa15.Rsa15Decryptor">
+            <summary>
+            RSA 15 Decryptor
+            </summary>
+            <remarks>
+            While this class has a reference to an IDisposable object,
+            it is not the owner of the object and will not Dispose it.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.Rsa15.Rsa15Encryptor">
+            <summary>
+            RSA 15 Encryptor
+            </summary>
+            <remarks>
+            While this class has a reference to an IDisposable object,
+            it is not the owner of the object and will not Dispose it.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaEncryption">
+            <summary>
+            Abstract RSA encryption algorithm.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaOaep">
+            <summary>
+            RSA-OAEP Encryption.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaOaep.RsaOaepDecryptor">
+            <summary>
+            RSA 15 Decryptor
+            </summary>
+            <remarks>
+            While this class has a reference to an IDisposable object,
+            it is not the owner of the object and will not Dispose it.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaOaep.RsaOaepEncryptor">
+            <summary>
+            RSA 15 Encryptor
+            </summary>
+            <remarks>
+            While this class has a reference to an IDisposable object,
+            it is not the owner of the object and will not Dispose it.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaSignature">
+            <summary>
+            Abstract RsaSignature.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.RsaKey">
+            <summary>
+            An RSA key.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.KeyVault.RsaKey.Kid">
+            <summary>
+            Key Identifier
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.RsaKey.#ctor">
+            <summary>
+            Constructor, creates a 2048 bit key with a GUID identifier.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String)">
+            <summary>
+            Constructor, creates a 2048 bit RSA key.
+            </summary>
+            <param name="kid">The key identifier to use</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="kid">The key identifier to use</param>
+            <param name="keySize">The size of the key</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String,System.Security.Cryptography.RSAParameters)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="kid">The key identifier to use</param>
+            <param name="keyParameters">The RSA parameters for the key</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String,System.Security.Cryptography.RSA)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="kid">The key identifier to use</param>
+            <param name="csp">The RSA object for the key</param>
+            <remarks>The RSA object is IDisposable, this class will hold a
+            reference to the RSA object but will not dispose it, the caller
+            of this constructor is responsible for the lifetime of this
+            parameter.</remarks>
+        </member>
+        <member name="T:Microsoft.Azure.KeyVault.SymmetricKey">
+            <summary>
+            A simple Symmetric Key
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.SymmetricKey.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.SymmetricKey.#ctor(System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="kid">The key identifier to use</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.SymmetricKey.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="kid">The key identifier to use</param>
+            <param name="keySize">The key size in bytes</param>
+        </member>
+        <member name="M:Microsoft.Azure.KeyVault.SymmetricKey.#ctor(System.String,System.Byte[])">
+            <summary>
+            Constructor
+            </summary>
+            <param name="kid">The key identifier</param>
+            <param name="keyBytes">The key material</param>
+        </member>
+    </members>
+</doc>

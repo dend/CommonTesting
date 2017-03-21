@@ -1,0 +1,1311 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.Management.Media</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.Management.Media.IMediaServiceOperations">
+            <summary>
+            MediaServiceOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.CheckNameAvailabiltyWithHttpMessagesAsync(Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Check whether the Media Service resource name is available. The
+            name must be globally unique.
+            </summary>
+            <param name='checkNameAvailabilityInput'>
+            Properties needed to check the availability of a name.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            List all of the Media Services in a resource group.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for creation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Delete a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Update a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for update.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.RegenerateKeyWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.RegenerateKeyInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Regenerate the key for a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='regenerateKeyInput'>
+            Properties needed to regenerate the Media Service key.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.ListKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            List the keys for a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.IMediaServiceOperations.SyncStorageKeysWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Synchronize the keys for a storage account to the Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='syncStorageKeysInput'>
+            Properties needed to sycnronize the keys for a storage account to
+            the Media Service.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.IMediaServicesManagementClient">
+            <summary>
+            Media Services resource management APIs.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.Credentials">
+            <summary>
+            Gets Azure subscription credentials.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.SubscriptionId">
+            <summary>
+            Azure subscription id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.ApiVersion">
+            <summary>
+            Version of the API to be used with the client request. Current
+            version is 2015-10-01
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running
+            Operations. Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is
+            generated and included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.IMediaServicesManagementClient.MediaService">
+            <summary>
+            Gets the IMediaServiceOperations.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.MediaServiceOperations">
+            <summary>
+            MediaServiceOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.#ctor(Microsoft.Azure.Management.Media.MediaServicesManagementClient)">
+            <summary>
+            Initializes a new instance of the MediaServiceOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServiceOperations.Client">
+            <summary>
+            Gets a reference to the MediaServicesManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.CheckNameAvailabiltyWithHttpMessagesAsync(Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Check whether the Media Service resource name is available. The name must
+            be globally unique.
+            </summary>
+            <param name='checkNameAvailabilityInput'>
+            Properties needed to check the availability of a name.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            List all of the Media Services in a resource group.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for creation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Delete a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Update a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for update.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.RegenerateKeyWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.RegenerateKeyInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Regenerate the key for a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='regenerateKeyInput'>
+            Properties needed to regenerate the Media Service key.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.ListKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            List the keys for a Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperations.SyncStorageKeysWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Synchronize the keys for a storage account to the Media Service.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='syncStorageKeysInput'>
+            Properties needed to sycnronize the keys for a storage account to the
+            Media Service.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions">
+            <summary>
+            Extension methods for MediaServiceOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.CheckNameAvailabilty(Microsoft.Azure.Management.Media.IMediaServiceOperations,Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput)">
+            <summary>
+            Check whether the Media Service resource name is available. The name must
+            be globally unique.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='checkNameAvailabilityInput'>
+            Properties needed to check the availability of a name.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.CheckNameAvailabiltyAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput,System.Threading.CancellationToken)">
+            <summary>
+            Check whether the Media Service resource name is available. The name must
+            be globally unique.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='checkNameAvailabilityInput'>
+            Properties needed to check the availability of a name.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String)">
+            <summary>
+            List all of the Media Services in a resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            List all of the Media Services in a resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.Get(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String)">
+            <summary>
+            Get a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.GetAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.Create(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService)">
+            <summary>
+            Create a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for creation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService,System.Threading.CancellationToken)">
+            <summary>
+            Create a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for creation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.Delete(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String)">
+            <summary>
+            Delete a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Delete a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.Update(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService)">
+            <summary>
+            Update a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for update.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.MediaService,System.Threading.CancellationToken)">
+            <summary>
+            Update a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='mediaService'>
+            Media Service properties needed for update.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.RegenerateKey(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.RegenerateKeyInput)">
+            <summary>
+            Regenerate the key for a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='regenerateKeyInput'>
+            Properties needed to regenerate the Media Service key.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.RegenerateKeyAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.RegenerateKeyInput,System.Threading.CancellationToken)">
+            <summary>
+            Regenerate the key for a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='regenerateKeyInput'>
+            Properties needed to regenerate the Media Service key.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.ListKeys(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String)">
+            <summary>
+            List the keys for a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.ListKeysAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            List the keys for a Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.SyncStorageKeys(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput)">
+            <summary>
+            Synchronize the keys for a storage account to the Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='syncStorageKeysInput'>
+            Properties needed to sycnronize the keys for a storage account to the
+            Media Service.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServiceOperationsExtensions.SyncStorageKeysAsync(Microsoft.Azure.Management.Media.IMediaServiceOperations,System.String,System.String,Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput,System.Threading.CancellationToken)">
+            <summary>
+            Synchronize the keys for a storage account to the Media Service.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group within the Azure subscription.
+            </param>
+            <param name='mediaServiceName'>
+            Name of the Media Service.
+            </param>
+            <param name='syncStorageKeysInput'>
+            Properties needed to sycnronize the keys for a storage account to the
+            Media Service.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.MediaServicesManagementClient">
+            <summary>
+            Media Services resource management APIs.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.Credentials">
+            <summary>
+            Gets Azure subscription credentials.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.SubscriptionId">
+            <summary>
+            Azure subscription id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.ApiVersion">
+            <summary>
+            Version of the API to be used with the client request. Current version is
+            2015-10-01
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running Operations.
+            Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is generated and
+            included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.MediaServicesManagementClient.MediaService">
+            <summary>
+            Gets the IMediaServiceOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the MediaServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.MediaServicesManagementClient.Initialize">
+            <summary>
+            Initializes client properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.ApiEndpoint">
+            <summary>
+            The properties for a Media Services REST API endpoint.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiEndpoint.#ctor">
+            <summary>
+            Initializes a new instance of the ApiEndpoint class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiEndpoint.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the ApiEndpoint class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ApiEndpoint.Endpoint">
+            <summary>
+            The Media Services REST endpoint.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ApiEndpoint.MajorVersion">
+            <summary>
+            The version of Media Services REST API.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.ApiError">
+            <summary>
+            The error returned from a failed Media Services REST API call.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiError.#ctor">
+            <summary>
+            Initializes a new instance of the ApiError class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiError.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the ApiError class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ApiError.Code">
+            <summary>
+            Error code.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ApiError.Message">
+            <summary>
+            Error message.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.ApiErrorException">
+            <summary>
+            Exception thrown for an invalid response with ApiError information.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ApiErrorException.Request">
+            <summary>
+            Gets information about the associated HTTP request.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ApiErrorException.Response">
+            <summary>
+            Gets information about the associated HTTP response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ApiErrorException.Body">
+            <summary>
+            Gets or sets the body object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiErrorException.#ctor">
+            <summary>
+            Initializes a new instance of the ApiErrorException class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiErrorException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the ApiErrorException class.
+            </summary>
+            <param name="message">The exception message.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiErrorException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the ApiErrorException class.
+            </summary>
+            <param name="message">The exception message.</param>
+            <param name="innerException">Inner exception.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the ApiErrorException class.
+            </summary>
+            <param name="info">Serialization info.</param>
+            <param name="context">Streaming context.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ApiErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Serializes content of the exception.
+            </summary>
+            <param name="info">Serialization info.</param>
+            <param name="context">Streaming context.</param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput">
+            <summary>
+            The request body for CheckNameAvailability API.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput.#ctor">
+            <summary>
+            Initializes a new instance of the CheckNameAvailabilityInput class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the CheckNameAvailabilityInput class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput.Name">
+            <summary>
+            The name of the resource. A name must be globally unique.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput.Type">
+            <summary>
+            Specifies the type of the resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityInput.Validate">
+            <summary>
+            Validate the object. Throws ValidationException if validation fails.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityOutput">
+            <summary>
+            The response body for CheckNameAvailability API.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityOutput.#ctor">
+            <summary>
+            Initializes a new instance of the CheckNameAvailabilityOutput
+            class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityOutput.#ctor(System.Nullable{System.Boolean},System.Nullable{Microsoft.Azure.Management.Media.Models.EntityNameUnavailabilityReason},System.String)">
+            <summary>
+            Initializes a new instance of the CheckNameAvailabilityOutput
+            class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityOutput.NameAvailable">
+            <summary>
+            Specifies if the name is available.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityOutput.Reason">
+            <summary>
+            Specifies the reason if the name is not available. Possible values
+            include: 'None', 'Invalid', 'AlreadyExists'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.CheckNameAvailabilityOutput.Message">
+            <summary>
+            Specifies the detailed reason if the name is not available.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.EntityNameUnavailabilityReason">
+            <summary>
+            Defines values for EntityNameUnavailabilityReason.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.KeyType">
+            <summary>
+            Defines values for KeyType.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.MediaService">
+            <summary>
+            The properties of a Media Service resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.MediaService.#ctor">
+            <summary>
+            Initializes a new instance of the MediaService class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.MediaService.#ctor(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Media.Models.ApiEndpoint},System.Collections.Generic.IList{Microsoft.Azure.Management.Media.Models.StorageAccount})">
+            <summary>
+            Initializes a new instance of the MediaService class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.MediaService.ApiEndpoints">
+            <summary>
+            The Media Services REST API endpoints for this resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.MediaService.StorageAccounts">
+            <summary>
+            The storage accounts for this resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.MediaService.Validate">
+            <summary>
+            Validate the object. Throws ValidationException if validation fails.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.Page`1">
+            <summary>
+            Defines a page in Azure responses.
+            </summary>
+            <typeparam name="T">Type of the page content items</typeparam>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.Page`1.NextPageLink">
+            <summary>
+            Gets the link to the next page.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.Page`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.Page`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.RegenerateKeyInput">
+            <summary>
+            The request body for a RegenerateKey API.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.RegenerateKeyInput.#ctor">
+            <summary>
+            Initializes a new instance of the RegenerateKeyInput class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.RegenerateKeyInput.#ctor(System.Nullable{Microsoft.Azure.Management.Media.Models.KeyType})">
+            <summary>
+            Initializes a new instance of the RegenerateKeyInput class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.RegenerateKeyInput.KeyType">
+            <summary>
+            The keyType indicating which key you want to regenerate, Primary
+            or Secondary. Possible values include: 'Primary', 'Secondary'
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.RegenerateKeyOutput">
+            <summary>
+            The response body for a RegenerateKey API.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.RegenerateKeyOutput.#ctor">
+            <summary>
+            Initializes a new instance of the RegenerateKeyOutput class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.RegenerateKeyOutput.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the RegenerateKeyOutput class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.RegenerateKeyOutput.Key">
+            <summary>
+            The new value of either the primary or secondary key.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.Resource.#ctor">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.Resource.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.Resource.Id">
+            <summary>
+            The id of the resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.Resource.Name">
+            <summary>
+            The name of the resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.Resource.Type">
+            <summary>
+            The type of the resource
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.ServiceKeys">
+            <summary>
+            The response body for a ListKeys API.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ServiceKeys.#ctor">
+            <summary>
+            Initializes a new instance of the ServiceKeys class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.ServiceKeys.#ctor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the ServiceKeys class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ServiceKeys.PrimaryAuthEndpoint">
+            <summary>
+            The primary Authorization endpoint.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ServiceKeys.SecondaryAuthEndpoint">
+            <summary>
+            The secondary Authorization endpoint.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ServiceKeys.PrimaryKey">
+            <summary>
+            The primary resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ServiceKeys.SecondaryKey">
+            <summary>
+            The secondary resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.ServiceKeys.Scope">
+            <summary>
+            The authorization scope.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.StorageAccount">
+            <summary>
+            The properties of a storage account associated with this resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.StorageAccount.#ctor">
+            <summary>
+            Initializes a new instance of the StorageAccount class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.StorageAccount.#ctor(System.String,System.Nullable{System.Boolean})">
+            <summary>
+            Initializes a new instance of the StorageAccount class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.StorageAccount.Id">
+            <summary>
+            The id of the storage account resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.StorageAccount.IsPrimary">
+            <summary>
+            Is this storage account resource the primary storage account for
+            the Media Service resource.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput">
+            <summary>
+            The request  body for a SyncStorageKeys API.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput.#ctor">
+            <summary>
+            Initializes a new instance of the SyncStorageKeysInput class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the SyncStorageKeysInput class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.SyncStorageKeysInput.Id">
+            <summary>
+            The id of the storage account resource.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Media.Models.TrackedResource">
+            <summary>
+            ARM tracked resource
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.TrackedResource.#ctor">
+            <summary>
+            Initializes a new instance of the TrackedResource class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.TrackedResource.#ctor(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the TrackedResource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.TrackedResource.Location">
+            <summary>
+            The location of the resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Media.Models.TrackedResource.Tags">
+            <summary>
+            The tags of the resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Media.Models.TrackedResource.Validate">
+            <summary>
+            Validate the object. Throws ValidationException if validation fails.
+            </summary>
+        </member>
+    </members>
+</doc>

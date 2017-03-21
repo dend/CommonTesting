@@ -1,0 +1,261 @@
+<Type Name="ApplicationCreateParameters" FullName="Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters">
+  <TypeSignature Language="C#" Value="public class ApplicationCreateParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationCreateParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Request parameters for create a new application
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationCreateParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ApplicationCreateParameters
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationCreateParameters (bool availableToOtherTenants, string displayName, System.Collections.Generic.IList&lt;string&gt; identifierUris, string homepage = null, System.Collections.Generic.IList&lt;string&gt; replyUrls = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; keyCredentials = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; passwordCredentials = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool availableToOtherTenants, string displayName, class System.Collections.Generic.IList`1&lt;string&gt; identifierUris, string homepage, class System.Collections.Generic.IList`1&lt;string&gt; replyUrls, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; keyCredentials, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; passwordCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.#ctor(System.Boolean,System.String,System.Collections.Generic.IList{System.String},System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.KeyCredential},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.PasswordCredential})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="availableToOtherTenants" Type="System.Boolean" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="identifierUris" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="homepage" Type="System.String" />
+        <Parameter Name="replyUrls" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="keyCredentials" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt;" />
+        <Parameter Name="passwordCredentials" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="availableToOtherTenants">Indicates if the application will be available to other tenants</param>
+        <param name="displayName">Application display name</param>
+        <param name="identifierUris">Application Uris</param>
+        <param name="homepage">Application homepage</param>
+        <param name="replyUrls">Application reply Urls</param>
+        <param name="keyCredentials">the list of KeyCredential objects</param>
+        <param name="passwordCredentials">the list of PasswordCredential objects</param>
+        <summary>
+            Initializes a new instance of the ApplicationCreateParameters
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailableToOtherTenants">
+      <MemberSignature Language="C#" Value="public bool AvailableToOtherTenants { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AvailableToOtherTenants" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.AvailableToOtherTenants" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="availableToOtherTenants")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets indicates if the application will be available to
+            other tenants
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="displayName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets application display name
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Homepage">
+      <MemberSignature Language="C#" Value="public string Homepage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Homepage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.Homepage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="homepage")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets application homepage
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdentifierUris">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; IdentifierUris { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; IdentifierUris" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.IdentifierUris" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="identifierUris")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets application Uris
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyCredentials">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; KeyCredentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt; KeyCredentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.KeyCredentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="keyCredentials")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the list of KeyCredential objects
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordCredentials">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; PasswordCredentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt; PasswordCredentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.PasswordCredentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="passwordCredentials")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the list of PasswordCredential objects
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyUrls">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; ReplyUrls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; ReplyUrls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.ReplyUrls" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="replyUrls")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets application reply Urls
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

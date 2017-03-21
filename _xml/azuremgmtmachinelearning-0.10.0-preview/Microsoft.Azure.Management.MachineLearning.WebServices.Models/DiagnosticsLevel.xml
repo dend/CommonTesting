@@ -1,0 +1,69 @@
+<Type Name="DiagnosticsLevel" FullName="Microsoft.Azure.Management.MachineLearning.WebServices.Models.DiagnosticsLevel">
+  <TypeSignature Language="C#" Value="public static class DiagnosticsLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DiagnosticsLevel extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.WebServices.Models.DiagnosticsLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines values for DiagnosticsLevel.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="public const string All;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string All" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.DiagnosticsLevel.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public const string Error;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Error" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.DiagnosticsLevel.Error" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="public const string None;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string None" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.MachineLearning.WebServices.Models.DiagnosticsLevel.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

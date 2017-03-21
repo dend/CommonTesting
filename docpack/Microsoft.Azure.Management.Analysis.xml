@@ -1,0 +1,1732 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.Management.Analysis</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient">
+            <summary>
+            The Azure Analysis Services Web API provides a RESTful set of web
+            services that enables users to create, retrieve, update, and delete
+            Analysis Services servers
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.Credentials">
+            <summary>
+            Credentials needed for the client to connect to Azure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.SubscriptionId">
+            <summary>
+            A unique identifier for a Microsoft Azure subscription. The subscription
+            ID forms part of the URI for every service call.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.ApiVersion">
+            <summary>
+            The client API version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running Operations.
+            Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is generated and
+            included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.Servers">
+            <summary>
+            Gets the IServersOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AnalysisServicesManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient.Initialize">
+            <summary>
+            Initializes client properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient">
+            <summary>
+            The Azure Analysis Services Web API provides a RESTful set of web
+            services that enables users to create, retrieve, update, and delete
+            Analysis Services servers
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.Credentials">
+            <summary>
+            Credentials needed for the client to connect to Azure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.SubscriptionId">
+            <summary>
+            A unique identifier for a Microsoft Azure subscription. The
+            subscription ID forms part of the URI for every service call.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.ApiVersion">
+            <summary>
+            The client API version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running
+            Operations. Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is
+            generated and included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.IAnalysisServicesManagementClient.Servers">
+            <summary>
+            Gets the IServersOperations.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.IServersOperations">
+            <summary>
+            ServersOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.GetDetailsWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets details about the specified Analysis Services server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of
+            3 characters, and a maximum of 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of
+            3 characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services
+            server.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.BeginCreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of
+            3 characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services
+            server.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3
+            characters in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3
+            characters in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Updates the current state of the specified Analysis Services
+            server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3
+            characters in length, and no more than 63.
+            </param>
+            <param name='serverUpdateParameters'>
+            Request object that contains the updated information for the
+            server.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.SuspendWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Supends operation of the specified Analysis Services server
+            instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3
+            characters in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.BeginSuspendWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Supends operation of the specified Analysis Services server
+            instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3
+            characters in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.ResumeWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Resumes operation of the specified Analysis Services server
+            instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3
+            characters in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.BeginResumeWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Resumes operation of the specified Analysis Services server
+            instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3
+            characters in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets all the Analysis Services servers for the given resource
+            group.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis
+            Services server is part. This name must be at least 1 character
+            in length, and no more than 90.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.IServersOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Lists all the Analysis Services servers for the given subscription.
+            </summary>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.ServersOperations">
+            <summary>
+            ServersOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.#ctor(Microsoft.Azure.Management.Analysis.AnalysisServicesManagementClient)">
+            <summary>
+            Initializes a new instance of the ServersOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.ServersOperations.Client">
+            <summary>
+            Gets a reference to the AnalysisServicesManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.GetDetailsWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets details about the specified Analysis Services server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services server.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.BeginCreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services server.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Updates the current state of the specified Analysis Services server.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='serverUpdateParameters'>
+            Request object that contains the updated information for the server.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.SuspendWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.BeginSuspendWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.ResumeWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.BeginResumeWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets all the Analysis Services servers for the given resource group.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Lists all the Analysis Services servers for the given subscription.
+            </summary>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+            <exception cref="T:Microsoft.Rest.Azure.CloudException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+            <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+            <return>
+            A response object containing the response body and response headers.
+            </return>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions">
+            <summary>
+            Extension methods for ServersOperations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.GetDetails(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)">
+            <summary>
+            Gets details about the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.GetDetailsAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets details about the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Create(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services server.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Threading.CancellationToken)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services server.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services server.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Threading.CancellationToken)">
+            <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+            <param name='serverParameters'>
+            Contains the information used to provision the Analysis Services server.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Delete(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Update(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters)">
+            <summary>
+            Updates the current state of the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='serverUpdateParameters'>
+            Request object that contains the updated information for the server.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters,System.Threading.CancellationToken)">
+            <summary>
+            Updates the current state of the specified Analysis Services server.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='serverUpdateParameters'>
+            Request object that contains the updated information for the server.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Suspend(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)">
+            <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.SuspendAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginSuspend(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)">
+            <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginSuspendAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Resume(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)">
+            <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ResumeAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginResume(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)">
+            <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginResumeAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='serverName'>
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Analysis.IServersOperations,System.String)">
+            <summary>
+            Gets all the Analysis Services servers for the given resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets all the Analysis Services servers for the given resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.List(Microsoft.Azure.Management.Analysis.IServersOperations)">
+            <summary>
+            Lists all the Analysis Services servers for the given subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.Threading.CancellationToken)">
+            <summary>
+            Lists all the Analysis Services servers for the given subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer">
+            <summary>
+            Represents an instance of an Analysis Services resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.#ctor">
+            <summary>
+            Initializes a new instance of the AnalysisServicesServer class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.#ctor(System.String,Microsoft.Azure.Management.Analysis.Models.ResourceSku,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.Analysis.Models.ServerAdministrators,Microsoft.Azure.Management.Analysis.Models.BackupConfiguration,System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the AnalysisServicesServer class.
+            </summary>
+            <param name="location">Location of the Analysis Services
+            resource.</param>
+            <param name="sku">The SKU of the Analysis Services
+            resource.</param>
+            <param name="id">An identifier that represents the Analysis
+            Services resource.</param>
+            <param name="name">The name of the Analysis Services
+            resource.</param>
+            <param name="type">The type of the Analysis Services
+            resource.</param>
+            <param name="tags">Key-value pairs of additional resource
+            provisioning properties.</param>
+            <param name="state">The current state of Analysis Services
+            resource. The state is to indicate more states outside of
+            resource provisioning. Possible values include: 'Deleting',
+            'Succeeded', 'Failed', 'Paused', 'Suspended', 'Provisioning',
+            'Updating', 'Suspending', 'Pausing', 'Resuming', 'Preparing',
+            'Scaling'</param>
+            <param name="provisioningState">The current deployment state of
+            Analysis Services resource. The provisioningState is to indicate
+            states for resource provisioning. Possible values include:
+            'Deleting', 'Succeeded', 'Failed', 'Paused', 'Suspended',
+            'Provisioning', 'Updating', 'Suspending', 'Pausing', 'Resuming',
+            'Preparing', 'Scaling'</param>
+            <param name="serverFullName">The full name of the Analysis
+            Services resource.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.AsAdministrators">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.BackupConfiguration">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.State">
+            <summary>
+            Gets the current state of Analysis Services resource. The state is
+            to indicate more states outside of resource provisioning.
+            Possible values include: 'Deleting', 'Succeeded', 'Failed',
+            'Paused', 'Suspended', 'Provisioning', 'Updating', 'Suspending',
+            'Pausing', 'Resuming', 'Preparing', 'Scaling'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.ProvisioningState">
+            <summary>
+            Gets the current deployment state of Analysis Services resource.
+            The provisioningState is to indicate states for resource
+            provisioning. Possible values include: 'Deleting', 'Succeeded',
+            'Failed', 'Paused', 'Suspended', 'Provisioning', 'Updating',
+            'Suspending', 'Pausing', 'Resuming', 'Preparing', 'Scaling'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.ServerFullName">
+            <summary>
+            Gets the full name of the Analysis Services resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters">
+            <summary>
+            Provision request specification
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters.#ctor">
+            <summary>
+            Initializes a new instance of the
+            AnalysisServicesServerUpdateParameters class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters.#ctor(Microsoft.Azure.Management.Analysis.Models.ResourceSku,System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.Analysis.Models.ServerAdministrators,Microsoft.Azure.Management.Analysis.Models.BackupConfiguration)">
+            <summary>
+            Initializes a new instance of the
+            AnalysisServicesServerUpdateParameters class.
+            </summary>
+            <param name="sku">The SKU of the Analysis Services
+            resource.</param>
+            <param name="tags">Key-value pairs of additional provisioning
+            properties.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters.Sku">
+            <summary>
+            Gets or sets the SKU of the Analysis Services resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters.Tags">
+            <summary>
+            Gets or sets key-value pairs of additional provisioning properties.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters.AsAdministrators">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters.BackupConfiguration">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.BackupConfiguration">
+            <summary>
+            An object that represents backup configurations
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.BackupConfiguration.#ctor">
+            <summary>
+            Initializes a new instance of the BackupConfiguration class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.BackupConfiguration.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the BackupConfiguration class.
+            </summary>
+            <param name="storageAccount">Storage account full resource id for
+            backup configuration</param>
+            <param name="blobContainer">The name of blob container for backup
+            configuration</param>
+            <param name="accessKey">The access key of storage account used for
+            backup configuration</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.BackupConfiguration.StorageAccount">
+            <summary>
+            Gets or sets storage account full resource id for backup
+            configuration
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.BackupConfiguration.BlobContainer">
+            <summary>
+            Gets or sets the name of blob container for backup configuration
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.BackupConfiguration.AccessKey">
+            <summary>
+            Gets or sets the access key of storage account used for backup
+            configuration
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.BackupConfiguration.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.Page`1">
+            <summary>
+            Defines a page in Azure responses.
+            </summary>
+            <typeparam name="T">Type of the page content items</typeparam>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.Page`1.NextPageLink">
+            <summary>
+            Gets the link to the next page.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.Page`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.Page`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.ProvisioningState">
+            <summary>
+            Defines values for ProvisioningState.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.Resource">
+            <summary>
+            Represents an instance of an Analysis Services resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.Resource.#ctor">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.Resource.#ctor(System.String,Microsoft.Azure.Management.Analysis.Models.ResourceSku,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+            <param name="location">Location of the Analysis Services
+            resource.</param>
+            <param name="sku">The SKU of the Analysis Services
+            resource.</param>
+            <param name="id">An identifier that represents the Analysis
+            Services resource.</param>
+            <param name="name">The name of the Analysis Services
+            resource.</param>
+            <param name="type">The type of the Analysis Services
+            resource.</param>
+            <param name="tags">Key-value pairs of additional resource
+            provisioning properties.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.Resource.Id">
+            <summary>
+            Gets an identifier that represents the Analysis Services resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.Resource.Name">
+            <summary>
+            Gets the name of the Analysis Services resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.Resource.Type">
+            <summary>
+            Gets the type of the Analysis Services resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.Resource.Location">
+            <summary>
+            Gets or sets location of the Analysis Services resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.Resource.Sku">
+            <summary>
+            Gets or sets the SKU of the Analysis Services resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.Resource.Tags">
+            <summary>
+            Gets or sets key-value pairs of additional resource provisioning
+            properties.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.Resource.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.ResourceSku">
+            <summary>
+            Represents the SKU name and Azure pricing tier for Analysis Services
+            resource.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.ResourceSku.#ctor">
+            <summary>
+            Initializes a new instance of the ResourceSku class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.ResourceSku.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the ResourceSku class.
+            </summary>
+            <param name="name">Name of the SKU level for the server being
+            provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.
+            Possible values include: 'S1', 'S2', 'S4', 'D1'</param>
+            <param name="tier">The name of the Azure pricing tier to which the
+            SKU applies. Possible values are: 'Development' and 'Standard'.
+            Possible values include: 'Development', 'Standard'</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.ResourceSku.Name">
+            <summary>
+            Gets or sets name of the SKU level for the server being
+            provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.
+            Possible values include: 'S1', 'S2', 'S4', 'D1'
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.ResourceSku.Tier">
+            <summary>
+            Gets or sets the name of the Azure pricing tier to which the SKU
+            applies. Possible values are: 'Development' and 'Standard'.
+            Possible values include: 'Development', 'Standard'
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.ResourceSku.Validate">
+            <summary>
+            Validate the object.
+            </summary>
+            <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators">
+            <summary>
+            An array of administrator user identities
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators.#ctor">
+            <summary>
+            Initializes a new instance of the ServerAdministrators class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators.#ctor(System.Collections.Generic.IList{System.String})">
+            <summary>
+            Initializes a new instance of the ServerAdministrators class.
+            </summary>
+            <param name="members">An array of administrator user
+            identities.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Analysis.Models.ServerAdministrators.Members">
+            <summary>
+            Gets or sets an array of administrator user identities.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.SkuName">
+            <summary>
+            Defines values for SkuName.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.SkuTier">
+            <summary>
+            Defines values for SkuTier.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Analysis.Models.State">
+            <summary>
+            Defines values for State.
+            </summary>
+        </member>
+    </members>
+</doc>
