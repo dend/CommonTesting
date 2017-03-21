@@ -1,7 +1,7 @@
 Get-ChildItem
 
 Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^nue.*$')} | Remove-Item -Recurse
-Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^_xml.*$')} | Remove-Item -Recurse
+Remove-Item _xml -Recurse
 Rename-Item -Path ($Env:BUILD_REPOSITORY_LOCALPATH +"\mdoc-output") -newName _xml
 Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^mdoc.*$')} | Remove-Item -Recurse
 Remove-Item mdoc.zip
