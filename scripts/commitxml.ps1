@@ -1,6 +1,10 @@
 Get-ChildItem
 
 Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^nue.*$')} | Remove-Item -Recurse
+Get-ChildItem _xml
+
+Write-Output "--------------------------"
+
 Remove-Item _xml -Recurse
 Rename-Item mdoc-output -NewName _xml
 Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^mdoc.*$')} | Remove-Item -Recurse
@@ -10,8 +14,8 @@ Remove-Item nue.zip
 # Remove the warning, that otherwise breaks the build
 git config --global core.safecrlf false
 
-git config --global user.name ($Env:GITHUB_CUSTOMUSERNAME)
-git config --global user.email ($Env:GITHUB_CUSTOMEMAIL)
+git config --global user.name ($Env:GitHubCustomUserName)
+git config --global user.email ($Env:GitHubCustomEmail)
 
 Get-ChildItem
 
