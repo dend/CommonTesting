@@ -12,6 +12,8 @@ Remove-Item mdoc.zip
 Remove-Item nue.zip
 Remove-Item docpac.zip
 Remove-Item march-train.zip
+Remove-Item _mt
+Remove-Item docpack
 
 # Remove the warning, that otherwise breaks the build
 git config --global core.safecrlf false
