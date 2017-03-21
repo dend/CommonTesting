@@ -10,6 +10,8 @@ Rename-Item mdoc-output -NewName _xml
 Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^mdoc.*$')} | Remove-Item -Recurse
 Remove-Item mdoc.zip
 Remove-Item nue.zip
+Remove-Item docpac.zip
+Remove-Item march-train.zip
 
 # Remove the warning, that otherwise breaks the build
 git config --global core.safecrlf false
