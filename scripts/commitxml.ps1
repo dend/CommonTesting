@@ -2,7 +2,7 @@ Get-ChildItem
 
 Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^nue.*$')} | Remove-Item -Recurse
 Remove-Item _xml -Recurse
-Rename-Item -Path ($Env:BUILD_REPOSITORY_LOCALPATH +"\mdoc-output") -newName _xml
+Rename-Item mdoc-output -NewName _xml
 Get-ChildItem $srcFolder | Where-Object {$_.PSIsContainer -and ($_ -match '^mdoc.*$')} | Remove-Item -Recurse
 Remove-Item mdoc.zip
 Remove-Item nue.zip
@@ -15,6 +15,13 @@ git config --global user.email ($Env:GITHUB_CUSTOMEMAIL)
 
 Get-ChildItem
 
+Write-Output "--------------------------"
+
+Get-ChildItem _xml
+
+Write-Output "Attempting to Git ADD..."
 git add .
+
+Write-Output "Trying to commit changes."
 git commit -m ("Updating content based on build " + $Env:BUILD_BUILDNUMBER)
 git push origin HEAD:garbage
