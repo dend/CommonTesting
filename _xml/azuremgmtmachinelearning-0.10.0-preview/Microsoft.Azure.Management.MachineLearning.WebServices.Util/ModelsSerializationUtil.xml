@@ -1,0 +1,61 @@
+<Type Name="ModelsSerializationUtil" FullName="Microsoft.Azure.Management.MachineLearning.WebServices.Util.ModelsSerializationUtil">
+  <TypeSignature Language="C#" Value="public static class ModelsSerializationUtil" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ModelsSerializationUtil extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.WebServices.Util.ModelsSerializationUtil" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAzureMLWebServiceDefinitionJsonFromObject">
+      <MemberSignature Language="C#" Value="public static string GetAzureMLWebServiceDefinitionJsonFromObject (Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService webService);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetAzureMLWebServiceDefinitionJsonFromObject(class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService webService) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Util.ModelsSerializationUtil.GetAzureMLWebServiceDefinitionJsonFromObject(Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webService" Type="Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService" />
+      </Parameters>
+      <Docs>
+        <param name="webService">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureMLWebServiceFromJsonDefinition">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService GetAzureMLWebServiceFromJsonDefinition (string jsonDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService GetAzureMLWebServiceFromJsonDefinition(string jsonDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Util.ModelsSerializationUtil.GetAzureMLWebServiceFromJsonDefinition(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jsonDefinition" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="jsonDefinition">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

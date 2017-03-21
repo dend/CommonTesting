@@ -1,0 +1,235 @@
+<Type Name="JobAction" FullName="Microsoft.Azure.Management.Scheduler.Models.JobAction">
+  <TypeSignature Language="C#" Value="public class JobAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobAction extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Scheduler.Models.JobAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobAction ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobAction.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the JobAction class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobAction (Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobActionType&gt; type = null, Microsoft.Azure.Management.Scheduler.Models.HttpRequest request = null, Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage queueMessage = null, Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage serviceBusQueueMessage = null, Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage serviceBusTopicMessage = null, Microsoft.Azure.Management.Scheduler.Models.RetryPolicy retryPolicy = null, Microsoft.Azure.Management.Scheduler.Models.JobErrorAction errorAction = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobActionType&gt; type, class Microsoft.Azure.Management.Scheduler.Models.HttpRequest request, class Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage queueMessage, class Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage serviceBusQueueMessage, class Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage serviceBusTopicMessage, class Microsoft.Azure.Management.Scheduler.Models.RetryPolicy retryPolicy, class Microsoft.Azure.Management.Scheduler.Models.JobErrorAction errorAction) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobAction.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobActionType},Microsoft.Azure.Management.Scheduler.Models.HttpRequest,Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage,Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage,Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage,Microsoft.Azure.Management.Scheduler.Models.RetryPolicy,Microsoft.Azure.Management.Scheduler.Models.JobErrorAction)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobActionType&gt;" />
+        <Parameter Name="request" Type="Microsoft.Azure.Management.Scheduler.Models.HttpRequest" />
+        <Parameter Name="queueMessage" Type="Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage" />
+        <Parameter Name="serviceBusQueueMessage" Type="Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage" />
+        <Parameter Name="serviceBusTopicMessage" Type="Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage" />
+        <Parameter Name="retryPolicy" Type="Microsoft.Azure.Management.Scheduler.Models.RetryPolicy" />
+        <Parameter Name="errorAction" Type="Microsoft.Azure.Management.Scheduler.Models.JobErrorAction" />
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="request">To be added.</param>
+        <param name="queueMessage">To be added.</param>
+        <param name="serviceBusQueueMessage">To be added.</param>
+        <param name="serviceBusTopicMessage">To be added.</param>
+        <param name="retryPolicy">To be added.</param>
+        <param name="errorAction">To be added.</param>
+        <summary>
+            Initializes a new instance of the JobAction class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.JobErrorAction ErrorAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.JobErrorAction ErrorAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.ErrorAction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="errorAction")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.JobErrorAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the error action.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage QueueMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage QueueMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.QueueMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="queueMessage")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the storage queue message.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Request">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.HttpRequest Request { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.HttpRequest Request" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.Request" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="request")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.HttpRequest</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the http requests.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.RetryPolicy RetryPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.RetryPolicy RetryPolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.RetryPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="retryPolicy")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.RetryPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the retry policy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceBusQueueMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage ServiceBusQueueMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage ServiceBusQueueMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.ServiceBusQueueMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="serviceBusQueueMessage")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the service bus queue message.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceBusTopicMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage ServiceBusTopicMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage ServiceBusTopicMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.ServiceBusTopicMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="serviceBusTopicMessage")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the service bus topic message.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobActionType&gt; Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobActionType&gt; Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="type")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobActionType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the job action type. Possible values include: 'Http',
+            'Https', 'StorageQueue', 'ServiceBusQueue', 'ServiceBusTopic'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

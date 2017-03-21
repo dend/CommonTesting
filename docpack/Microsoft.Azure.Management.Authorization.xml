@@ -1,0 +1,2674 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.Management.Authorization</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter">
+            <summary>
+            Role Assignments filter
+            </summary>
+            <summary>
+            Role Assignments filter
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter.#ctor">
+            <summary>
+            Initializes a new instance of the RoleAssignmentFilter class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the RoleAssignmentFilter class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter.PrincipalId">
+            <summary>
+            Returns role assignment of the specific principal.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter">
+            <summary>
+            Role Definitions filter
+            </summary>
+            <summary>
+            Role Definitions filter
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter.#ctor">
+            <summary>
+            Initializes a new instance of the RoleDefinitionFilter class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the RoleDefinitionFilter class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter.RoleName">
+            <summary>
+            Returns role definition with the specific name.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator">
+            <summary>
+            Classic Administrators
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator.#ctor">
+            <summary>
+            Initializes a new instance of the ClassicAdministrator class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator.#ctor(System.String,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.ClassicAdministratorProperties)">
+            <summary>
+            Initializes a new instance of the ClassicAdministrator class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator.Id">
+            <summary>
+            Gets or sets the classic administrator id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator.Name">
+            <summary>
+            Gets or sets the classic administrator name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator.Type">
+            <summary>
+            Gets or sets the classic administrator type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator.Properties">
+            <summary>
+            Gets or sets the classic administrator properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.ClassicAdministratorProperties">
+            <summary>
+            Classic Administrator properties.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ClassicAdministratorProperties.#ctor">
+            <summary>
+            Initializes a new instance of the ClassicAdministratorProperties
+            class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ClassicAdministratorProperties.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the ClassicAdministratorProperties
+            class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ClassicAdministratorProperties.EmailAddress">
+            <summary>
+            Gets or sets the email address
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ClassicAdministratorProperties.Role">
+            <summary>
+            Gets or sets the role
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.Page`1">
+            <summary>
+            Defines a page in Azure responses.
+            </summary>
+            <typeparam name="T">Type of the page content items</typeparam>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Page`1.NextPageLink">
+            <summary>
+            Gets the link to the next page.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.Page`1.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.Page`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>A an enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.Permission">
+            <summary>
+            Role definition permissions.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.Permission.#ctor">
+            <summary>
+            Initializes a new instance of the Permission class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.Permission.#ctor(System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String})">
+            <summary>
+            Initializes a new instance of the Permission class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Permission.Actions">
+            <summary>
+            Role definition allowed actions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Permission.NotActions">
+            <summary>
+            Role definition denied actions.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.ProviderOperation">
+            <summary>
+            Operation
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ProviderOperation.#ctor">
+            <summary>
+            Initializes a new instance of the ProviderOperation class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ProviderOperation.#ctor(System.String,System.String,System.String,System.String,System.Object)">
+            <summary>
+            Initializes a new instance of the ProviderOperation class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperation.Name">
+            <summary>
+            Gets or sets the operation name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperation.DisplayName">
+            <summary>
+            Gets or sets the operation display name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperation.Description">
+            <summary>
+            Gets or sets the operation description
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperation.Origin">
+            <summary>
+            Gets or sets the operation origin
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperation.Properties">
+            <summary>
+            Gets or sets the operation properties
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata">
+            <summary>
+            Provider Operations metadata
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.#ctor">
+            <summary>
+            Initializes a new instance of the ProviderOperationsMetadata class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Authorization.Models.ResourceType},System.Collections.Generic.IList{Microsoft.Azure.Management.Authorization.Models.ProviderOperation})">
+            <summary>
+            Initializes a new instance of the ProviderOperationsMetadata class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.Id">
+            <summary>
+            Gets or sets the provider id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.Name">
+            <summary>
+            Gets or sets the provider name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.Type">
+            <summary>
+            Gets or sets the provider type
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.DisplayName">
+            <summary>
+            Gets or sets the provider display name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.ResourceTypes">
+            <summary>
+            Gets or sets the provider resource types
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata.Operations">
+            <summary>
+            Gets or sets the provider operations
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.Resource">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.Resource.#ctor">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.Resource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Initializes a new instance of the Resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Resource.Id">
+            <summary>
+            Resource Id
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Resource.Name">
+            <summary>
+            Resource name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Resource.Type">
+            <summary>
+            Resource type
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Resource.Location">
+            <summary>
+            Resource location
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.Resource.Tags">
+            <summary>
+            Resource tags
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.Resource.Validate">
+            <summary>
+            Validate the object. Throws ValidationException if validation fails.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.ResourceType">
+            <summary>
+            Resource Type
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ResourceType.#ctor">
+            <summary>
+            Initializes a new instance of the ResourceType class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.ResourceType.#ctor(System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Authorization.Models.ProviderOperation})">
+            <summary>
+            Initializes a new instance of the ResourceType class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ResourceType.Name">
+            <summary>
+            Gets or sets the resource type name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ResourceType.DisplayName">
+            <summary>
+            Gets or sets the resource type display name
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.ResourceType.Operations">
+            <summary>
+            Gets or sets the resource type operations
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleAssignment">
+            <summary>
+            Role Assignments
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignment.#ctor">
+            <summary>
+            Initializes a new instance of the RoleAssignment class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignment.#ctor(System.String,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope)">
+            <summary>
+            Initializes a new instance of the RoleAssignment class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignment.Id">
+            <summary>
+            Gets or sets role assignment id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignment.Name">
+            <summary>
+            Gets or sets role assignment name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignment.Type">
+            <summary>
+            Gets or sets role assignment type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignment.Properties">
+            <summary>
+            Gets or sets role assignment properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentCreateParameters">
+            <summary>
+            Role assignment create parameters.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentCreateParameters.#ctor">
+            <summary>
+            Initializes a new instance of the RoleAssignmentCreateParameters
+            class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentCreateParameters.#ctor(Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties)">
+            <summary>
+            Initializes a new instance of the RoleAssignmentCreateParameters
+            class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentCreateParameters.Properties">
+            <summary>
+            Gets or sets role assignment properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties">
+            <summary>
+            Role assignment properties.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties.#ctor">
+            <summary>
+            Initializes a new instance of the RoleAssignmentProperties class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the RoleAssignmentProperties class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties.RoleDefinitionId">
+            <summary>
+            Gets or sets role definition id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties.PrincipalId">
+            <summary>
+            Gets or sets principal Id.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope">
+            <summary>
+            Role assignment properties with scope.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.#ctor">
+            <summary>
+            Initializes a new instance of the
+            RoleAssignmentPropertiesWithScope class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the
+            RoleAssignmentPropertiesWithScope class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.Scope">
+            <summary>
+            Gets or sets role assignment scope.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.RoleDefinitionId">
+            <summary>
+            Gets or sets role definition id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.PrincipalId">
+            <summary>
+            Gets or sets principal Id.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleDefinition">
+            <summary>
+            Role definition.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleDefinition.#ctor">
+            <summary>
+            Initializes a new instance of the RoleDefinition class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleDefinition.#ctor(System.String,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties)">
+            <summary>
+            Initializes a new instance of the RoleDefinition class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinition.Id">
+            <summary>
+            Gets or sets role definition id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinition.Name">
+            <summary>
+            Gets or sets role definition name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinition.Type">
+            <summary>
+            Gets or sets role definition type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinition.Properties">
+            <summary>
+            Gets or sets role definition properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties">
+            <summary>
+            Role definition properties.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties.#ctor">
+            <summary>
+            Initializes a new instance of the RoleDefinitionProperties class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Authorization.Models.Permission},System.Collections.Generic.IList{System.String})">
+            <summary>
+            Initializes a new instance of the RoleDefinitionProperties class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties.RoleName">
+            <summary>
+            Gets or sets role name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties.Description">
+            <summary>
+            Gets or sets role definition description.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties.Type">
+            <summary>
+            Gets or sets role type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties.Permissions">
+            <summary>
+            Gets or sets role definition permissions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionProperties.AssignableScopes">
+            <summary>
+            Gets or sets role definition assignable scopes.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.Models.SubResource">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.SubResource.#ctor">
+            <summary>
+            Initializes a new instance of the SubResource class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.Models.SubResource.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the SubResource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.Models.SubResource.Id">
+            <summary>
+            Resource Id
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.Credentials">
+            <summary>
+            Gets Azure subscription credentials.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.SubscriptionId">
+            <summary>
+            Gets subscription credentials which uniquely identify Microsoft Azure
+            subscription. The subscription ID forms part of the URI for every service
+            call.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.ApiVersion">
+            <summary>
+            Client Api Version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running Operations.
+            Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is generated and
+            included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])">
+            <summary>
+            Initializes a new instance of the AuthorizationManagementClient class.
+            </summary>
+            <param name='baseUri'>
+            Optional. The base URI of the service.
+            </param>
+            <param name='credentials'>
+            Required. Gets Azure subscription credentials.
+            </param>
+            <param name='rootHandler'>
+            Optional. The http client handler used to handle http transport.
+            </param>
+            <param name='handlers'>
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.AuthorizationManagementClient.Initialize">
+            <summary>
+            Initializes client properties.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperations">
+            <summary>
+            ClassicAdministratorsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperations.#ctor(Microsoft.Azure.Management.Authorization.AuthorizationManagementClient)">
+            <summary>
+            Initializes a new instance of the ClassicAdministratorsOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperations.Client">
+            <summary>
+            Gets a reference to the AuthorizationManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperations.ListWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='apiVersion'>
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='apiVersion'>
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='apiVersion'>
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.BaseUri">
+            <summary>
+            The base URI of the service.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.SerializationSettings">
+            <summary>
+            Gets or sets json serialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.DeserializationSettings">
+            <summary>
+            Gets or sets json deserialization settings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.Credentials">
+            <summary>
+            Gets Azure subscription credentials.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.SubscriptionId">
+            <summary>
+            Gets subscription credentials which uniquely identify Microsoft
+            Azure subscription. The subscription ID forms part of the URI for
+            every service call.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.ApiVersion">
+            <summary>
+            Client Api Version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.AcceptLanguage">
+            <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.LongRunningOperationRetryTimeout">
+            <summary>
+            Gets or sets the retry timeout in seconds for Long Running
+            Operations. Default value is 30.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.IAuthorizationManagementClient.GenerateClientRequestId">
+            <summary>
+            When set to true a unique x-ms-client-request-id value is
+            generated and included in each request. Default is true.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations">
+            <summary>
+            ClassicAdministratorsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations.ListWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='apiVersion'>
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations">
+            <summary>
+            PermissionsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IPermissionsOperations.ListForResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group to get the permissions for.The name is
+            case insensitive.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IPermissionsOperations.ListForResourceWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group. The name is case insensitive.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource
+            </param>
+            <param name='parentResourcePath'>
+            Resource
+            </param>
+            <param name='resourceType'>
+            Resource
+            </param>
+            <param name='resourceName'>
+            Resource
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IPermissionsOperations.ListForResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IPermissionsOperations.ListForResourceNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations">
+            <summary>
+            ProviderOperationsMetadataOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata
+            </summary>
+            <param name='resourceProviderNamespace'>
+            Namespace of the resource provider.
+            </param>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations.ListWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations">
+            <summary>
+            RoleAssignmentsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListForResourceWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource identity.
+            </param>
+            <param name='parentResourcePath'>
+            Resource identity.
+            </param>
+            <param name='resourceType'>
+            Resource identity.
+            </param>
+            <param name='resourceName'>
+            Resource identity.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListForResourceGroupWithHttpMessagesAsync(System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='resourceGroupName'>
+            Resource group name.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create role assignment.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.DeleteByIdWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.CreateByIdWithHttpMessagesAsync(System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create role assignment by Id.
+            </summary>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.GetByIdWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListWithHttpMessagesAsync(Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListForScopeWithHttpMessagesAsync(System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListForResourceNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListForResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations.ListForScopeNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations">
+            <summary>
+            RoleDefinitionsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the role definition.
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition Id
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Creates or updates a role definition.
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+            <param name='roleDefinition'>
+            Role definition.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations.GetByIdWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='roleDefinitionId'>
+            Fully qualified role definition Id
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations.ListWithHttpMessagesAsync(System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get all role definitions that are applicable at scope and above.
+            Use atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get all role definitions that are applicable at scope and above.
+            Use atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            The headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.PermissionsOperations">
+            <summary>
+            PermissionsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperations.#ctor(Microsoft.Azure.Management.Authorization.AuthorizationManagementClient)">
+            <summary>
+            Initializes a new instance of the PermissionsOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.PermissionsOperations.Client">
+            <summary>
+            Gets a reference to the AuthorizationManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperations.ListForResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='resourceGroupName'>
+            Name of the resource group to get the permissions for.The name is case
+            insensitive.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperations.ListForResourceWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group. The name is case insensitive.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource
+            </param>
+            <param name='parentResourcePath'>
+            Resource
+            </param>
+            <param name='resourceType'>
+            Resource
+            </param>
+            <param name='resourceName'>
+            Resource
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperations.ListForResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperations.ListForResourceNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroup(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group to get the permissions for.The name is case
+            insensitive.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Name of the resource group to get the permissions for.The name is case
+            insensitive.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResource(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group. The name is case insensitive.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource
+            </param>
+            <param name='parentResourcePath'>
+            Resource
+            </param>
+            <param name='resourceType'>
+            Resource
+            </param>
+            <param name='resourceName'>
+            Resource
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group. The name is case insensitive.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource
+            </param>
+            <param name='parentResourcePath'>
+            Resource
+            </param>
+            <param name='resourceType'>
+            Resource
+            </param>
+            <param name='resourceName'>
+            Resource
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupNext(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupNextAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource group permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceNext(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceNextAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets a resource permissions.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperations">
+            <summary>
+            ProviderOperationsMetadataOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperations.#ctor(Microsoft.Azure.Management.Authorization.AuthorizationManagementClient)">
+            <summary>
+            Initializes a new instance of the ProviderOperationsMetadataOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperations.Client">
+            <summary>
+            Gets a reference to the AuthorizationManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata
+            </summary>
+            <param name='resourceProviderNamespace'>
+            Namespace of the resource provider.
+            </param>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperations.ListWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.String)">
+            <summary>
+            Gets provider operations metadata
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Namespace of the resource provider.
+            </param>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Namespace of the resource provider.
+            </param>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='apiVersion'>
+            </param>
+            <param name='expand'>
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets provider operations metadata list
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations">
+            <summary>
+            RoleAssignmentsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.#ctor(Microsoft.Azure.Management.Authorization.AuthorizationManagementClient)">
+            <summary>
+            Initializes a new instance of the RoleAssignmentsOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.Client">
+            <summary>
+            Gets a reference to the AuthorizationManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListForResourceWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='resourceGroupName'>
+            The name of the resource group.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource identity.
+            </param>
+            <param name='parentResourcePath'>
+            Resource identity.
+            </param>
+            <param name='resourceType'>
+            Resource identity.
+            </param>
+            <param name='resourceName'>
+            Resource identity.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListForResourceGroupWithHttpMessagesAsync(System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='resourceGroupName'>
+            Resource group name.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create role assignment.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.DeleteByIdWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.CreateByIdWithHttpMessagesAsync(System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Create role assignment by Id.
+            </summary>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.GetByIdWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListWithHttpMessagesAsync(Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListForScopeWithHttpMessagesAsync(System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListForResourceNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListForResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperations.ListForScopeNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResource(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource identity.
+            </param>
+            <param name='parentResourcePath'>
+            Resource identity.
+            </param>
+            <param name='resourceType'>
+            Resource identity.
+            </param>
+            <param name='resourceName'>
+            Resource identity.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            The name of the resource group.
+            </param>
+            <param name='resourceProviderNamespace'>
+            Resource identity.
+            </param>
+            <param name='parentResourcePath'>
+            Resource identity.
+            </param>
+            <param name='resourceType'>
+            Resource identity.
+            </param>
+            <param name='resourceName'>
+            Resource identity.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroup(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Resource group name.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='resourceGroupName'>
+            Resource group name.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Delete(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Create(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties)">
+            <summary>
+            Create role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Threading.CancellationToken)">
+            <summary>
+            Create role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='roleAssignmentName'>
+            Role assignment name.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Delete role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties)">
+            <summary>
+            Create role assignment by Id.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Threading.CancellationToken)">
+            <summary>
+            Create role assignment by Id.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='properties'>
+            Gets or sets role assignment properties.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get single role assignment.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleAssignmentId'>
+            Role assignment Id
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScope(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope.
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the resource group.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the subscription.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Gets role assignments of the scope.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="T:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations">
+            <summary>
+            RoleDefinitionsOperations operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.#ctor(Microsoft.Azure.Management.Authorization.AuthorizationManagementClient)">
+            <summary>
+            Initializes a new instance of the RoleDefinitionsOperations class.
+            </summary>
+            <param name='client'>
+            Reference to the service client.
+            </param>
+        </member>
+        <member name="P:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.Client">
+            <summary>
+            Gets a reference to the AuthorizationManagementClient
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Deletes the role definition.
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition Id
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Creates or updates a role definition.
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+            <param name='roleDefinition'>
+            Role definition.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.GetByIdWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='roleDefinitionId'>
+            Fully qualified role definition Id
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.ListWithHttpMessagesAsync(System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)">
+            <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='customHeaders'>
+            Headers that will be added to request.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.Delete(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String)">
+            <summary>
+            Deletes the role definition.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes the role definition.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition Id
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition Id
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition)">
+            <summary>
+            Creates or updates a role definition.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+            <param name='roleDefinition'>
+            Role definition.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition,System.Threading.CancellationToken)">
+            <summary>
+            Creates or updates a role definition.
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='roleDefinitionId'>
+            Role definition id.
+            </param>
+            <param name='roleDefinition'>
+            Role definition.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetById(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleDefinitionId'>
+            Fully qualified role definition Id
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetByIdAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get role definition by name (GUID).
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='roleDefinitionId'>
+            Fully qualified role definition Id
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter})">
+            <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter},System.Threading.CancellationToken)">
+            <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='scope'>
+            Scope
+            </param>
+            <param name='odataQuery'>
+            OData parameters to apply to the operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String)">
+            <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+        </member>
+        <member name="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+            <param name='operations'>
+            The operations group for this extension method.
+            </param>
+            <param name='nextPageLink'>
+            The NextLink from the previous successful call to List operation.
+            </param>
+            <param name='cancellationToken'>
+            The cancellation token.
+            </param>
+        </member>
+    </members>
+</doc>

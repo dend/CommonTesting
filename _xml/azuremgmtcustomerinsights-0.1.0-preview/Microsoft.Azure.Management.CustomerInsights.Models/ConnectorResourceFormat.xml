@@ -1,0 +1,352 @@
+<Type Name="ConnectorResourceFormat" FullName="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat">
+  <TypeSignature Language="C#" Value="public class ConnectorResourceFormat : Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConnectorResourceFormat extends Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CustomerInsights</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The connector resource format.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConnectorResourceFormat ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ConnectorResourceFormat class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConnectorResourceFormat (Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes connectorType, System.Collections.Generic.IDictionary&lt;string,object&gt; connectorProperties, string id = null, string name = null, string type = null, Nullable&lt;int&gt; connectorId = null, string connectorName = null, string displayName = null, string description = null, Nullable&lt;DateTime&gt; created = null, Nullable&lt;DateTime&gt; lastModified = null, Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates&gt; state = null, string tenantId = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes connectorType, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; connectorProperties, string id, string name, string type, valuetype System.Nullable`1&lt;int32&gt; connectorId, string connectorName, string displayName, string description, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; created, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; lastModified, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates&gt; state, string tenantId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.#ctor(Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates},System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="connectorType" Type="Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes" />
+        <Parameter Name="connectorProperties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="type" Type="System.String" />
+        <Parameter Name="connectorId" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="connectorName" Type="System.String" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="created" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="lastModified" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="state" Type="System.Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates&gt;" />
+        <Parameter Name="tenantId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectorType">Type of connector. Possible values
+            include: 'CRM', 'AzureBlob', 'Salesforce'</param>
+        <param name="connectorProperties">The connector properties.</param>
+        <param name="id">Resource ID.</param>
+        <param name="name">Resource name.</param>
+        <param name="type">Resource type.</param>
+        <param name="connectorId">ID of the connector.</param>
+        <param name="connectorName">Name of the connector.</param>
+        <param name="displayName">Display name of the connector.</param>
+        <param name="description">Description of the connector.</param>
+        <param name="created">The created time.</param>
+        <param name="lastModified">The last monified time.</param>
+        <param name="state">State of connector. Possible values include:
+            'Creating', 'Created', 'Ready', 'Expiring', 'Deleting',
+            'Failed'</param>
+        <param name="tenantId">The hub name.</param>
+        <summary>
+            Initializes a new instance of the ConnectorResourceFormat class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectorId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ConnectorId { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ConnectorId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.connectorId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets ID of the connector.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectorName">
+      <MemberSignature Language="C#" Value="public string ConnectorName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectorName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.connectorName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets name of the connector.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectorProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; ConnectorProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; ConnectorProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.connectorProperties")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the connector properties.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectorType">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes ConnectorType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes ConnectorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.ConnectorType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.connectorType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.ConnectorTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets type of connector. Possible values include: 'CRM',
+            'AzureBlob', 'Salesforce'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Created">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Created { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Created" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.Created" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.created")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the created time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.description")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets description of the connector.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.displayName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets display name of the connector.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModified">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastModified { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastModified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.LastModified" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.lastModified")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the last monified time.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates&gt; State { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates&gt; State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.state")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.CustomerInsights.Models.ConnectorStates&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets state of connector. Possible values include: 'Creating',
+            'Created', 'Ready', 'Expiring', 'Deleting', 'Failed'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TenantId">
+      <MemberSignature Language="C#" Value="public string TenantId { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TenantId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.TenantId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.tenantId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the hub name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.ConnectorResourceFormat.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

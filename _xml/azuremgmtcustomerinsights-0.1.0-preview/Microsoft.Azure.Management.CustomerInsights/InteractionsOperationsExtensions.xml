@@ -1,0 +1,444 @@
+<Type Name="InteractionsOperationsExtensions" FullName="Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class InteractionsOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit InteractionsOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CustomerInsights</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods for InteractionsOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat BeginCreateOrUpdate (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat BeginCreateOrUpdate(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="interactionName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="interactionName">
+            The name of the interaction.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate Interaction operation.
+            </param>
+        <summary>
+            Creates an interaction or updates an existing interaction within a hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; BeginCreateOrUpdateAsync (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; BeginCreateOrUpdateAsync(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="interactionName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="interactionName">
+            The name of the interaction.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate Interaction operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Creates an interaction or updates an existing interaction within a hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat CreateOrUpdate (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat CreateOrUpdate(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="interactionName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="interactionName">
+            The name of the interaction.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate Interaction operation.
+            </param>
+        <summary>
+            Creates an interaction or updates an existing interaction within a hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="interactionName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="interactionName">
+            The name of the interaction.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the CreateOrUpdate Interaction operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Creates an interaction or updates an existing interaction within a hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat Get (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, string localeCode = &quot;en-us&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat Get(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, string localeCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.Get(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="interactionName" Type="System.String" />
+        <Parameter Name="localeCode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="interactionName">
+            The name of the interaction.
+            </param>
+        <param name="localeCode">
+            Locale of interaction to retrieve, default is en-us.
+            </param>
+        <summary>
+            Gets information about the specified interaction.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; GetAsync (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, string localeCode = &quot;en-us&quot;, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; GetAsync(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string interactionName, string localeCode, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.GetAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions/&lt;GetAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="interactionName" Type="System.String" />
+        <Parameter Name="localeCode" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="interactionName">
+            The name of the interaction.
+            </param>
+        <param name="localeCode">
+            Locale of interaction to retrieve, default is en-us.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets information about the specified interaction.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHub">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; ListByHub (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string localeCode = &quot;en-us&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; ListByHub(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string localeCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHub(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="localeCode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="localeCode">
+            Locale of interaction to retrieve, default is en-us.
+            </param>
+        <summary>
+            Gets all interactions in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHubAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;&gt; ListByHubAsync (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string localeCode = &quot;en-us&quot;, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;&gt; ListByHubAsync(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string resourceGroupName, string hubName, string localeCode, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHubAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions/&lt;ListByHubAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hubName" Type="System.String" />
+        <Parameter Name="localeCode" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="hubName">
+            The name of the hub.
+            </param>
+        <param name="localeCode">
+            Locale of interaction to retrieve, default is en-us.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets all interactions in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHubNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; ListByHubNext (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt; ListByHubNext(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHubNext(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <summary>
+            Gets all interactions in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByHubNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;&gt; ListByHubNextAsync (this Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;&gt; ListByHubNextAsync(class Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions.ListByHubNextAsync(Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.CustomerInsights.InteractionsOperationsExtensions/&lt;ListByHubNextAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.CustomerInsights.Models.InteractionResourceFormat&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.CustomerInsights.IInteractionsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets all interactions in the hub.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

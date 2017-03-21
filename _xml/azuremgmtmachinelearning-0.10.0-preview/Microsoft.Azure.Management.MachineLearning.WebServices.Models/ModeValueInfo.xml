@@ -1,0 +1,107 @@
+<Type Name="ModeValueInfo" FullName="Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModeValueInfo">
+  <TypeSignature Language="C#" Value="public class ModeValueInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ModeValueInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModeValueInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Nested parameter definition.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModeValueInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModeValueInfo.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ModeValueInfo class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModeValueInfo (string interfaceString = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModuleAssetParameter&gt; parameters = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string interfaceString, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModuleAssetParameter&gt; parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModeValueInfo.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModuleAssetParameter})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="interfaceString" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModuleAssetParameter&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="interfaceString">The interface string name for the
+            nested parameter.</param>
+        <param name="parameters">The definition of the parameter.</param>
+        <summary>
+            Initializes a new instance of the ModeValueInfo class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterfaceString">
+      <MemberSignature Language="C#" Value="public string InterfaceString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InterfaceString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModeValueInfo.InterfaceString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interfaceString")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the interface string name for the nested parameter.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModuleAssetParameter&gt; Parameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModuleAssetParameter&gt; Parameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModeValueInfo.Parameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="parameters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.ModuleAssetParameter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the definition of the parameter.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

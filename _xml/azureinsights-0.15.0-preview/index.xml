@@ -1,0 +1,2119 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.Insights" Version="0.15.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Provides Microsoft Azure Insights operations.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("0.15.0.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("0.15.0-preview")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Azure .NET SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Azure Insights Library")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.Insights">
+      <Type Name="EventCategoriesOperationsExtensions" Kind="Class" />
+      <Type Name="EventsOperationsExtensions" Kind="Class" />
+      <Type Name="IEventCategoriesOperations" Kind="Interface" />
+      <Type Name="IEventsOperations" Kind="Interface" />
+      <Type Name="IInsightsClient" Kind="Interface" />
+      <Type Name="IMetricDefinitionsOperations" Kind="Interface" />
+      <Type Name="IMetricsOperations" Kind="Interface" />
+      <Type Name="InsightsClient" Kind="Class" />
+      <Type Name="ITenantEventsOperations" Kind="Interface" />
+      <Type Name="IUsageMetricsOperations" Kind="Interface" />
+      <Type Name="MetricDefinitionsOperationsExtensions" Kind="Class" />
+      <Type Name="MetricsOperationsExtensions" Kind="Class" />
+      <Type Name="TenantEventsOperationsExtensions" Kind="Class" />
+      <Type Name="UsageMetricsOperationsExtensions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Insights.Models">
+      <Type Name="AggregationType" Kind="Enumeration" />
+      <Type Name="EventChannels" Kind="Enumeration" />
+      <Type Name="EventData" Kind="Class" />
+      <Type Name="EventLevel" Kind="Enumeration" />
+      <Type Name="HttpRequestInfo" Kind="Class" />
+      <Type Name="LocalizableString" Kind="Class" />
+      <Type Name="Metric" Kind="Class" />
+      <Type Name="MetricAvailability" Kind="Class" />
+      <Type Name="MetricDefinition" Kind="Class" />
+      <Type Name="MetricValue" Kind="Class" />
+      <Type Name="Page`1" DisplayName="Page&lt;T&gt;" Kind="Class" />
+      <Type Name="Page1`1" DisplayName="Page1&lt;T&gt;" Kind="Class" />
+      <Type Name="SenderAuthorization" Kind="Class" />
+      <Type Name="Unit" Kind="Enumeration" />
+      <Type Name="UsageMetric" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Management.Insights">
+      <Type Name="AlertRuleIncidentsOperationsExtensions" Kind="Class" />
+      <Type Name="AlertRulesOperationsExtensions" Kind="Class" />
+      <Type Name="AutoscaleSettingsOperationsExtensions" Kind="Class" />
+      <Type Name="IAlertRuleIncidentsOperations" Kind="Interface" />
+      <Type Name="IAlertRulesOperations" Kind="Interface" />
+      <Type Name="IAutoscaleSettingsOperations" Kind="Interface" />
+      <Type Name="IInsightsManagementClient" Kind="Interface" />
+      <Type Name="ILogProfilesOperations" Kind="Interface" />
+      <Type Name="InsightsManagementClient" Kind="Class" />
+      <Type Name="IServiceDiagnosticSettingsOperations" Kind="Interface" />
+      <Type Name="LogProfilesOperationsExtensions" Kind="Class" />
+      <Type Name="ServiceDiagnosticSettingsOperationsExtensions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Management.Insights.Models">
+      <Type Name="AlertRuleResource" Kind="Class" />
+      <Type Name="AutoscaleNotification" Kind="Class" />
+      <Type Name="AutoscaleProfile" Kind="Class" />
+      <Type Name="AutoscaleSettingResource" Kind="Class" />
+      <Type Name="ComparisonOperationType" Kind="Enumeration" />
+      <Type Name="ConditionOperator" Kind="Enumeration" />
+      <Type Name="EmailNotification" Kind="Class" />
+      <Type Name="Incident" Kind="Class" />
+      <Type Name="LocationThresholdRuleCondition" Kind="Class" />
+      <Type Name="LogProfileResource" Kind="Class" />
+      <Type Name="LogSettings" Kind="Class" />
+      <Type Name="ManagementEventAggregationCondition" Kind="Class" />
+      <Type Name="ManagementEventRuleCondition" Kind="Class" />
+      <Type Name="MetricSettings" Kind="Class" />
+      <Type Name="MetricStatisticType" Kind="Enumeration" />
+      <Type Name="MetricTrigger" Kind="Class" />
+      <Type Name="Page`1" DisplayName="Page&lt;T&gt;" Kind="Class" />
+      <Type Name="Page1`1" DisplayName="Page1&lt;T&gt;" Kind="Class" />
+      <Type Name="Recurrence" Kind="Class" />
+      <Type Name="RecurrenceFrequency" Kind="Enumeration" />
+      <Type Name="RecurrentSchedule" Kind="Class" />
+      <Type Name="Resource" Kind="Class" />
+      <Type Name="RetentionPolicy" Kind="Class" />
+      <Type Name="RuleAction" Kind="Class" />
+      <Type Name="RuleCondition" Kind="Class" />
+      <Type Name="RuleDataSource" Kind="Class" />
+      <Type Name="RuleEmailAction" Kind="Class" />
+      <Type Name="RuleManagementEventClaimsDataSource" Kind="Class" />
+      <Type Name="RuleManagementEventDataSource" Kind="Class" />
+      <Type Name="RuleMetricDataSource" Kind="Class" />
+      <Type Name="RuleWebhookAction" Kind="Class" />
+      <Type Name="ScaleAction" Kind="Class" />
+      <Type Name="ScaleCapacity" Kind="Class" />
+      <Type Name="ScaleDirection" Kind="Enumeration" />
+      <Type Name="ScaleRule" Kind="Class" />
+      <Type Name="ScaleType" Kind="Enumeration" />
+      <Type Name="ServiceDiagnosticSettingsResource" Kind="Class" />
+      <Type Name="ThresholdRuleCondition" Kind="Class" />
+      <Type Name="TimeAggregationOperator" Kind="Enumeration" />
+      <Type Name="TimeAggregationType" Kind="Enumeration" />
+      <Type Name="TimeWindow" Kind="Class" />
+      <Type Name="WebhookNotification" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.Insights</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IEventCategoriesOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.LocalizableString&gt; List (this Microsoft.Azure.Insights.IEventCategoriesOperations operations);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.LocalizableString&gt; List(class Microsoft.Azure.Insights.IEventCategoriesOperations operations) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.EventCategoriesOperationsExtensions.List(Microsoft.Azure.Insights.IEventCategoriesOperations)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.LocalizableString&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IEventCategoriesOperations" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <summary>
+            get the list of available event categories supported in the Activity Log
+            Service. The current list includes the following: Aministrative, Security,
+            ServiceHealth, Alert, Recommendation, Policy.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.EventCategoriesOperationsExtensions" Member="M:Microsoft.Azure.Insights.EventCategoriesOperationsExtensions.List(Microsoft.Azure.Insights.IEventCategoriesOperations)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IEventCategoriesOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.LocalizableString&gt;&gt; ListAsync (this Microsoft.Azure.Insights.IEventCategoriesOperations operations, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.LocalizableString&gt;&gt; ListAsync(class Microsoft.Azure.Insights.IEventCategoriesOperations operations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.EventCategoriesOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IEventCategoriesOperations,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.LocalizableString&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IEventCategoriesOperations" RefType="this" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            get the list of available event categories supported in the Activity Log
+            Service. The current list includes the following: Aministrative, Security,
+            ServiceHealth, Alert, Recommendation, Policy.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.EventCategoriesOperationsExtensions" Member="M:Microsoft.Azure.Insights.EventCategoriesOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IEventCategoriesOperations,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IEventsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt; List (this Microsoft.Azure.Insights.IEventsOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt; odataQuery = null, string select = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; List(class Microsoft.Azure.Insights.IEventsOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; odataQuery, string select) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.EventsOperationsExtensions.List(Microsoft.Azure.Insights.IEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IEventsOperations" RefType="this" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt;" />
+          <Parameter Name="select" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="select">
+            Used to fetch events with only the given properties. The filter is a comma
+            separated list of property names to be returned. Possible values are:
+            authorization, channels, claims, correlationId, description, eventDataId,
+            eventName, eventTimestamp, httpRequest, level, operationId, operationName,
+            properties, resourceGroupName, resourceProviderName, resourceId, status,
+            submissionTimestamp, subStatus, subscriptionId
+            </param>
+          <summary>
+            Provides the list of events. The **$filter** is very restricted and allows
+            only the following patterns. - List events for a resource group:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceGroupName eq '&lt;ResourceGroupName&gt;'. - List events for
+            resource: $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp
+            le '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceUri eq '&lt;ResourceURI&gt;'. - List events for a subscription:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation'. -List events
+            for a resource provider: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceProvider eq '&lt;ResourceProviderName&gt;'. - List
+            events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.EventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.EventsOperationsExtensions.List(Microsoft.Azure.Insights.IEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IEventsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListAsync (this Microsoft.Azure.Insights.IEventsOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt; odataQuery = null, string select = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListAsync(class Microsoft.Azure.Insights.IEventsOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; odataQuery, string select, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.EventsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IEventsOperations" RefType="this" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt;" />
+          <Parameter Name="select" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="select">
+            Used to fetch events with only the given properties. The filter is a comma
+            separated list of property names to be returned. Possible values are:
+            authorization, channels, claims, correlationId, description, eventDataId,
+            eventName, eventTimestamp, httpRequest, level, operationId, operationName,
+            properties, resourceGroupName, resourceProviderName, resourceId, status,
+            submissionTimestamp, subStatus, subscriptionId
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Provides the list of events. The **$filter** is very restricted and allows
+            only the following patterns. - List events for a resource group:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceGroupName eq '&lt;ResourceGroupName&gt;'. - List events for
+            resource: $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp
+            le '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceUri eq '&lt;ResourceURI&gt;'. - List events for a subscription:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation'. -List events
+            for a resource provider: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceProvider eq '&lt;ResourceProviderName&gt;'. - List
+            events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.EventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.EventsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IEventsOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt; ListNext (this Microsoft.Azure.Insights.IEventsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; ListNext(class Microsoft.Azure.Insights.IEventsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.EventsOperationsExtensions.ListNext(Microsoft.Azure.Insights.IEventsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IEventsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Provides the list of events. The **$filter** is very restricted and allows
+            only the following patterns. - List events for a resource group:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceGroupName eq '&lt;ResourceGroupName&gt;'. - List events for
+            resource: $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp
+            le '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceUri eq '&lt;ResourceURI&gt;'. - List events for a subscription:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation'. -List events
+            for a resource provider: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceProvider eq '&lt;ResourceProviderName&gt;'. - List
+            events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.EventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.EventsOperationsExtensions.ListNext(Microsoft.Azure.Insights.IEventsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IEventsOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListNextAsync (this Microsoft.Azure.Insights.IEventsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListNextAsync(class Microsoft.Azure.Insights.IEventsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.EventsOperationsExtensions.ListNextAsync(Microsoft.Azure.Insights.IEventsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IEventsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Provides the list of events. The **$filter** is very restricted and allows
+            only the following patterns. - List events for a resource group:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceGroupName eq '&lt;ResourceGroupName&gt;'. - List events for
+            resource: $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp
+            le '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation' and
+            resourceUri eq '&lt;ResourceURI&gt;'. - List events for a subscription:
+            $filter=eventTimestamp ge '&lt;Start Time&gt;' and eventTimestamp le
+            '&lt;End Time&gt;' and eventChannels eq 'Admin, Operation'. -List events
+            for a resource provider: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceProvider eq '&lt;ResourceProviderName&gt;'. - List
+            events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.EventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.EventsOperationsExtensions.ListNextAsync(Microsoft.Azure.Insights.IEventsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IMetricDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt; List (this Microsoft.Azure.Insights.IMetricDefinitionsOperations operations, string resourceUri, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.MetricDefinition&gt; List(class Microsoft.Azure.Insights.IMetricDefinitionsOperations operations, string resourceUri, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.MetricDefinition&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.MetricDefinitionsOperationsExtensions.List(Microsoft.Azure.Insights.IMetricDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.MetricDefinition})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IMetricDefinitionsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Lists the metric definitions for the resource. The **$filter** parameter is
+            optional, and can be used to only retrieve certain metric definitions. For
+            example, get just the definition for the CPU percentage counter:
+            $filter=name.value eq '\Processor(_Total)\% Processor Time'. This $filter
+            is very restricted and allows only these 'name eq &lt;value&gt;' clauses
+            separated by or operators. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.MetricDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Insights.MetricDefinitionsOperationsExtensions.List(Microsoft.Azure.Insights.IMetricDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.MetricDefinition})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IMetricDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt;&gt; ListAsync (this Microsoft.Azure.Insights.IMetricDefinitionsOperations operations, string resourceUri, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.MetricDefinition&gt;&gt; ListAsync(class Microsoft.Azure.Insights.IMetricDefinitionsOperations operations, string resourceUri, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.MetricDefinition&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.MetricDefinitionsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IMetricDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.MetricDefinition},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IMetricDefinitionsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.MetricDefinition&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Lists the metric definitions for the resource. The **$filter** parameter is
+            optional, and can be used to only retrieve certain metric definitions. For
+            example, get just the definition for the CPU percentage counter:
+            $filter=name.value eq '\Processor(_Total)\% Processor Time'. This $filter
+            is very restricted and allows only these 'name eq &lt;value&gt;' clauses
+            separated by or operators. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.MetricDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Insights.MetricDefinitionsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IMetricDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.MetricDefinition},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IMetricsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.Metric&gt; List (this Microsoft.Azure.Insights.IMetricsOperations operations, string resourceUri, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.Metric&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.Metric&gt; List(class Microsoft.Azure.Insights.IMetricsOperations operations, string resourceUri, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.Metric&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.MetricsOperationsExtensions.List(Microsoft.Azure.Insights.IMetricsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.Metric})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.Metric&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IMetricsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.Metric&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Lists the metric values for a resource. The $filter is used to reduce the
+            set of metric data returned. Some common properties for this expression
+            will be: name.value, aggregationType, startTime, endTime, timeGrain. The
+            filter expression uses these properties with comparison operators (eg. eq,
+            gt, lt) and multiple expressions can be combined with parentheses and
+            'and/or' operators. Some example filter expressions are: -
+            $filter=(name.value eq 'RunsSucceeded') and aggregationType eq 'Total' and
+            startTime eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq
+            duration'PT1M', - $filter=(name.value eq 'RunsSucceeded') and
+            (aggregationType eq 'Total' or aggregationType eq 'Average') and startTime
+            eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq duration'PT1H', -
+            $filter=(name.value eq 'ActionsCompleted' or name.value eq 'RunsSucceeded')
+            and (aggregationType eq 'Total' or aggregationType eq 'Average') and
+            startTime eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq
+            duration'PT1M'.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.MetricsOperationsExtensions" Member="M:Microsoft.Azure.Insights.MetricsOperationsExtensions.List(Microsoft.Azure.Insights.IMetricsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.Metric})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IMetricsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.Metric&gt;&gt; ListAsync (this Microsoft.Azure.Insights.IMetricsOperations operations, string resourceUri, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.Metric&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.Metric&gt;&gt; ListAsync(class Microsoft.Azure.Insights.IMetricsOperations operations, string resourceUri, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.Metric&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.MetricsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IMetricsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.Metric},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.Metric&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IMetricsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.Metric&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Lists the metric values for a resource. The $filter is used to reduce the
+            set of metric data returned. Some common properties for this expression
+            will be: name.value, aggregationType, startTime, endTime, timeGrain. The
+            filter expression uses these properties with comparison operators (eg. eq,
+            gt, lt) and multiple expressions can be combined with parentheses and
+            'and/or' operators. Some example filter expressions are: -
+            $filter=(name.value eq 'RunsSucceeded') and aggregationType eq 'Total' and
+            startTime eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq
+            duration'PT1M', - $filter=(name.value eq 'RunsSucceeded') and
+            (aggregationType eq 'Total' or aggregationType eq 'Average') and startTime
+            eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq duration'PT1H', -
+            $filter=(name.value eq 'ActionsCompleted' or name.value eq 'RunsSucceeded')
+            and (aggregationType eq 'Total' or aggregationType eq 'Average') and
+            startTime eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq
+            duration'PT1M'.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.MetricsOperationsExtensions" Member="M:Microsoft.Azure.Insights.MetricsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IMetricsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.Metric},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.ITenantEventsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt; List (this Microsoft.Azure.Insights.ITenantEventsOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt; odataQuery = null, string select = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; List(class Microsoft.Azure.Insights.ITenantEventsOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; odataQuery, string select) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.List(Microsoft.Azure.Insights.ITenantEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.ITenantEventsOperations" RefType="this" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt;" />
+          <Parameter Name="select" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="select">
+            Used to fetch events with only the given properties. The filter is a comma
+            separated list of property names to be returned. Possible values are:
+            authorization, channels, claims, correlationId, description, eventDataId,
+            eventName, eventTimestamp, httpRequest, level, operationId, operationName,
+            properties, resourceGroupName, resourceProviderName, resourceId, status,
+            submissionTimestamp, subStatus, subscriptionId
+            </param>
+          <summary>
+            get the Activity Logs for the Tenant. Everything that is applicable to the
+            API to get the Activity Log for the subscription is applicable to this API
+            (the parameters, $filter, etc.). One thing to point out here is that this
+            API does *not* retrieve the logs at the individual subscription of the
+            tenant but only surfaces the logs that were generated at the tenant level.
+            The **$filter** is very restricted and allows only the following patterns.
+            - List events for a resource group: $filter=eventTimestamp ge '&lt;Start
+            Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq
+            'Admin, Operation' and resourceGroupName eq '&lt;ResourceGroupName&gt;'. -
+            List events for resource: $filter=eventTimestamp ge '&lt;Start Time&gt;'
+            and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceUri eq '&lt;ResourceURI&gt;'. - List events for a
+            subscription: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation'. - List evetns for a resource provider: $filter=eventTimestamp
+            ge '&lt;Start Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and
+            eventChannels eq 'Admin, Operation' and resourceProvider eq
+            '&lt;ResourceProviderName&gt;'. - List events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.TenantEventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.List(Microsoft.Azure.Insights.ITenantEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.ITenantEventsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListAsync (this Microsoft.Azure.Insights.ITenantEventsOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt; odataQuery = null, string select = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListAsync(class Microsoft.Azure.Insights.ITenantEventsOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; odataQuery, string select, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.ITenantEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.ITenantEventsOperations" RefType="this" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.EventData&gt;" />
+          <Parameter Name="select" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="select">
+            Used to fetch events with only the given properties. The filter is a comma
+            separated list of property names to be returned. Possible values are:
+            authorization, channels, claims, correlationId, description, eventDataId,
+            eventName, eventTimestamp, httpRequest, level, operationId, operationName,
+            properties, resourceGroupName, resourceProviderName, resourceId, status,
+            submissionTimestamp, subStatus, subscriptionId
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            get the Activity Logs for the Tenant. Everything that is applicable to the
+            API to get the Activity Log for the subscription is applicable to this API
+            (the parameters, $filter, etc.). One thing to point out here is that this
+            API does *not* retrieve the logs at the individual subscription of the
+            tenant but only surfaces the logs that were generated at the tenant level.
+            The **$filter** is very restricted and allows only the following patterns.
+            - List events for a resource group: $filter=eventTimestamp ge '&lt;Start
+            Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq
+            'Admin, Operation' and resourceGroupName eq '&lt;ResourceGroupName&gt;'. -
+            List events for resource: $filter=eventTimestamp ge '&lt;Start Time&gt;'
+            and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceUri eq '&lt;ResourceURI&gt;'. - List events for a
+            subscription: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation'. - List evetns for a resource provider: $filter=eventTimestamp
+            ge '&lt;Start Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and
+            eventChannels eq 'Admin, Operation' and resourceProvider eq
+            '&lt;ResourceProviderName&gt;'. - List events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.TenantEventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.ITenantEventsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.EventData},System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.ITenantEventsOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt; ListNext (this Microsoft.Azure.Insights.ITenantEventsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt; ListNext(class Microsoft.Azure.Insights.ITenantEventsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.ListNext(Microsoft.Azure.Insights.ITenantEventsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.ITenantEventsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            get the Activity Logs for the Tenant. Everything that is applicable to the
+            API to get the Activity Log for the subscription is applicable to this API
+            (the parameters, $filter, etc.). One thing to point out here is that this
+            API does *not* retrieve the logs at the individual subscription of the
+            tenant but only surfaces the logs that were generated at the tenant level.
+            The **$filter** is very restricted and allows only the following patterns.
+            - List events for a resource group: $filter=eventTimestamp ge '&lt;Start
+            Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq
+            'Admin, Operation' and resourceGroupName eq '&lt;ResourceGroupName&gt;'. -
+            List events for resource: $filter=eventTimestamp ge '&lt;Start Time&gt;'
+            and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceUri eq '&lt;ResourceURI&gt;'. - List events for a
+            subscription: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation'. - List evetns for a resource provider: $filter=eventTimestamp
+            ge '&lt;Start Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and
+            eventChannels eq 'Admin, Operation' and resourceProvider eq
+            '&lt;ResourceProviderName&gt;'. - List events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.TenantEventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.ListNext(Microsoft.Azure.Insights.ITenantEventsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.ITenantEventsOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListNextAsync (this Microsoft.Azure.Insights.ITenantEventsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Insights.Models.EventData&gt;&gt; ListNextAsync(class Microsoft.Azure.Insights.ITenantEventsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.ListNextAsync(Microsoft.Azure.Insights.ITenantEventsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Insights.Models.EventData&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.ITenantEventsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            get the Activity Logs for the Tenant. Everything that is applicable to the
+            API to get the Activity Log for the subscription is applicable to this API
+            (the parameters, $filter, etc.). One thing to point out here is that this
+            API does *not* retrieve the logs at the individual subscription of the
+            tenant but only surfaces the logs that were generated at the tenant level.
+            The **$filter** is very restricted and allows only the following patterns.
+            - List events for a resource group: $filter=eventTimestamp ge '&lt;Start
+            Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq
+            'Admin, Operation' and resourceGroupName eq '&lt;ResourceGroupName&gt;'. -
+            List events for resource: $filter=eventTimestamp ge '&lt;Start Time&gt;'
+            and eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation' and resourceUri eq '&lt;ResourceURI&gt;'. - List events for a
+            subscription: $filter=eventTimestamp ge '&lt;Start Time&gt;' and
+            eventTimestamp le '&lt;End Time&gt;' and eventChannels eq 'Admin,
+            Operation'. - List evetns for a resource provider: $filter=eventTimestamp
+            ge '&lt;Start Time&gt;' and eventTimestamp le '&lt;End Time&gt;' and
+            eventChannels eq 'Admin, Operation' and resourceProvider eq
+            '&lt;ResourceProviderName&gt;'. - List events for a correlation Id:
+            api-version=2014-04-01&amp;$filter=eventTimestamp ge
+            '2014-07-16T04:36:37.6407898Z' and eventTimestamp le
+            '2014-07-20T04:36:37.6407898Z' and eventChannels eq 'Admin, Operation' and
+            correlationId eq '&lt;CorrelationID&gt;'. No other syntax is allowed.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.TenantEventsOperationsExtensions" Member="M:Microsoft.Azure.Insights.TenantEventsOperationsExtensions.ListNextAsync(Microsoft.Azure.Insights.ITenantEventsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IUsageMetricsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt; List (this Microsoft.Azure.Insights.IUsageMetricsOperations operations, string resourceUri, string apiVersion, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.UsageMetric&gt; List(class Microsoft.Azure.Insights.IUsageMetricsOperations operations, string resourceUri, string apiVersion, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.UsageMetric&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.UsageMetricsOperationsExtensions.List(Microsoft.Azure.Insights.IUsageMetricsOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.UsageMetric})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IUsageMetricsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="apiVersion" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="apiVersion">
+            The client Api Version.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            The List operation lists the usage metrics for the resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.UsageMetricsOperationsExtensions" Member="M:Microsoft.Azure.Insights.UsageMetricsOperationsExtensions.List(Microsoft.Azure.Insights.IUsageMetricsOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.UsageMetric})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Insights.IUsageMetricsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt;&gt; ListAsync (this Microsoft.Azure.Insights.IUsageMetricsOperations operations, string resourceUri, string apiVersion, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Insights.Models.UsageMetric&gt;&gt; ListAsync(class Microsoft.Azure.Insights.IUsageMetricsOperations operations, string resourceUri, string apiVersion, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Insights.Models.UsageMetric&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Insights.UsageMetricsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IUsageMetricsOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.UsageMetric},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Insights.IUsageMetricsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="apiVersion" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Insights.Models.UsageMetric&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="apiVersion">
+            The client Api Version.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            The List operation lists the usage metrics for the resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Insights.UsageMetricsOperationsExtensions" Member="M:Microsoft.Azure.Insights.UsageMetricsOperationsExtensions.ListAsync(Microsoft.Azure.Insights.IUsageMetricsOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Insights.Models.UsageMetric},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.Incident Get (this Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName, string incidentName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.Incident Get(class Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName, string incidentName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.Incident</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+          <Parameter Name="incidentName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <param name="incidentName">
+            The name of the incident to retrieve.
+            </param>
+          <summary>
+            Gets an incident associated to an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.Incident&gt; GetAsync (this Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName, string incidentName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.Incident&gt; GetAsync(class Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName, string incidentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.Incident&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+          <Parameter Name="incidentName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <param name="incidentName">
+            The name of the incident to retrieve.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets an incident associated to an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" />
+      </Targets>
+      <Member MemberName="ListByAlertRule">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.Incident&gt; ListByAlertRule (this Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Insights.Models.Incident&gt; ListByAlertRule(class Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.ListByAlertRule(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.Incident&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <summary>
+            Gets a list of incidents associated to an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.ListByAlertRule(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" />
+      </Targets>
+      <Member MemberName="ListByAlertRuleAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.Incident&gt;&gt; ListByAlertRuleAsync (this Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Insights.Models.Incident&gt;&gt; ListByAlertRuleAsync(class Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations operations, string resourceGroupName, string ruleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.ListByAlertRuleAsync(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.Incident&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets a list of incidents associated to an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRuleIncidentsOperationsExtensions.ListByAlertRuleAsync(Microsoft.Azure.Management.Insights.IAlertRuleIncidentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdate">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.AlertRuleResource CreateOrUpdate (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, Microsoft.Azure.Management.Insights.Models.AlertRuleResource parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.AlertRuleResource CreateOrUpdate(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, class Microsoft.Azure.Management.Insights.Models.AlertRuleResource parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AlertRuleResource)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.AlertRuleResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.AlertRuleResource" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <param name="parameters">
+            The parameters of the rule to create or update.
+            </param>
+          <summary>
+            Creates or updates an alert rule.
+            Request method: PUT		Request URI:
+            https://management.azure.com/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/microsoft.insights/alertRules/{alert-rule-name}?api-version={api-version}
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AlertRuleResource)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, Microsoft.Azure.Management.Insights.Models.AlertRuleResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, class Microsoft.Azure.Management.Insights.Models.AlertRuleResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AlertRuleResource,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.AlertRuleResource" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <param name="parameters">
+            The parameters of the rule to create or update.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Creates or updates an alert rule.
+            Request method: PUT		Request URI:
+            https://management.azure.com/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/microsoft.insights/alertRules/{alert-rule-name}?api-version={api-version}
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AlertRuleResource,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.Delete(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <summary>
+            Deletes an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.Delete(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Deletes an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.AlertRuleResource Get (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.AlertRuleResource Get(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.AlertRuleResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <summary>
+            Gets an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; GetAsync (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; GetAsync(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, string ruleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="ruleName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="ruleName">
+            The name of the rule.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets an alert rule
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroup">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; ListByResourceGroup (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; ListByResourceGroup(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AlertRuleResource})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            List the alert rules within a resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AlertRuleResource})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAlertRulesOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;&gt; ListByResourceGroupAsync (this Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;&gt; ListByResourceGroupAsync(class Microsoft.Azure.Management.Insights.IAlertRulesOperations operations, string resourceGroupName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AlertRuleResource},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAlertRulesOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AlertRuleResource&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            List the alert rules within a resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AlertRulesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Insights.IAlertRulesOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AlertRuleResource},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdate">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource CreateOrUpdate (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource CreateOrUpdate(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="autoscaleSettingName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="autoscaleSettingName">
+            The autoscale setting name.
+            </param>
+          <param name="parameters">
+            Parameters supplied to the operation.
+            </param>
+          <summary>
+            Creates or updates an autoscale setting.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="autoscaleSettingName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="autoscaleSettingName">
+            The autoscale setting name.
+            </param>
+          <param name="parameters">
+            Parameters supplied to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Creates or updates an autoscale setting.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.Delete(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="autoscaleSettingName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="autoscaleSettingName">
+            The autoscale setting name.
+            </param>
+          <summary>
+            Deletes and autoscale setting
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.Delete(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="autoscaleSettingName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="autoscaleSettingName">
+            The autoscale setting name.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Deletes and autoscale setting
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource Get (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource Get(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="autoscaleSettingName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="autoscaleSettingName">
+            The autoscale setting name.
+            </param>
+          <summary>
+            Gets an autoscale setting
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; GetAsync (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; GetAsync(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, string autoscaleSettingName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="autoscaleSettingName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="autoscaleSettingName">
+            The autoscale setting name.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets an autoscale setting
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroup">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; ListByResourceGroup (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; ListByResourceGroup(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Lists the autoscale settings for a resource group
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;&gt; ListByResourceGroupAsync (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;&gt; ListByResourceGroupAsync(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string resourceGroupName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Lists the autoscale settings for a resource group
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Lists the autoscale settings for a resource group
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;&gt; ListByResourceGroupNextAsync (this Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;&gt; ListByResourceGroupNextAsync(class Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Insights.Models.AutoscaleSettingResource&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Lists the autoscale settings for a resource group
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.AutoscaleSettingsOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Insights.IAutoscaleSettingsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdate">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.LogProfileResource CreateOrUpdate (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, Microsoft.Azure.Management.Insights.Models.LogProfileResource parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.LogProfileResource CreateOrUpdate(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, class Microsoft.Azure.Management.Insights.Models.LogProfileResource parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,Microsoft.Azure.Management.Insights.Models.LogProfileResource)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.LogProfileResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+          <Parameter Name="logProfileName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.LogProfileResource" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="logProfileName">
+            The name of the log profile.
+            </param>
+          <param name="parameters">
+            Parameters supplied to the operation.
+            </param>
+          <summary>
+            Create or update a log profile in Azure Monitoring REST API.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,Microsoft.Azure.Management.Insights.Models.LogProfileResource)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, Microsoft.Azure.Management.Insights.Models.LogProfileResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, class Microsoft.Azure.Management.Insights.Models.LogProfileResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,Microsoft.Azure.Management.Insights.Models.LogProfileResource,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+          <Parameter Name="logProfileName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.LogProfileResource" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="logProfileName">
+            The name of the log profile.
+            </param>
+          <param name="parameters">
+            Parameters supplied to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Create or update a log profile in Azure Monitoring REST API.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,Microsoft.Azure.Management.Insights.Models.LogProfileResource,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.Delete(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+          <Parameter Name="logProfileName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="logProfileName">
+            The name of the log profile.
+            </param>
+          <summary>
+            Deletes the log profile.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.Delete(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+          <Parameter Name="logProfileName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="logProfileName">
+            The name of the log profile.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Deletes the log profile.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.LogProfileResource Get (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.LogProfileResource Get(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.Get(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.LogProfileResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+          <Parameter Name="logProfileName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="logProfileName">
+            The name of the log profile.
+            </param>
+          <summary>
+            Gets the log profile.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.Get(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt; GetAsync (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt; GetAsync(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, string logProfileName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+          <Parameter Name="logProfileName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="logProfileName">
+            The name of the log profile.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets the log profile.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt; List (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt; List(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.List(Microsoft.Azure.Management.Insights.ILogProfilesOperations)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <summary>
+            List the log profiles.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.List(Microsoft.Azure.Management.Insights.ILogProfilesOperations)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.ILogProfilesOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt;&gt; ListAsync (this Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt;&gt; ListAsync(class Microsoft.Azure.Management.Insights.ILogProfilesOperations operations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.ListAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Insights.Models.LogProfileResource&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.ILogProfilesOperations" RefType="this" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            List the log profiles.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.LogProfilesOperationsExtensions.ListAsync(Microsoft.Azure.Management.Insights.ILogProfilesOperations,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdate">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource CreateOrUpdate (this Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri, Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource CreateOrUpdate(class Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri, class Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String,Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="parameters">
+            Parameters supplied to the operation.
+            </param>
+          <summary>
+            Create or update new diagnostic settings for the specified resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String,Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri, Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri, class Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String,Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="parameters">
+            Parameters supplied to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Create or update new diagnostic settings for the specified resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String,Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource Get (this Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource Get(class Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <summary>
+            Gets the active diagnostic settings for the specified resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.Get(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource&gt; GetAsync (this Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource&gt; GetAsync(class Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations operations, string resourceUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Insights.Models.ServiceDiagnosticSettingsResource&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations" RefType="this" />
+          <Parameter Name="resourceUri" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceUri">
+            The identifier of the resource.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets the active diagnostic settings for the specified resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions" Member="M:Microsoft.Azure.Management.Insights.ServiceDiagnosticSettingsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Insights.IServiceDiagnosticSettingsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

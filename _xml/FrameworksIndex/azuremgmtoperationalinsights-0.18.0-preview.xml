@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azuremgmtoperationalinsights-0.18.0-preview">
+  <Namespace Name="Microsoft.Azure.Management.OperationalInsights">
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions" Id="T:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.DataSource)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.DataSource,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.Delete(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.Get(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.GetAsync(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.ListByWorkspace(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter},System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.ListByWorkspaceAsync(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter},System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.ListByWorkspaceNext(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.DataSourcesOperationsExtensions.ListByWorkspaceNextAsync(Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations" Id="T:Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.DataSource,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations.ListByWorkspaceNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IDataSourcesOperations.ListByWorkspaceWithHttpMessagesAsync(Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter},System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations" Id="T:Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.LinkedService,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations.ListByWorkspaceWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient" Id="T:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient">
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.DataSources" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.LinkedServices" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.SavedSearches" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.StorageInsights" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.SubscriptionId" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.IOperationalInsightsManagementClient.Workspaces" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations" Id="T:Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations.GetResultsWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations.ListByWorkspaceWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations" Id="T:Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations.ListByWorkspaceNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations.ListByWorkspaceWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations" Id="T:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.BeginCreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.Workspace,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.BeginGetSearchResultsWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.Workspace,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.DisableIntelligencePackWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.EnableIntelligencePackWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.GetSchemaWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.GetSearchResultsWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.GetSharedKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.ListIntelligencePacksWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.ListLinkTargetsWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.ListManagementGroupsWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.ListUsagesWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations.UpdateSearchResultsWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions" Id="T:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.LinkedService)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.LinkedService,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.Delete(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.Get(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.GetAsync(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.ListByWorkspace(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.LinkedServicesOperationsExtensions.ListByWorkspaceAsync(Microsoft.Azure.Management.OperationalInsights.ILinkedServicesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient" Id="T:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.DataSources" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.LinkedServices" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.SavedSearches" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.StorageInsights" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.SubscriptionId" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.OperationalInsightsManagementClient.Workspaces" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions" Id="T:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.Delete(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.Get(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.GetAsync(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.GetResults(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.GetResultsAsync(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.ListByWorkspace(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.SavedSearchesOperationsExtensions.ListByWorkspaceAsync(Microsoft.Azure.Management.OperationalInsights.ISavedSearchesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions" Id="T:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.Delete(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.Get(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.GetAsync(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.ListByWorkspace(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.ListByWorkspaceAsync(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.ListByWorkspaceNext(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.StorageInsightsOperationsExtensions.ListByWorkspaceNextAsync(Microsoft.Azure.Management.OperationalInsights.IStorageInsightsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions" Id="T:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.Workspace)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.Workspace,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.BeginGetSearchResults(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.BeginGetSearchResultsAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.Workspace)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.Workspace,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.Delete(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.DisableIntelligencePack(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.DisableIntelligencePackAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.EnableIntelligencePack(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.EnableIntelligencePackAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.Get(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.GetAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.GetSchema(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.GetSchemaAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.GetSearchResults(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.GetSearchResultsAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.GetSharedKeys(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.GetSharedKeysAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.List(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListIntelligencePacks(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListIntelligencePacksAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListLinkTargets(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListLinkTargetsAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListManagementGroups(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListManagementGroupsAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListUsages(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.ListUsagesAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.UpdateSearchResults(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.WorkspacesOperationsExtensions.UpdateSearchResultsAsync(Microsoft.Azure.Management.OperationalInsights.IWorkspacesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Management.OperationalInsights.Models">
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary.#ctor(System.Int64,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary.NumberOfDocuments" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary.Status" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.DataSource" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.DataSource">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.DataSource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.DataSource.#ctor(System.Object,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.DataSource.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.DataSource.ETag" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.DataSource.Kind" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.DataSource.Properties" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter.#ctor(System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceFilter.Kind" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind">
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.AzureActivityLog" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.ChangeTrackingCustomRegistry" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.ChangeTrackingDefaultPath" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.ChangeTrackingDefaultRegistry" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.ChangeTrackingPath" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.CustomLog" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.CustomLogCollection" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.GenericDataSource" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.IISLogs" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.LinuxPerformanceCollection" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.LinuxPerformanceObject" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.LinuxSyslog" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.LinuxSyslogCollection" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.WindowsEvent" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.DataSourceKind.WindowsPerformanceCounter" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus">
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus.Canceled" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus.Creating" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus.Deleting" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus.Failed" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus.ProvisioningAccount" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.EntityStatus.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.IntelligencePack" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.IntelligencePack">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.IntelligencePack.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.IntelligencePack.#ctor(System.String,System.Nullable{System.Boolean})" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.IntelligencePack.Enabled" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.IntelligencePack.Name" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.LinkedService" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.LinkedService">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.LinkedService.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.LinkedService.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.LinkedService.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.LinkedService.ResourceId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget.#ctor(System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget.CustomerId" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget.Location" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.LinkTarget.WorkspaceName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.#ctor(System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.Created" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.DataReceived" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.Id" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.IsGateway" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.ServerCount" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.Sku" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ManagementGroup.Version" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.MetricName" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.MetricName">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.MetricName.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.MetricName.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.MetricName.LocalizedValue" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.MetricName.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.Page`1" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.Page`1">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Page`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.Page1`1" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.Page1`1">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page1`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page1`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page1`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Page1`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.Page2`1" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.Page2`1">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page2`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page2`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Page2`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Page2`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource.#ctor(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource.Id" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource.Tags" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.ProxyResource.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.Resource" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.Resource">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Resource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Resource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Resource.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Resource.Id" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Resource.Location" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Resource.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Resource.Tags" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Resource.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.#ctor(System.String,System.String,System.String,System.Int64,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.OperationalInsights.Models.Tag})" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.Category" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.Etag" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.Id" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.Query" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.Tags" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch.Version" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SavedSearchesListResult" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearchesListResult">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearchesListResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearchesListResult.#ctor(Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata,System.Collections.Generic.IList{Microsoft.Azure.Management.OperationalInsights.Models.SavedSearch})" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearchesListResult.Metadata" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SavedSearchesListResult.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchError" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchError">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchError.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchError.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchError.Message" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchError.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchGetSchemaResponse" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchGetSchemaResponse">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchGetSchemaResponse.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchGetSchemaResponse.#ctor(Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata,System.Collections.Generic.IList{Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue})" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchGetSchemaResponse.Metadata" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchGetSchemaResponse.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchHighlight" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchHighlight">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchHighlight.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchHighlight.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchHighlight.Post" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchHighlight.Pre" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.#ctor(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.OperationalInsights.Models.CoreSummary},System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.OperationalInsights.Models.SearchSort},System.Nullable{System.Int64},System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadataSchema)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.AggregatedGroupingFields" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.AggregatedValueField" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.CoreSummaries" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.ETag" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Id" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.LastUpdated" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Max" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.RequestTime" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.ResultType" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Schema" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.SearchId" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Sort" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.StartTime" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Status" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Sum" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Top" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata.Total" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadataSchema" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadataSchema">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadataSchema.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadataSchema.#ctor(System.String,System.Nullable{System.Int32})" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadataSchema.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadataSchema.Version" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.#ctor(System.String,System.Nullable{System.Int64},Microsoft.Azure.Management.OperationalInsights.Models.SearchHighlight,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.End" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.Highlight" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.Query" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.Start" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchParameters.Top" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse.#ctor(System.String,Microsoft.Azure.Management.OperationalInsights.Models.SearchMetadata,System.Collections.Generic.IList{System.Object},Microsoft.Azure.Management.OperationalInsights.Models.SearchError)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse.Error" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse.Id" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse.Metadata" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchResultsResponse.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.#ctor(System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.Facet" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.Indexed" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.OwnerType" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.Stored" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSchemaValue.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchSort" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchSort">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchSort.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SearchSort.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSort.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SearchSort.Order" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SearchSortEnum" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SearchSortEnum">
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SearchSortEnum.Asc" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SearchSortEnum.Desc" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SharedKeys" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SharedKeys">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SharedKeys.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.SharedKeys.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SharedKeys.PrimarySharedKey" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.SharedKeys.SecondarySharedKey" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.Sku" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.Sku">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Sku.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Sku.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Sku.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Sku.Name" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum">
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum.Free" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum.PerNode" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum.Premium" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum.Standalone" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum.Standard" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.SkuNameEnum.Unlimited" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount.Id" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount.Key" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.#ctor(Microsoft.Azure.Management.OperationalInsights.Models.StorageAccount,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.Containers" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.ETag" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.Status" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.StorageAccount" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsight.Tables" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightState" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightState">
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightState.ERROR" />
+      <Member Id="F:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightState.OK" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus.Description" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.StorageInsightStatus.State" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.Tag" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.Tag">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Tag.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Tag.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Tag.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Tag.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Tag.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.#ctor(Microsoft.Azure.Management.OperationalInsights.Models.MetricName,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.DateTime},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.CurrentValue" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.Limit" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.Name" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.NextResetTime" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.QuotaPeriod" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.UsageMetric.Unit" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.OperationalInsights.Models.Workspace" Id="T:Microsoft.Azure.Management.OperationalInsights.Models.Workspace">
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.String,System.String,Microsoft.Azure.Management.OperationalInsights.Models.Sku,System.Nullable{System.Int32},System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.CustomerId" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.ETag" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.PortalUrl" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.RetentionInDays" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.Sku" />
+      <Member Id="P:Microsoft.Azure.Management.OperationalInsights.Models.Workspace.Source" />
+    </Type>
+  </Namespace>
+</Framework>

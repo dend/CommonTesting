@@ -1,0 +1,141 @@
+<Type Name="GraphPackage" FullName="Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphPackage">
+  <TypeSignature Language="C#" Value="public class GraphPackage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GraphPackage extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphPackage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines the graph of modules making up the machine learning solution.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GraphPackage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphPackage.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the GraphPackage class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GraphPackage (System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphNode&gt; nodes = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphEdge&gt; edges = null, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphParameter&gt; graphParameters = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphNode&gt; nodes, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphEdge&gt; edges, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphParameter&gt; graphParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphPackage.#ctor(System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphNode},System.Collections.Generic.IList{Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphEdge},System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphParameter})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="nodes" Type="System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphNode&gt;" />
+        <Parameter Name="edges" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphEdge&gt;" />
+        <Parameter Name="graphParameters" Type="System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphParameter&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="nodes">The set of nodes making up the graph, provided
+            as a nodeId to GraphNode map</param>
+        <param name="edges">The list of edges making up the graph.</param>
+        <param name="graphParameters">The collection of global parameters
+            for the graph, given as a global parameter name to GraphParameter
+            map. Each parameter here has a 1:1 match with the global
+            parameters values map declared at the WebServiceProperties
+            level.</param>
+        <summary>
+            Initializes a new instance of the GraphPackage class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Edges">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphEdge&gt; Edges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphEdge&gt; Edges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphPackage.Edges" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="edges")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphEdge&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the list of edges making up the graph.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GraphParameters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphParameter&gt; GraphParameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphParameter&gt; GraphParameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphPackage.GraphParameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="graphParameters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphParameter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the collection of global parameters for the graph,
+            given as a global parameter name to GraphParameter map. Each
+            parameter here has a 1:1 match with the global parameters values
+            map declared at the WebServiceProperties level.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nodes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphNode&gt; Nodes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphNode&gt; Nodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphPackage.Nodes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="nodes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.Management.MachineLearning.WebServices.Models.GraphNode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the set of nodes making up the graph, provided as a
+            nodeId to GraphNode map
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

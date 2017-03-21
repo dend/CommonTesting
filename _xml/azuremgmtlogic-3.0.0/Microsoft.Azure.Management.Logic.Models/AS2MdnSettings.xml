@@ -1,0 +1,324 @@
+<Type Name="AS2MdnSettings" FullName="Microsoft.Azure.Management.Logic.Models.AS2MdnSettings">
+  <TypeSignature Language="C#" Value="public class AS2MdnSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AS2MdnSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The AS2 agreement mdn settings.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AS2MdnSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the AS2MdnSettings class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AS2MdnSettings (bool needMdn, bool signMdn, bool sendMdnAsynchronously, bool signOutboundMdnIfOptional, bool sendInboundMdnToMessageBox, Microsoft.Azure.Management.Logic.Models.HashingAlgorithm micHashingAlgorithm, string receiptDeliveryUrl = null, string dispositionNotificationTo = null, string mdnText = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool needMdn, bool signMdn, bool sendMdnAsynchronously, bool signOutboundMdnIfOptional, bool sendInboundMdnToMessageBox, valuetype Microsoft.Azure.Management.Logic.Models.HashingAlgorithm micHashingAlgorithm, string receiptDeliveryUrl, string dispositionNotificationTo, string mdnText) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,Microsoft.Azure.Management.Logic.Models.HashingAlgorithm,System.String,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="needMdn" Type="System.Boolean" />
+        <Parameter Name="signMdn" Type="System.Boolean" />
+        <Parameter Name="sendMdnAsynchronously" Type="System.Boolean" />
+        <Parameter Name="signOutboundMdnIfOptional" Type="System.Boolean" />
+        <Parameter Name="sendInboundMdnToMessageBox" Type="System.Boolean" />
+        <Parameter Name="micHashingAlgorithm" Type="Microsoft.Azure.Management.Logic.Models.HashingAlgorithm" />
+        <Parameter Name="receiptDeliveryUrl" Type="System.String" />
+        <Parameter Name="dispositionNotificationTo" Type="System.String" />
+        <Parameter Name="mdnText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="needMdn">The value indicating whether to send or
+            request a MDN.</param>
+        <param name="signMdn">The value indicating whether the MDN needs to
+            be signed or not.</param>
+        <param name="sendMdnAsynchronously">The value indicating whether to
+            send the asynchronous MDN.</param>
+        <param name="signOutboundMdnIfOptional">The value indicating
+            whether to sign the outbound MDN if optional.</param>
+        <param name="sendInboundMdnToMessageBox">The value indicating
+            whether to send inbound MDN to message box.</param>
+        <param name="micHashingAlgorithm">The signing or hashing algorithm.
+            Possible values include: 'NotSpecified', 'None', 'MD5', 'SHA1',
+            'SHA2256', 'SHA2384', 'SHA2512'</param>
+        <param name="receiptDeliveryUrl">The receipt delivery URL.</param>
+        <param name="dispositionNotificationTo">The disposition
+            notification to header value.</param>
+        <param name="mdnText">The MDN text.</param>
+        <summary>
+            Initializes a new instance of the AS2MdnSettings class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DispositionNotificationTo">
+      <MemberSignature Language="C#" Value="public string DispositionNotificationTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DispositionNotificationTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.DispositionNotificationTo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="dispositionNotificationTo")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the disposition notification to header value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MdnText">
+      <MemberSignature Language="C#" Value="public string MdnText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MdnText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.MdnText" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="mdnText")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the MDN text.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MicHashingAlgorithm">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.HashingAlgorithm MicHashingAlgorithm { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Management.Logic.Models.HashingAlgorithm MicHashingAlgorithm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.MicHashingAlgorithm" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="micHashingAlgorithm")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.HashingAlgorithm</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the signing or hashing algorithm. Possible values
+            include: 'NotSpecified', 'None', 'MD5', 'SHA1', 'SHA2256',
+            'SHA2384', 'SHA2512'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NeedMdn">
+      <MemberSignature Language="C#" Value="public bool NeedMdn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NeedMdn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.NeedMdn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="needMdn")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value indicating whether to send or request a MDN.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiptDeliveryUrl">
+      <MemberSignature Language="C#" Value="public string ReceiptDeliveryUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReceiptDeliveryUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.ReceiptDeliveryUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="receiptDeliveryUrl")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the receipt delivery URL.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendInboundMdnToMessageBox">
+      <MemberSignature Language="C#" Value="public bool SendInboundMdnToMessageBox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SendInboundMdnToMessageBox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.SendInboundMdnToMessageBox" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="sendInboundMdnToMessageBox")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value indicating whether to send inbound MDN to
+            message box.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMdnAsynchronously">
+      <MemberSignature Language="C#" Value="public bool SendMdnAsynchronously { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SendMdnAsynchronously" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.SendMdnAsynchronously" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="sendMdnAsynchronously")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value indicating whether to send the asynchronous
+            MDN.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignMdn">
+      <MemberSignature Language="C#" Value="public bool SignMdn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SignMdn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.SignMdn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="signMdn")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value indicating whether the MDN needs to be
+            signed or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignOutboundMdnIfOptional">
+      <MemberSignature Language="C#" Value="public bool SignOutboundMdnIfOptional { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SignOutboundMdnIfOptional" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.SignOutboundMdnIfOptional" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="signOutboundMdnIfOptional")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the value indicating whether to sign the outbound MDN
+            if optional.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2MdnSettings.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

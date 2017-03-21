@@ -1,0 +1,53 @@
+<Type Name="SkuTier" FullName="Microsoft.Azure.Management.Analysis.Models.SkuTier">
+  <TypeSignature Language="C#" Value="public static class SkuTier" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SkuTier extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Analysis.Models.SkuTier" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Analysis</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines values for SkuTier.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Development">
+      <MemberSignature Language="C#" Value="public const string Development;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Development" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Analysis.Models.SkuTier.Development" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public const string Standard;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Standard" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Analysis.Models.SkuTier.Standard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

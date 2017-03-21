@@ -1,0 +1,126 @@
+<Type Name="CognitiveServicesResourceAndSku" FullName="Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku">
+  <TypeSignature Language="C#" Value="public class CognitiveServicesResourceAndSku" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CognitiveServicesResourceAndSku extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CognitiveServices</AssemblyName>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CognitiveServicesResourceAndSku ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the CognitiveServicesResourceAndSku
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CognitiveServicesResourceAndSku (string resourceType = null, Microsoft.Azure.Management.CognitiveServices.Models.Sku sku = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string resourceType, class Microsoft.Azure.Management.CognitiveServices.Models.Sku sku) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.#ctor(System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="resourceType" Type="System.String" />
+        <Parameter Name="sku" Type="Microsoft.Azure.Management.CognitiveServices.Models.Sku" />
+      </Parameters>
+      <Docs>
+        <param name="resourceType">Resource Namespace and Type</param>
+        <param name="sku">To be added.</param>
+        <summary>
+            Initializes a new instance of the CognitiveServicesResourceAndSku
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceType">
+      <MemberSignature Language="C#" Value="public string ResourceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.ResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="resourceType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets resource Namespace and Type
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sku">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.CognitiveServices.Models.Sku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.CognitiveServices.Models.Sku Sku" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.Sku" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="sku")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.CognitiveServices.Models.Sku</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary />
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

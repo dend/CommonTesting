@@ -1,0 +1,2126 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.Management.Authorization" Version="2.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Provides Microsoft Management Authorization access.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("2.5.0.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("2.5.0-preview")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft Azure .NET SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Azure Management Authorization Library")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.Management.Authorization">
+      <Type Name="AuthorizationManagementClient" Kind="Class" />
+      <Type Name="AuthorizationManagementClientExtensions" Kind="Class" />
+      <Type Name="ClassicAdministratorsOperationsExtensions" Kind="Class" />
+      <Type Name="IAuthorizationManagementClient" Kind="Interface" />
+      <Type Name="IClassicAdministratorsOperations" Kind="Interface" />
+      <Type Name="IPermissionsOperations" Kind="Interface" />
+      <Type Name="IProviderOperationsMetadataOperations" Kind="Interface" />
+      <Type Name="IRoleAssignmentsOperations" Kind="Interface" />
+      <Type Name="IRoleDefinitionsOperations" Kind="Interface" />
+      <Type Name="PermissionsOperationsExtensions" Kind="Class" />
+      <Type Name="ProviderOperationsMetadataOperationsExtensions" Kind="Class" />
+      <Type Name="RoleAssignmentsOperationsExtensions" Kind="Class" />
+      <Type Name="RoleDefinitionsOperationsExtensions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Management.Authorization.Models">
+      <Type Name="ClassicAdministrator" Kind="Class" />
+      <Type Name="ClassicAdministratorProperties" Kind="Class" />
+      <Type Name="Page`1" DisplayName="Page&lt;T&gt;" Kind="Class" />
+      <Type Name="Permission" Kind="Class" />
+      <Type Name="ProviderOperation" Kind="Class" />
+      <Type Name="ProviderOperationsMetadata" Kind="Class" />
+      <Type Name="Resource" Kind="Class" />
+      <Type Name="ResourceType" Kind="Class" />
+      <Type Name="RoleAssignment" Kind="Class" />
+      <Type Name="RoleAssignmentCreateParameters" Kind="Class" />
+      <Type Name="RoleAssignmentFilter" Kind="Class" />
+      <Type Name="RoleAssignmentProperties" Kind="Class" />
+      <Type Name="RoleAssignmentPropertiesWithScope" Kind="Class" />
+      <Type Name="RoleDefinition" Kind="Class" />
+      <Type Name="RoleDefinitionFilter" Kind="Class" />
+      <Type Name="RoleDefinitionProperties" Kind="Class" />
+      <Type Name="SubResource" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.Management.Authorization</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt; List (this Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string apiVersion);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt; List(class Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string apiVersion) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" RefType="this" />
+          <Parameter Name="apiVersion" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="apiVersion" />
+          <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;&gt; ListAsync (this Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string apiVersion, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;&gt; ListAsync(class Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string apiVersion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" RefType="this" />
+          <Parameter Name="apiVersion" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="apiVersion" />
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt; ListNext (this Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt; ListNext(class Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ClassicAdministrator&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets a list of classic administrators for the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ClassicAdministratorsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IClassicAdministratorsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResource">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResource (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResource(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResource(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.String,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="resourceProviderNamespace" Type="System.String" />
+          <Parameter Name="parentResourcePath" Type="System.String" />
+          <Parameter Name="resourceType" Type="System.String" />
+          <Parameter Name="resourceName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group. The name is case insensitive.
+            </param>
+          <param name="resourceProviderNamespace">
+            Resource
+            </param>
+          <param name="parentResourcePath">
+            Resource
+            </param>
+          <param name="resourceType">
+            Resource
+            </param>
+          <param name="resourceName">
+            Resource
+            </param>
+          <summary>
+            Gets a resource permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResource(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.String,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceAsync (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceAsync(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="resourceProviderNamespace" Type="System.String" />
+          <Parameter Name="parentResourcePath" Type="System.String" />
+          <Parameter Name="resourceType" Type="System.String" />
+          <Parameter Name="resourceName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group. The name is case insensitive.
+            </param>
+          <param name="resourceProviderNamespace">
+            Resource
+            </param>
+          <param name="parentResourcePath">
+            Resource
+            </param>
+          <param name="resourceType">
+            Resource
+            </param>
+          <param name="resourceName">
+            Resource
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets a resource permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroup">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResourceGroup (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResourceGroup(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroup(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            Name of the resource group to get the permissions for.The name is case
+            insensitive.
+            </param>
+          <summary>
+            Gets a resource group permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroup(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroupAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceGroupAsync (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceGroupAsync(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            Name of the resource group to get the permissions for.The name is case
+            insensitive.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets a resource group permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroupNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResourceGroupNext (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResourceGroupNext(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupNext(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets a resource group permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupNext(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroupNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceGroupNextAsync (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceGroupNextAsync(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupNextAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets a resource group permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceGroupNextAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResourceNext (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt; ListForResourceNext(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceNext(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets a resource permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceNext(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IPermissionsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceNextAsync (this Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt; ListForResourceNextAsync(class Microsoft.Azure.Management.Authorization.IPermissionsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceNextAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.Permission&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IPermissionsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets a resource permissions.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.PermissionsOperationsExtensions.ListForResourceNextAsync(Microsoft.Azure.Management.Authorization.IPermissionsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata Get (this Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string resourceProviderNamespace, string apiVersion, string expand = &quot;resourceTypes&quot;);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata Get(class Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string resourceProviderNamespace, string apiVersion, string expand) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" RefType="this" />
+          <Parameter Name="resourceProviderNamespace" Type="System.String" />
+          <Parameter Name="apiVersion" Type="System.String" />
+          <Parameter Name="expand" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceProviderNamespace">
+            Namespace of the resource provider.
+            </param>
+          <param name="apiVersion" />
+          <param name="expand" />
+          <summary>
+            Gets provider operations metadata
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt; GetAsync (this Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string resourceProviderNamespace, string apiVersion, string expand = &quot;resourceTypes&quot;, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt; GetAsync(class Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string resourceProviderNamespace, string apiVersion, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" RefType="this" />
+          <Parameter Name="resourceProviderNamespace" Type="System.String" />
+          <Parameter Name="apiVersion" Type="System.String" />
+          <Parameter Name="expand" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceProviderNamespace">
+            Namespace of the resource provider.
+            </param>
+          <param name="apiVersion" />
+          <param name="expand" />
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets provider operations metadata
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt; List (this Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string apiVersion, string expand = &quot;resourceTypes&quot;);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt; List(class Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string apiVersion, string expand) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" RefType="this" />
+          <Parameter Name="apiVersion" Type="System.String" />
+          <Parameter Name="expand" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="apiVersion" />
+          <param name="expand" />
+          <summary>
+            Gets provider operations metadata list
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;&gt; ListAsync (this Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string apiVersion, string expand = &quot;resourceTypes&quot;, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;&gt; ListAsync(class Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string apiVersion, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" RefType="this" />
+          <Parameter Name="apiVersion" Type="System.String" />
+          <Parameter Name="expand" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="apiVersion" />
+          <param name="expand" />
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets provider operations metadata list
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt; ListNext (this Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt; ListNext(class Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets provider operations metadata list
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.ProviderOperationsMetadata&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets provider operations metadata list
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.ProviderOperationsMetadataOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IProviderOperationsMetadataOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="Create">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleAssignment Create (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleAssignment Create(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Create(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleAssignment</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleAssignmentName" Type="System.String" />
+          <Parameter Name="properties" Type="Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="roleAssignmentName">
+            Role assignment name.
+            </param>
+          <param name="properties">
+            Gets or sets role assignment properties.
+            </param>
+          <summary>
+            Create role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Create(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="CreateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; CreateAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; CreateAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleAssignmentName" Type="System.String" />
+          <Parameter Name="properties" Type="Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="roleAssignmentName">
+            Role assignment name.
+            </param>
+          <param name="properties">
+            Gets or sets role assignment properties.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Create role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="CreateById">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleAssignment CreateById (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleAssignment CreateById(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleAssignment</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="roleAssignmentId" Type="System.String" />
+          <Parameter Name="properties" Type="Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleAssignmentId">
+            Role assignment Id
+            </param>
+          <param name="properties">
+            Gets or sets role assignment properties.
+            </param>
+          <summary>
+            Create role assignment by Id.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="CreateByIdAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; CreateByIdAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; CreateByIdAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties properties, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="roleAssignmentId" Type="System.String" />
+          <Parameter Name="properties" Type="Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleAssignmentId">
+            Role assignment Id
+            </param>
+          <param name="properties">
+            Gets or sets role assignment properties.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Create role assignment by Id.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.CreateByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleAssignment Delete (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleAssignment Delete(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Delete(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleAssignment</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleAssignmentName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="roleAssignmentName">
+            Role assignment name.
+            </param>
+          <summary>
+            Delete role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Delete(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; DeleteAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; DeleteAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleAssignmentName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="roleAssignmentName">
+            Role assignment name.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Delete role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="DeleteById">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleAssignment DeleteById (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleAssignment DeleteById(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleAssignment</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="roleAssignmentId" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleAssignmentId">
+            Role assignment Id
+            </param>
+          <summary>
+            Delete role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="DeleteByIdAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; DeleteByIdAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; DeleteByIdAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="roleAssignmentId" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleAssignmentId">
+            Role assignment Id
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Delete role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.DeleteByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleAssignment Get (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleAssignment Get(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleAssignment</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleAssignmentName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="roleAssignmentName">
+            Role assignment name.
+            </param>
+          <summary>
+            Get single role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; GetAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; GetAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, string roleAssignmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleAssignmentName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="roleAssignmentName">
+            Role assignment name.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Get single role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="GetById">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleAssignment GetById (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleAssignment GetById(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleAssignment</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="roleAssignmentId" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleAssignmentId">
+            Role assignment Id
+            </param>
+          <summary>
+            Get single role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetById(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="GetByIdAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; GetByIdAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; GetByIdAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string roleAssignmentId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="roleAssignmentId" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleAssignmentId">
+            Role assignment Id
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Get single role assignment.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.GetByIdAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; List (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; List(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Gets role assignments of the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResource">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResource (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResource(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResource(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="resourceProviderNamespace" Type="System.String" />
+          <Parameter Name="parentResourcePath" Type="System.String" />
+          <Parameter Name="resourceType" Type="System.String" />
+          <Parameter Name="resourceName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="resourceProviderNamespace">
+            Resource identity.
+            </param>
+          <param name="parentResourcePath">
+            Resource identity.
+            </param>
+          <param name="resourceType">
+            Resource identity.
+            </param>
+          <param name="resourceName">
+            Resource identity.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Gets role assignments of the resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResource(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="resourceProviderNamespace" Type="System.String" />
+          <Parameter Name="parentResourcePath" Type="System.String" />
+          <Parameter Name="resourceType" Type="System.String" />
+          <Parameter Name="resourceName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+          <param name="resourceProviderNamespace">
+            Resource identity.
+            </param>
+          <param name="parentResourcePath">
+            Resource identity.
+            </param>
+          <param name="resourceType">
+            Resource identity.
+            </param>
+          <param name="resourceName">
+            Resource identity.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroup">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResourceGroup (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResourceGroup(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroup(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            Resource group name.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Gets role assignments of the resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroup(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroupAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceGroupAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceGroupAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string resourceGroupName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            Resource group name.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroupNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResourceGroupNext (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResourceGroupNext(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets role assignments of the resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceGroupNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceGroupNextAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceGroupNextAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceGroupNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResourceNext (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForResourceNext(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets role assignments of the resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForResourceNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceNextAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForResourceNextAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the resource.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForResourceNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForScope">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForScope (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForScope(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScope(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Gets role assignments of the scope.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScope(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForScopeAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForScopeAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForScopeAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string scope, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope.
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the scope.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleAssignmentFilter},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForScopeNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForScopeNext (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListForScopeNext(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets role assignments of the scope.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListForScopeNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForScopeNextAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListForScopeNextAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the scope.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListForScopeNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListNext (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt; ListNext(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Gets role assignments of the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleAssignment&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets role assignments of the subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleAssignmentsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IRoleAssignmentsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdate">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleDefinition CreateOrUpdate (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, Microsoft.Azure.Management.Authorization.Models.RoleDefinition roleDefinition);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleDefinition CreateOrUpdate(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, class Microsoft.Azure.Management.Authorization.Models.RoleDefinition roleDefinition) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleDefinition</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+          <Parameter Name="roleDefinition" Type="Microsoft.Azure.Management.Authorization.Models.RoleDefinition" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="roleDefinitionId">
+            Role definition id.
+            </param>
+          <param name="roleDefinition">
+            Role definition.
+            </param>
+          <summary>
+            Creates or updates a role definition.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="CreateOrUpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, Microsoft.Azure.Management.Authorization.Models.RoleDefinition roleDefinition, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, class Microsoft.Azure.Management.Authorization.Models.RoleDefinition roleDefinition, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+          <Parameter Name="roleDefinition" Type="Microsoft.Azure.Management.Authorization.Models.RoleDefinition" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="roleDefinitionId">
+            Role definition id.
+            </param>
+          <param name="roleDefinition">
+            Role definition.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Creates or updates a role definition.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,Microsoft.Azure.Management.Authorization.Models.RoleDefinition,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleDefinition Delete (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleDefinition Delete(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.Delete(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleDefinition</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="roleDefinitionId">
+            Role definition id.
+            </param>
+          <summary>
+            Deletes the role definition.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.Delete(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; DeleteAsync (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; DeleteAsync(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="roleDefinitionId">
+            Role definition id.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Deletes the role definition.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleDefinition Get (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleDefinition Get(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleDefinition</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="roleDefinitionId">
+            Role definition Id
+            </param>
+          <summary>
+            Get role definition by name (GUID).
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.Get(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; GetAsync (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; GetAsync(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, string roleDefinitionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="roleDefinitionId">
+            Role definition Id
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Get role definition by name (GUID).
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="GetById">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Authorization.Models.RoleDefinition GetById (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string roleDefinitionId);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Authorization.Models.RoleDefinition GetById(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string roleDefinitionId) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetById(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleDefinition</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleDefinitionId">
+            Fully qualified role definition Id
+            </param>
+          <summary>
+            Get role definition by name (GUID).
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetById(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="GetByIdAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; GetByIdAsync (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string roleDefinitionId, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; GetByIdAsync(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string roleDefinitionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetByIdAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="roleDefinitionId" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="roleDefinitionId">
+            Fully qualified role definition Id
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Get role definition by name (GUID).
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.GetByIdAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; List (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter&gt; odataQuery = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; List(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter&gt; odataQuery) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.List(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;&gt; ListAsync (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;&gt; ListAsync(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string scope, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="scope" Type="System.String" />
+          <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="scope">
+            Scope
+            </param>
+          <param name="odataQuery">
+            OData parameters to apply to the operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Authorization.Models.RoleDefinitionFilter},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; ListNext (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt; ListNext(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListNext(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Authorization.Models.RoleDefinition&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Get all role definitions that are applicable at scope and above. Use
+            atScopeAndBelow filter to search below the given scope as well
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions" Member="M:Microsoft.Azure.Management.Authorization.RoleDefinitionsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Authorization.IRoleDefinitionsOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

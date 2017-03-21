@@ -1,0 +1,361 @@
+<Type Name="LinkResourceFormat" FullName="Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat">
+  <TypeSignature Language="C#" Value="public class LinkResourceFormat : Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LinkResourceFormat extends Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.CustomerInsights</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.CustomerInsights.Models.ProxyResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The link resource format.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LinkResourceFormat ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the LinkResourceFormat class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LinkResourceFormat (string sourceInteractionType, string targetProfileType, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference&gt; participantPropertyReferences, string id = null, string name = null, string type = null, string tenantId = null, string linkName = null, System.Collections.Generic.IDictionary&lt;string,string&gt; displayName = null, System.Collections.Generic.IDictionary&lt;string,string&gt; description = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping&gt; mappings = null, string provisioningState = null, Nullable&lt;bool&gt; referenceOnly = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string sourceInteractionType, string targetProfileType, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference&gt; participantPropertyReferences, string id, string name, string type, string tenantId, string linkName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; displayName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; description, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping&gt; mappings, string provisioningState, valuetype System.Nullable`1&lt;bool&gt; referenceOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.#ctor(System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IList{Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping},System.String,System.Nullable{System.Boolean})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="sourceInteractionType" Type="System.String" />
+        <Parameter Name="targetProfileType" Type="System.String" />
+        <Parameter Name="participantPropertyReferences" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference&gt;" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="type" Type="System.String" />
+        <Parameter Name="tenantId" Type="System.String" />
+        <Parameter Name="linkName" Type="System.String" />
+        <Parameter Name="displayName" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="description" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="mappings" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping&gt;" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="referenceOnly" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="sourceInteractionType">Name of the source Interaction
+            Type.</param>
+        <param name="targetProfileType">Name of the target Profile
+            Type.</param>
+        <param name="participantPropertyReferences">The properties that
+            represent the participating profile.</param>
+        <param name="id">Resource ID.</param>
+        <param name="name">Resource name.</param>
+        <param name="type">Resource type.</param>
+        <param name="tenantId">The hub name.</param>
+        <param name="linkName">The link name.</param>
+        <param name="displayName">Localized display name for the
+            Link.</param>
+        <param name="description">Localized descriptions for the
+            Link.</param>
+        <param name="mappings">The set of properties mappings between the
+            source and target Types.</param>
+        <param name="provisioningState">Provisioning state.</param>
+        <param name="referenceOnly">Indicating whether the link is
+            reference only link. This flag is ingored if the Mappings are
+            defined. If the mappings are not defined and it is set to true,
+            links processing will not create or update profiles.</param>
+        <summary>
+            Initializes a new instance of the LinkResourceFormat class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.description")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets localized descriptions for the Link.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.displayName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets localized display name for the Link.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkName">
+      <MemberSignature Language="C#" Value="public string LinkName { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LinkName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.LinkName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.linkName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the link name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mappings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping&gt; Mappings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping&gt; Mappings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.Mappings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.mappings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.TypePropertiesMapping&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the set of properties mappings between the source and
+            target Types.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParticipantPropertyReferences">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference&gt; ParticipantPropertyReferences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference&gt; ParticipantPropertyReferences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.ParticipantPropertyReferences" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.participantPropertyReferences")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.CustomerInsights.Models.ParticipantPropertyReference&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the properties that represent the participating
+            profile.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public string ProvisioningState { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.provisioningState")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets provisioning state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceOnly">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ReferenceOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ReferenceOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.ReferenceOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.referenceOnly")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets indicating whether the link is reference only link.
+            This flag is ingored if the Mappings are defined. If the mappings
+            are not defined and it is set to true, links processing will not
+            create or update profiles.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceInteractionType">
+      <MemberSignature Language="C#" Value="public string SourceInteractionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceInteractionType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.SourceInteractionType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.sourceInteractionType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets name of the source Interaction Type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetProfileType">
+      <MemberSignature Language="C#" Value="public string TargetProfileType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TargetProfileType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.TargetProfileType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.targetProfileType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets name of the target Profile Type.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TenantId">
+      <MemberSignature Language="C#" Value="public string TenantId { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TenantId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.TenantId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.tenantId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the hub name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.CustomerInsights.Models.LinkResourceFormat.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

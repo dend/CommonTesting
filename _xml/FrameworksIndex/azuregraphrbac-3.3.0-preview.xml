@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azuregraphrbac-3.3.0-preview">
+  <Namespace Name="Microsoft.Azure.Graph.RBAC">
+    <Type Name="Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions" Id="T:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.Create(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.CreateAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.Delete(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.DeleteAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.Get(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.GetAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.List(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.Application})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.ListAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.Application},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.ListKeyCredentials(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.ListKeyCredentialsAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.ListPasswordCredentials(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.ListPasswordCredentialsAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.Patch(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.PatchAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.UpdateKeyCredentials(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.UpdateKeyCredentialsAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.UpdatePasswordCredentials(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ApplicationsOperationsExtensions.UpdatePasswordCredentialsAsync(Microsoft.Azure.Graph.RBAC.IApplicationsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient" Id="T:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.Applications" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.Groups" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.Objects" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.ServicePrincipals" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.TenantID" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.GraphRbacManagementClient.Users" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions" Id="T:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.AddMember(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.AddMemberAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.Create(Microsoft.Azure.Graph.RBAC.IGroupsOperations,Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.CreateAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.Delete(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.DeleteAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.Get(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.GetAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.GetGroupMembers(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.GetGroupMembersAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.GetGroupMembersNext(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.GetGroupMembersNextAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.GetMemberGroups(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.GetMemberGroupsAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.IsMemberOf(Microsoft.Azure.Graph.RBAC.IGroupsOperations,Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.IsMemberOfAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.List(Microsoft.Azure.Graph.RBAC.IGroupsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.ADGroup})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.ListAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.ADGroup},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.ListNext(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.ListNextAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.RemoveMember(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.GroupsOperationsExtensions.RemoveMemberAsync(Microsoft.Azure.Graph.RBAC.IGroupsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.IApplicationsOperations" Id="T:Microsoft.Azure.Graph.RBAC.IApplicationsOperations">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.CreateWithHttpMessagesAsync(Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.DeleteWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.GetWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.ListKeyCredentialsWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.ListPasswordCredentialsWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.ListWithHttpMessagesAsync(Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.Application},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.PatchWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.UpdateKeyCredentialsWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IApplicationsOperations.UpdatePasswordCredentialsWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient" Id="T:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient">
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.Applications" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.Groups" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.Objects" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.ServicePrincipals" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.TenantID" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.IGraphRbacManagementClient.Users" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.IGroupsOperations" Id="T:Microsoft.Azure.Graph.RBAC.IGroupsOperations">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.AddMemberWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.CreateWithHttpMessagesAsync(Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.DeleteWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.GetGroupMembersNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.GetGroupMembersWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.GetMemberGroupsWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.GetWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.IsMemberOfWithHttpMessagesAsync(Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.ListWithHttpMessagesAsync(Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.ADGroup},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IGroupsOperations.RemoveMemberWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.IObjectsOperations" Id="T:Microsoft.Azure.Graph.RBAC.IObjectsOperations">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IObjectsOperations.GetCurrentUserWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IObjectsOperations.GetObjectsByObjectIdsNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IObjectsOperations.GetObjectsByObjectIdsWithHttpMessagesAsync(Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations" Id="T:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.CreateWithHttpMessagesAsync(Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.DeleteWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.GetWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.ListKeyCredentialsWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.ListPasswordCredentialsWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.ListWithHttpMessagesAsync(Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.UpdateKeyCredentialsWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations.UpdatePasswordCredentialsWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.IUsersOperations" Id="T:Microsoft.Azure.Graph.RBAC.IUsersOperations">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IUsersOperations.CreateWithHttpMessagesAsync(Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IUsersOperations.DeleteWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IUsersOperations.GetMemberGroupsWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IUsersOperations.GetWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IUsersOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IUsersOperations.ListWithHttpMessagesAsync(Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.User},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.IUsersOperations.UpdateWithHttpMessagesAsync(System.String,Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions" Id="T:Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions.GetCurrentUser(Microsoft.Azure.Graph.RBAC.IObjectsOperations)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions.GetCurrentUserAsync(Microsoft.Azure.Graph.RBAC.IObjectsOperations,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions.GetObjectsByObjectIds(Microsoft.Azure.Graph.RBAC.IObjectsOperations,Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions.GetObjectsByObjectIdsAsync(Microsoft.Azure.Graph.RBAC.IObjectsOperations,Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions.GetObjectsByObjectIdsNext(Microsoft.Azure.Graph.RBAC.IObjectsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ObjectsOperationsExtensions.GetObjectsByObjectIdsNextAsync(Microsoft.Azure.Graph.RBAC.IObjectsOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions" Id="T:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.Create(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.CreateAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.Delete(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.DeleteAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.Get(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.GetAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.List(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.ListAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.ListKeyCredentials(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.ListKeyCredentialsAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.ListNext(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.ListNextAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.ListPasswordCredentials(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.ListPasswordCredentialsAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.UpdateKeyCredentials(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.UpdateKeyCredentialsAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.UpdatePasswordCredentials(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.ServicePrincipalsOperationsExtensions.UpdatePasswordCredentialsAsync(Microsoft.Azure.Graph.RBAC.IServicePrincipalsOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions" Id="T:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.Create(Microsoft.Azure.Graph.RBAC.IUsersOperations,Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.CreateAsync(Microsoft.Azure.Graph.RBAC.IUsersOperations,Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.Delete(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.DeleteAsync(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.Get(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.GetAsync(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.GetMemberGroups(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.GetMemberGroupsAsync(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.List(Microsoft.Azure.Graph.RBAC.IUsersOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.User})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.ListAsync(Microsoft.Azure.Graph.RBAC.IUsersOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Graph.RBAC.Models.User},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.ListNext(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.ListNextAsync(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.Update(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.UsersOperationsExtensions.UpdateAsync(Microsoft.Azure.Graph.RBAC.IUsersOperations,System.String,Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Graph.RBAC.Models">
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.AADObject" Id="T:Microsoft.Azure.Graph.RBAC.Models.AADObject">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.AADObject.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.AADObject.#ctor(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Collections.Generic.IList{System.String},System.String)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.Mail" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.MailEnabled" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.ObjectId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.ObjectType" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.SecurityEnabled" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.ServicePrincipalNames" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.SignInName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.UserPrincipalName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.AADObject.UserType" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.ADGroup" Id="T:Microsoft.Azure.Graph.RBAC.Models.ADGroup">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ADGroup.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ADGroup.#ctor(System.String,System.String,System.String,System.Nullable{System.Boolean},System.String)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ADGroup.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ADGroup.Mail" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ADGroup.ObjectId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ADGroup.ObjectType" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ADGroup.SecurityEnabled" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.Application" Id="T:Microsoft.Azure.Graph.RBAC.Models.Application">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Application.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Application.#ctor(System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Nullable{System.Boolean},System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.String)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.AppId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.AppPermissions" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.AvailableToOtherTenants" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.Homepage" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.IdentifierUris" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.ObjectId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.ObjectType" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Application.ReplyUrls" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.#ctor(System.Boolean,System.String,System.Collections.Generic.IList{System.String},System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.KeyCredential},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.PasswordCredential})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.AvailableToOtherTenants" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.Homepage" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.IdentifierUris" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.KeyCredentials" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.PasswordCredentials" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationCreateParameters.ReplyUrls" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.#ctor(System.Nullable{System.Boolean},System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.KeyCredential},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.PasswordCredential})" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.AvailableToOtherTenants" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.Homepage" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.IdentifierUris" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.KeyCredentials" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.PasswordCredentials" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ApplicationUpdateParameters.ReplyUrls" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters.GroupId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipParameters.MemberId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipResult" Id="T:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipResult">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipResult.#ctor(System.Nullable{System.Boolean})" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.CheckGroupMembershipResult.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters.#ctor(System.Boolean,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters.IncludeDirectoryObjectReferences" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters.ObjectIds" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GetObjectsParameters.Types" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.GraphError" Id="T:Microsoft.Azure.Graph.RBAC.Models.GraphError">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GraphError.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GraphError.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GraphError.Code" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GraphError.Message" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.GraphErrorException" Id="T:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.#ctor(System.String,System.Exception)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.Body" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.Request" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GraphErrorException.Response" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GroupAddMemberParameters.Url" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters.MailEnabled" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters.MailNickname" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GroupCreateParameters.SecurityEnabled" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters.#ctor(System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.GroupGetMemberGroupsParameters.SecurityEnabledOnly" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.KeyCredential" Id="T:Microsoft.Azure.Graph.RBAC.Models.KeyCredential">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.#ctor(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.EndDate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.KeyId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.StartDate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.Type" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.Usage" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.KeyCredential.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.KeyCredential})" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.KeyCredentialsUpdateParameters.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.Page`1" Id="T:Microsoft.Azure.Graph.RBAC.Models.Page`1">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Page`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Page`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Page`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Page`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.Page1`1" Id="T:Microsoft.Azure.Graph.RBAC.Models.Page1`1">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Page1`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Page1`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.Page1`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.Page1`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.PasswordCredential" Id="T:Microsoft.Azure.Graph.RBAC.Models.PasswordCredential">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.PasswordCredential.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.PasswordCredential.#ctor(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.PasswordCredential.EndDate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.PasswordCredential.KeyId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.PasswordCredential.StartDate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.PasswordCredential.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.PasswordCredential})" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.PasswordCredentialsUpdateParameters.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.PasswordProfile" Id="T:Microsoft.Azure.Graph.RBAC.Models.PasswordProfile">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.PasswordProfile.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.PasswordProfile.#ctor(System.String,System.Nullable{System.Boolean})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.PasswordProfile.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.PasswordProfile.ForceChangePasswordNextLogin" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.PasswordProfile.Password" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal" Id="T:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal.AppId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal.ObjectId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal.ObjectType" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal.ServicePrincipalNames" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.#ctor(System.String,System.Boolean,System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.KeyCredential},System.Collections.Generic.IList{Microsoft.Azure.Graph.RBAC.Models.PasswordCredential})" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.AccountEnabled" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.AppId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.KeyCredentials" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.ServicePrincipalCreateParameters.PasswordCredentials" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.User" Id="T:Microsoft.Azure.Graph.RBAC.Models.User">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.User.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.User.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.User.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.User.Mail" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.User.MailNickname" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.User.ObjectId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.User.ObjectType" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.User.SignInName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.User.UserPrincipalName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.#ctor(System.Boolean,System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordProfile,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.AccountEnabled" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.ImmutableId" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.MailNickname" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.PasswordProfile" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserCreateParameters.UserPrincipalName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters.#ctor(System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserGetMemberGroupsParameters.SecurityEnabledOnly" />
+    </Type>
+    <Type Name="Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters" Id="T:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters">
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters.#ctor(System.Nullable{System.Boolean},System.String,Microsoft.Azure.Graph.RBAC.Models.PasswordProfile,System.String)" />
+      <Member Id="M:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters.AccountEnabled" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters.MailNickname" />
+      <Member Id="P:Microsoft.Azure.Graph.RBAC.Models.UserUpdateParameters.PasswordProfile" />
+    </Type>
+  </Namespace>
+</Framework>

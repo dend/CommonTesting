@@ -1,0 +1,240 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework" Version="1.5.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Microsoft (c) 2015")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Microsoft.Rest.ClientRuntime.Azure.TestFramework")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.5.3.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.6.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft.Rest.ClientRuntime.Azure.TestFramework.Framework")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Rest.ClientRuntime.Azure.TestFramework.Framework")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.Guid("6eb355e3-e1e1-4f46-bcfa-737812ccff87")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Rest.ClientRuntime.Azure.TestFramework">
+      <Type Name="ConnectionString" Kind="Class" />
+      <Type Name="ConnectionStringKeys" Kind="Class" />
+      <Type Name="EnvironmentNames" Kind="Enumeration" />
+      <Type Name="ExtMethods" Kind="Class" />
+      <Type Name="MockContext" Kind="Class" />
+      <Type Name="ResourceGroupCleaner" Kind="Class" />
+      <Type Name="SubscriptionInfo" Kind="Class" />
+      <Type Name="TestBase" Kind="Class" />
+      <Type Name="TestEndpoints" Kind="Class" />
+      <Type Name="TestEnvironment" Kind="Class" />
+      <Type Name="TestEnvironmentFactory" Kind="Class" />
+      <Type Name="TestingTracingInterceptor" Kind="Class" />
+      <Type Name="TestTraits" Kind="Class" />
+      <Type Name="TestUtilities" Kind="Class" />
+      <Type Name="TokenAudience" Kind="Enumeration" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Rest.ClientRuntime.Azure.TestFramework</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Collections.Generic.Dictionary`2" />
+      </Targets>
+      <Member MemberName="Clear">
+        <MemberSignature Language="C#" Value="public static void Clear (this System.Collections.Generic.Dictionary&lt;string,string&gt; dictionary, bool clearValuesOnly);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Clear(class System.Collections.Generic.Dictionary`2&lt;string, string&gt; dictionary, bool clearValuesOnly) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.Clear(System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="dictionary" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" RefType="this" />
+          <Parameter Name="clearValuesOnly" Type="System.Boolean" />
+        </Parameters>
+        <Docs>
+          <param name="dictionary">To be added.</param>
+          <param name="clearValuesOnly">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods" Member="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.Clear(System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Collections.Generic.Dictionary`2" />
+      </Targets>
+      <Member MemberName="ContainsCaseInsensitiveKey">
+        <MemberSignature Language="C#" Value="public static bool ContainsCaseInsensitiveKey (this System.Collections.Generic.Dictionary&lt;string,string&gt; dictionary, string keyName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ContainsCaseInsensitiveKey(class System.Collections.Generic.Dictionary`2&lt;string, string&gt; dictionary, string keyName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.ContainsCaseInsensitiveKey(System.Collections.Generic.Dictionary{System.String,System.String},System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="dictionary" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" RefType="this" />
+          <Parameter Name="keyName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="dictionary">To be added.</param>
+          <param name="keyName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods" Member="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.ContainsCaseInsensitiveKey(System.Collections.Generic.Dictionary{System.String,System.String},System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Collections.Generic.Dictionary`2" />
+      </Targets>
+      <Member MemberName="GetValueUsingCaseInsensitiveKey">
+        <MemberSignature Language="C#" Value="public static string GetValueUsingCaseInsensitiveKey (this System.Collections.Generic.Dictionary&lt;string,string&gt; dictionary, string keyName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetValueUsingCaseInsensitiveKey(class System.Collections.Generic.Dictionary`2&lt;string, string&gt; dictionary, string keyName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.GetValueUsingCaseInsensitiveKey(System.Collections.Generic.Dictionary{System.String,System.String},System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.String</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="dictionary" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" RefType="this" />
+          <Parameter Name="keyName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="dictionary">To be added.</param>
+          <param name="keyName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods" Member="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.GetValueUsingCaseInsensitiveKey(System.Collections.Generic.Dictionary{System.String,System.String},System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Collections.Generic.IEnumerable`1" />
+      </Targets>
+      <Member MemberName="IsAny&lt;T&gt;">
+        <MemberSignature Language="C#" Value="public static bool IsAny&lt;T&gt; (this System.Collections.Generic.IEnumerable&lt;T&gt; collection);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsAny&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; collection) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.IsAny``1(System.Collections.Generic.IEnumerable{``0})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="T" />
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="collection" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" RefType="this" />
+        </Parameters>
+        <Docs>
+          <typeparam name="T">To be added.</typeparam>
+          <param name="collection">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods" Member="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.IsAny``1(System.Collections.Generic.IEnumerable{``0})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames" />
+      </Targets>
+      <Member MemberName="ListValues">
+        <MemberSignature Language="C#" Value="public static string ListValues (this Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames env);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ListValues(valuetype Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames env) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.ListValues(Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.String</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="env" Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="env">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods" Member="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.ListValues(Microsoft.Rest.ClientRuntime.Azure.TestFramework.EnvironmentNames)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Collections.Generic.Dictionary`2" />
+      </Targets>
+      <Member MemberName="UpdateDictionary">
+        <MemberSignature Language="C#" Value="public static void UpdateDictionary (this System.Collections.Generic.Dictionary&lt;string,string&gt; dictionary, string keyName, string value);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateDictionary(class System.Collections.Generic.Dictionary`2&lt;string, string&gt; dictionary, string keyName, string value) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.UpdateDictionary(System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="dictionary" Type="System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;" RefType="this" />
+          <Parameter Name="keyName" Type="System.String" />
+          <Parameter Name="value" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="dictionary">To be added.</param>
+          <param name="keyName">To be added.</param>
+          <param name="value">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods" Member="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.ExtMethods.UpdateDictionary(System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Collections.Generic.IDictionary`2" />
+      </Targets>
+      <Member MemberName="AsFormattedString">
+        <MemberSignature Language="C#" Value="public static string AsFormattedString (this System.Collections.Generic.IDictionary&lt;string,object&gt; parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsFormattedString(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.AsFormattedString(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.String</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="parameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="parameters">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities" Member="M:Microsoft.Rest.ClientRuntime.Azure.TestFramework.TestUtilities.AsFormattedString(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

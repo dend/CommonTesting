@@ -1,0 +1,28 @@
+<Type Name="ShouldRetryHandler" FullName="Microsoft.Rest.TransientFaultHandling.ShouldRetryHandler">
+  <TypeSignature Language="C#" Value="public delegate Microsoft.Rest.TransientFaultHandling.RetryCondition ShouldRetryHandler(int retryCount, Exception lastException);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ShouldRetryHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.TransientFaultHandling.ShouldRetryHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="retryCount" Type="System.Int32" />
+    <Parameter Name="lastException" Type="System.Exception" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>Microsoft.Rest.TransientFaultHandling.RetryCondition</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="retryCount">The current retry attempt count.</param>
+    <param name="lastException">The exception that caused the retry conditions to occur.</param>
+    <summary>
+            Defines a callback delegate that will be invoked whenever a retry condition is encountered.
+            </summary>
+    <returns>A retry condition instance</returns>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

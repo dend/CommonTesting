@@ -1,0 +1,1009 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.Management.Analysis" Version="1.0.3.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Provides management functionality for Azure Analysis Services Resources.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.1.0.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.1.0-preview")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft Azure .NET SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Azure Analysis Services Management Library")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.Management.Analysis">
+      <Type Name="AnalysisServicesManagementClient" Kind="Class" />
+      <Type Name="IAnalysisServicesManagementClient" Kind="Interface" />
+      <Type Name="IServersOperations" Kind="Interface" />
+      <Type Name="ServersOperationsExtensions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Management.Analysis.Models">
+      <Type Name="AnalysisServicesServer" Kind="Class" />
+      <Type Name="AnalysisServicesServerUpdateParameters" Kind="Class" />
+      <Type Name="BackupConfiguration" Kind="Class" />
+      <Type Name="Page`1" DisplayName="Page&lt;T&gt;" Kind="Class" />
+      <Type Name="ProvisioningState" Kind="Class" />
+      <Type Name="Resource" Kind="Class" />
+      <Type Name="ResourceSku" Kind="Class" />
+      <Type Name="ServerAdministrators" Kind="Class" />
+      <Type Name="SkuName" Kind="Class" />
+      <Type Name="SkuTier" Kind="Class" />
+      <Type Name="State" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.Management.Analysis</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginCreate">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer BeginCreate (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer BeginCreate(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="serverParameters" Type="Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+          <param name="serverParameters">
+            Contains the information used to provision the Analysis Services server.
+            </param>
+          <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginCreateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; BeginCreateAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; BeginCreateAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="serverParameters" Type="Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+          <param name="serverParameters">
+            Contains the information used to provision the Analysis Services server.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginDelete">
+        <MemberSignature Language="C#" Value="public static void BeginDelete (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDelete(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginDeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginDeleteAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginDeleteAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginResume">
+        <MemberSignature Language="C#" Value="public static void BeginResume (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginResume(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginResume(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginResume(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginResumeAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginResumeAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginResumeAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginResumeAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginResumeAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginSuspend">
+        <MemberSignature Language="C#" Value="public static void BeginSuspend (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginSuspend(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginSuspend(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginSuspend(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="BeginSuspendAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginSuspendAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginSuspendAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginSuspendAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.BeginSuspendAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="Create">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer Create (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer Create(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Create(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="serverParameters" Type="Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+          <param name="serverParameters">
+            Contains the information used to provision the Analysis Services server.
+            </param>
+          <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Create(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="CreateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; CreateAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; CreateAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer serverParameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="serverParameters" Type="Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+          <param name="serverParameters">
+            Contains the information used to provision the Analysis Services server.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Provisions the specified Analysis Services server based on the
+            configuration specified in the request.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Delete(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Delete(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Deletes the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="GetDetails">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer GetDetails (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer GetDetails(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.GetDetails(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+          <summary>
+            Gets details about the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.GetDetails(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="GetDetailsAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; GetDetailsAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; GetDetailsAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.GetDetailsAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be a minimum of 3
+            characters, and a maximum of 63.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets details about the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.GetDetailsAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; List (this Microsoft.Azure.Management.Analysis.IServersOperations operations);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; List(class Microsoft.Azure.Management.Analysis.IServersOperations operations) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.List(Microsoft.Azure.Management.Analysis.IServersOperations)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <summary>
+            Lists all the Analysis Services servers for the given subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.List(Microsoft.Azure.Management.Analysis.IServersOperations)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;&gt; ListAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;&gt; ListAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Lists all the Analysis Services servers for the given subscription.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroup">
+        <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; ListByResourceGroup (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; ListByResourceGroup(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Analysis.IServersOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <summary>
+            Gets all the Analysis Services servers for the given resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Analysis.IServersOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;&gt; ListByResourceGroupAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;&gt; ListByResourceGroupAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Gets all the Analysis Services servers for the given resource group.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="Resume">
+        <MemberSignature Language="C#" Value="public static void Resume (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Resume(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Resume(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Resume(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="ResumeAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ResumeAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ResumeAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ResumeAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Resumes operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.ResumeAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="Suspend">
+        <MemberSignature Language="C#" Value="public static void Suspend (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Suspend(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Suspend(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Suspend(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="SuspendAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SuspendAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SuspendAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.SuspendAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Supends operation of the specified Analysis Services server instance.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.SuspendAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="Update">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer Update (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters serverUpdateParameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer Update(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters serverUpdateParameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Update(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="serverUpdateParameters" Type="Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="serverUpdateParameters">
+            Request object that contains the updated information for the server.
+            </param>
+          <summary>
+            Updates the current state of the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.Update(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Analysis.IServersOperations" />
+      </Targets>
+      <Member MemberName="UpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; UpdateAsync (this Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters serverUpdateParameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt; UpdateAsync(class Microsoft.Azure.Management.Analysis.IServersOperations operations, string resourceGroupName, string serverName, class Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters serverUpdateParameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServer&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Analysis.IServersOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="serverName" Type="System.String" />
+          <Parameter Name="serverUpdateParameters" Type="Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">
+            The operations group for this extension method.
+            </param>
+          <param name="resourceGroupName">
+            The name of the Azure Resource group of which a given Analysis Services
+            server is part. This name must be at least 1 character in length, and no
+            more than 90.
+            </param>
+          <param name="serverName">
+            The name of the Analysis Services server. It must be at least 3 characters
+            in length, and no more than 63.
+            </param>
+          <param name="serverUpdateParameters">
+            Request object that contains the updated information for the server.
+            </param>
+          <param name="cancellationToken">
+            The cancellation token.
+            </param>
+          <summary>
+            Updates the current state of the specified Analysis Services server.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Analysis.ServersOperationsExtensions" Member="M:Microsoft.Azure.Management.Analysis.ServersOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Analysis.IServersOperations,System.String,System.String,Microsoft.Azure.Management.Analysis.Models.AnalysisServicesServerUpdateParameters,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

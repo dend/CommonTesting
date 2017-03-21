@@ -1,0 +1,304 @@
+<Type Name="Utilities" FullName="Microsoft.Azure.Test.HttpRecorder.Utilities">
+  <TypeSignature Language="C#" Value="public static class Utilities" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Utilities extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Test.HttpRecorder.Utilities" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Test.HttpRecorder</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CleanDirectory">
+      <MemberSignature Language="C#" Value="public static void CleanDirectory (string dir);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CleanDirectory(string dir) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.CleanDirectory(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dir" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="dir">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecodeBase64AsUri">
+      <MemberSignature Language="C#" Value="public static string DecodeBase64AsUri (string uriToDecode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string DecodeBase64AsUri(string uriToDecode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.DecodeBase64AsUri(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uriToDecode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uriToDecode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeserializeJson&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static T DeserializeJson&lt;T&gt; (string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T DeserializeJson&lt;T&gt;(string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.DeserializeJson``1(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncodeUriAsBase64">
+      <MemberSignature Language="C#" Value="public static string EncodeUriAsBase64 (string uriToEncode);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string EncodeUriAsBase64(string uriToEncode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.EncodeUriAsBase64(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uriToEncode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uriToEncode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncodeUriAsBase64">
+      <MemberSignature Language="C#" Value="public static string EncodeUriAsBase64 (Uri requestUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string EncodeUriAsBase64(class System.Uri requestUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.EncodeUriAsBase64(System.Uri)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="requestUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="requestUri">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnsureDirectoryExists">
+      <MemberSignature Language="C#" Value="public static void EnsureDirectoryExists (string dir);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EnsureDirectoryExists(string dir) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.EnsureDirectoryExists(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dir" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="dir">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForEach&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static void ForEach&lt;T&gt; (this System.Collections.Generic.IEnumerable&lt;T&gt; sequence, Action&lt;T&gt; action);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ForEach&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; sequence, class System.Action`1&lt;!!T&gt; action) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="sequence" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" RefType="this" />
+        <Parameter Name="action" Type="System.Action&lt;T&gt;" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="sequence">To be added.</param>
+        <param name="action">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatString">
+      <MemberSignature Language="C#" Value="public static string FormatString (string content);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string FormatString(string content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.FormatString(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsJson">
+      <MemberSignature Language="C#" Value="public static bool IsJson (string content);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsJson(string content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.IsJson(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsXml">
+      <MemberSignature Language="C#" Value="public static bool IsXml (string content);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsXml(string content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.IsXml(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializeJson&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static void SerializeJson&lt;T&gt; (T data, string path);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SerializeJson&lt;T&gt;(!!T data, string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.SerializeJson``1(``0,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="data" Type="T" />
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="data">To be added.</param>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryFormatJson">
+      <MemberSignature Language="C#" Value="public static string TryFormatJson (string str);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string TryFormatJson(string str) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.TryFormatJson(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryFormatXml">
+      <MemberSignature Language="C#" Value="public static string TryFormatXml (string content);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string TryFormatXml(string content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Test.HttpRecorder.Utilities.TryFormatXml(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

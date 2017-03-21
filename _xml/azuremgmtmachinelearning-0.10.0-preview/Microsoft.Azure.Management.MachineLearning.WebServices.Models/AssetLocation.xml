@@ -1,0 +1,134 @@
+<Type Name="AssetLocation" FullName="Microsoft.Azure.Management.MachineLearning.WebServices.Models.AssetLocation">
+  <TypeSignature Language="C#" Value="public class AssetLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AssetLocation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.WebServices.Models.AssetLocation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes the access location for a web service asset.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AssetLocation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Models.AssetLocation.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the AssetLocation class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AssetLocation (string uri, string credentials = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uri, string credentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Models.AssetLocation.#ctor(System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uri" Type="System.String" />
+        <Parameter Name="credentials" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uri">The URI where the asset is accessible from,
+            (e.g. aml://abc for system assets or https://xyz for user
+            asets</param>
+        <param name="credentials">Access credentials for the asset, if
+            applicable (e.g. asset specified by storage account connection
+            string + blob URI)</param>
+        <summary>
+            Initializes a new instance of the AssetLocation class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public string Credentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.WebServices.Models.AssetLocation.Credentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="credentials")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets access credentials for the asset, if applicable (e.g.
+            asset specified by storage account connection string + blob URI)
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public string Uri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.WebServices.Models.AssetLocation.Uri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="uri")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the URI where the asset is accessible from, (e.g.
+            aml://abc for system assets or https://xyz for user asets
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.WebServices.Models.AssetLocation.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

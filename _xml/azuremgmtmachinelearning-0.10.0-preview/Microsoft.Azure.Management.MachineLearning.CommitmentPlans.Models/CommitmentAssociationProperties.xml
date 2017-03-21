@@ -1,0 +1,140 @@
+<Type Name="CommitmentAssociationProperties" FullName="Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentAssociationProperties">
+  <TypeSignature Language="C#" Value="public class CommitmentAssociationProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommitmentAssociationProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentAssociationProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Properties of an Azure ML commitment association.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommitmentAssociationProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentAssociationProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the CommitmentAssociationProperties
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CommitmentAssociationProperties (string associatedResourceId = null, string commitmentPlanId = null, Nullable&lt;DateTime&gt; creationDate = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string associatedResourceId, string commitmentPlanId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; creationDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentAssociationProperties.#ctor(System.String,System.String,System.Nullable{System.DateTime})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="associatedResourceId" Type="System.String" />
+        <Parameter Name="commitmentPlanId" Type="System.String" />
+        <Parameter Name="creationDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="associatedResourceId">The ID of the resource this
+            association points to, such as the ARM ID of an Azure ML web
+            service.</param>
+        <param name="commitmentPlanId">The ARM ID of the parent Azure ML
+            commitment plan.</param>
+        <param name="creationDate">The date at which this commitment
+            association was created, in ISO 8601 format.</param>
+        <summary>
+            Initializes a new instance of the CommitmentAssociationProperties
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssociatedResourceId">
+      <MemberSignature Language="C#" Value="public string AssociatedResourceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AssociatedResourceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentAssociationProperties.AssociatedResourceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="associatedResourceId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the ID of the resource this association points to, such as
+            the ARM ID of an Azure ML web service.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitmentPlanId">
+      <MemberSignature Language="C#" Value="public string CommitmentPlanId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CommitmentPlanId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentAssociationProperties.CommitmentPlanId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="commitmentPlanId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the ARM ID of the parent Azure ML commitment plan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreationDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MachineLearning.CommitmentPlans.Models.CommitmentAssociationProperties.CreationDate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="creationDate")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the date at which this commitment association was created, in
+            ISO 8601 format.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

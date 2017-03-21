@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azuremgmtcognitiveservices-0.3.0-preview">
+  <Namespace Name="Microsoft.Azure.Management.CognitiveServices">
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions" Id="T:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.Create(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.Delete(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.GetProperties(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.GetPropertiesAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.List(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListKeys(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListKeysAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListSkus(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.ListSkusAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.RegenerateKey(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName})" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.RegenerateKeyAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.Update(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesAccountsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations,System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient" Id="T:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.CognitiveServicesAccounts" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.CognitiveServicesManagementClient.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations" Id="T:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.GetPropertiesWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListSkusWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.RegenerateKeyWithHttpMessagesAsync(System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesAccountsOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient" Id="T:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient">
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.CognitiveServicesAccounts" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.ICognitiveServicesManagementClient.SubscriptionId" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Management.CognitiveServices.Models">
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.#ctor(System.String,System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState},System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String},System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Endpoint" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Etag" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Id" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Kind" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Location" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Name" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.ProvisioningState" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Sku" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Tags" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccount.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.#ctor(Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.String,System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Kind" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Location" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Properties" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Sku" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountCreateParameters.Tags" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku})" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountEnumerateSkusResult.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.Key1" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountKeys.Key2" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.#ctor(Microsoft.Azure.Management.CognitiveServices.Models.Sku,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.Sku" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesAccountUpdateParameters.Tags" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.#ctor(System.String,Microsoft.Azure.Management.CognitiveServices.Models.Sku)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.ResourceType" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.CognitiveServicesResourceAndSku.Sku" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.Error" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.Error">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Error.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Error.#ctor(Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Error.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.Error.ErrorProperty" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.Code" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorBody.Message" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.ErrorException" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.#ctor(System.String,System.Exception)" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.Body" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.Request" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.ErrorException.Response" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.KeyName" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.KeyName">
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.KeyName.Key1" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.KeyName.Key2" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.Kind" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.Kind">
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.Academic" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.BingAutosuggest" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.BingSearch" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.BingSpeech" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.BingSpellCheck" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.ComputerVision" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.ContentModerator" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.Emotion" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.Face" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.LUIS" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.Recommendations" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.SpeakerRecognition" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.Speech" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.SpeechTranslation" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.TextAnalytics" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.TextTranslation" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.Kind.WebLM" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.Page`1" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.Page`1">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Page`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Page`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Page`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.Page`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState">
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState.Creating" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState.Failed" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState.ResolvingDNS" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.ProvisioningState.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters.#ctor(System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.KeyName})" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.RegenerateKeyParameters.KeyName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.Sku" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.Sku">
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Sku.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Sku.#ctor(System.String,System.Nullable{Microsoft.Azure.Management.CognitiveServices.Models.SkuTier})" />
+      <Member Id="M:Microsoft.Azure.Management.CognitiveServices.Models.Sku.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.Sku.Name" />
+      <Member Id="P:Microsoft.Azure.Management.CognitiveServices.Models.Sku.Tier" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.SkuName" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.SkuName">
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.F0" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.P0" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.P1" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.P2" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.S0" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.S1" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.S2" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.S3" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.S4" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.S5" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuName.S6" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.CognitiveServices.Models.SkuTier" Id="T:Microsoft.Azure.Management.CognitiveServices.Models.SkuTier">
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuTier.Free" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuTier.Premium" />
+      <Member Id="F:Microsoft.Azure.Management.CognitiveServices.Models.SkuTier.Standard" />
+    </Type>
+  </Namespace>
+</Framework>
