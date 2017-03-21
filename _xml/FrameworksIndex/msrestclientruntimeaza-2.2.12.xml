@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="msrestclientruntimeaza-2.2.12">
+  <Namespace Name="Microsoft.Rest.Azure.Authentication">
+    <Type Name="Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings" Id="T:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings">
+      <Member Id="F:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.EnableEbdMagicCookie" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.#ctor" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.#ctor(System.String,System.Uri)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.UseCacheCookiesOrPrompt(System.String,System.Uri)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.UseCacheOrCookiesOnly(System.String,System.Uri)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.UsePromptOnly(System.String,System.Uri)" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.AdditionalQueryParameters" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.ClientId" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.ClientRedirectUri" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.OwnerWindow" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings.PromptBehavior" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings" Id="T:Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings">
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings.#ctor" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings.AuthenticationEndpoint" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings.Azure" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings.AzureChina" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings.TokenAudience" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings.ValidateAuthority" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider" Id="T:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider">
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult,System.DateTimeOffset)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.GetAuthenticationHeaderAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.Byte[],System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentAsync(System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentWithCertificateAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentWithCertificateAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.LoginSilentWithCertificateAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="P:Microsoft.Rest.Azure.Authentication.ApplicationTokenProvider.AccessTokenExpired" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.Authentication.AuthenticationException" Id="T:Microsoft.Rest.Azure.Authentication.AuthenticationException">
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.AuthenticationException.#ctor" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.AuthenticationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.AuthenticationException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.AuthenticationException.#ctor(System.String,System.Exception)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.AuthenticationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.Authentication.CertificateAuthenticationProvider" Id="T:Microsoft.Rest.Azure.Authentication.CertificateAuthenticationProvider">
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.CertificateAuthenticationProvider.#ctor(System.Byte[],System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.CertificateAuthenticationProvider.#ctor(System.Func{System.String,System.Threading.Tasks.Task{Microsoft.IdentityModel.Clients.ActiveDirectory.ClientAssertionCertificate}})" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.CertificateAuthenticationProvider.AuthenticateAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider" Id="T:Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider">
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.IApplicationAuthenticationProvider.AuthenticateAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.Authentication.IUserCredentialProvider" Id="T:Microsoft.Rest.Azure.Authentication.IUserCredentialProvider">
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.IUserCredentialProvider.GetCredentialAsync(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.Authentication.UserTokenProvider" Id="T:Microsoft.Rest.Azure.Authentication.UserTokenProvider">
+      <Member Id="F:Microsoft.Rest.Azure.Authentication.UserTokenProvider.CommonTenantId" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.CreateCredentialsFromCache(System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.CreateCredentialsFromCache(System.String,System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.CreateCredentialsFromCache(System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.CreateCredentialsFromCache(System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.GetAuthenticationHeaderAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginSilentAsync(System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginSilentAsync(System.String,System.String,System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginSilentAsync(System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginSilentAsync(System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache,System.Func{System.Threading.Tasks.TaskScheduler})" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,System.Func{System.Threading.Tasks.TaskScheduler})" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,Microsoft.Rest.Azure.Authentication.ActiveDirectoryServiceSettings,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.UserTokenProvider.LoginWithPromptAsync(System.String,Microsoft.Rest.Azure.Authentication.ActiveDirectoryClientSettings,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Rest.Azure.Authentication.Internal">
+    <Type Name="Microsoft.Rest.Azure.Authentication.Internal.MemoryApplicationAuthenticationProvider" Id="T:Microsoft.Rest.Azure.Authentication.Internal.MemoryApplicationAuthenticationProvider">
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.Internal.MemoryApplicationAuthenticationProvider.#ctor" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.Internal.MemoryApplicationAuthenticationProvider.#ctor(Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.Internal.MemoryApplicationAuthenticationProvider.AddCredential(Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential)" />
+      <Member Id="M:Microsoft.Rest.Azure.Authentication.Internal.MemoryApplicationAuthenticationProvider.AuthenticateAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext)" />
+    </Type>
+  </Namespace>
+</Framework>

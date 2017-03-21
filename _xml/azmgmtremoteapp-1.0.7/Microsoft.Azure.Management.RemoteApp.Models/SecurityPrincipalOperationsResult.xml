@@ -1,0 +1,59 @@
+<Type Name="SecurityPrincipalOperationsResult" FullName="Microsoft.Azure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult">
+  <TypeSignature Language="C#" Value="public class SecurityPrincipalOperationsResult : Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SecurityPrincipalOperationsResult extends Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.RemoteApp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The response for the collection user operation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SecurityPrincipalOperationsResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the SecurityPrincipalOperationsResult
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Errors">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails&gt; Errors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails&gt; Errors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult.Errors" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The list of errors for each of the failed principal
+            operations. This list will be empty if the operation for all the
+            requested principals succeeded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

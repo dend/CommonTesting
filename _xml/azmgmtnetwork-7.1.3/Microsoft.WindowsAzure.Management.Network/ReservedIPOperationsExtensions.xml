@@ -1,0 +1,824 @@
+<Type Name="ReservedIPOperationsExtensions" FullName="Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class ReservedIPOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ReservedIPOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Network</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Service Management API includes operations for managing the virtual
+            networks for your subscription.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157182.aspx for
+            more information)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Associate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse Associate (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse Associate(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.Associate(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to associate Reserved IP.
+            </param>
+        <summary>
+            The Associate Reserved IP operation associates a Reserved IP with a
+            service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssociateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; AssociateAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; AssociateAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.AssociateAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to associate Reserved IP.
+            </param>
+        <summary>
+            The Associate Reserved IP operation associates a Reserved IP with a
+            service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAssociating">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse BeginAssociating (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse BeginAssociating(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginAssociating(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Begin associating Reserved IP.
+            </param>
+        <summary>
+            The BeginAssociate begins to associate a Reserved IP with a service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAssociatingAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; BeginAssociatingAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; BeginAssociatingAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginAssociatingAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Begin associating Reserved IP.
+            </param>
+        <summary>
+            The BeginAssociate begins to associate a Reserved IP with a service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreating">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse BeginCreating (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse BeginCreating(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginCreating(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Begin Creating Reserved IP
+            operation.
+            </param>
+        <summary>
+            The Begin Creating Reserved IP operation creates a reserved IP from
+            your the subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreatingAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; BeginCreatingAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; BeginCreatingAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginCreatingAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Begin Creating Reserved IP
+            operation.
+            </param>
+        <summary>
+            The Begin Creating Reserved IP operation creates a reserved IP from
+            your the subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleting">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginDeleting (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginDeleting(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginDeleting(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="ipName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="ipName">
+            Required. The name of the reserved IP.
+            </param>
+        <summary>
+            The Begin Deleting Reserved IP operation removes a reserved IP from
+            your the subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeletingAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginDeletingAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginDeletingAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginDeletingAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="ipName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="ipName">
+            Required. The name of the reserved IP.
+            </param>
+        <summary>
+            The Begin Deleting Reserved IP operation removes a reserved IP from
+            your the subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDisassociating">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse BeginDisassociating (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse BeginDisassociating(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginDisassociating(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Begin disassociating Reserved
+            IP.
+            </param>
+        <summary>
+            The BeginDisassociate begins to disassociate a Reserved IP from a
+            service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDisassociatingAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; BeginDisassociatingAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; BeginDisassociatingAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.BeginDisassociatingAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Begin disassociating Reserved
+            IP.
+            </param>
+        <summary>
+            The BeginDisassociate begins to disassociate a Reserved IP from a
+            service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse Create (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse Create(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Reserved IP operation.
+            </param>
+        <summary>
+            The Create Reserved IP operation creates a reserved IP from your
+            the subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; CreateAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; CreateAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Reserved IP operation.
+            </param>
+        <summary>
+            The Create Reserved IP operation creates a reserved IP from your
+            the subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse Delete (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse Delete(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="ipName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="ipName">
+            Required. The name of the reserved IP.
+            </param>
+        <summary>
+            The Delete Reserved IP operation removes a reserved IP from your
+            the subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; DeleteAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; DeleteAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="ipName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="ipName">
+            Required. The name of the reserved IP.
+            </param>
+        <summary>
+            The Delete Reserved IP operation removes a reserved IP from your
+            the subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disassociate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse Disassociate (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse Disassociate(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.Disassociate(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to disassociate Reserved IP.
+            </param>
+        <summary>
+            The Disassociate Reserved IP operation disassociates a Reserved IP
+            from a service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisassociateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; DisassociateAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; DisassociateAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string reservedIpName, class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.DisassociateAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String,Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="reservedIpName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPMobilityParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="reservedIpName">
+            Required. The name of the reserved IP.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to disassociate Reserved IP.
+            </param>
+        <summary>
+            The Disassociate Reserved IP operation disassociates a Reserved IP
+            from a service.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPGetResponse Get (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPGetResponse Get(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPGetResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="ipName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="ipName">
+            Required. The name of the reserved IP to retrieve.
+            </param>
+        <summary>
+            The Get Reserved IP operation retrieves the details for the virtual
+            IP reserved for the subscription.
+            </summary>
+        <returns>
+            A reserved IP associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPGetResponse&gt; GetAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPGetResponse&gt; GetAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations, string ipName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+        <Parameter Name="ipName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <param name="ipName">
+            Required. The name of the reserved IP to retrieve.
+            </param>
+        <summary>
+            The Get Reserved IP operation retrieves the details for the virtual
+            IP reserved for the subscription.
+            </summary>
+        <returns>
+            A reserved IP associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPListResponse List (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPListResponse List(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.List(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPListResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <summary>
+            The List Reserved IP operation retrieves all of the virtual IPs
+            reserved for the subscription.
+            </summary>
+        <returns>
+            The response structure for the Server List operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPListResponse&gt; ListAsync (this Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPListResponse&gt; ListAsync(class Microsoft.WindowsAzure.Management.Network.IReservedIPOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.ReservedIPOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Network.IReservedIPOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.NetworkReservedIPListResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IReservedIPOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IReservedIPOperations.
+            </param>
+        <summary>
+            The List Reserved IP operation retrieves all of the virtual IPs
+            reserved for the subscription.
+            </summary>
+        <returns>
+            The response structure for the Server List operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1032 @@
+<Type Name="EdifactEnvelopeSettings" FullName="Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings">
+  <TypeSignature Language="C#" Value="public class EdifactEnvelopeSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EdifactEnvelopeSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EdifactEnvelopeSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EdifactEnvelopeSettings (string groupAssociationAssignedCode = null, string communicationAgreementId = null, Nullable&lt;bool&gt; applyDelimiterStringAdvice = null, Nullable&lt;bool&gt; createGroupingSegments = null, Nullable&lt;bool&gt; enableDefaultGroupHeaders = null, string recipientReferencePasswordValue = null, string recipientReferencePasswordQualifier = null, string applicationReferenceId = null, string processingPriorityCode = null, Nullable&lt;long&gt; interchangeControlNumberLowerBound = null, Nullable&lt;long&gt; interchangeControlNumberUpperBound = null, Nullable&lt;bool&gt; rolloverInterchangeControlNumber = null, string interchangeControlNumberPrefix = null, string interchangeControlNumberSuffix = null, string senderReverseRoutingAddress = null, string receiverReverseRoutingAddress = null, string functionalGroupId = null, string groupControllingAgencyCode = null, string groupMessageVersion = null, string groupMessageRelease = null, Nullable&lt;long&gt; groupControlNumberLowerBound = null, Nullable&lt;long&gt; groupControlNumberUpperBound = null, Nullable&lt;bool&gt; rolloverGroupControlNumber = null, string groupControlNumberPrefix = null, string groupControlNumberSuffix = null, string groupApplicationReceiverQualifier = null, string groupApplicationReceiverId = null, string groupApplicationSenderQualifier = null, string groupApplicationSenderId = null, string groupApplicationPassword = null, Nullable&lt;bool&gt; overwriteExistingTransactionSetControlNumber = null, string transactionSetControlNumberPrefix = null, string transactionSetControlNumberSuffix = null, Nullable&lt;long&gt; transactionSetControlNumberLowerBound = null, Nullable&lt;long&gt; transactionSetControlNumberUpperBound = null, Nullable&lt;bool&gt; rolloverTransactionSetControlNumber = null, Nullable&lt;bool&gt; isTestInterchange = null, string senderInternalIdentification = null, string senderInternalSubIdentification = null, string receiverInternalIdentification = null, string receiverInternalSubIdentification = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string groupAssociationAssignedCode, string communicationAgreementId, valuetype System.Nullable`1&lt;bool&gt; applyDelimiterStringAdvice, valuetype System.Nullable`1&lt;bool&gt; createGroupingSegments, valuetype System.Nullable`1&lt;bool&gt; enableDefaultGroupHeaders, string recipientReferencePasswordValue, string recipientReferencePasswordQualifier, string applicationReferenceId, string processingPriorityCode, valuetype System.Nullable`1&lt;int64&gt; interchangeControlNumberLowerBound, valuetype System.Nullable`1&lt;int64&gt; interchangeControlNumberUpperBound, valuetype System.Nullable`1&lt;bool&gt; rolloverInterchangeControlNumber, string interchangeControlNumberPrefix, string interchangeControlNumberSuffix, string senderReverseRoutingAddress, string receiverReverseRoutingAddress, string functionalGroupId, string groupControllingAgencyCode, string groupMessageVersion, string groupMessageRelease, valuetype System.Nullable`1&lt;int64&gt; groupControlNumberLowerBound, valuetype System.Nullable`1&lt;int64&gt; groupControlNumberUpperBound, valuetype System.Nullable`1&lt;bool&gt; rolloverGroupControlNumber, string groupControlNumberPrefix, string groupControlNumberSuffix, string groupApplicationReceiverQualifier, string groupApplicationReceiverId, string groupApplicationSenderQualifier, string groupApplicationSenderId, string groupApplicationPassword, valuetype System.Nullable`1&lt;bool&gt; overwriteExistingTransactionSetControlNumber, string transactionSetControlNumberPrefix, string transactionSetControlNumberSuffix, valuetype System.Nullable`1&lt;int64&gt; transactionSetControlNumberLowerBound, valuetype System.Nullable`1&lt;int64&gt; transactionSetControlNumberUpperBound, valuetype System.Nullable`1&lt;bool&gt; rolloverTransactionSetControlNumber, valuetype System.Nullable`1&lt;bool&gt; isTestInterchange, string senderInternalIdentification, string senderInternalSubIdentification, string receiverInternalIdentification, string receiverInternalSubIdentification) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.#ctor(System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="groupAssociationAssignedCode" Type="System.String" />
+        <Parameter Name="communicationAgreementId" Type="System.String" />
+        <Parameter Name="applyDelimiterStringAdvice" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="createGroupingSegments" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="enableDefaultGroupHeaders" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="recipientReferencePasswordValue" Type="System.String" />
+        <Parameter Name="recipientReferencePasswordQualifier" Type="System.String" />
+        <Parameter Name="applicationReferenceId" Type="System.String" />
+        <Parameter Name="processingPriorityCode" Type="System.String" />
+        <Parameter Name="interchangeControlNumberLowerBound" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="interchangeControlNumberUpperBound" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="rolloverInterchangeControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="interchangeControlNumberPrefix" Type="System.String" />
+        <Parameter Name="interchangeControlNumberSuffix" Type="System.String" />
+        <Parameter Name="senderReverseRoutingAddress" Type="System.String" />
+        <Parameter Name="receiverReverseRoutingAddress" Type="System.String" />
+        <Parameter Name="functionalGroupId" Type="System.String" />
+        <Parameter Name="groupControllingAgencyCode" Type="System.String" />
+        <Parameter Name="groupMessageVersion" Type="System.String" />
+        <Parameter Name="groupMessageRelease" Type="System.String" />
+        <Parameter Name="groupControlNumberLowerBound" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="groupControlNumberUpperBound" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="rolloverGroupControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="groupControlNumberPrefix" Type="System.String" />
+        <Parameter Name="groupControlNumberSuffix" Type="System.String" />
+        <Parameter Name="groupApplicationReceiverQualifier" Type="System.String" />
+        <Parameter Name="groupApplicationReceiverId" Type="System.String" />
+        <Parameter Name="groupApplicationSenderQualifier" Type="System.String" />
+        <Parameter Name="groupApplicationSenderId" Type="System.String" />
+        <Parameter Name="groupApplicationPassword" Type="System.String" />
+        <Parameter Name="overwriteExistingTransactionSetControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="transactionSetControlNumberPrefix" Type="System.String" />
+        <Parameter Name="transactionSetControlNumberSuffix" Type="System.String" />
+        <Parameter Name="transactionSetControlNumberLowerBound" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="transactionSetControlNumberUpperBound" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="rolloverTransactionSetControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="isTestInterchange" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="senderInternalIdentification" Type="System.String" />
+        <Parameter Name="senderInternalSubIdentification" Type="System.String" />
+        <Parameter Name="receiverInternalIdentification" Type="System.String" />
+        <Parameter Name="receiverInternalSubIdentification" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="groupAssociationAssignedCode">To be added.</param>
+        <param name="communicationAgreementId">To be added.</param>
+        <param name="applyDelimiterStringAdvice">To be added.</param>
+        <param name="createGroupingSegments">To be added.</param>
+        <param name="enableDefaultGroupHeaders">To be added.</param>
+        <param name="recipientReferencePasswordValue">To be added.</param>
+        <param name="recipientReferencePasswordQualifier">To be added.</param>
+        <param name="applicationReferenceId">To be added.</param>
+        <param name="processingPriorityCode">To be added.</param>
+        <param name="interchangeControlNumberLowerBound">To be added.</param>
+        <param name="interchangeControlNumberUpperBound">To be added.</param>
+        <param name="rolloverInterchangeControlNumber">To be added.</param>
+        <param name="interchangeControlNumberPrefix">To be added.</param>
+        <param name="interchangeControlNumberSuffix">To be added.</param>
+        <param name="senderReverseRoutingAddress">To be added.</param>
+        <param name="receiverReverseRoutingAddress">To be added.</param>
+        <param name="functionalGroupId">To be added.</param>
+        <param name="groupControllingAgencyCode">To be added.</param>
+        <param name="groupMessageVersion">To be added.</param>
+        <param name="groupMessageRelease">To be added.</param>
+        <param name="groupControlNumberLowerBound">To be added.</param>
+        <param name="groupControlNumberUpperBound">To be added.</param>
+        <param name="rolloverGroupControlNumber">To be added.</param>
+        <param name="groupControlNumberPrefix">To be added.</param>
+        <param name="groupControlNumberSuffix">To be added.</param>
+        <param name="groupApplicationReceiverQualifier">To be added.</param>
+        <param name="groupApplicationReceiverId">To be added.</param>
+        <param name="groupApplicationSenderQualifier">To be added.</param>
+        <param name="groupApplicationSenderId">To be added.</param>
+        <param name="groupApplicationPassword">To be added.</param>
+        <param name="overwriteExistingTransactionSetControlNumber">To be added.</param>
+        <param name="transactionSetControlNumberPrefix">To be added.</param>
+        <param name="transactionSetControlNumberSuffix">To be added.</param>
+        <param name="transactionSetControlNumberLowerBound">To be added.</param>
+        <param name="transactionSetControlNumberUpperBound">To be added.</param>
+        <param name="rolloverTransactionSetControlNumber">To be added.</param>
+        <param name="isTestInterchange">To be added.</param>
+        <param name="senderInternalIdentification">To be added.</param>
+        <param name="senderInternalSubIdentification">To be added.</param>
+        <param name="receiverInternalIdentification">To be added.</param>
+        <param name="receiverInternalSubIdentification">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationReferenceId">
+      <MemberSignature Language="C#" Value="public string ApplicationReferenceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationReferenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.ApplicationReferenceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="applicationReferenceId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyDelimiterStringAdvice">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ApplyDelimiterStringAdvice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ApplyDelimiterStringAdvice" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.ApplyDelimiterStringAdvice" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="applyDelimiterStringAdvice")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommunicationAgreementId">
+      <MemberSignature Language="C#" Value="public string CommunicationAgreementId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CommunicationAgreementId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.CommunicationAgreementId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="communicationAgreementId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateGroupingSegments">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; CreateGroupingSegments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; CreateGroupingSegments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.CreateGroupingSegments" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="createGroupingSegments")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableDefaultGroupHeaders">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; EnableDefaultGroupHeaders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; EnableDefaultGroupHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.EnableDefaultGroupHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableDefaultGroupHeaders")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionalGroupId">
+      <MemberSignature Language="C#" Value="public string FunctionalGroupId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FunctionalGroupId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.FunctionalGroupId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="functionalGroupId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupApplicationPassword">
+      <MemberSignature Language="C#" Value="public string GroupApplicationPassword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupApplicationPassword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupApplicationPassword" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupApplicationPassword")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupApplicationReceiverId">
+      <MemberSignature Language="C#" Value="public string GroupApplicationReceiverId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupApplicationReceiverId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupApplicationReceiverId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupApplicationReceiverId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupApplicationReceiverQualifier">
+      <MemberSignature Language="C#" Value="public string GroupApplicationReceiverQualifier { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupApplicationReceiverQualifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupApplicationReceiverQualifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupApplicationReceiverQualifier")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupApplicationSenderId">
+      <MemberSignature Language="C#" Value="public string GroupApplicationSenderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupApplicationSenderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupApplicationSenderId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupApplicationSenderId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupApplicationSenderQualifier">
+      <MemberSignature Language="C#" Value="public string GroupApplicationSenderQualifier { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupApplicationSenderQualifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupApplicationSenderQualifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupApplicationSenderQualifier")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupAssociationAssignedCode">
+      <MemberSignature Language="C#" Value="public string GroupAssociationAssignedCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupAssociationAssignedCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupAssociationAssignedCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupAssociationAssignedCode")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupControllingAgencyCode">
+      <MemberSignature Language="C#" Value="public string GroupControllingAgencyCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupControllingAgencyCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupControllingAgencyCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupControllingAgencyCode")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupControlNumberLowerBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; GroupControlNumberLowerBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; GroupControlNumberLowerBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupControlNumberLowerBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupControlNumberLowerBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupControlNumberPrefix">
+      <MemberSignature Language="C#" Value="public string GroupControlNumberPrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupControlNumberPrefix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupControlNumberPrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupControlNumberPrefix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupControlNumberSuffix">
+      <MemberSignature Language="C#" Value="public string GroupControlNumberSuffix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupControlNumberSuffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupControlNumberSuffix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupControlNumberSuffix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupControlNumberUpperBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; GroupControlNumberUpperBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; GroupControlNumberUpperBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupControlNumberUpperBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupControlNumberUpperBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupMessageRelease">
+      <MemberSignature Language="C#" Value="public string GroupMessageRelease { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupMessageRelease" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupMessageRelease" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupMessageRelease")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupMessageVersion">
+      <MemberSignature Language="C#" Value="public string GroupMessageVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupMessageVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.GroupMessageVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupMessageVersion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterchangeControlNumberLowerBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; InterchangeControlNumberLowerBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; InterchangeControlNumberLowerBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.InterchangeControlNumberLowerBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interchangeControlNumberLowerBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterchangeControlNumberPrefix">
+      <MemberSignature Language="C#" Value="public string InterchangeControlNumberPrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InterchangeControlNumberPrefix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.InterchangeControlNumberPrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interchangeControlNumberPrefix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterchangeControlNumberSuffix">
+      <MemberSignature Language="C#" Value="public string InterchangeControlNumberSuffix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InterchangeControlNumberSuffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.InterchangeControlNumberSuffix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interchangeControlNumberSuffix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterchangeControlNumberUpperBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; InterchangeControlNumberUpperBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; InterchangeControlNumberUpperBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.InterchangeControlNumberUpperBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interchangeControlNumberUpperBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTestInterchange">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsTestInterchange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsTestInterchange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.IsTestInterchange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="isTestInterchange")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OverwriteExistingTransactionSetControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; OverwriteExistingTransactionSetControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; OverwriteExistingTransactionSetControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.OverwriteExistingTransactionSetControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="overwriteExistingTransactionSetControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessingPriorityCode">
+      <MemberSignature Language="C#" Value="public string ProcessingPriorityCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProcessingPriorityCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.ProcessingPriorityCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="processingPriorityCode")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiverInternalIdentification">
+      <MemberSignature Language="C#" Value="public string ReceiverInternalIdentification { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReceiverInternalIdentification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.ReceiverInternalIdentification" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="receiverInternalIdentification")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiverInternalSubIdentification">
+      <MemberSignature Language="C#" Value="public string ReceiverInternalSubIdentification { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReceiverInternalSubIdentification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.ReceiverInternalSubIdentification" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="receiverInternalSubIdentification")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiverReverseRoutingAddress">
+      <MemberSignature Language="C#" Value="public string ReceiverReverseRoutingAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReceiverReverseRoutingAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.ReceiverReverseRoutingAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="receiverReverseRoutingAddress")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientReferencePasswordQualifier">
+      <MemberSignature Language="C#" Value="public string RecipientReferencePasswordQualifier { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RecipientReferencePasswordQualifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.RecipientReferencePasswordQualifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="recipientReferencePasswordQualifier")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientReferencePasswordValue">
+      <MemberSignature Language="C#" Value="public string RecipientReferencePasswordValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RecipientReferencePasswordValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.RecipientReferencePasswordValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="recipientReferencePasswordValue")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RolloverGroupControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; RolloverGroupControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; RolloverGroupControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.RolloverGroupControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="rolloverGroupControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RolloverInterchangeControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; RolloverInterchangeControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; RolloverInterchangeControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.RolloverInterchangeControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="rolloverInterchangeControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RolloverTransactionSetControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; RolloverTransactionSetControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; RolloverTransactionSetControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.RolloverTransactionSetControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="rolloverTransactionSetControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderInternalIdentification">
+      <MemberSignature Language="C#" Value="public string SenderInternalIdentification { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderInternalIdentification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.SenderInternalIdentification" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="senderInternalIdentification")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderInternalSubIdentification">
+      <MemberSignature Language="C#" Value="public string SenderInternalSubIdentification { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderInternalSubIdentification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.SenderInternalSubIdentification" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="senderInternalSubIdentification")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderReverseRoutingAddress">
+      <MemberSignature Language="C#" Value="public string SenderReverseRoutingAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderReverseRoutingAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.SenderReverseRoutingAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="senderReverseRoutingAddress")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberLowerBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; TransactionSetControlNumberLowerBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; TransactionSetControlNumberLowerBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.TransactionSetControlNumberLowerBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberLowerBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberPrefix">
+      <MemberSignature Language="C#" Value="public string TransactionSetControlNumberPrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TransactionSetControlNumberPrefix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.TransactionSetControlNumberPrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberPrefix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberSuffix">
+      <MemberSignature Language="C#" Value="public string TransactionSetControlNumberSuffix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TransactionSetControlNumberSuffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.TransactionSetControlNumberSuffix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberSuffix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberUpperBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; TransactionSetControlNumberUpperBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; TransactionSetControlNumberUpperBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactEnvelopeSettings.TransactionSetControlNumberUpperBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberUpperBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

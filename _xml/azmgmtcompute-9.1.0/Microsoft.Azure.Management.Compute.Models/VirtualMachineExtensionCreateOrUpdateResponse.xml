@@ -1,0 +1,57 @@
+<Type Name="VirtualMachineExtensionCreateOrUpdateResponse" FullName="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionCreateOrUpdateResponse">
+  <TypeSignature Language="C#" Value="public class VirtualMachineExtensionCreateOrUpdateResponse : Microsoft.Azure.Management.Compute.Models.ComputeOperationResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineExtensionCreateOrUpdateResponse extends Microsoft.Azure.Management.Compute.Models.ComputeOperationResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionCreateOrUpdateResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Compute.Models.ComputeOperationResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The compute long running operation response.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineExtensionCreateOrUpdateResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionCreateOrUpdateResponse.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the
+            VirtualMachineExtensionCreateOrUpdateResponse class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineExtension">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.VirtualMachineExtension VirtualMachineExtension { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtension VirtualMachineExtension" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionCreateOrUpdateResponse.VirtualMachineExtension" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineExtension</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets details of the Virtual Machine Extension.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,168 @@
+<Type Name="AS2EnvelopeSettings" FullName="Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings">
+  <TypeSignature Language="C#" Value="public class AS2EnvelopeSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AS2EnvelopeSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AS2EnvelopeSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AS2EnvelopeSettings (string messageContentType = null, Nullable&lt;bool&gt; transmitFileNameInMimeHeader = null, string fileNameTemplate = null, Nullable&lt;bool&gt; suspendMessageOnFileNameGenerationError = null, Nullable&lt;bool&gt; autogenerateFileName = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string messageContentType, valuetype System.Nullable`1&lt;bool&gt; transmitFileNameInMimeHeader, string fileNameTemplate, valuetype System.Nullable`1&lt;bool&gt; suspendMessageOnFileNameGenerationError, valuetype System.Nullable`1&lt;bool&gt; autogenerateFileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings.#ctor(System.String,System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="messageContentType" Type="System.String" />
+        <Parameter Name="transmitFileNameInMimeHeader" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="fileNameTemplate" Type="System.String" />
+        <Parameter Name="suspendMessageOnFileNameGenerationError" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="autogenerateFileName" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="messageContentType">To be added.</param>
+        <param name="transmitFileNameInMimeHeader">To be added.</param>
+        <param name="fileNameTemplate">To be added.</param>
+        <param name="suspendMessageOnFileNameGenerationError">To be added.</param>
+        <param name="autogenerateFileName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutogenerateFileName">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; AutogenerateFileName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AutogenerateFileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings.AutogenerateFileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="AutogenerateFileName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileNameTemplate">
+      <MemberSignature Language="C#" Value="public string FileNameTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileNameTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings.FileNameTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="fileNameTemplate")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageContentType">
+      <MemberSignature Language="C#" Value="public string MessageContentType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageContentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings.MessageContentType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="messageContentType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuspendMessageOnFileNameGenerationError">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; SuspendMessageOnFileNameGenerationError { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; SuspendMessageOnFileNameGenerationError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings.SuspendMessageOnFileNameGenerationError" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="SuspendMessageOnFileNameGenerationError")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransmitFileNameInMimeHeader">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; TransmitFileNameInMimeHeader { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; TransmitFileNameInMimeHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2EnvelopeSettings.TransmitFileNameInMimeHeader" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transmitFileNameInMimeHeader")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

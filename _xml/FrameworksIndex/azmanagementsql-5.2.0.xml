@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmanagementsql-5.2.0">
+  <Namespace Name="Microsoft.WindowsAzure.Management.Sql">
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.Export(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.ExportAsync(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.GetStatus(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.GetStatusAsync(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.GetStatusPost(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.GetStatusPostAsync(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.Import(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DacOperationsExtensions.ImportAsync(Microsoft.WindowsAzure.Management.Sql.IDacOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,System.Guid)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,System.Guid)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.Update(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,System.Guid,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseCopyOperationsExtensions.UpdateAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations,System.String,System.String,System.Guid,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions.ListByDatabase(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions.ListByDatabaseAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions.ListByServer(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationOperationsExtensions.ListByServerAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.GetEventLogs(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.GetEventLogsAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.GetUsages(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.GetUsagesAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.Update(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.DatabaseOperationsExtensions.UpdateAsync(Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.Update(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.FirewallRuleOperationsExtensions.UpdateAsync(Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IDacOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IDacOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDacOperations.ExportAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDacOperations.GetStatusAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDacOperations.GetStatusPostAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDacOperations.ImportAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations.CreateAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations.DeleteAsync(System.String,System.String,System.Guid,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations.ListAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseCopyOperations.UpdateAsync(System.String,System.String,System.Guid,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations.ListByDatabaseAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperationOperations.ListByServerAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations.CreateAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations.DeleteAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations.GetEventLogsAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations.GetUsagesAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IDatabaseOperations.UpdateAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations.CreateAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations.DeleteAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IFirewallRuleOperations.UpdateAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IQuotaOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IQuotaOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IQuotaOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IQuotaOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IRecoverDatabaseOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IRecoverDatabaseOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IRecoverDatabaseOperations.CreateAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IRestoreDatabaseOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IRestoreDatabaseOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IRestoreDatabaseOperations.CreateAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IServerOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IServerOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IServerOperations.ChangeAdministratorPasswordAsync(System.String,Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IServerOperations.CreateAsync(Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IServerOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IServerOperations.ListAsync(System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations" Id="T:Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient" Id="T:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient">
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.Dac" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.DatabaseCopies" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.DatabaseOperations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.Databases" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.FirewallRules" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.Quotas" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.RecoverableDatabases" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.RecoverDatabaseOperations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.RestorableDroppedDatabases" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.RestoreDatabaseOperations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.Servers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.ISqlManagementClient.ServiceObjectives" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.QuotaOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.QuotaOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.QuotaOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IQuotaOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.QuotaOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IQuotaOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.QuotaOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IQuotaOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.QuotaOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IQuotaOperations,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.RecoverableDatabaseOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.RecoverableDatabaseOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RecoverableDatabaseOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RecoverableDatabaseOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RecoverableDatabaseOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RecoverableDatabaseOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IRecoverableDatabaseOperations,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.RecoverDatabaseOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.RecoverDatabaseOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RecoverDatabaseOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Sql.IRecoverDatabaseOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RecoverDatabaseOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Sql.IRecoverDatabaseOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.RestorableDroppedDatabaseOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.RestorableDroppedDatabaseOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RestorableDroppedDatabaseOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RestorableDroppedDatabaseOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RestorableDroppedDatabaseOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RestorableDroppedDatabaseOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IRestorableDroppedDatabaseOperations,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.RestoreDatabaseOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.RestoreDatabaseOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RestoreDatabaseOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Sql.IRestoreDatabaseOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.RestoreDatabaseOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Sql.IRestoreDatabaseOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.ChangeAdministratorPassword(Microsoft.WindowsAzure.Management.Sql.IServerOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.ChangeAdministratorPasswordAsync(Microsoft.WindowsAzure.Management.Sql.IServerOperations,System.String,Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Sql.IServerOperations,Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Sql.IServerOperations,Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.Sql.IServerOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.Sql.IServerOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IServerOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServerOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IServerOperations)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.ServiceObjectiveOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.ServiceObjectiveOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServiceObjectiveOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServiceObjectiveOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServiceObjectiveOperationsExtensions.List(Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.ServiceObjectiveOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Sql.IServiceObjectiveOperations,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.SqlManagementClient" Id="T:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Management.Sql.SqlManagementClient})" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.Dac" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.DatabaseCopies" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.DatabaseOperations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.Databases" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.FirewallRules" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.Quotas" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.RecoverableDatabases" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.RecoverDatabaseOperations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.RestorableDroppedDatabases" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.RestoreDatabaseOperations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.Servers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.SqlManagementClient.ServiceObjectives" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.SqlManagementClientExtensions" Id="T:Microsoft.WindowsAzure.Management.Sql.SqlManagementClientExtensions" />
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Management.Sql.Models">
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.BlobCredentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.ConnectionInfo" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters.Password" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters.RequestId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters.ServerName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusParameters.UserName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacGetStatusResponse.StatusInfoList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacImportExportResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacImportExportResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacImportExportResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportExportResponse.Guid" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.AzureEdition" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.BlobCredentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.ConnectionInfo" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.DatabaseSizeInGB" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.Database" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.Database">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.Database.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.AssignedServiceObjectiveId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.CollationName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.CreationDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.Edition" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.IsFederationRoot" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.IsSystemObject" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.MaximumDatabaseSizeInBytes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.MaximumDatabaseSizeInGB" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.RecoveryPeriodStartDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.ServiceObjectiveAssignmentErrorCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.ServiceObjectiveAssignmentErrorDescription" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.ServiceObjectiveAssignmentState" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.ServiceObjectiveAssignmentStateDescription" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.ServiceObjectiveAssignmentSuccessDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.ServiceObjectiveId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Database.SizeMB" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.DestinationDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.DestinationServerName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.IsContinuous" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.IsInterlinkConnected" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.IsLocalDatabaseReplicationTarget" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.IsOfflineSecondary" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.IsTerminationAllowed" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.LocalDatabaseId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.ModifyDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.PercentComplete" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.ReplicationState" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.ReplicationStateDescription" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.SourceDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.SourceServerName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopy.StartDate" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters.#ctor(System.String,System.String,System.Boolean)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters.IsContinuous" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters.IsOfflineSecondary" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters.PartnerDatabase" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateParameters.PartnerServer" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyCreateResponse.DatabaseCopy" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyGetResponse.DatabaseCopy" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyListResponse.DatabaseCopies" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateParameters.IsForcedTerminate" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCopyUpdateResponse.DatabaseCopy" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.CollationName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.Edition" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.MaximumDatabaseSizeInBytes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.MaximumDatabaseSizeInGB" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateParameters.ServiceObjectiveId" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseCreateResponse.Database" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEditions" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEditions">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEditions.Basic" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEditions.Business" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEditions.Premium" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEditions.Standard" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEditions.Web" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.AdditionalData" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.DatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.EventCategory" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.EventSubtype" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.EventSubtypeDescription" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.EventType" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.IntervalSizeInMinutes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.NumberOfEvents" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.Severity" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseEventLog.StartTimeUtc" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters.#ctor(System.DateTime,System.Int32,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters.EventTypes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters.IntervalSizeInMinutes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsParameters.StartDate" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetEventLogsResponse.EventLogs" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseGetResponse.Database" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseListResponse.Databases" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.DatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.Error" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.ErrorCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.ErrorSeverity" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.ErrorState" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.LastModifyTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.PercentComplete" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.SessionActivityId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.StartTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.StateId" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationGetResponse.DatabaseOperation" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperationListResponse.DatabaseOperations" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters.Edition" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters.MaximumDatabaseSizeInBytes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters.MaximumDatabaseSizeInGB" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateParameters.ServiceObjectiveId" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUpdateResponse.Database" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric.CurrentValue" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric.Limit" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric.NextResetTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric.ResourceName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsageMetric.Unit" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsagesListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsagesListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsagesListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsagesListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsagesListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseUsagesListResponse.Usages" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.FirewallRule" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRule">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRule.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRule.EndIPAddress" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRule.StartIPAddress" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters.EndIPAddress" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateParameters.StartIPAddress" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleCreateResponse.FirewallRule" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleGetResponse.FirewallRule" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleListResponse.FirewallRules" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters.EndIPAddress" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateParameters.StartIPAddress" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.FirewallRuleUpdateResponse.FirewallRule" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.Quota" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.Quota">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.Quota.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Quota.Value" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.QuotaGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.QuotaGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.QuotaGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.QuotaGetResponse.Quota" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.QuotaListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.QuotaListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.QuotaListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.QuotaListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.QuotaListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.QuotaListResponse.Quotas" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase.Edition" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase.EntityId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase.LastAvailableBackupDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabase.ServerName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseGetResponse.Database" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverableDatabaseListResponse.Databases" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation.SourceDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation.TargetDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation.TargetServerName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters.SourceDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters.TargetDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateParameters.TargetServerName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse.Operation" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.CreationDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.DeletionDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.Edition" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.EntityId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.MaximumDatabaseSizeInBytes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.RecoveryPeriodStartDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabase.ServerName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseGetResponse.Database" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestorableDroppedDatabaseListResponse.Databases" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation.PointInTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation.SourceDatabaseDeletionDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation.SourceDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation.TargetDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperation.TargetServerName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters.PointInTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters.SourceDatabaseDeletionDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters.SourceDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters.TargetDatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateParameters.TargetServerName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.RestoreDatabaseOperationCreateResponse.Operation" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.Server" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.Server">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.Server.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Server.AdministratorUserName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Server.FullyQualifiedDomainName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Server.Location" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Server.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Server.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.Server.Version" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerChangeAdministratorPasswordParameters.NewPassword" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters.AdministratorPassword" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters.AdministratorUserName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters.Location" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateParameters.Version" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateResponse.FullyQualifiedDomainName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerCreateResponse.ServerName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServerListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServerListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServerListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServerListResponse.Servers" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.DimensionSettings" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.Enabled" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.IsDefault" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.IsSystem" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveGetResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveGetResponse.ServiceObjective" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveListResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjectiveListResponse.ServiceObjectives" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon.Type" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.BlobUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.DatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.ErrorMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.LastModifiedTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.QueuedTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.RequestId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.RequestType" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.ServerName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.StatusInfo.Status" />
+    </Type>
+  </Namespace>
+  <Namespace Name="">
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters/BlobCredentialsParameter" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.BlobCredentialsParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.BlobCredentialsParameter.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.BlobCredentialsParameter.#ctor(System.Uri,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.BlobCredentialsParameter.StorageAccessKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.BlobCredentialsParameter.Uri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters/ConnectionInfoParameter" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.ConnectionInfoParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.ConnectionInfoParameter.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.ConnectionInfoParameter.DatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.ConnectionInfoParameter.Password" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.ConnectionInfoParameter.ServerName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacExportParameters.ConnectionInfoParameter.UserName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters/BlobCredentialsParameter" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.BlobCredentialsParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.BlobCredentialsParameter.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.BlobCredentialsParameter.#ctor(System.Uri,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.BlobCredentialsParameter.StorageAccessKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.BlobCredentialsParameter.Uri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters/ConnectionInfoParameter" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.ConnectionInfoParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.ConnectionInfoParameter.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.ConnectionInfoParameter.DatabaseName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.ConnectionInfoParameter.Password" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.ConnectionInfoParameter.ServerName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.DacImportParameters.ConnectionInfoParameter.UserName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective/DimensionSettingResponse" Id="T:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.DimensionSettingResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.DimensionSettingResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.DimensionSettingResponse.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.DimensionSettingResponse.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.DimensionSettingResponse.IsDefault" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Sql.Models.ServiceObjective.DimensionSettingResponse.Ordinal" />
+    </Type>
+  </Namespace>
+</Framework>

@@ -1,0 +1,46 @@
+<Type Name="IServiceOperations&lt;TClient&gt;" FullName="Microsoft.WindowsAzure.Common.IServiceOperations&lt;TClient&gt;">
+  <TypeSignature Language="C#" Value="public interface IServiceOperations&lt;TClient&gt; where TClient : ServiceClient&lt;TClient&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServiceOperations`1&lt;(class Microsoft.WindowsAzure.Common.ServiceClient`1&lt;!TClient&gt;) TClient&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.IServiceOperations`1" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TClient">
+      <Constraints>
+        <BaseTypeName>Microsoft.WindowsAzure.Common.ServiceClient&lt;TClient&gt;</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TClient">Type of the ServiceClient.</typeparam>
+    <summary>
+            Interface used to represent resource groupings of ServiceClient 
+            operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Client">
+      <MemberSignature Language="C#" Value="public TClient Client { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TClient Client" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Common.IServiceOperations`1.Client" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TClient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a reference to the ServiceClient.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

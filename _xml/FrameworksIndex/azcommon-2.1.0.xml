@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azcommon-2.1.0">
+  <Namespace Name="Microsoft.Azure">
+    <Type Name="Microsoft.Azure.AzureOperationResponse" Id="T:Microsoft.Azure.AzureOperationResponse">
+      <Member Id="M:Microsoft.Azure.AzureOperationResponse.#ctor" />
+      <Member Id="P:Microsoft.Azure.AzureOperationResponse.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Azure.CertificateCloudCredentials" Id="T:Microsoft.Azure.CertificateCloudCredentials">
+      <Member Id="M:Microsoft.Azure.CertificateCloudCredentials.#ctor(System.String,System.Security.Cryptography.X509Certificates.X509Certificate2)" />
+      <Member Id="M:Microsoft.Azure.CertificateCloudCredentials.Create(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <Member Id="M:Microsoft.Azure.CertificateCloudCredentials.InitializeServiceClient``1(Hyak.Common.ServiceClient{``0})" />
+      <Member Id="M:Microsoft.Azure.CertificateCloudCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.CertificateCloudCredentials.ManagementCertificate" />
+      <Member Id="P:Microsoft.Azure.CertificateCloudCredentials.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Azure.ClientRequestTrackingHandler" Id="T:Microsoft.Azure.ClientRequestTrackingHandler">
+      <Member Id="M:Microsoft.Azure.ClientRequestTrackingHandler.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.ClientRequestTrackingHandler.ProcessRequest(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.ClientRequestTrackingHandler.ProcessResponse(System.Net.Http.HttpResponseMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.ClientRequestTrackingHandler.TrackingId" />
+    </Type>
+    <Type Name="Microsoft.Azure.OperationStatus" Id="T:Microsoft.Azure.OperationStatus">
+      <Member Id="F:Microsoft.Azure.OperationStatus.Failed" />
+      <Member Id="F:Microsoft.Azure.OperationStatus.InProgress" />
+      <Member Id="F:Microsoft.Azure.OperationStatus.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.Azure.OperationStatusResponse" Id="T:Microsoft.Azure.OperationStatusResponse">
+      <Member Id="M:Microsoft.Azure.OperationStatusResponse.#ctor" />
+      <Member Id="P:Microsoft.Azure.OperationStatusResponse.Error" />
+      <Member Id="P:Microsoft.Azure.OperationStatusResponse.HttpStatusCode" />
+      <Member Id="P:Microsoft.Azure.OperationStatusResponse.Id" />
+      <Member Id="P:Microsoft.Azure.OperationStatusResponse.Status" />
+    </Type>
+    <Type Name="Microsoft.Azure.ResourceBase" Id="T:Microsoft.Azure.ResourceBase">
+      <Member Id="M:Microsoft.Azure.ResourceBase.#ctor" />
+      <Member Id="M:Microsoft.Azure.ResourceBase.#ctor(System.String)" />
+      <Member Id="P:Microsoft.Azure.ResourceBase.Location" />
+      <Member Id="P:Microsoft.Azure.ResourceBase.Tags" />
+    </Type>
+    <Type Name="Microsoft.Azure.ResourceBaseExtended" Id="T:Microsoft.Azure.ResourceBaseExtended">
+      <Member Id="M:Microsoft.Azure.ResourceBaseExtended.#ctor" />
+      <Member Id="M:Microsoft.Azure.ResourceBaseExtended.#ctor(System.String)" />
+      <Member Id="P:Microsoft.Azure.ResourceBaseExtended.Id" />
+      <Member Id="P:Microsoft.Azure.ResourceBaseExtended.Name" />
+      <Member Id="P:Microsoft.Azure.ResourceBaseExtended.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.ResourceIdentity" Id="T:Microsoft.Azure.ResourceIdentity">
+      <Member Id="M:Microsoft.Azure.ResourceIdentity.#ctor" />
+      <Member Id="M:Microsoft.Azure.ResourceIdentity.#ctor(System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.ResourceIdentity.GetProviderFromResourceType(System.String)" />
+      <Member Id="M:Microsoft.Azure.ResourceIdentity.GetTypeFromResourceType(System.String)" />
+      <Member Id="P:Microsoft.Azure.ResourceIdentity.ParentResourcePath" />
+      <Member Id="P:Microsoft.Azure.ResourceIdentity.ResourceName" />
+      <Member Id="P:Microsoft.Azure.ResourceIdentity.ResourceProviderApiVersion" />
+      <Member Id="P:Microsoft.Azure.ResourceIdentity.ResourceProviderNamespace" />
+      <Member Id="P:Microsoft.Azure.ResourceIdentity.ResourceType" />
+    </Type>
+    <Type Name="Microsoft.Azure.SubscriptionCloudCredentials" Id="T:Microsoft.Azure.SubscriptionCloudCredentials">
+      <Member Id="M:Microsoft.Azure.SubscriptionCloudCredentials.#ctor" />
+      <Member Id="P:Microsoft.Azure.SubscriptionCloudCredentials.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Azure.TokenCloudCredentials" Id="T:Microsoft.Azure.TokenCloudCredentials">
+      <Member Id="M:Microsoft.Azure.TokenCloudCredentials.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.TokenCloudCredentials.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.TokenCloudCredentials.Create(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <Member Id="M:Microsoft.Azure.TokenCloudCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.TokenCloudCredentials.SubscriptionId" />
+      <Member Id="P:Microsoft.Azure.TokenCloudCredentials.Token" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Common.Internals">
+    <Type Name="Microsoft.Azure.Common.Internals.PlatformConfigurationHelper" Id="T:Microsoft.Azure.Common.Internals.PlatformConfigurationHelper">
+      <Member Id="M:Microsoft.Azure.Common.Internals.PlatformConfigurationHelper.GetCertificate(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.Boolean)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Common.OData">
+    <Type Name="Microsoft.Azure.Common.OData.FilterParameterAttribute" Id="T:Microsoft.Azure.Common.OData.FilterParameterAttribute">
+      <Member Id="M:Microsoft.Azure.Common.OData.FilterParameterAttribute.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Common.OData.FilterParameterAttribute.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Common.OData.FilterParameterAttribute.Format" />
+      <Member Id="P:Microsoft.Azure.Common.OData.FilterParameterAttribute.Name" />
+    </Type>
+    <Type Name="Microsoft.Azure.Common.OData.FilterString" Id="T:Microsoft.Azure.Common.OData.FilterString">
+      <Member Id="M:Microsoft.Azure.Common.OData.FilterString.#ctor" />
+      <Member Id="M:Microsoft.Azure.Common.OData.FilterString.Generate``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})" />
+    </Type>
+    <Type Name="Microsoft.Azure.Common.OData.UrlExpressionVisitor" Id="T:Microsoft.Azure.Common.OData.UrlExpressionVisitor">
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.#ctor" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.ToString" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitBinary(System.Linq.Expressions.BinaryExpression)" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitConditional(System.Linq.Expressions.ConditionalExpression)" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitConstant(System.Linq.Expressions.ConstantExpression)" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitMember(System.Linq.Expressions.MemberExpression)" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitNew(System.Linq.Expressions.NewExpression)" />
+      <Member Id="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitUnary(System.Linq.Expressions.UnaryExpression)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="">
+    <Type Name="Microsoft.Azure.OperationStatusResponse/ErrorDetails" Id="T:Microsoft.Azure.OperationStatusResponse.ErrorDetails">
+      <Member Id="M:Microsoft.Azure.OperationStatusResponse.ErrorDetails.#ctor" />
+      <Member Id="P:Microsoft.Azure.OperationStatusResponse.ErrorDetails.Code" />
+      <Member Id="P:Microsoft.Azure.OperationStatusResponse.ErrorDetails.Message" />
+    </Type>
+  </Namespace>
+</Framework>

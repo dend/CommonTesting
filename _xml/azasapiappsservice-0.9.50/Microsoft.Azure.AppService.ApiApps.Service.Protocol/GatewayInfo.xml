@@ -1,0 +1,184 @@
+<Type Name="GatewayInfo" FullName="Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo">
+  <TypeSignature Language="C#" Value="public class GatewayInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GatewayInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.50.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GatewayInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsentServer">
+      <MemberSignature Language="C#" Value="public Uri ConsentServer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ConsentServer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.ConsentServer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultAuthProvider">
+      <MemberSignature Language="C#" Value="public string DefaultAuthProvider { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultAuthProvider" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.DefaultAuthProvider" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalVersion">
+      <MemberSignature Language="C#" Value="public int InternalVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InternalVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.InternalVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PackageId">
+      <MemberSignature Language="C#" Value="public string PackageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PackageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.PackageId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicSigningKeyTag">
+      <MemberSignature Language="C#" Value="public string PublicSigningKeyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PublicSigningKeyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.PublicSigningKeyTag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoutingRules">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.AppService.ApiApps.Service.Protocol.RoutingRules RoutingRules { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.AppService.ApiApps.Service.Protocol.RoutingRules RoutingRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.RoutingRules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.RoutingRules</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdatePolicy">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy&gt; UpdatePolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy&gt; UpdatePolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.UpdatePolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(NullValueHandling=Newtonsoft.Json.NullValueHandling.Ignore)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

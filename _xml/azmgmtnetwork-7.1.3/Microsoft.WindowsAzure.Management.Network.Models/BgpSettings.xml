@@ -1,0 +1,92 @@
+<Type Name="BgpSettings" FullName="Microsoft.WindowsAzure.Management.Network.Models.BgpSettings">
+  <TypeSignature Language="C#" Value="public class BgpSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BgpSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Network.Models.BgpSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Network</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BgpSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.Models.BgpSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the BgpSettings class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Asn">
+      <MemberSignature Language="C#" Value="public uint Asn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Asn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Network.Models.BgpSettings.Asn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Autonomous System Number
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BgpPeeringAddress">
+      <MemberSignature Language="C#" Value="public string BgpPeeringAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BgpPeeringAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Network.Models.BgpSettings.BgpPeeringAddress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. IP address/BGP identifier
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PeerWeight">
+      <MemberSignature Language="C#" Value="public int PeerWeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PeerWeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Network.Models.BgpSettings.PeerWeight" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Weight for routes learned from this peer
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

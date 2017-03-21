@@ -1,0 +1,214 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.MachineLearning" Version="0.9.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Justification="Namespace groups classes with related functionality.", Scope="namespace", Target="Microsoft.Azure.MachineLearning.Utils")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1726:UsePreferredTerms", Justification="Enum value is part of a live data contract", MessageId="Cancelled", Scope="member", Target="Microsoft.Azure.MachineLearning.Contracts.JobState.#Cancelled")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Justification="Namespace groups classes with related functionality.", Scope="namespace", Target="Microsoft.Azure.MachineLearning.Logging")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Justification="Namespace groups classes with related functionality.", Scope="namespace", Target="Microsoft.Azure.MachineLearning.RetryPolicies")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Justification="Namespace groups classes with related functionality.", Scope="namespace", Target="Microsoft.Azure.MachineLearning.Extensions")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Justification="Namespace groups classes with related functionality.", Scope="namespace", Target="Microsoft.Azure.MachineLearning.Contracts")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Justification="Namespace groups classes with related functionality.", Scope="namespace", Target="Microsoft.Azure.MachineLearning.Exceptions")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly", Justification="Collection is optional part of a data contract.", Scope="member", Target="Microsoft.Azure.MachineLearning.Contracts.BatchJobRequest.#Outputs")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1057:StringUriOverloadsCallSystemUriOverloads", Justification="Current implementation is desired.", Scope="member", Target="Microsoft.Azure.MachineLearning.Utils.Guard.#IsAbsoluteUri(System.String,System.String)")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2234:PassSystemUriObjectsInsteadOfStrings", Justification="Parameter type is intentional to allow controlled format of the URI string.", Scope="member", Target="Microsoft.Azure.MachineLearning.RuntimeClient.#.ctor(System.String,System.String,Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicy,Microsoft.Azure.MachineLearning.Logging.ILogger)")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1054:UriParametersShouldNotBeStrings", Justification="Parameter type is intentional to allow controlled format of the URI string.", MessageId="0#", Scope="member", Target="Microsoft.Azure.MachineLearning.RuntimeClient.#.ctor(System.String,System.String,Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicy,Microsoft.Azure.MachineLearning.Logging.ILogger)")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly", Justification="Collection is optional part of a data contract.", Scope="member", Target="Microsoft.Azure.MachineLearning.Contracts.BatchJobRequest.#GlobalParameters")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1062:Validate arguments of public methods", Justification="Argument is properly validated through Guard mechanism.", MessageId="0", Scope="member", Target="Microsoft.Azure.MachineLearning.Contracts.BlobReference.#CreateFromSasBlobUri(System.Uri)")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly", Justification="Collection is optional part of a data contract.", Scope="member", Target="Microsoft.Azure.MachineLearning.Contracts.BatchJobStatus.#Results")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Method implementation is more readable as a standalone item.", Scope="member", Target="Microsoft.Azure.MachineLearning.Utils.RuntimeExceptionJsonConverter.#ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1810:InitializeReferenceTypeStaticFieldsInline", Justification="Static constructor is needed to customize properties of static field.", Scope="member", Target="Microsoft.Azure.MachineLearning.Utils.RuntimeApiProxy.#.cctor()")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1006:DoNotNestGenericTypesInMemberSignatures", Justification="Nesting of Func&lt;Task&lt;T&gt;&gt; is acceptable here.", Scope="member", Target="Microsoft.Azure.MachineLearning.Utils.SynchronousWrapper.#WrapAsyncCall`1(System.Func`1&lt;System.Threading.Tasks.Task`1&lt;!!0&gt;&gt;)")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Provides a .NET implementation of a runtime client for Azure Machine Learning services.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("0.9.2.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft Azure Machine Learning .NET SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Azure Machine Learning SDK Client Library")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.MachineLearning.Management, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.MachineLearning.UnitTests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.MachineLearning">
+      <Type Name="BatchJob" Kind="Class" />
+      <Type Name="RuntimeClient" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.MachineLearning.Contracts">
+      <Type Name="BatchJobRequest" Kind="Class" />
+      <Type Name="BatchJobStatus" Kind="Class" />
+      <Type Name="BlobReference" Kind="Class" />
+      <Type Name="JobState" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.MachineLearning.Exceptions">
+      <Type Name="IncompleteBlobReferenceException" Kind="Class" />
+      <Type Name="RuntimeException" Kind="Class" />
+      <Type Name="RuntimeExceptionDetails" Kind="Class" />
+      <Type Name="ServiceResponseParsingException" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.MachineLearning.Extensions">
+      <Type Name="StringExtensions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.MachineLearning.Logging">
+      <Type Name="EmptyLogger" Kind="Class" />
+      <Type Name="ILogger" Kind="Interface" />
+      <Type Name="SimpleLogger" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.MachineLearning.RetryPolicies">
+      <Type Name="LinearRetryPolicy" Kind="Class" />
+      <Type Name="RetryPolicy" Kind="Class" />
+      <Type Name="RetryPolicyType" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.MachineLearning.Utils">
+      <Type Name="Guard" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.MachineLearning</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.String" />
+      </Targets>
+      <Member MemberName="FormatArgs">
+        <MemberSignature Language="C#" Value="public static string FormatArgs (this string format, object[] args);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig string FormatArgs(string format, object[] args) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Extensions.StringExtensions.FormatArgs(System.String,System.Object[])" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.String</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="format" Type="System.String" RefType="this" />
+          <Parameter Name="args" Type="System.Object[]">
+            <Attributes>
+              <Attribute>
+                <AttributeName>System.ParamArray</AttributeName>
+              </Attribute>
+            </Attributes>
+          </Parameter>
+        </Parameters>
+        <Docs>
+          <param name="format">The composite format string.</param>
+          <param name="args">An object array that contains zero or more objects to format.</param>
+          <summary>
+            Formats the current string in the current culture
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.MachineLearning.Extensions.StringExtensions" Member="M:Microsoft.Azure.MachineLearning.Extensions.StringExtensions.FormatArgs(System.String,System.Object[])" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.String" />
+      </Targets>
+      <Member MemberName="FormatArgsInvariant">
+        <MemberSignature Language="C#" Value="public static string FormatArgsInvariant (this string format, object[] args);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig string FormatArgsInvariant(string format, object[] args) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Extensions.StringExtensions.FormatArgsInvariant(System.String,System.Object[])" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.String</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="format" Type="System.String" RefType="this" />
+          <Parameter Name="args" Type="System.Object[]">
+            <Attributes>
+              <Attribute>
+                <AttributeName>System.ParamArray</AttributeName>
+              </Attribute>
+            </Attributes>
+          </Parameter>
+        </Parameters>
+        <Docs>
+          <param name="format">The composite format string.</param>
+          <param name="args">An object array that contains zero or more objects to format.</param>
+          <summary>
+            Formats the current string in the an invariant culture
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.MachineLearning.Extensions.StringExtensions" Member="M:Microsoft.Azure.MachineLearning.Extensions.StringExtensions.FormatArgsInvariant(System.String,System.Object[])" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

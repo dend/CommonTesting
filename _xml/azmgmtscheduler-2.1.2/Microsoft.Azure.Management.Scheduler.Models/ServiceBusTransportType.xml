@@ -1,0 +1,83 @@
+<Type Name="ServiceBusTransportType" FullName="Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType">
+  <TypeSignature Language="C#" Value="public enum ServiceBusTransportType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceBusTransportType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AMQP">
+      <MemberSignature Language="C#" Value="AMQP" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType AMQP = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType.AMQP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="AMQP")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NetMessaging">
+      <MemberSignature Language="C#" Value="NetMessaging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType NetMessaging = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType.NetMessaging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="NetMessaging")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSpecified">
+      <MemberSignature Language="C#" Value="NotSpecified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType NotSpecified = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType.NotSpecified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="NotSpecified")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

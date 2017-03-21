@@ -1,0 +1,198 @@
+<Type Name="UrlExpressionVisitor" FullName="Microsoft.Azure.Common.OData.UrlExpressionVisitor">
+  <TypeSignature Language="C#" Value="public class UrlExpressionVisitor : System.Linq.Expressions.ExpressionVisitor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UrlExpressionVisitor extends System.Linq.Expressions.ExpressionVisitor" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Common.OData.UrlExpressionVisitor" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Common</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Linq.Expressions.ExpressionVisitor</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UrlExpressionVisitor ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.ToString" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisitBinary">
+      <MemberSignature Language="C#" Value="protected override System.Linq.Expressions.Expression VisitBinary (System.Linq.Expressions.BinaryExpression node);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Linq.Expressions.Expression VisitBinary(class System.Linq.Expressions.BinaryExpression node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitBinary(System.Linq.Expressions.BinaryExpression)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="System.Linq.Expressions.BinaryExpression" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisitConditional">
+      <MemberSignature Language="C#" Value="protected override System.Linq.Expressions.Expression VisitConditional (System.Linq.Expressions.ConditionalExpression node);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Linq.Expressions.Expression VisitConditional(class System.Linq.Expressions.ConditionalExpression node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitConditional(System.Linq.Expressions.ConditionalExpression)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="System.Linq.Expressions.ConditionalExpression" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisitConstant">
+      <MemberSignature Language="C#" Value="protected override System.Linq.Expressions.Expression VisitConstant (System.Linq.Expressions.ConstantExpression node);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Linq.Expressions.Expression VisitConstant(class System.Linq.Expressions.ConstantExpression node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitConstant(System.Linq.Expressions.ConstantExpression)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="System.Linq.Expressions.ConstantExpression" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisitMember">
+      <MemberSignature Language="C#" Value="protected override System.Linq.Expressions.Expression VisitMember (System.Linq.Expressions.MemberExpression node);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Linq.Expressions.Expression VisitMember(class System.Linq.Expressions.MemberExpression node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitMember(System.Linq.Expressions.MemberExpression)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="System.Linq.Expressions.MemberExpression" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisitMethodCall">
+      <MemberSignature Language="C#" Value="protected override System.Linq.Expressions.Expression VisitMethodCall (System.Linq.Expressions.MethodCallExpression node);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Linq.Expressions.Expression VisitMethodCall(class System.Linq.Expressions.MethodCallExpression node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="System.Linq.Expressions.MethodCallExpression" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisitNew">
+      <MemberSignature Language="C#" Value="protected override System.Linq.Expressions.Expression VisitNew (System.Linq.Expressions.NewExpression node);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Linq.Expressions.Expression VisitNew(class System.Linq.Expressions.NewExpression node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitNew(System.Linq.Expressions.NewExpression)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="System.Linq.Expressions.NewExpression" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisitUnary">
+      <MemberSignature Language="C#" Value="protected override System.Linq.Expressions.Expression VisitUnary (System.Linq.Expressions.UnaryExpression node);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Linq.Expressions.Expression VisitUnary(class System.Linq.Expressions.UnaryExpression node) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.OData.UrlExpressionVisitor.VisitUnary(System.Linq.Expressions.UnaryExpression)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="node" Type="System.Linq.Expressions.UnaryExpression" />
+      </Parameters>
+      <Docs>
+        <param name="node">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

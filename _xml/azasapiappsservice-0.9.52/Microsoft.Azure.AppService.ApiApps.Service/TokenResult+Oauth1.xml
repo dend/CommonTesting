@@ -1,0 +1,99 @@
+<Type Name="TokenResult+Oauth1" FullName="Microsoft.Azure.AppService.ApiApps.Service.TokenResult+Oauth1">
+  <TypeSignature Language="C#" Value="public static class TokenResult.Oauth1" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract sealed beforefieldinit TokenResult/Oauth1 extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.52.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConsumerKeyName">
+      <MemberSignature Language="C#" Value="public const string ConsumerKeyName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ConsumerKeyName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.ConsumerKeyName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceUriName">
+      <MemberSignature Language="C#" Value="public const string ResourceUriName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ResourceUriName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.ResourceUriName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecretName">
+      <MemberSignature Language="C#" Value="public const string SecretName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SecretName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.SecretName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceEndpointUriName">
+      <MemberSignature Language="C#" Value="public const string ServiceEndpointUriName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ServiceEndpointUriName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.ServiceEndpointUriName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SigningUri">
+      <MemberSignature Language="C#" Value="public const string SigningUri;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SigningUri" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.SigningUri" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

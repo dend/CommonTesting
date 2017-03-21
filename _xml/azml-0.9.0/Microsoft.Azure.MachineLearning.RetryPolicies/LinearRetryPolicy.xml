@@ -1,0 +1,142 @@
+<Type Name="LinearRetryPolicy" FullName="Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy">
+  <TypeSignature Language="C#" Value="public sealed class LinearRetryPolicy : Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicy, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit LinearRetryPolicy extends Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicy implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicy</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Represents a simple linear retry policy, where failed calls are being retried 
+            at constat time intervals.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LinearRetryPolicy (byte maxRetries, TimeSpan retryInterval);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8 maxRetries, valuetype System.TimeSpan retryInterval) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy.#ctor(System.Byte,System.TimeSpan)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="maxRetries" Type="System.Byte" />
+        <Parameter Name="retryInterval" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="maxRetries">The maximum number of retries allowed by the policy.</param>
+        <param name="retryInterval">The time interval to wait between retries.</param>
+        <summary>
+            Initialize a new <c>LinearRetryPolicy</c> instance
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy.Dispose" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Releases any disposable resources used by the <c>LinearRetryPolicy</c> instance
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxRetries">
+      <MemberSignature Language="C#" Value="public byte MaxRetries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8 MaxRetries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy.MaxRetries" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the maximum number of retries allowed by the policy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyType">
+      <MemberSignature Language="C#" Value="public override Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicyType PolicyType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicyType PolicyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy.PolicyType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the type of this retry policy
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryDelegatingHandler">
+      <MemberSignature Language="C#" Value="public override System.Net.Http.DelegatingHandler RetryDelegatingHandler { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Http.DelegatingHandler RetryDelegatingHandler" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy.RetryDelegatingHandler" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.DelegatingHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the delegating handler implementing the retry logic for this policy
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryInterval">
+      <MemberSignature Language="C#" Value="public TimeSpan RetryInterval { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan RetryInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.RetryPolicies.LinearRetryPolicy.RetryInterval" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the time interval to wait between retries.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

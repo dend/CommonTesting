@@ -1,0 +1,213 @@
+<Type Name="VirtualMachineExtensionImageOperationsExtensions" FullName="Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class VirtualMachineExtensionImageOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VirtualMachineExtensionImageOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Compute Management Client.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetResponse Get (this Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetResponse Get(class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions.Get(Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations,Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations.
+            </param>
+        <param name="parameters">
+            Optional.
+            </param>
+        <summary>
+            Gets a virtual machine extension image.
+            </summary>
+        <returns>
+            The get virtual machine extension image operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetResponse&gt; GetAsync (this Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetResponse&gt; GetAsync(class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions.GetAsync(Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations,Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageGetParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations.
+            </param>
+        <param name="parameters">
+            Optional.
+            </param>
+        <summary>
+            Gets a virtual machine extension image.
+            </summary>
+        <returns>
+            The get virtual machine extension image operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListTypes">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList ListTypes (this Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList ListTypes(class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions.ListTypes(Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations,Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations.
+            </param>
+        <param name="parameters">
+            Optional.
+            </param>
+        <summary>
+            Gets a list of virtual machine extension image types.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListTypesAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListTypesAsync (this Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListTypesAsync(class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions.ListTypesAsync(Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations,Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListTypesParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations.
+            </param>
+        <param name="parameters">
+            Optional.
+            </param>
+        <summary>
+            Gets a list of virtual machine extension image types.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListVersions">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList ListVersions (this Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList ListVersions(class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions.ListVersions(Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations,Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations.
+            </param>
+        <param name="parameters">
+            Optional.
+            </param>
+        <summary>
+            Gets a list of virtual machine extension image versions.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListVersionsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListVersionsAsync (this Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListVersionsAsync(class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations operations, class Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineExtensionImageOperationsExtensions.ListVersionsAsync(Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations,Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImageListVersionsParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations.
+            </param>
+        <param name="parameters">
+            Optional.
+            </param>
+        <summary>
+            Gets a list of virtual machine extension image versions.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

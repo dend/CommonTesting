@@ -1,0 +1,593 @@
+<Type Name="PublishingOperationsExtensions" FullName="Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class PublishingOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PublishingOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.RemoteApp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            RmoteApp management client
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationResult Get (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationResult Get(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.Get(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="alias" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="alias">
+            Required. Alias of published application
+            </param>
+        <summary>
+            Gets the details of a published application with given alias (short
+            unique name) from the collection.
+            </summary>
+        <returns>
+            Definition for result of GetPublishedApplication operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationResult&gt; GetAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationResult&gt; GetAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.GetAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="alias" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="alias">
+            Required. Alias of published application
+            </param>
+        <summary>
+            Gets the details of a published application with given alias (short
+            unique name) from the collection.
+            </summary>
+        <returns>
+            Definition for result of GetPublishedApplication operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationListResult List (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationListResult List(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.List(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationListResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <summary>
+            Gets the list of details for all published applications from the
+            collection.
+            </summary>
+        <returns>
+            Definition for result of GetPublishedApplicationList operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationListResult&gt; ListAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationListResult&gt; ListAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.ListAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetPublishedApplicationListResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <summary>
+            Gets the list of details for all published applications from the
+            collection.
+            </summary>
+        <returns>
+            Definition for result of GetPublishedApplicationList operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifyApplication">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.ModifyApplicationResult ModifyApplication (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias, Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter applicationDetails);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.ModifyApplicationResult ModifyApplication(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias, class Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter applicationDetails) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.ModifyApplication(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,System.String,Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.ModifyApplicationResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="alias" Type="System.String" />
+        <Parameter Name="applicationDetails" Type="Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="alias">
+            Required. Alias of published application
+            </param>
+        <param name="applicationDetails">
+            Required. New details for the application
+            </param>
+        <summary>
+            Sets a published application matching the given alias (short unique
+            name) in the collection.
+            </summary>
+        <returns>
+            Definition for result of ModifyApplicaton operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifyApplicationAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.ModifyApplicationResult&gt; ModifyApplicationAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias, Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter applicationDetails);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.ModifyApplicationResult&gt; ModifyApplicationAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string alias, class Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter applicationDetails) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.ModifyApplicationAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,System.String,Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.ModifyApplicationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="alias" Type="System.String" />
+        <Parameter Name="applicationDetails" Type="Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="alias">
+            Required. Alias of published application
+            </param>
+        <param name="applicationDetails">
+            Required. New details for the application
+            </param>
+        <summary>
+            Sets a published application matching the given alias (short unique
+            name) in the collection.
+            </summary>
+        <returns>
+            Definition for result of ModifyApplicaton operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishApplications">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.PublishApplicationsResult PublishApplications (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter applicationDetailsList);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.PublishApplicationsResult PublishApplications(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, class Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter applicationDetailsList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.PublishApplications(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.PublishApplicationsResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="applicationDetailsList" Type="Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="applicationDetailsList">
+            Required. List of publishing details
+            </param>
+        <summary>
+            Publishes remote applications with given application details in the
+            collection.
+            </summary>
+        <returns>
+            Definition for result of PublishApplications operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishApplicationsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.PublishApplicationsResult&gt; PublishApplicationsAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter applicationDetailsList);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.PublishApplicationsResult&gt; PublishApplicationsAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, class Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter applicationDetailsList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.PublishApplicationsAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.PublishApplicationsResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="applicationDetailsList" Type="Microsoft.Azure.Management.RemoteApp.Models.ApplicationDetailsListParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="applicationDetailsList">
+            Required. List of publishing details
+            </param>
+        <summary>
+            Publishes remote applications with given application details in the
+            collection.
+            </summary>
+        <returns>
+            Definition for result of PublishApplications operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartMenuApplication">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationResult StartMenuApplication (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string applicationId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationResult StartMenuApplication(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string applicationId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplication(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="applicationId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="applicationId">
+            Required. Start menu application Id
+            </param>
+        <summary>
+            Gets a start menu application details for the given id from the
+            collection.
+            </summary>
+        <returns>
+            Definition for result of GetStartMenuApplication operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartMenuApplicationAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationResult&gt; StartMenuApplicationAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string applicationId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationResult&gt; StartMenuApplicationAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, string applicationId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplicationAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="applicationId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="applicationId">
+            Required. Start menu application Id
+            </param>
+        <summary>
+            Gets a start menu application details for the given id from the
+            collection.
+            </summary>
+        <returns>
+            Definition for result of GetStartMenuApplication operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartMenuApplicationList">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationListResult StartMenuApplicationList (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationListResult StartMenuApplicationList(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplicationList(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationListResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <summary>
+            Gets the list of all start menu applications from the collection.
+            </summary>
+        <returns>
+            Definition for result of GetStartMenuApplicationList operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartMenuApplicationListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationListResult&gt; StartMenuApplicationListAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationListResult&gt; StartMenuApplicationListAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplicationListAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetStartMenuApplicationListResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <summary>
+            Gets the list of all start menu applications from the collection.
+            </summary>
+        <returns>
+            Definition for result of GetStartMenuApplicationList operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unpublish">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult Unpublish (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter aliasesList);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult Unpublish(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, class Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter aliasesList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.Unpublish(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="aliasesList" Type="Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="aliasesList">
+            Required. List of application aliases to be unpublished
+            </param>
+        <summary>
+            Unpublishes published applications matching the given list of
+            application aliases (short unique names) from the collection.
+            </summary>
+        <returns>
+            Definition for result of UnpublishApplications operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnpublishAll">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult UnpublishAll (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult UnpublishAll(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.UnpublishAll(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <summary>
+            Unpublishes all published applications from the collection.
+            </summary>
+        <returns>
+            Definition for result of UnpublishApplications operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnpublishAllAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult&gt; UnpublishAllAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult&gt; UnpublishAllAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.UnpublishAllAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <summary>
+            Unpublishes all published applications from the collection.
+            </summary>
+        <returns>
+            Definition for result of UnpublishApplications operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnpublishAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult&gt; UnpublishAsync (this Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter aliasesList);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult&gt; UnpublishAsync(class Microsoft.Azure.Management.RemoteApp.IPublishingOperations operations, string collectionName, class Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter aliasesList) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.PublishingOperationsExtensions.UnpublishAsync(Microsoft.Azure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.UnpublishApplicationsResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IPublishingOperations" RefType="this" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="aliasesList" Type="Microsoft.Azure.Management.RemoteApp.Models.AliasesListParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IPublishingOperations.
+            </param>
+        <param name="collectionName">
+            Required. Collection Name
+            </param>
+        <param name="aliasesList">
+            Required. List of application aliases to be unpublished
+            </param>
+        <summary>
+            Unpublishes published applications matching the given list of
+            application aliases (short unique names) from the collection.
+            </summary>
+        <returns>
+            Definition for result of UnpublishApplications operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,591 @@
+<Type Name="ProfilesOperationsExtensions" FullName="Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class ProfilesOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProfilesOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Profile BeginCreate (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Profile BeginCreate(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, class Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.Profile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="profileProperties" Type="Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="profileProperties">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt; BeginCreateAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt; BeginCreateAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, class Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;BeginCreateAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="profileProperties" Type="Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="profileProperties">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteIfExists">
+      <MemberSignature Language="C#" Value="public static void BeginDeleteIfExists (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDeleteIfExists(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.BeginDeleteIfExists(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteIfExistsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginDeleteIfExistsAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginDeleteIfExistsAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.BeginDeleteIfExistsAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;BeginDeleteIfExistsAsync&gt;d__17))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Profile BeginUpdate (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Collections.Generic.IDictionary&lt;string,string&gt; tags);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Profile BeginUpdate(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.Profile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="tags">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt; BeginUpdateAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt; BeginUpdateAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.BeginUpdateAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;BeginUpdateAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="tags">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Profile Create (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Profile Create(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, class Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.Create(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.Profile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="profileProperties" Type="Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="profileProperties">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt; CreateAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt; CreateAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, class Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters profileProperties, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;CreateAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="profileProperties" Type="Microsoft.Azure.Management.Cdn.Models.ProfileCreateParameters" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="profileProperties">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteIfExists">
+      <MemberSignature Language="C#" Value="public static void DeleteIfExists (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteIfExists(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.DeleteIfExists(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteIfExistsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteIfExistsAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteIfExistsAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.DeleteIfExistsAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;DeleteIfExistsAsync&gt;d__15))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSsoUri">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.SsoUri GenerateSsoUri (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.SsoUri GenerateSsoUri(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.GenerateSsoUri(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.SsoUri</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSsoUriAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.SsoUri&gt; GenerateSsoUriAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.SsoUri&gt; GenerateSsoUriAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.GenerateSsoUriAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;GenerateSsoUriAsync&gt;d__19))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.SsoUri&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Profile Get (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Profile Get(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.Get(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.Profile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt; GetAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt; GetAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;GetAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByResourceGroup">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt; ListByResourceGroup (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt; ListByResourceGroup(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByResourceGroupAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;&gt; ListByResourceGroupAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt;&gt; ListByResourceGroupAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;ListByResourceGroupAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListBySubscriptionId">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt; ListBySubscriptionId (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt; ListBySubscriptionId(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.ListBySubscriptionId(Microsoft.Azure.Management.Cdn.IProfilesOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListBySubscriptionIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;&gt; ListBySubscriptionIdAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt;&gt; ListBySubscriptionIdAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.ListBySubscriptionIdAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;ListBySubscriptionIdAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Profile Update (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Collections.Generic.IDictionary&lt;string,string&gt; tags);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Profile Update(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.Update(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.Profile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="tags">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt; UpdateAsync (this Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, System.Collections.Generic.IDictionary&lt;string,string&gt; tags, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.Profile&gt; UpdateAsync(class Microsoft.Azure.Management.Cdn.IProfilesOperations operations, string profileName, string resourceGroupName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Cdn.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.ProfilesOperationsExtensions/&lt;UpdateAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.Profile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.IProfilesOperations" RefType="this" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="tags">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

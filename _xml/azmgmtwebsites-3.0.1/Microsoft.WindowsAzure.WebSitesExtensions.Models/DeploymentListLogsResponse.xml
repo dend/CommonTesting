@@ -1,0 +1,119 @@
+<Type Name="DeploymentListLogsResponse" FullName="Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListLogsResponse">
+  <TypeSignature Language="C#" Value="public class DeploymentListLogsResponse : Microsoft.WindowsAzure.OperationResponse, System.Collections.Generic.IEnumerable&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeploymentListLogsResponse extends Microsoft.WindowsAzure.OperationResponse implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListLogsResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.WindowsAzure.OperationResponse</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            The list of deployments operation response.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeploymentListLogsResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListLogsResponse.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DeploymentListLogsResponse class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListLogsResponse.GetEnumerator" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the sequence of Logs.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Logs">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt; Logs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt; Logs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListLogsResponse.Logs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The list of logs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogsValue">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt; LogsValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt; LogsValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListLogsResponse.LogsValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentLog&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The list of logs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListLogsResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the sequence of Logs.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,54 @@
+<Type Name="ResetGatewayParameters" FullName="Microsoft.WindowsAzure.Management.Network.Models.ResetGatewayParameters">
+  <TypeSignature Language="C#" Value="public class ResetGatewayParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResetGatewayParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Network.Models.ResetGatewayParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Network</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResetGatewayParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.Models.ResetGatewayParameters.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ResetGatewayParameters class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operation">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Management.Network.Models.UpdateGatewayOperation Operation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Management.Network.Models.UpdateGatewayOperation Operation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Network.Models.ResetGatewayParameters.Operation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.UpdateGatewayOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

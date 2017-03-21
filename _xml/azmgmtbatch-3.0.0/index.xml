@@ -1,0 +1,1438 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.Management.Batch" Version="2.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Provides management functions for Microsoft Azure Batch services.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("2.1.0.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("3.0.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft Azure .NET SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Azure Batch Management Library")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.Management.Batch">
+      <Type Name="ApplicationOperationsExtensions" Kind="Class" />
+      <Type Name="ApplicationPackageOperationsExtensions" Kind="Class" />
+      <Type Name="BatchAccountOperationsExtensions" Kind="Class" />
+      <Type Name="BatchManagementClient" Kind="Class" />
+      <Type Name="IApplicationOperations" Kind="Interface" />
+      <Type Name="IApplicationPackageOperations" Kind="Interface" />
+      <Type Name="IBatchAccountOperations" Kind="Interface" />
+      <Type Name="IBatchManagementClient" Kind="Interface" />
+      <Type Name="ILocationOperations" Kind="Interface" />
+      <Type Name="LocationOperationsExtensions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Management.Batch.Models">
+      <Type Name="AccountKeyType" Kind="Enumeration" />
+      <Type Name="ActivateApplicationPackageParameters" Kind="Class" />
+      <Type Name="AddApplicationParameters" Kind="Class" />
+      <Type Name="Application" Kind="Class" />
+      <Type Name="ApplicationPackage" Kind="Class" />
+      <Type Name="AutoStorageBaseProperties" Kind="Class" />
+      <Type Name="AutoStorageProperties" Kind="Class" />
+      <Type Name="BatchAccount" Kind="Class" />
+      <Type Name="BatchAccountCreateParameters" Kind="Class" />
+      <Type Name="BatchAccountKeys" Kind="Class" />
+      <Type Name="BatchAccountRegenerateKeyParameters" Kind="Class" />
+      <Type Name="BatchAccountUpdateParameters" Kind="Class" />
+      <Type Name="BatchLocationQuota" Kind="Class" />
+      <Type Name="PackageState" Kind="Enumeration" />
+      <Type Name="Page`1" DisplayName="Page&lt;T&gt;" Kind="Class" />
+      <Type Name="ProvisioningState" Kind="Enumeration" />
+      <Type Name="Resource" Kind="Class" />
+      <Type Name="UpdateApplicationParameters" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.Management.Batch</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="Create">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.Application Create (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, Microsoft.Azure.Management.Batch.Models.AddApplicationParameters parameters = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.Application Create(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, class Microsoft.Azure.Management.Batch.Models.AddApplicationParameters parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AddApplicationParameters)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.Application</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.AddApplicationParameters" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AddApplicationParameters)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="CreateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.Application&gt; CreateAsync (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, Microsoft.Azure.Management.Batch.Models.AddApplicationParameters parameters = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.Application&gt; CreateAsync(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, class Microsoft.Azure.Management.Batch.Models.AddApplicationParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AddApplicationParameters,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.AddApplicationParameters" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AddApplicationParameters,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.Application Get (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.Application Get(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.Application</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.Application&gt; GetAsync (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.Application&gt; GetAsync(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.GetAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.GetAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt; List (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, Nullable&lt;int&gt; maxresults = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.Application&gt; List(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, valuetype System.Nullable`1&lt;int32&gt; maxresults) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.List(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.Nullable{System.Int32})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="maxresults" Type="System.Nullable&lt;System.Int32&gt;" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="maxresults">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.List(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.Nullable{System.Int32})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;&gt; ListAsync (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, Nullable&lt;int&gt; maxresults = null, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.Application&gt;&gt; ListAsync(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, valuetype System.Nullable`1&lt;int32&gt; maxresults, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="maxresults" Type="System.Nullable&lt;System.Int32&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="maxresults">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt; ListNext (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.Application&gt; ListNext(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListNext(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="nextPageLink">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListNext(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.Application&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.Application&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="nextPageLink">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="Update">
+        <MemberSignature Language="C#" Value="public static void Update (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Update(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, class Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Update(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.Update(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationOperations" />
+      </Targets>
+      <Member MemberName="UpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task UpdateAsync (this Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task UpdateAsync(class Microsoft.Azure.Management.Batch.IApplicationOperations operations, string resourceGroupName, string accountName, string applicationId, class Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="Activate">
+        <MemberSignature Language="C#" Value="public static void Activate (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, string format);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Activate(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, string format) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Activate(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+          <Parameter Name="format" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <param name="format">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Activate(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="ActivateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ActivateAsync (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, string format, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ActivateAsync(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, string format, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.ActivateAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+          <Parameter Name="format" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <param name="format">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.ActivateAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="Create">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.ApplicationPackage Create (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.ApplicationPackage Create(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.ApplicationPackage</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="CreateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.ApplicationPackage&gt; CreateAsync (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.ApplicationPackage&gt; CreateAsync(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.ApplicationPackage&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.ApplicationPackage Get (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.ApplicationPackage Get(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.ApplicationPackage</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IApplicationPackageOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.ApplicationPackage&gt; GetAsync (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.ApplicationPackage&gt; GetAsync(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.GetAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.ApplicationPackage&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IApplicationPackageOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="applicationId" Type="System.String" />
+          <Parameter Name="version" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="applicationId">To be added.</param>
+          <param name="version">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.GetAsync(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="BeginCreate">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.BatchAccount BeginCreate (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.BatchAccount BeginCreate(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, class Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.BatchAccount</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="BeginCreateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; BeginCreateAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; BeginCreateAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, class Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="BeginDelete">
+        <MemberSignature Language="C#" Value="public static void BeginDelete (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDelete(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="BeginDeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginDeleteAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginDeleteAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="Create">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.BatchAccount Create (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.BatchAccount Create(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, class Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.BatchAccount</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="CreateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; CreateAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; CreateAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, class Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="Delete">
+        <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="DeleteAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="Get">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.BatchAccount Get (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.BatchAccount Get(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.BatchAccount</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="GetAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; GetAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; GetAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.GetAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.GetAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="GetKeys">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.BatchAccountKeys GetKeys (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.BatchAccountKeys GetKeys(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.GetKeys(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.BatchAccountKeys</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.GetKeys(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="GetKeysAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccountKeys&gt; GetKeysAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccountKeys&gt; GetKeysAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.GetKeysAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccountKeys&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.GetKeysAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="List">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; List (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; List(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.List(Microsoft.Azure.Management.Batch.IBatchAccountOperations)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.List(Microsoft.Azure.Management.Batch.IBatchAccountOperations)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="ListAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroup">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; ListByResourceGroup (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; ListByResourceGroup(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListByResourceGroupAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListByResourceGroupAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="nextPageLink">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="ListByResourceGroupNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListByResourceGroupNextAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListByResourceGroupNextAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="nextPageLink">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="ListNext">
+        <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; ListNext (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; ListNext(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListNext(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="nextPageLink">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListNext(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="ListNextAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="nextPageLink" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="nextPageLink">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="RegenerateKey">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.BatchAccountKeys RegenerateKey (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.AccountKeyType keyName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.BatchAccountKeys RegenerateKey(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, valuetype Microsoft.Azure.Management.Batch.Models.AccountKeyType keyName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.RegenerateKey(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AccountKeyType)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.BatchAccountKeys</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="keyName" Type="Microsoft.Azure.Management.Batch.Models.AccountKeyType" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="keyName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.RegenerateKey(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AccountKeyType)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="RegenerateKeyAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccountKeys&gt; RegenerateKeyAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.AccountKeyType keyName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccountKeys&gt; RegenerateKeyAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, valuetype Microsoft.Azure.Management.Batch.Models.AccountKeyType keyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.RegenerateKeyAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AccountKeyType,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccountKeys&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="keyName" Type="Microsoft.Azure.Management.Batch.Models.AccountKeyType" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="keyName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.RegenerateKeyAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AccountKeyType,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="SynchronizeAutoStorageKeys">
+        <MemberSignature Language="C#" Value="public static void SynchronizeAutoStorageKeys (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SynchronizeAutoStorageKeys(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.SynchronizeAutoStorageKeys(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Void</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.SynchronizeAutoStorageKeys(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="SynchronizeAutoStorageKeysAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SynchronizeAutoStorageKeysAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SynchronizeAutoStorageKeysAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.SynchronizeAutoStorageKeysAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.SynchronizeAutoStorageKeysAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="Update">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.BatchAccount Update (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters parameters);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.BatchAccount Update(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, class Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters parameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Update(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.BatchAccount</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.Update(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.IBatchAccountOperations" />
+      </Targets>
+      <Member MemberName="UpdateAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; UpdateAsync (this Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters parameters, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchAccount&gt; UpdateAsync(class Microsoft.Azure.Management.Batch.IBatchAccountOperations operations, string resourceGroupName, string accountName, class Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchAccount&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.IBatchAccountOperations" RefType="this" />
+          <Parameter Name="resourceGroupName" Type="System.String" />
+          <Parameter Name="accountName" Type="System.String" />
+          <Parameter Name="parameters" Type="Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="resourceGroupName">To be added.</param>
+          <param name="accountName">To be added.</param>
+          <param name="parameters">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.BatchAccountOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Batch.IBatchAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.ILocationOperations" />
+      </Targets>
+      <Member MemberName="GetQuotas">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.BatchLocationQuota GetQuotas (this Microsoft.Azure.Management.Batch.ILocationOperations operations, string locationName);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.BatchLocationQuota GetQuotas(class Microsoft.Azure.Management.Batch.ILocationOperations operations, string locationName) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.LocationOperationsExtensions.GetQuotas(Microsoft.Azure.Management.Batch.ILocationOperations,System.String)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Management.Batch.Models.BatchLocationQuota</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.ILocationOperations" RefType="this" />
+          <Parameter Name="locationName" Type="System.String" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="locationName">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.LocationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.LocationOperationsExtensions.GetQuotas(Microsoft.Azure.Management.Batch.ILocationOperations,System.String)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Management.Batch.ILocationOperations" />
+      </Targets>
+      <Member MemberName="GetQuotasAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchLocationQuota&gt; GetQuotasAsync (this Microsoft.Azure.Management.Batch.ILocationOperations operations, string locationName, System.Threading.CancellationToken cancellationToken = null);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.BatchLocationQuota&gt; GetQuotasAsync(class Microsoft.Azure.Management.Batch.ILocationOperations operations, string locationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.LocationOperationsExtensions.GetQuotasAsync(Microsoft.Azure.Management.Batch.ILocationOperations,System.String,System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.BatchLocationQuota&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.ILocationOperations" RefType="this" />
+          <Parameter Name="locationName" Type="System.String" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="operations">To be added.</param>
+          <param name="locationName">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Management.Batch.LocationOperationsExtensions" Member="M:Microsoft.Azure.Management.Batch.LocationOperationsExtensions.GetQuotasAsync(Microsoft.Azure.Management.Batch.ILocationOperations,System.String,System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

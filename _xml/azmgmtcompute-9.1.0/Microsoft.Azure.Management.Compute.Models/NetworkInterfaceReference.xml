@@ -1,0 +1,57 @@
+<Type Name="NetworkInterfaceReference" FullName="Microsoft.Azure.Management.Compute.Models.NetworkInterfaceReference">
+  <TypeSignature Language="C#" Value="public class NetworkInterfaceReference : Microsoft.Azure.Management.Compute.Models.ApiEntityReference" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkInterfaceReference extends Microsoft.Azure.Management.Compute.Models.ApiEntityReference" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.NetworkInterfaceReference" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Compute.Models.ApiEntityReference</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a network interface reference.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NetworkInterfaceReference ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.NetworkInterfaceReference.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the NetworkInterfaceReference class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Primary">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Primary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Primary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.NetworkInterfaceReference.Primary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets whether this is a primary NIC on a virtual
+            machine
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

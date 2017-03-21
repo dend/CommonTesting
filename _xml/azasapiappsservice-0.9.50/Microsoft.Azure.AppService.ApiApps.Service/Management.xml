@@ -1,0 +1,532 @@
+<Type Name="Management" FullName="Microsoft.Azure.AppService.ApiApps.Service.Management">
+  <TypeSignature Language="C#" Value="public class Management" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Management extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.Management" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.50.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Management (Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Runtime)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="runtime" Type="Microsoft.Azure.AppService.ApiApps.Service.Runtime" />
+      </Parameters>
+      <Docs>
+        <param name="runtime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateServiceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CreateServiceAsync (string serviceName, Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task CreateServiceAsync(string serviceName, class Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.CreateServiceAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;CreateServiceAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="content" Type="Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteServiceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; DeleteServiceAsync (string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;bool&gt; DeleteServiceAsync(string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.DeleteServiceAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;DeleteServiceAsync&gt;d__d))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteSiteSecretsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteSiteSecretsAsync (string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task DeleteSiteSecretsAsync(string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.DeleteSiteSecretsAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;DeleteSiteSecretsAsync&gt;d__21))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConsentLinksAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry&gt;&gt; GetConsentLinksAsync (Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[] services);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry&gt;&gt; GetConsentLinksAsync(class Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[] services) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetConsentLinksAsync(Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[])" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetConsentLinksAsync&gt;d__42))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="services" Type="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="services">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConsentLinksAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry&gt;&gt; GetConsentLinksAsync (Uri redirectUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry&gt;&gt; GetConsentLinksAsync(class System.Uri redirectUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetConsentLinksAsync(System.Uri)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetConsentLinksAsync&gt;d__4a))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="redirectUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="redirectUri">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGatewayInfoAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo&gt; GetGatewayInfoAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo&gt; GetGatewayInfoAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetGatewayInfoAsync" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetGatewayInfoAsync&gt;d__5f))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGatewayPermissionAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetGatewayPermissionAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetGatewayPermissionAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetGatewayPermissionAsync" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetGatewayPermissionAsync&gt;d__51))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMetadataAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetMetadataAsync (string service, string filename);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetMetadataAsync(string service, string filename) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetMetadataAsync(System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetMetadataAsync&gt;d__26))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="filename" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <param name="filename">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo&gt; GetServiceAsync (string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo&gt; GetServiceAsync(string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetServiceAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetServiceAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServicesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo&gt;&gt; GetServicesAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo&gt;&gt; GetServicesAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetServicesAsync" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetServicesAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSiteSecretsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo&gt; GetSiteSecretsAsync (string serviceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo&gt; GetSiteSecretsAsync(string serviceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetSiteSecretsAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetSiteSecretsAsync&gt;d__1a))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStatusAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck&gt; GetStatusAsync (string service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck&gt; GetStatusAsync(string service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetStatusAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;GetStatusAsync&gt;d__38))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetGatewayInfoAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetGatewayInfoAsync (Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo info);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task SetGatewayInfoAsync(class Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo info) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetGatewayInfoAsync(Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;SetGatewayInfoAsync&gt;d__67))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="info" Type="Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo" />
+      </Parameters>
+      <Docs>
+        <param name="info">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetGatewayPermissionAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetGatewayPermissionAsync (string policy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task SetGatewayPermissionAsync(string policy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetGatewayPermissionAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;SetGatewayPermissionAsync&gt;d__59))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="policy" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="policy">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMetadataAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetMetadataAsync (string service, string filename, byte[] content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task SetMetadataAsync(string service, string filename, unsigned int8[] content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetMetadataAsync(System.String,System.String,System.Byte[])" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="filename" Type="System.String" />
+        <Parameter Name="content" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <param name="filename">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMetadataAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetMetadataAsync (string service, string filename, System.IO.Stream content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task SetMetadataAsync(string service, string filename, class System.IO.Stream content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetMetadataAsync(System.String,System.String,System.IO.Stream)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;SetMetadataAsync&gt;d__2e))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="filename" Type="System.String" />
+        <Parameter Name="content" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <param name="filename">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateServiceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task UpdateServiceAsync (string serviceName, Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task UpdateServiceAsync(string serviceName, class Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Management.UpdateServiceAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Management/&lt;UpdateServiceAsync&gt;d__15))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="content" Type="Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo" />
+      </Parameters>
+      <Docs>
+        <param name="serviceName">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

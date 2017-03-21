@@ -1,0 +1,79 @@
+<Type Name="DataDiskImage" FullName="Microsoft.Azure.Management.Compute.Models.DataDiskImage">
+  <TypeSignature Language="C#" Value="public class DataDiskImage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataDiskImage extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.DataDiskImage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Contains the data disk images information.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DataDiskImage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.DataDiskImage.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DataDiskImage class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DataDiskImage (int lun);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 lun) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.DataDiskImage.#ctor(System.Int32)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="lun" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="lun">To be added.</param>
+        <summary>
+            Initializes a new instance of the DataDiskImage class with required
+            arguments.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lun">
+      <MemberSignature Language="C#" Value="public int Lun { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Lun" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DataDiskImage.Lun" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets the LUN number for a data disk.This value is used to
+            identify data disk image inside the VMImage therefore it must be
+            unique for each data disk.The allowed character for the value is
+            digit.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

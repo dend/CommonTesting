@@ -1,0 +1,119 @@
+<Type Name="TriggeredWebJobListResponse" FullName="Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJobListResponse">
+  <TypeSignature Language="C#" Value="public class TriggeredWebJobListResponse : Microsoft.WindowsAzure.OperationResponse, System.Collections.Generic.IEnumerable&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TriggeredWebJobListResponse extends Microsoft.WindowsAzure.OperationResponse implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJobListResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.WindowsAzure.OperationResponse</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            The list of triggered WebJobs operation response.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TriggeredWebJobListResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJobListResponse.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the TriggeredWebJobListResponse class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJobListResponse.GetEnumerator" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the sequence of TriggeredWebJobs.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJobListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the sequence of TriggeredWebJobs.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggeredWebJobs">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt; TriggeredWebJobs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt; TriggeredWebJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJobListResponse.TriggeredWebJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The list of triggered WebJobs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggeredWebJobsValue">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt; TriggeredWebJobsValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt; TriggeredWebJobsValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJobListResponse.TriggeredWebJobsValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.TriggeredWebJob&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The list of triggered WebJobs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

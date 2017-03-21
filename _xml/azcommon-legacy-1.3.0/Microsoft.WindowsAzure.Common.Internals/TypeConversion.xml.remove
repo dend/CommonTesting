@@ -1,0 +1,166 @@
+<Type Name="TypeConversion" FullName="Microsoft.WindowsAzure.Common.Internals.TypeConversion">
+  <TypeSignature Language="C#" Value="public static class TypeConversion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TypeConversion extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.Internals.TypeConversion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Static type conversion utility methods.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BytesToString">
+      <MemberSignature Language="C#" Value="public static string BytesToString (byte[] value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string BytesToString(unsigned int8[] value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.TypeConversion.BytesToString(System.Byte[])" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="value">The byte array containing the sequence of bytes 
+            to decode.</param>
+        <summary>
+            Decodes all the bytes in the specified byte array into a string.
+            </summary>
+        <returns>A string that contains the results of decoding the 
+            specified sequence of bytes.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From8601TimeSpan">
+      <MemberSignature Language="C#" Value="public static TimeSpan From8601TimeSpan (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.TimeSpan From8601TimeSpan(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.TypeConversion.From8601TimeSpan(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">Value to parse.</param>
+        <summary>
+            Convert a string from ISO 8601 format to a TimeSpan instance.
+            </summary>
+        <returns>The resulting timespan.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromBase64String">
+      <MemberSignature Language="C#" Value="public static string FromBase64String (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string FromBase64String(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.TypeConversion.FromBase64String(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">The base 64-encoded string to convert.</param>
+        <summary>
+            Converts the specified string, which encodes binary data as base-64
+            digits, to a UTF8-encoded string.
+            </summary>
+        <returns>Returns a string.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="To8601String">
+      <MemberSignature Language="C#" Value="public static string To8601String (this TimeSpan timespan);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string To8601String(valuetype System.TimeSpan timespan) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.TypeConversion.To8601String(System.TimeSpan)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timespan" Type="System.TimeSpan" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="timespan">The timespan to convert.</param>
+        <summary>
+            Convert a TimeSpan into an 8601 formatted string.
+            </summary>
+        <returns>The TimeSpan in 8601 format.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToBase64String">
+      <MemberSignature Language="C#" Value="public static string ToBase64String (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToBase64String(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.TypeConversion.ToBase64String(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">An array of 8-bit unsigned integers.</param>
+        <summary>
+            Converts an array of 8-bit unsigned integers to its  equivalent 
+            string representation that is encoded with base-64 digits.
+            </summary>
+        <returns>The string representation, in base 64, of the contents of 
+            value.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryParseUri">
+      <MemberSignature Language="C#" Value="public static Uri TryParseUri (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Uri TryParseUri(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.TypeConversion.TryParseUri(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">The Uri string.</param>
+        <summary>
+            Uses Uri::TryCreate method to safely attempt to parse a 
+            string value and return its Uri representation. Supports
+            relative Uris.
+            </summary>
+        <returns>Returns a new Uri instance or null.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

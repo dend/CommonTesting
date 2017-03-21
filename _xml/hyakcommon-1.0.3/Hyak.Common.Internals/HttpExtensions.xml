@@ -1,0 +1,278 @@
+<Type Name="HttpExtensions" FullName="Hyak.Common.Internals.HttpExtensions">
+  <TypeSignature Language="C#" Value="public static class HttpExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HttpExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Hyak.Common.Internals.HttpExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Hyak.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extensions for manipulating HTTP requests and responses.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AppendHttpRequest">
+      <MemberSignature Language="C#" Value="public static void AppendHttpRequest (this System.Text.StringBuilder text, Hyak.Common.CloudHttpRequestErrorInfo request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AppendHttpRequest(class System.Text.StringBuilder text, class Hyak.Common.CloudHttpRequestErrorInfo request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AppendHttpRequest(System.Text.StringBuilder,Hyak.Common.CloudHttpRequestErrorInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.Text.StringBuilder" RefType="this" />
+        <Parameter Name="request" Type="Hyak.Common.CloudHttpRequestErrorInfo" />
+      </Parameters>
+      <Docs>
+        <param name="text">The StringBuilder.</param>
+        <param name="request">The request message.</param>
+        <summary>
+            Append an HTTP request.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppendHttpRequest">
+      <MemberSignature Language="C#" Value="public static void AppendHttpRequest (this System.Text.StringBuilder text, System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AppendHttpRequest(class System.Text.StringBuilder text, class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AppendHttpRequest(System.Text.StringBuilder,System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.Text.StringBuilder" RefType="this" />
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+      </Parameters>
+      <Docs>
+        <param name="text">The StringBuilder.</param>
+        <param name="request">The request message.</param>
+        <summary>
+            Append an HTTP request.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppendHttpResponse">
+      <MemberSignature Language="C#" Value="public static void AppendHttpResponse (this System.Text.StringBuilder text, Hyak.Common.CloudHttpResponseErrorInfo response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AppendHttpResponse(class System.Text.StringBuilder text, class Hyak.Common.CloudHttpResponseErrorInfo response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AppendHttpResponse(System.Text.StringBuilder,Hyak.Common.CloudHttpResponseErrorInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.Text.StringBuilder" RefType="this" />
+        <Parameter Name="response" Type="Hyak.Common.CloudHttpResponseErrorInfo" />
+      </Parameters>
+      <Docs>
+        <param name="text">The StringBuilder.</param>
+        <param name="response">The response message.</param>
+        <summary>
+            Append an HTTP response.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppendHttpResponse">
+      <MemberSignature Language="C#" Value="public static void AppendHttpResponse (this System.Text.StringBuilder text, System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void AppendHttpResponse(class System.Text.StringBuilder text, class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AppendHttpResponse(System.Text.StringBuilder,System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.Text.StringBuilder" RefType="this" />
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" />
+      </Parameters>
+      <Docs>
+        <param name="text">The StringBuilder.</param>
+        <param name="response">The response message.</param>
+        <summary>
+            Append an HTTP response.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsString">
+      <MemberSignature Language="C#" Value="public static string AsString (this Hyak.Common.CloudHttpRequestErrorInfo request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsString(class Hyak.Common.CloudHttpRequestErrorInfo request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AsString(Hyak.Common.CloudHttpRequestErrorInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="Hyak.Common.CloudHttpRequestErrorInfo" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="request">The request message.</param>
+        <summary>
+            Get a standard string representation of an HTTP request.
+            </summary>
+        <returns>String representation of the request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsString">
+      <MemberSignature Language="C#" Value="public static string AsString (this Hyak.Common.CloudHttpResponseErrorInfo response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsString(class Hyak.Common.CloudHttpResponseErrorInfo response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AsString(Hyak.Common.CloudHttpResponseErrorInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="Hyak.Common.CloudHttpResponseErrorInfo" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="response">The response message.</param>
+        <summary>
+            Get a standard string representation of an HTTP response.
+            </summary>
+        <returns>String representation of the response.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsString">
+      <MemberSignature Language="C#" Value="public static string AsString (this System.Net.Http.HttpContent content);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsString(class System.Net.Http.HttpContent content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AsString(System.Net.Http.HttpContent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.Net.Http.HttpContent" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="content">The HTTP content.</param>
+        <summary>
+            Get the HTTP message content as a string.
+            </summary>
+        <returns>The HTTP message content as a string.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsString">
+      <MemberSignature Language="C#" Value="public static string AsString (this System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsString(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AsString(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="request">The request message.</param>
+        <summary>
+            Get a standard string representation of an HTTP request.
+            </summary>
+        <returns>String representation of the request.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AsString">
+      <MemberSignature Language="C#" Value="public static string AsString (this System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string AsString(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.AsString(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="response">The response message.</param>
+        <summary>
+            Get a standard string representation of an HTTP response.
+            </summary>
+        <returns>String representation of the response.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentHeaders">
+      <MemberSignature Language="C#" Value="public static System.Net.Http.Headers.HttpHeaders GetContentHeaders (this System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Http.Headers.HttpHeaders GetContentHeaders(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.GetContentHeaders(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.Headers.HttpHeaders</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="request">The request message.</param>
+        <summary>
+            Get the content headers for an HTTP request.
+            </summary>
+        <returns>The content headers.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentHeaders">
+      <MemberSignature Language="C#" Value="public static System.Net.Http.Headers.HttpHeaders GetContentHeaders (this System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Http.Headers.HttpHeaders GetContentHeaders(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.Internals.HttpExtensions.GetContentHeaders(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.Headers.HttpHeaders</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="response">The response message.</param>
+        <summary>
+            Get the content headers for an HTTP response.
+            </summary>
+        <returns>The content headers.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

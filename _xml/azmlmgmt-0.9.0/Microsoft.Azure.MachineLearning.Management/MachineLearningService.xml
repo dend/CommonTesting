@@ -1,0 +1,341 @@
+<Type Name="MachineLearningService" FullName="Microsoft.Azure.MachineLearning.Management.MachineLearningService">
+  <TypeSignature Language="C#" Value="public sealed class MachineLearningService" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MachineLearningService extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Management.MachineLearningService" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning.Management</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an Azure Machine Learning service instance
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreatedAt">
+      <MemberSignature Language="C#" Value="public DateTime CreatedAt { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreatedAt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.CreatedAt" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The service's creation timestamp
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateEndpointAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; CreateEndpointAsync (Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification endpointSpecification);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; CreateEndpointAsync(class Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification endpointSpecification) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.CreateEndpointAsync(Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.MachineLearningService/&lt;CreateEndpointAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpointSpecification" Type="Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification" />
+      </Parameters>
+      <Docs>
+        <param name="endpointSpecification">The specifics of the endpoint to be created.</param>
+        <summary>
+            Create a new endpoint for this service
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the newly created endpoint once completed.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">endpointSpecification is null.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateEndpointAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; CreateEndpointAsync (Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification endpointSpecification, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; CreateEndpointAsync(class Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification endpointSpecification, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.CreateEndpointAsync(Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.MachineLearningService/&lt;CreateEndpointAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpointSpecification" Type="Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="endpointSpecification">The specifics of the endpoint to be created.</param>
+        <param name="token">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+        <summary>
+            Create a new endpoint for this service
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the newly created endpoint once completed.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">endpointSpecification is null.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+        <exception cref="T:System.OperationCanceledException">If a task cancellation is detected.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultEndpointName">
+      <MemberSignature Language="C#" Value="public string DefaultEndpointName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultEndpointName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.DefaultEndpointName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name for the service's default endpoint
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional description specified for the service
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEndpointAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; GetEndpointAsync (string endpointName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; GetEndpointAsync(string endpointName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.MachineLearningService/&lt;GetEndpointAsync&gt;d__a))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpointName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="endpointName">The name of the endpoint to retrieve.</param>
+        <summary>
+            Retrieves a specific endpoint that was created for this service
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the endpoint, if found.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">endpointName is not specified.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEndpointAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; GetEndpointAsync (string endpointName, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt; GetEndpointAsync(string endpointName, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.MachineLearningService/&lt;GetEndpointAsync&gt;d__d))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="endpointName">The name of the endpoint to retrieve.</param>
+        <param name="token">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+        <summary>
+            Retrieves a specific endpoint that was created for this service
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the endpoint, if found.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">endpointName is not specified.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+        <exception cref="T:System.OperationCanceledException">If a task cancellation is detected.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEndpointsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint[]&gt; GetEndpointsAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint[]&gt; GetEndpointsAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointsAsync" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.MachineLearningService/&lt;GetEndpointsAsync&gt;d__12))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieve the set of endpoints created for this service
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield set of endpoints for this service.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEndpointsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint[]&gt; GetEndpointsAsync (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint[]&gt; GetEndpointsAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointsAsync(System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.MachineLearningService/&lt;GetEndpointsAsync&gt;d__16))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+        <summary>
+            Retrieve the set of endpoints created for this service
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield set of endpoints for this service.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+        <exception cref="T:System.OperationCanceledException">If a task cancellation is detected.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The service's unique identifier
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The user provided name for the service
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkspaceId">
+      <MemberSignature Language="C#" Value="public string WorkspaceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkspaceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.WorkspaceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The unique identifier for the workspace where the service was published
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

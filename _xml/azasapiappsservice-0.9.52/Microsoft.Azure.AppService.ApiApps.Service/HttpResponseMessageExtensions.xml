@@ -1,0 +1,238 @@
+<Type Name="HttpResponseMessageExtensions" FullName="Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions">
+  <TypeSignature Language="C#" Value="public static class HttpResponseMessageExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HttpResponseMessageExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.52.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeserializeErrorJsonAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;T&gt; DeserializeErrorJsonAsync&lt;T&gt; (this System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; DeserializeErrorJsonAsync&lt;T&gt;(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.DeserializeErrorJsonAsync``1(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions/&lt;DeserializeErrorJsonAsync&gt;d__11`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeserializeJsonAsync&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;T&gt; DeserializeJsonAsync&lt;T&gt; (this System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!T&gt; DeserializeJsonAsync&lt;T&gt;(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.DeserializeJsonAsync``1(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions/&lt;DeserializeJsonAsync&gt;d__c`1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadAsJObjectAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JObject&gt; ReadAsJObjectAsync (this System.Net.Http.HttpResponseMessage response, bool requireSuccess = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Newtonsoft.Json.Linq.JObject&gt; ReadAsJObjectAsync(class System.Net.Http.HttpResponseMessage response, bool requireSuccess) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.ReadAsJObjectAsync(System.Net.Http.HttpResponseMessage,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions/&lt;ReadAsJObjectAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JObject&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+        <Parameter Name="requireSuccess" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <param name="requireSuccess">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadErrorJsonAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; ReadErrorJsonAsync (this System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; ReadErrorJsonAsync(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.ReadErrorJsonAsync(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions/&lt;ReadErrorJsonAsync&gt;d__8))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadJsonAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; ReadJsonAsync (this System.Net.Http.HttpResponseMessage response, bool requireSuccess = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; ReadJsonAsync(class System.Net.Http.HttpResponseMessage response, bool requireSuccess) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.ReadJsonAsync(System.Net.Http.HttpResponseMessage,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions/&lt;ReadJsonAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+        <Parameter Name="requireSuccess" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <param name="requireSuccess">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SafeForLoggingToString">
+      <MemberSignature Language="C#" Value="public static string SafeForLoggingToString (this System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SafeForLoggingToString(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.SafeForLoggingToString(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SafeForLoggingToString">
+      <MemberSignature Language="C#" Value="public static string SafeForLoggingToString (this System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string SafeForLoggingToString(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.SafeForLoggingToString(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerifySuccess">
+      <MemberSignature Language="C#" Value="public static void VerifySuccess (this System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void VerifySuccess(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.VerifySuccess(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

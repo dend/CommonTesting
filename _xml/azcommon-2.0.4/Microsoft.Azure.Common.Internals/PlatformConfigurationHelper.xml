@@ -1,0 +1,44 @@
+<Type Name="PlatformConfigurationHelper" FullName="Microsoft.Azure.Common.Internals.PlatformConfigurationHelper">
+  <TypeSignature Language="C#" Value="public static class PlatformConfigurationHelper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PlatformConfigurationHelper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Common.Internals.PlatformConfigurationHelper" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Common.NetFramework</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetCertificate">
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 GetCertificate (System.Collections.Generic.IDictionary&lt;string,object&gt; parameters, string name, bool isRequired = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 GetCertificate(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; parameters, string name, bool isRequired) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Common.Internals.PlatformConfigurationHelper.GetCertificate(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="isRequired" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="isRequired">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

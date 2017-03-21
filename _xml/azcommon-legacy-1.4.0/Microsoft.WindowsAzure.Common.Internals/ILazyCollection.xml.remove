@@ -1,0 +1,33 @@
+<Type Name="ILazyCollection" FullName="Microsoft.WindowsAzure.Common.Internals.ILazyCollection">
+  <TypeSignature Language="C#" Value="public interface ILazyCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILazyCollection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.Internals.ILazyCollection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsInitialized">
+      <MemberSignature Language="C#" Value="public bool IsInitialized { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInitialized" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Common.Internals.ILazyCollection.IsInitialized" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

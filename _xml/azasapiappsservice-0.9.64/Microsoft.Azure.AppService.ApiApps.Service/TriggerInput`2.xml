@@ -1,0 +1,91 @@
+<Type Name="TriggerInput&lt;TInput,TOutput&gt;" FullName="Microsoft.Azure.AppService.ApiApps.Service.TriggerInput&lt;TInput,TOutput&gt;">
+  <TypeSignature Language="C#" Value="public class TriggerInput&lt;TInput,TOutput&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TriggerInput`2&lt;TInput, TOutput&gt; extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.64.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TInput" />
+    <TypeParameter Name="TOutput" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TInput">To be added.</typeparam>
+    <typeparam name="TOutput">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TriggerInput ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCallback">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback&lt;TOutput&gt; GetCallback ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback`1&lt;!TOutput&gt; GetCallback() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.GetCallback" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback&lt;TOutput&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="inputs">
+      <MemberSignature Language="C#" Value="public TInput inputs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TInput inputs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.inputs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TInput</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="outputs">
+      <MemberSignature Language="C#" Value="public TOutput outputs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TOutput outputs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.outputs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TOutput</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

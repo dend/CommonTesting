@@ -1,0 +1,504 @@
+<Type Name="ScheduleOperationsExtensions" FullName="Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class ScheduleOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ScheduleOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginExecute">
+      <MemberSignature Language="C#" Value="public static void BeginExecute (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginExecute(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.BeginExecute(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginExecuteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginExecuteAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginExecuteAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.BeginExecuteAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;BeginExecuteAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.Schedule CreateOrUpdateResource (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.Schedule CreateOrUpdateResource(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.CreateOrUpdateResource(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.Schedule)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.Schedule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="schedule" Type="Microsoft.Azure.Management.DevTestLabs.Models.Schedule" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="schedule">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; CreateOrUpdateResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; CreateOrUpdateResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.CreateOrUpdateResourceAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.Schedule,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;CreateOrUpdateResourceAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="schedule" Type="Microsoft.Azure.Management.DevTestLabs.Models.Schedule" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="schedule">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResource">
+      <MemberSignature Language="C#" Value="public static void DeleteResource (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteResource(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.DeleteResource(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.DeleteResourceAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;DeleteResourceAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public static void Execute (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Execute(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.Execute(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ExecuteAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ExecuteAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.ExecuteAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;ExecuteAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.Schedule GetResource (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.Schedule GetResource(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.GetResource(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.Schedule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; GetResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; GetResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.GetResourceAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;GetResourceAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; List (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; odataQuery = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; List(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; odataQuery) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.List(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.Schedule})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;&gt; ListAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;&gt; ListAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.ListAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.Schedule},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;ListAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; ListNext (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; ListNext(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.ListNext(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;ListNextAsync&gt;d__15))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.Schedule PatchResource (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.Schedule PatchResource(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.PatchResource(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.Schedule)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.Schedule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="schedule" Type="Microsoft.Azure.Management.DevTestLabs.Models.Schedule" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="schedule">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; PatchResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt; PatchResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IScheduleOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.Schedule schedule, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions.PatchResourceAsync(Microsoft.Azure.Management.DevTestLabs.IScheduleOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.Schedule,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.ScheduleOperationsExtensions/&lt;PatchResourceAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.Schedule&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IScheduleOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="schedule" Type="Microsoft.Azure.Management.DevTestLabs.Models.Schedule" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="schedule">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

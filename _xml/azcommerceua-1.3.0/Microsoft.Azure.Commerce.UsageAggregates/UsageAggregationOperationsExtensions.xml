@@ -1,0 +1,127 @@
+<Type Name="UsageAggregationOperationsExtensions" FullName="Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class UsageAggregationOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit UsageAggregationOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Commerce.UsageAggregates</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse Get (this Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations operations, DateTime reportedStartTime, DateTime reportedEndTime, Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity aggregationGranularity, bool showDetails, string continuationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse Get(class Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations operations, valuetype System.DateTime reportedStartTime, valuetype System.DateTime reportedEndTime, valuetype Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity aggregationGranularity, bool showDetails, string continuationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions.Get(Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations,System.DateTime,System.DateTime,Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity,System.Boolean,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations" RefType="this" />
+        <Parameter Name="reportedStartTime" Type="System.DateTime" />
+        <Parameter Name="reportedEndTime" Type="System.DateTime" />
+        <Parameter Name="aggregationGranularity" Type="Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity" />
+        <Parameter Name="showDetails" Type="System.Boolean" />
+        <Parameter Name="continuationToken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations.
+            </param>
+        <param name="reportedStartTime">
+            Required. The start of the time range to retrieve data for.
+            </param>
+        <param name="reportedEndTime">
+            Required. The end of the time range to retrieve data for.
+            </param>
+        <param name="aggregationGranularity">
+            Required. Value is either daily (default) or hourly to tell the API
+            how to return the results grouped by day or hour.
+            </param>
+        <param name="showDetails">
+            Required. When set to true (default), the aggregates are broken
+            down into the instance metadata which is more granular.
+            </param>
+        <param name="continuationToken">
+            Optional. Retrieved from previous calls, this is the bookmark used
+            for progress when the responses are paged.
+            </param>
+        <summary>
+            Query aggregated Azure subscription consumption data for a date
+            range.  (see
+            https://msdn.microsoft.com/library/azure/1ea5b323-54bb-423d-916f-190de96c6a3c
+            for more information)
+            </summary>
+        <returns>
+            The Get UsageAggregates operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse&gt; GetAsync (this Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations operations, DateTime reportedStartTime, DateTime reportedEndTime, Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity aggregationGranularity, bool showDetails, string continuationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse&gt; GetAsync(class Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations operations, valuetype System.DateTime reportedStartTime, valuetype System.DateTime reportedEndTime, valuetype Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity aggregationGranularity, bool showDetails, string continuationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions.GetAsync(Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations,System.DateTime,System.DateTime,Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity,System.Boolean,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations" RefType="this" />
+        <Parameter Name="reportedStartTime" Type="System.DateTime" />
+        <Parameter Name="reportedEndTime" Type="System.DateTime" />
+        <Parameter Name="aggregationGranularity" Type="Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity" />
+        <Parameter Name="showDetails" Type="System.Boolean" />
+        <Parameter Name="continuationToken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations.
+            </param>
+        <param name="reportedStartTime">
+            Required. The start of the time range to retrieve data for.
+            </param>
+        <param name="reportedEndTime">
+            Required. The end of the time range to retrieve data for.
+            </param>
+        <param name="aggregationGranularity">
+            Required. Value is either daily (default) or hourly to tell the API
+            how to return the results grouped by day or hour.
+            </param>
+        <param name="showDetails">
+            Required. When set to true (default), the aggregates are broken
+            down into the instance metadata which is more granular.
+            </param>
+        <param name="continuationToken">
+            Optional. Retrieved from previous calls, this is the bookmark used
+            for progress when the responses are paged.
+            </param>
+        <summary>
+            Query aggregated Azure subscription consumption data for a date
+            range.  (see
+            https://msdn.microsoft.com/library/azure/1ea5b323-54bb-423d-916f-190de96c6a3c
+            for more information)
+            </summary>
+        <returns>
+            The Get UsageAggregates operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

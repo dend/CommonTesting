@@ -1,0 +1,113 @@
+<Type Name="Usage" FullName="Microsoft.Azure.Management.Compute.Models.Usage">
+  <TypeSignature Language="C#" Value="public class Usage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Usage extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.Usage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes Compute Resource Usage.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Usage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.Usage.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the Usage class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentValue">
+      <MemberSignature Language="C#" Value="public int CurrentValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CurrentValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.Usage.CurrentValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the current value of the usage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Limit">
+      <MemberSignature Language="C#" Value="public uint Limit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Limit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.Usage.Limit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the limit of usage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.UsageName Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.UsageName Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.Usage.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.UsageName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the name of the type of usage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unit">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.UsageUnit Unit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Management.Compute.Models.UsageUnit Unit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.Usage.Unit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.UsageUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets an enum describing the unit of measurement.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,247 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.KeyVault.Extensions" Version="1.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Provides extended capabilities for Azure Key Vault.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.5.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Azure .NET SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Azure Key Vault Extensions Library")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.KeyVault">
+      <Type Name="AggregateKeyResolver" Kind="Class" />
+      <Type Name="CachingKeyResolver" Kind="Class" />
+      <Type Name="KeyVaultKeyResolver" Kind="Class" />
+      <Type Name="RsaKey" Kind="Class" />
+      <Type Name="SymmetricKey" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.KeyVault.Cryptography">
+      <Type Name="AesExtensions" Kind="Class" />
+      <Type Name="Algorithm" Kind="Class" />
+      <Type Name="AlgorithmResolver" Kind="Class" />
+      <Type Name="AsymmetricEncryptionAlgorithm" Kind="Class" />
+      <Type Name="AsymmetricSignatureAlgorithm" Kind="Class" />
+      <Type Name="EncryptionAlgorithm" Kind="Class" />
+      <Type Name="IAuthenticatedCryptoTransform" Kind="Interface" />
+      <Type Name="KeyWrapAlgorithm" Kind="Class" />
+      <Type Name="RsaExtensions" Kind="Class" />
+      <Type Name="SignatureAlgorithm" Kind="Class" />
+      <Type Name="SymmetricEncryptionAlgorithm" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.KeyVault.Cryptography.Algorithms">
+      <Type Name="Aes128Cbc" Kind="Class" />
+      <Type Name="Aes128CbcHmacSha256" Kind="Class" />
+      <Type Name="Aes192Cbc" Kind="Class" />
+      <Type Name="Aes192CbcHmacSha384" Kind="Class" />
+      <Type Name="Aes256Cbc" Kind="Class" />
+      <Type Name="Aes256CbcHmacSha512" Kind="Class" />
+      <Type Name="AesCbc" Kind="Class" />
+      <Type Name="AesCbcHmacSha2" Kind="Class" />
+      <Type Name="AesKw" Kind="Class" />
+      <Type Name="AesKw128" Kind="Class" />
+      <Type Name="AesKw192" Kind="Class" />
+      <Type Name="AesKw256" Kind="Class" />
+      <Type Name="Rs256" Kind="Class" />
+      <Type Name="Rsa15" Kind="Class" />
+      <Type Name="RsaEncryption" Kind="Class" />
+      <Type Name="RsaOaep" Kind="Class" />
+      <Type Name="RsNull" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.KeyVault.WebKey">
+      <Type Name="JsonWebKeyExtensions" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.KeyVault.Extensions</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Security.Cryptography.Aes" />
+      </Targets>
+      <Member MemberName="ToJsonWebKey">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey (this System.Security.Cryptography.Aes self);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey(class System.Security.Cryptography.Aes self) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.AesExtensions.ToJsonWebKey(System.Security.Cryptography.Aes)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.KeyVault.WebKey.JsonWebKey</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="self" Type="System.Security.Cryptography.Aes" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="self" />
+          <summary>
+            Converts an AES object to a JsonWebKey of type Octet
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.KeyVault.Cryptography.AesExtensions" Member="M:Microsoft.Azure.KeyVault.Cryptography.AesExtensions.ToJsonWebKey(System.Security.Cryptography.Aes)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Security.Cryptography.RSA" />
+      </Targets>
+      <Member MemberName="ToJsonWebKey">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey (this System.Security.Cryptography.RSA self, bool includePrivateParameters = false);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey(class System.Security.Cryptography.RSA self, bool includePrivateParameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.RsaExtensions.ToJsonWebKey(System.Security.Cryptography.RSA,System.Boolean)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.KeyVault.WebKey.JsonWebKey</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="self" Type="System.Security.Cryptography.RSA" RefType="this" />
+          <Parameter Name="includePrivateParameters" Type="System.Boolean" />
+        </Parameters>
+        <Docs>
+          <param name="self">The RSA object to convert</param>
+          <param name="includePrivateParameters">True to include the RSA private key parameters</param>
+          <summary>
+            Converts a RSA object to a JsonWebKey of type RSA.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.KeyVault.Cryptography.RsaExtensions" Member="M:Microsoft.Azure.KeyVault.Cryptography.RsaExtensions.ToJsonWebKey(System.Security.Cryptography.RSA,System.Boolean)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Security.Cryptography.RSAParameters" />
+      </Targets>
+      <Member MemberName="ToJsonWebKey">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey (this System.Security.Cryptography.RSAParameters self);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey(valuetype System.Security.Cryptography.RSAParameters self) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.RsaExtensions.ToJsonWebKey(System.Security.Cryptography.RSAParameters)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.KeyVault.WebKey.JsonWebKey</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="self" Type="System.Security.Cryptography.RSAParameters" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="self">The RSA parameters object to convert</param>
+          <summary>
+            Converts a RSAParameters object to a WebKey of type RSA.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.KeyVault.Cryptography.RsaExtensions" Member="M:Microsoft.Azure.KeyVault.Cryptography.RsaExtensions.ToJsonWebKey(System.Security.Cryptography.RSAParameters)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.KeyVault.WebKey.JsonWebKey" />
+      </Targets>
+      <Member MemberName="ToAes">
+        <MemberSignature Language="C#" Value="public static System.Security.Cryptography.Aes ToAes (this Microsoft.Azure.KeyVault.WebKey.JsonWebKey self);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.Aes ToAes(class Microsoft.Azure.KeyVault.WebKey.JsonWebKey self) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions.ToAes(Microsoft.Azure.KeyVault.WebKey.JsonWebKey)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Security.Cryptography.Aes</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="self" Type="Microsoft.Azure.KeyVault.WebKey.JsonWebKey" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="self">To be added.</param>
+          <summary>
+            Converts a WebKey of type Octet to an AES object.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions" Member="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions.ToAes(Microsoft.Azure.KeyVault.WebKey.JsonWebKey)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.KeyVault.WebKey.JsonWebKey" />
+      </Targets>
+      <Member MemberName="ToRSA">
+        <MemberSignature Language="C#" Value="public static System.Security.Cryptography.RSACryptoServiceProvider ToRSA (this Microsoft.Azure.KeyVault.WebKey.JsonWebKey self, bool includePrivateParameters = false);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.RSACryptoServiceProvider ToRSA(class Microsoft.Azure.KeyVault.WebKey.JsonWebKey self, bool includePrivateParameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions.ToRSA(Microsoft.Azure.KeyVault.WebKey.JsonWebKey,System.Boolean)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Security.Cryptography.RSACryptoServiceProvider</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="self" Type="Microsoft.Azure.KeyVault.WebKey.JsonWebKey" RefType="this" />
+          <Parameter Name="includePrivateParameters" Type="System.Boolean" />
+        </Parameters>
+        <Docs>
+          <param name="self">To be added.</param>
+          <param name="includePrivateParameters">Determines whether private key material, if available, is included</param>
+          <summary>
+            Converts a WebKey of type RSA or RSA-HSM to a RSA provider
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions" Member="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions.ToRSA(Microsoft.Azure.KeyVault.WebKey.JsonWebKey,System.Boolean)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.KeyVault.WebKey.JsonWebKey" />
+      </Targets>
+      <Member MemberName="ToRSAParameters">
+        <MemberSignature Language="C#" Value="public static System.Security.Cryptography.RSAParameters ToRSAParameters (this Microsoft.Azure.KeyVault.WebKey.JsonWebKey self, bool includePrivateParameters = false);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Security.Cryptography.RSAParameters ToRSAParameters(class Microsoft.Azure.KeyVault.WebKey.JsonWebKey self, bool includePrivateParameters) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions.ToRSAParameters(Microsoft.Azure.KeyVault.WebKey.JsonWebKey,System.Boolean)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Security.Cryptography.RSAParameters</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="self" Type="Microsoft.Azure.KeyVault.WebKey.JsonWebKey" RefType="this" />
+          <Parameter Name="includePrivateParameters" Type="System.Boolean" />
+        </Parameters>
+        <Docs>
+          <param name="self">To be added.</param>
+          <param name="includePrivateParameters">Determines whether private key material, if available, is included</param>
+          <summary>
+            Converts a WebKey of type RSA or RSA-HSM to a RSA provider
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions" Member="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKeyExtensions.ToRSAParameters(Microsoft.Azure.KeyVault.WebKey.JsonWebKey,System.Boolean)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

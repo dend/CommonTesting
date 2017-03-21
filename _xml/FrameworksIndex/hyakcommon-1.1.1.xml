@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="hyakcommon-1.1.1">
+  <Namespace Name="Hyak.Common">
+    <Type Name="Hyak.Common.BasicAuthenticationCloudCredentials" Id="T:Hyak.Common.BasicAuthenticationCloudCredentials">
+      <Member Id="M:Hyak.Common.BasicAuthenticationCloudCredentials.#ctor" />
+      <Member Id="M:Hyak.Common.BasicAuthenticationCloudCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Hyak.Common.BasicAuthenticationCloudCredentials.Password" />
+      <Member Id="P:Hyak.Common.BasicAuthenticationCloudCredentials.Username" />
+    </Type>
+    <Type Name="Hyak.Common.CloudCredentials" Id="T:Hyak.Common.CloudCredentials">
+      <Member Id="M:Hyak.Common.CloudCredentials.#ctor" />
+      <Member Id="M:Hyak.Common.CloudCredentials.InitializeServiceClient``1(Hyak.Common.ServiceClient{``0})" />
+      <Member Id="M:Hyak.Common.CloudCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Hyak.Common.CloudError" Id="T:Hyak.Common.CloudError">
+      <Member Id="M:Hyak.Common.CloudError.#ctor" />
+      <Member Id="P:Hyak.Common.CloudError.Code" />
+      <Member Id="P:Hyak.Common.CloudError.Message" />
+      <Member Id="P:Hyak.Common.CloudError.OriginalMessage" />
+      <Member Id="P:Hyak.Common.CloudError.ResponseBody" />
+    </Type>
+    <Type Name="Hyak.Common.CloudException" Id="T:Hyak.Common.CloudException">
+      <Member Id="M:Hyak.Common.CloudException.#ctor(System.String)" />
+      <Member Id="M:Hyak.Common.CloudException.#ctor(System.String,System.Exception)" />
+      <Member Id="M:Hyak.Common.CloudException.Create(System.Net.Http.HttpRequestMessage,System.String,System.Net.Http.HttpResponseMessage,System.String,Hyak.Common.CloudExceptionType,System.Exception)" />
+      <Member Id="M:Hyak.Common.CloudException.Create(System.Net.Http.HttpRequestMessage,System.String,System.Net.Http.HttpResponseMessage,System.String,System.Exception)" />
+      <Member Id="M:Hyak.Common.CloudException.CreateFromJson(System.Net.Http.HttpRequestMessage,System.String,System.Net.Http.HttpResponseMessage,System.String,System.Exception)" />
+      <Member Id="M:Hyak.Common.CloudException.CreateFromXml(System.Net.Http.HttpRequestMessage,System.String,System.Net.Http.HttpResponseMessage,System.String,System.Exception)" />
+      <Member Id="M:Hyak.Common.CloudException.IsJson(System.String,System.Boolean)" />
+      <Member Id="M:Hyak.Common.CloudException.IsXml(System.String,System.Boolean)" />
+      <Member Id="M:Hyak.Common.CloudException.ParseJsonError(System.String)" />
+      <Member Id="M:Hyak.Common.CloudException.ParseXmlError(System.String)" />
+      <Member Id="M:Hyak.Common.CloudException.ParseXmlOrJsonError(System.String)" />
+      <Member Id="P:Hyak.Common.CloudException.Error" />
+      <Member Id="P:Hyak.Common.CloudException.Request" />
+      <Member Id="P:Hyak.Common.CloudException.Response" />
+    </Type>
+    <Type Name="Hyak.Common.CloudExceptionType" Id="T:Hyak.Common.CloudExceptionType">
+      <Member Id="F:Hyak.Common.CloudExceptionType.Json" />
+      <Member Id="F:Hyak.Common.CloudExceptionType.Xml" />
+    </Type>
+    <Type Name="Hyak.Common.CloudHttpErrorInfo" Id="T:Hyak.Common.CloudHttpErrorInfo">
+      <Member Id="M:Hyak.Common.CloudHttpErrorInfo.#ctor" />
+      <Member Id="M:Hyak.Common.CloudHttpErrorInfo.CopyHeaders(System.Net.Http.Headers.HttpHeaders)" />
+      <Member Id="P:Hyak.Common.CloudHttpErrorInfo.Content" />
+      <Member Id="P:Hyak.Common.CloudHttpErrorInfo.Headers" />
+      <Member Id="P:Hyak.Common.CloudHttpErrorInfo.Version" />
+    </Type>
+    <Type Name="Hyak.Common.CloudHttpRequestErrorInfo" Id="T:Hyak.Common.CloudHttpRequestErrorInfo">
+      <Member Id="M:Hyak.Common.CloudHttpRequestErrorInfo.#ctor" />
+      <Member Id="M:Hyak.Common.CloudHttpRequestErrorInfo.Create(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Hyak.Common.CloudHttpRequestErrorInfo.Create(System.Net.Http.HttpRequestMessage,System.String)" />
+      <Member Id="P:Hyak.Common.CloudHttpRequestErrorInfo.Method" />
+      <Member Id="P:Hyak.Common.CloudHttpRequestErrorInfo.Properties" />
+      <Member Id="P:Hyak.Common.CloudHttpRequestErrorInfo.RequestUri" />
+    </Type>
+    <Type Name="Hyak.Common.CloudHttpResponseErrorInfo" Id="T:Hyak.Common.CloudHttpResponseErrorInfo">
+      <Member Id="M:Hyak.Common.CloudHttpResponseErrorInfo.#ctor" />
+      <Member Id="M:Hyak.Common.CloudHttpResponseErrorInfo.Create(System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Hyak.Common.CloudHttpResponseErrorInfo.Create(System.Net.Http.HttpResponseMessage,System.String)" />
+      <Member Id="P:Hyak.Common.CloudHttpResponseErrorInfo.ReasonPhrase" />
+      <Member Id="P:Hyak.Common.CloudHttpResponseErrorInfo.StatusCode" />
+    </Type>
+    <Type Name="Hyak.Common.HttpOperationResponse" Id="T:Hyak.Common.HttpOperationResponse">
+      <Member Id="M:Hyak.Common.HttpOperationResponse.#ctor" />
+      <Member Id="P:Hyak.Common.HttpOperationResponse.StatusCode" />
+    </Type>
+    <Type Name="Hyak.Common.ICloudTracingInterceptor" Id="T:Hyak.Common.ICloudTracingInterceptor">
+      <Member Id="M:Hyak.Common.ICloudTracingInterceptor.Configuration(System.String,System.String,System.String)" />
+      <Member Id="M:Hyak.Common.ICloudTracingInterceptor.Enter(System.String,System.Object,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <Member Id="M:Hyak.Common.ICloudTracingInterceptor.Error(System.String,System.Exception)" />
+      <Member Id="M:Hyak.Common.ICloudTracingInterceptor.Exit(System.String,System.Object)" />
+      <Member Id="M:Hyak.Common.ICloudTracingInterceptor.Information(System.String)" />
+      <Member Id="M:Hyak.Common.ICloudTracingInterceptor.ReceiveResponse(System.String,System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Hyak.Common.ICloudTracingInterceptor.SendRequest(System.String,System.Net.Http.HttpRequestMessage)" />
+    </Type>
+    <Type Name="Hyak.Common.ILazyCollection" Id="T:Hyak.Common.ILazyCollection">
+      <Member Id="P:Hyak.Common.ILazyCollection.IsInitialized" />
+    </Type>
+    <Type Name="Hyak.Common.IServiceOperations`1" Id="T:Hyak.Common.IServiceOperations`1">
+      <Member Id="P:Hyak.Common.IServiceOperations`1.Client" />
+    </Type>
+    <Type Name="Hyak.Common.LazyDictionary`2" Id="T:Hyak.Common.LazyDictionary`2">
+      <Member Id="M:Hyak.Common.LazyDictionary`2.#ctor" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1},System.Collections.Generic.IEqualityComparer{`0})" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.#ctor(System.Int32)" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.Add(`0,`1)" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.Clear" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.ContainsKey(`0)" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.GetEnumerator" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.Remove(`0)" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="M:Hyak.Common.LazyDictionary`2.TryGetValue(`0,`1@)" />
+      <Member Id="P:Hyak.Common.LazyDictionary`2.Count" />
+      <Member Id="P:Hyak.Common.LazyDictionary`2.IsInitialized" />
+      <Member Id="P:Hyak.Common.LazyDictionary`2.IsReadOnly" />
+      <Member Id="P:Hyak.Common.LazyDictionary`2.Item(`0)" />
+      <Member Id="P:Hyak.Common.LazyDictionary`2.Keys" />
+      <Member Id="P:Hyak.Common.LazyDictionary`2.Values" />
+    </Type>
+    <Type Name="Hyak.Common.LazyList`1" Id="T:Hyak.Common.LazyList`1">
+      <Member Id="M:Hyak.Common.LazyList`1.#ctor" />
+      <Member Id="M:Hyak.Common.LazyList`1.#ctor(System.Collections.Generic.IEnumerable{`0})" />
+      <Member Id="M:Hyak.Common.LazyList`1.#ctor(System.Int32)" />
+      <Member Id="M:Hyak.Common.LazyList`1.Add(`0)" />
+      <Member Id="M:Hyak.Common.LazyList`1.Clear" />
+      <Member Id="M:Hyak.Common.LazyList`1.Contains(`0)" />
+      <Member Id="M:Hyak.Common.LazyList`1.CopyTo(`0[],System.Int32)" />
+      <Member Id="M:Hyak.Common.LazyList`1.GetEnumerator" />
+      <Member Id="M:Hyak.Common.LazyList`1.IndexOf(`0)" />
+      <Member Id="M:Hyak.Common.LazyList`1.Insert(System.Int32,`0)" />
+      <Member Id="M:Hyak.Common.LazyList`1.Remove(`0)" />
+      <Member Id="M:Hyak.Common.LazyList`1.RemoveAt(System.Int32)" />
+      <Member Id="M:Hyak.Common.LazyList`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Hyak.Common.LazyList`1.Count" />
+      <Member Id="P:Hyak.Common.LazyList`1.IsInitialized" />
+      <Member Id="P:Hyak.Common.LazyList`1.IsReadOnly" />
+      <Member Id="P:Hyak.Common.LazyList`1.Item(System.Int32)" />
+    </Type>
+    <Type Name="Hyak.Common.RetryHandler" Id="T:Hyak.Common.RetryHandler">
+      <Member Id="E:Hyak.Common.RetryHandler.Retrying" />
+      <Member Id="M:Hyak.Common.RetryHandler.#ctor" />
+      <Member Id="M:Hyak.Common.RetryHandler.#ctor(Hyak.Common.TransientFaultHandling.RetryPolicy,System.Net.Http.DelegatingHandler)" />
+      <Member Id="M:Hyak.Common.RetryHandler.#ctor(System.Net.Http.DelegatingHandler)" />
+      <Member Id="M:Hyak.Common.RetryHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Hyak.Common.RetryHandler.RetryPolicy" />
+    </Type>
+    <Type Name="Hyak.Common.ServiceClient`1" Id="T:Hyak.Common.ServiceClient`1">
+      <Member Id="M:Hyak.Common.ServiceClient`1.#ctor" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.AddHandlerToPipeline(System.Net.Http.DelegatingHandler)" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.Clone(Hyak.Common.ServiceClient{`0})" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.Dispose" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.GetHttpPipeline" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpMessageHandler)" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.SetRetryPolicy(Hyak.Common.TransientFaultHandling.RetryPolicy)" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.WithHandler(Hyak.Common.ServiceClient{`0},System.Net.Http.DelegatingHandler)" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.WithHandler(System.Net.Http.DelegatingHandler)" />
+      <Member Id="M:Hyak.Common.ServiceClient`1.WithHandlers(System.Collections.Generic.IEnumerable{System.Net.Http.DelegatingHandler})" />
+      <Member Id="P:Hyak.Common.ServiceClient`1.HttpClient" />
+      <Member Id="P:Hyak.Common.ServiceClient`1.HttpMessageHandler" />
+      <Member Id="P:Hyak.Common.ServiceClient`1.UserAgent" />
+    </Type>
+    <Type Name="Hyak.Common.TracingAdapter" Id="T:Hyak.Common.TracingAdapter">
+      <Member Id="M:Hyak.Common.TracingAdapter.AddTracingInterceptor(Hyak.Common.ICloudTracingInterceptor)" />
+      <Member Id="M:Hyak.Common.TracingAdapter.Configuration(System.String,System.String,System.String)" />
+      <Member Id="M:Hyak.Common.TracingAdapter.Enter(System.String,System.Object,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <Member Id="M:Hyak.Common.TracingAdapter.Error(System.String,System.Exception)" />
+      <Member Id="M:Hyak.Common.TracingAdapter.Exit(System.String,System.Object)" />
+      <Member Id="M:Hyak.Common.TracingAdapter.Information(System.String)" />
+      <Member Id="M:Hyak.Common.TracingAdapter.Information(System.String,System.Object[])" />
+      <Member Id="M:Hyak.Common.TracingAdapter.ReceiveResponse(System.String,System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Hyak.Common.TracingAdapter.RemoveTracingInterceptor(Hyak.Common.ICloudTracingInterceptor)" />
+      <Member Id="M:Hyak.Common.TracingAdapter.SendRequest(System.String,System.Net.Http.HttpRequestMessage)" />
+      <Member Id="P:Hyak.Common.TracingAdapter.IsEnabled" />
+      <Member Id="P:Hyak.Common.TracingAdapter.NextInvocationId" />
+    </Type>
+    <Type Name="Hyak.Common.TracingExtensions" Id="T:Hyak.Common.TracingExtensions">
+      <Member Id="M:Hyak.Common.TracingExtensions.AsFormattedString(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Hyak.Common.TracingExtensions.AsFormattedString(System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Hyak.Common.TracingExtensions.AsFormattedString``2(System.Collections.Generic.IDictionary{``0,``1})" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Hyak.Common.Internals">
+    <Type Name="Hyak.Common.Internals.HttpExtensions" Id="T:Hyak.Common.Internals.HttpExtensions">
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AppendHttpRequest(System.Text.StringBuilder,Hyak.Common.CloudHttpRequestErrorInfo)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AppendHttpRequest(System.Text.StringBuilder,System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AppendHttpResponse(System.Text.StringBuilder,Hyak.Common.CloudHttpResponseErrorInfo)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AppendHttpResponse(System.Text.StringBuilder,System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AsString(Hyak.Common.CloudHttpRequestErrorInfo)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AsString(Hyak.Common.CloudHttpResponseErrorInfo)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AsString(System.Net.Http.HttpContent)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AsString(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.AsString(System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.GetContentHeaders(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Hyak.Common.Internals.HttpExtensions.GetContentHeaders(System.Net.Http.HttpResponseMessage)" />
+    </Type>
+    <Type Name="Hyak.Common.Internals.PortablePlatformAbstraction" Id="T:Hyak.Common.Internals.PortablePlatformAbstraction">
+      <Member Id="M:Hyak.Common.Internals.PortablePlatformAbstraction.Get``1(System.Boolean)" />
+    </Type>
+    <Type Name="Hyak.Common.Internals.TypeConversion" Id="T:Hyak.Common.Internals.TypeConversion">
+      <Member Id="M:Hyak.Common.Internals.TypeConversion.BytesToString(System.Byte[])" />
+      <Member Id="M:Hyak.Common.Internals.TypeConversion.FromBase64String(System.String)" />
+      <Member Id="M:Hyak.Common.Internals.TypeConversion.ToBase64String(System.String)" />
+      <Member Id="M:Hyak.Common.Internals.TypeConversion.TryParseUri(System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Hyak.Common.Platform">
+    <Type Name="Hyak.Common.Platform.IHttpTransportHandlerProvider" Id="T:Hyak.Common.Platform.IHttpTransportHandlerProvider">
+      <Member Id="M:Hyak.Common.Platform.IHttpTransportHandlerProvider.CreateHttpTransportHandler" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Hyak.Common.TransientFaultHandling">
+    <Type Name="Hyak.Common.TransientFaultHandling.DefaultHttpErrorDetectionStrategy" Id="T:Hyak.Common.TransientFaultHandling.DefaultHttpErrorDetectionStrategy">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.DefaultHttpErrorDetectionStrategy.#ctor" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.DefaultHttpErrorDetectionStrategy.IsTransient(System.Exception)" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.ExponentialBackoff" Id="T:Hyak.Common.TransientFaultHandling.ExponentialBackoff">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.ExponentialBackoff.#ctor" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.ExponentialBackoff.#ctor(System.Int32,System.TimeSpan,System.TimeSpan,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.ExponentialBackoff.#ctor(System.String,System.Int32,System.TimeSpan,System.TimeSpan,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.ExponentialBackoff.#ctor(System.String,System.Int32,System.TimeSpan,System.TimeSpan,System.TimeSpan,System.Boolean)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.ExponentialBackoff.GetShouldRetry" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.FixedInterval" Id="T:Hyak.Common.TransientFaultHandling.FixedInterval">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.FixedInterval.#ctor" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.FixedInterval.#ctor(System.Int32)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.FixedInterval.#ctor(System.Int32,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.FixedInterval.#ctor(System.String,System.Int32,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.FixedInterval.#ctor(System.String,System.Int32,System.TimeSpan,System.Boolean)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.FixedInterval.GetShouldRetry" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.HttpRequestExceptionWithStatus" Id="T:Hyak.Common.TransientFaultHandling.HttpRequestExceptionWithStatus">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.#ctor" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.#ctor(System.String)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.#ctor(System.String,System.Exception)" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.StatusCode" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.Incremental" Id="T:Hyak.Common.TransientFaultHandling.Incremental">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor(System.Int32,System.TimeSpan,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor(System.String,System.Int32,System.TimeSpan,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor(System.String,System.Int32,System.TimeSpan,System.TimeSpan,System.Boolean)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.Incremental.GetShouldRetry" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy" Id="T:Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy.IsTransient(System.Exception)" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.RetryingEventArgs" Id="T:Hyak.Common.TransientFaultHandling.RetryingEventArgs">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryingEventArgs.#ctor(System.Int32,System.TimeSpan,System.Exception)" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryingEventArgs.CurrentRetryCount" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryingEventArgs.Delay" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryingEventArgs.LastException" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.RetryLimitExceededException" Id="T:Hyak.Common.TransientFaultHandling.RetryLimitExceededException">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryLimitExceededException.#ctor" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryLimitExceededException.#ctor(System.Exception)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryLimitExceededException.#ctor(System.String)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryLimitExceededException.#ctor(System.String,System.Exception)" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.RetryManager" Id="T:Hyak.Common.TransientFaultHandling.RetryManager">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.#ctor(System.Collections.Generic.IEnumerable{Hyak.Common.TransientFaultHandling.RetryStrategy})" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.#ctor(System.Collections.Generic.IEnumerable{Hyak.Common.TransientFaultHandling.RetryStrategy},System.String)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.#ctor(System.Collections.Generic.IEnumerable{Hyak.Common.TransientFaultHandling.RetryStrategy},System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.GetDefaultRetryStrategy(System.String)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.GetRetryPolicy``1" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.GetRetryPolicy``1(System.String)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.GetRetryStrategy" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.GetRetryStrategy(System.String)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryManager.SetDefault(Hyak.Common.TransientFaultHandling.RetryManager,System.Boolean)" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryManager.DefaultRetryStrategyName" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryManager.Instance" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.RetryPolicy" Id="T:Hyak.Common.TransientFaultHandling.RetryPolicy">
+      <Member Id="E:Hyak.Common.TransientFaultHandling.RetryPolicy.Retrying" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.#ctor(Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy,Hyak.Common.TransientFaultHandling.RetryStrategy)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.#ctor(Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.#ctor(Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.#ctor(Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32,System.TimeSpan,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.#ctor(Hyak.Common.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32,System.TimeSpan,System.TimeSpan,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.ExecuteAction(System.Action)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.ExecuteAction``1(System.Func{``0})" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.ExecuteAsync(System.Func{System.Threading.Tasks.Task})" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.ExecuteAsync(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.ExecuteAsync``1(System.Func{System.Threading.Tasks.Task{``0}})" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.ExecuteAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy.OnRetrying(System.Int32,System.Exception,System.TimeSpan)" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryPolicy.DefaultExponential" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryPolicy.DefaultFixed" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryPolicy.DefaultProgressive" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryPolicy.ErrorDetectionStrategy" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryPolicy.NoRetry" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryPolicy.RetryStrategy" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.RetryPolicy`1" Id="T:Hyak.Common.TransientFaultHandling.RetryPolicy`1">
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy`1.#ctor(Hyak.Common.TransientFaultHandling.RetryStrategy)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy`1.#ctor(System.Int32)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy`1.#ctor(System.Int32,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy`1.#ctor(System.Int32,System.TimeSpan,System.TimeSpan)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryPolicy`1.#ctor(System.Int32,System.TimeSpan,System.TimeSpan,System.TimeSpan)" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.RetryStrategy" Id="T:Hyak.Common.TransientFaultHandling.RetryStrategy">
+      <Member Id="F:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultClientBackoff" />
+      <Member Id="F:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultClientRetryCount" />
+      <Member Id="F:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultFirstFastRetry" />
+      <Member Id="F:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultMaxBackoff" />
+      <Member Id="F:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultMinBackoff" />
+      <Member Id="F:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultRetryIncrement" />
+      <Member Id="F:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultRetryInterval" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryStrategy.#ctor(System.String,System.Boolean)" />
+      <Member Id="M:Hyak.Common.TransientFaultHandling.RetryStrategy.GetShouldRetry" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultExponential" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultFixed" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryStrategy.DefaultProgressive" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryStrategy.FastFirstRetry" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryStrategy.Name" />
+      <Member Id="P:Hyak.Common.TransientFaultHandling.RetryStrategy.NoRetry" />
+    </Type>
+    <Type Name="Hyak.Common.TransientFaultHandling.ShouldRetry" Id="T:Hyak.Common.TransientFaultHandling.ShouldRetry" />
+  </Namespace>
+</Framework>

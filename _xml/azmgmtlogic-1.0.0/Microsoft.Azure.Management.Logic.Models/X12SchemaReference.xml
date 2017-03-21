@@ -1,0 +1,144 @@
+<Type Name="X12SchemaReference" FullName="Microsoft.Azure.Management.Logic.Models.X12SchemaReference">
+  <TypeSignature Language="C#" Value="public class X12SchemaReference" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit X12SchemaReference extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.X12SchemaReference" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12SchemaReference ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12SchemaReference.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12SchemaReference (string messageId = null, string senderApplicationId = null, string schemaVersion = null, string schemaName = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string messageId, string senderApplicationId, string schemaVersion, string schemaName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12SchemaReference.#ctor(System.String,System.String,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="messageId" Type="System.String" />
+        <Parameter Name="senderApplicationId" Type="System.String" />
+        <Parameter Name="schemaVersion" Type="System.String" />
+        <Parameter Name="schemaName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="messageId">To be added.</param>
+        <param name="senderApplicationId">To be added.</param>
+        <param name="schemaVersion">To be added.</param>
+        <param name="schemaName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageId">
+      <MemberSignature Language="C#" Value="public string MessageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12SchemaReference.MessageId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="messageId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchemaName">
+      <MemberSignature Language="C#" Value="public string SchemaName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SchemaName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12SchemaReference.SchemaName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="schemaName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchemaVersion">
+      <MemberSignature Language="C#" Value="public string SchemaVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SchemaVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12SchemaReference.SchemaVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="schemaVersion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderApplicationId">
+      <MemberSignature Language="C#" Value="public string SenderApplicationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12SchemaReference.SenderApplicationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="senderApplicationId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

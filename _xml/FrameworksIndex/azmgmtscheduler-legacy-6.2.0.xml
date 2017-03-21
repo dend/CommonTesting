@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmgmtscheduler-legacy-6.2.0">
+  <Namespace Name="Microsoft.WindowsAzure.Management.Scheduler">
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient" Id="T:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient})" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.EntitleResourceAsync(Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.GetOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.CloudServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClientExtensions" Id="T:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClientExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClientExtensions.EntitleResource(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient,Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClientExtensions.EntitleResourceAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient,Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClientExtensions.GetOperationStatus(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClientExtensions.GetOperationStatusAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.BeginCreating(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.BeginCreatingAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.BeginDeleting(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.BeginDeletingAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.List(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient" Id="T:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.EntitleResourceAsync(Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.GetOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.CloudServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations" Id="T:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations.BeginCreatingAsync(System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations.BeginDeletingAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations.CreateAsync(System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations.ListAsync(System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations" Id="T:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.BeginCreatingAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.BeginDeletingAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.BeginUpdatingAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.CheckNameAvailabilityAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.CreateAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.DeleteAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations.UpdateAsync(System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient" Id="T:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.GetOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.GetResourceProviderPropertiesAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.RegisterResourceProviderAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.UnregisterResourceProviderAsync(System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.JobCollections" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.BeginCreating(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.BeginCreatingAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.BeginDeleting(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.BeginDeletingAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.BeginUpdating(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.BeginUpdatingAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.CheckNameAvailability(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.CheckNameAvailabilityAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.Create(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.Get(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.Update(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.JobCollectionOperationsExtensions.UpdateAsync(Microsoft.WindowsAzure.Management.Scheduler.IJobCollectionOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient" Id="T:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient})" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.GetOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.GetResourceProviderPropertiesAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.RegisterResourceProviderAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.UnregisterResourceProviderAsync(System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.JobCollections" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions" Id="T:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.GetOperationStatus(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.GetOperationStatusAsync(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.GetResourceProviderProperties(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.GetResourceProviderPropertiesAsync(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.RegisterResourceProvider(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.RegisterResourceProviderAsync(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.UnregisterResourceProvider(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.SchedulerManagementClientExtensions.UnregisterResourceProviderAsync(Microsoft.WindowsAzure.Management.Scheduler.ISchedulerManagementClient)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Management.Scheduler.Models">
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters.Email" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters.GeoRegion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceCreateParameters.Label" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.GeoLocation" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resources" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudServices" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatus" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatus.Failed" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatus.InProgress" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatus.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.Error" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.HttpStatusCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.Status" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters.#ctor(System.String,System.String,System.DateTime)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters.RegistrationDate" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters.ResourceNamespace" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters.ResourceType" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.Error" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.Error">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.Error.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.Error.ExtendedCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.Error.HttpCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.Error.Message" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.GetCloudServiceResourceState" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.GetCloudServiceResourceState">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.GetCloudServiceResourceState.NotFound" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.GetCloudServiceResourceState.Paused" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.GetCloudServiceResourceState.Started" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.GetCloudServiceResourceState.Stopped" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.GetCloudServiceResourceState.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCheckNameAvailabilityResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCheckNameAvailabilityResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCheckNameAvailabilityResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCheckNameAvailabilityResponse.IsAvailable" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters.IntrinsicSettings" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateParameters.SchemaVersion" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionCreateResponse.ETag" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.ETag" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.IntrinsicSettings" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.LastOperationStatus" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.PromotionCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.SchemaVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.State" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionIntrinsicSettings" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionIntrinsicSettings">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionIntrinsicSettings.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionIntrinsicSettings.Plan" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionIntrinsicSettings.Quota" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionMaxRecurrence" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionMaxRecurrence">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionMaxRecurrence.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionMaxRecurrence.#ctor(Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency,System.Int32)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionMaxRecurrence.Frequency" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionMaxRecurrence.Interval" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionPlan" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionPlan">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionPlan.Free" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionPlan.Premium" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionPlan.Standard" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionQuota" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionQuota">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionQuota.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionQuota.MaxJobCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionQuota.MaxJobOccurrence" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionQuota.MaxRecurrence" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency.Day" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency.Hour" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency.Minute" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency.Month" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency.Week" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionRecurrenceFrequency.Year" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionState" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionState">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionState.NotFound" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionState.Paused" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionState.Started" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionState.Stopped" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionState.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters.ETag" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters.IntrinsicSettings" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateParameters.SchemaVersion" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionUpdateResponse.ETag" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.ResourceProviderGetPropertiesResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.ResourceProviderGetPropertiesResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.ResourceProviderGetPropertiesResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.ResourceProviderGetPropertiesResponse.Properties" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatus" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatus.Failed" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatus.InProgress" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatus.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.Error" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.ETag" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.HttpStatusCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.Status" />
+    </Type>
+  </Namespace>
+  <Namespace Name="">
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse/Resource" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.ETag" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.OutputItems" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.Plan" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.ResourceProviderNamespace" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.SchemaVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.SubState" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceGetResponse.Resource.Type" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse/CloudService" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.GeoRegion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.Resources" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse/CloudService/AddOnResource" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.ETag" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.Namespace" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.OutputItems" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.Plan" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.SchemaVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.Status" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.Type" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.UsageLimits" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse/CloudService/AddOnResource/OperationStatus" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.OperationStatus">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.OperationStatus.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.OperationStatus.Error" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.OperationStatus.Result" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.OperationStatus.Type" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse/CloudService/AddOnResource/UsageLimit" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.UsageLimit">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.UsageLimit.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.UsageLimit.AmountIncluded" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.UsageLimit.AmountUsed" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.UsageLimit.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceListResponse.CloudService.AddOnResource.UsageLimit.Unit" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse/ErrorDetails" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.ErrorDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.ErrorDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.ErrorDetails.Code" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse.ErrorDetails.Message" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse/OperationStatus" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatus">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatus.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatus.ResponseDetails" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatus.Status" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse/OperationStatusResponseDetails" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatusResponseDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatusResponseDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatusResponseDetails.Message" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.JobCollectionGetResponse.OperationStatusResponseDetails.StatusCode" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse/ErrorDetails" Id="T:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.ErrorDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.ErrorDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.ErrorDetails.Code" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Scheduler.Models.SchedulerOperationStatusResponse.ErrorDetails.Message" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse/JobHistoryEntry" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.ActionName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.EndTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Message" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.RepeatCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.RetryCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.StartTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Status" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Timestamp" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Scheduler">
+    <Type Name="Microsoft.WindowsAzure.Scheduler.IJobOperations" Id="T:Microsoft.WindowsAzure.Scheduler.IJobOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.CreateAsync(Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.CreateOrUpdateAsync(System.String,Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.GetHistoryAsync(System.String,Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.GetHistoryWithFilterAsync(System.String,Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.ListAsync(Microsoft.WindowsAzure.Scheduler.Models.JobListParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.ListWithFilterAsync(Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.UpdateJobCollectionStateAsync(Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.IJobOperations.UpdateStateAsync(System.String,Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.ISchedulerClient" Id="T:Microsoft.WindowsAzure.Scheduler.ISchedulerClient">
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.CloudServiceName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.JobCollectionName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.Jobs" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.ISchedulerClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions" Id="T:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.Create(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.CreateOrUpdate(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.CreateOrUpdateAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.Delete(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.Get(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.GetHistory(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.GetHistoryAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.GetHistoryWithFilter(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.GetHistoryWithFilterAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.List(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobListParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobListParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.ListWithFilter(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.ListWithFilterAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.UpdateJobCollectionState(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.UpdateJobCollectionStateAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.UpdateState(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.JobOperationsExtensions.UpdateStateAsync(Microsoft.WindowsAzure.Scheduler.IJobOperations,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.SchedulerClient" Id="T:Microsoft.WindowsAzure.Scheduler.SchedulerClient">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.SchedulerClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.SchedulerClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.SchedulerClient.#ctor(System.String,System.String,Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.SchedulerClient.#ctor(System.String,System.String,Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.SchedulerClient.#ctor(System.String,System.String,Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.SchedulerClient.#ctor(System.String,System.String,Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.SchedulerClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Scheduler.SchedulerClient})" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.CloudServiceName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.JobCollectionName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.Jobs" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.SchedulerClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.SchedulerClientExtensions" Id="T:Microsoft.WindowsAzure.Scheduler.SchedulerClientExtensions" />
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Scheduler.Models">
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.AADOAuthAuthentication" Id="T:Microsoft.WindowsAzure.Scheduler.Models.AADOAuthAuthentication">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.AADOAuthAuthentication.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.AADOAuthAuthentication.Audience" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.AADOAuthAuthentication.ClientId" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.AADOAuthAuthentication.Secret" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.AADOAuthAuthentication.Tenant" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.BasicAuthentication" Id="T:Microsoft.WindowsAzure.Scheduler.Models.BasicAuthentication">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.BasicAuthentication.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.BasicAuthentication.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.BasicAuthentication.Password" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.BasicAuthentication.Username" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication" Id="T:Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication.CertificateExpiration" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication.CertificateSubjectName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication.CertificateThumbprint" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication.Password" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.ClientCertAuthentication.Pfx" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.HttpAuthentication" Id="T:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthentication">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthentication.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthentication.Type" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.HttpAuthenticationType" Id="T:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthenticationType">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthenticationType.ActiveDirectoryOAuth" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthenticationType.Basic" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthenticationType.ClientCertificate" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.HttpAuthenticationType.NotSpecified" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.Job" Id="T:Microsoft.WindowsAzure.Scheduler.Models.Job">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.Job.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.Job.#ctor(System.String,Microsoft.WindowsAzure.Scheduler.Models.JobAction)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.Job.Action" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.Job.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.Job.Recurrence" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.Job.StartTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.Job.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.Job.Status" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobAction" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobAction">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobAction.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobAction.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobActionType)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobAction.ErrorAction" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobAction.QueueMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobAction.Request" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobAction.RetryPolicy" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobAction.ServiceBusQueueMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobAction.ServiceBusTopicMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobAction.Type" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobActionType" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobActionType">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobActionType.Http" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobActionType.Https" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobActionType.ServiceBusQueue" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobActionType.ServiceBusTopic" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobActionType.StorageQueue" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobState)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateParameters.State" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateResponse" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCollectionJobsUpdateStateResponse.Jobs" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobAction)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters.Action" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters.Recurrence" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateParameters.StartTime" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateResponse" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateOrUpdateResponse.Job" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobAction)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters.Action" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters.Recurrence" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateParameters.StartTime" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobCreateResponse" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobCreateResponse.Job" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobActionType)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction.QueueMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction.Request" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction.ServiceBusQueueMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction.ServiceBusTopicMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobErrorAction.Type" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters.Skip" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryParameters.Top" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistory" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryWithFilterParameters.Status" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobGetResponse" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetResponse.Job" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobHistoryActionName" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobHistoryActionName">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobHistoryActionName.ErrorAction" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobHistoryActionName.MainAction" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus.Completed" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus.Failed" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus.Postponed" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest.#ctor(System.Uri,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest.Authentication" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest.Body" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest.Headers" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest.Method" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobHttpRequest.Uri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobListParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobListParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobListParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobListParameters.Skip" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobListParameters.Top" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobListResponse" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobListResponse.Jobs" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobState)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobListWithFilterParameters.State" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobQueueMessage" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobQueueMessage">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobQueueMessage.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobQueueMessage.Message" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobQueueMessage.QueueName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobQueueMessage.SasToken" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobQueueMessage.StorageAccountName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence.Count" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence.EndTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence.Frequency" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence.Interval" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrence.Schedule" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency.Day" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency.Hour" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency.Minute" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency.Month" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency.Week" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceFrequency.Year" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule.Days" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule.Hours" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule.Minutes" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule.MonthDays" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule.MonthlyOccurrences" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobRecurrenceSchedule.Months" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay.Friday" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay.Monday" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay.Saturday" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay.Sunday" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay.Thursday" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay.Tuesday" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay.Wednesday" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobScheduleMonthlyOccurrence" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleMonthlyOccurrence">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleMonthlyOccurrence.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleMonthlyOccurrence.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobScheduleDay)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleMonthlyOccurrence.Day" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobScheduleMonthlyOccurrence.Occurrence" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthentication" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthentication">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthentication.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthentication.#ctor(System.String,System.String,Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthenticationType)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthentication.SasKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthentication.SasKeyName" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthentication.Type" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthenticationType" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthenticationType">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthenticationType.NotSpecified" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusAuthenticationType.SharedAccessKey" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.ContentType" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.CorrelationId" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.ForcePersistence" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.MessageId" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.PartitionKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.ReplyTo" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.ReplyToSessionId" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.ScheduledEnqueueTimeUtc" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.SessionId" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.TimeToLive" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.To" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusBrokeredMessageProperties.ViaPartitionKey" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage.Authentication" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage.BrokeredMessageProperties" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage.CustomMessageProperties" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage.Message" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage.Namespace" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusMessage.TransportType" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusQueueMessage" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusQueueMessage">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusQueueMessage.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusQueueMessage.QueueName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTopicMessage" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTopicMessage">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTopicMessage.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTopicMessage.TopicPath" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTransportType" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTransportType">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTransportType.AMQP" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTransportType.NetMessaging" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobServiceBusTransportType.NotSpecified" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobState" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobState">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobState.Completed" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobState.Disabled" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobState.Enabled" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.JobState.Faulted" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobStatus" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobStatus">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobStatus.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobStatus.#ctor(System.Int32)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobStatus.ExecutionCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobStatus.FailureCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobStatus.FaultedCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobStatus.LastExecutionTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobStatus.NextExecutionTime" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters.#ctor(Microsoft.WindowsAzure.Scheduler.Models.JobState)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateParameters.UpdateStateReason" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateResponse" Id="T:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.JobUpdateStateResponse.Job" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.RetryPolicy" Id="T:Microsoft.WindowsAzure.Scheduler.Models.RetryPolicy">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.RetryPolicy.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.RetryPolicy.#ctor(Microsoft.WindowsAzure.Scheduler.Models.RetryType)" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.RetryPolicy.RetryCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.RetryPolicy.RetryInterval" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.RetryPolicy.RetryType" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.RetryType" Id="T:Microsoft.WindowsAzure.Scheduler.Models.RetryType">
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.RetryType.Fixed" />
+      <Member Id="F:Microsoft.WindowsAzure.Scheduler.Models.RetryType.None" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage" Id="T:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage">
+      <Member Id="M:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.ClientRequestId" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.ExecutionTag" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.ExpectedExecutionTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.Message" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.Region" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.SchedulerJobCollectionId" />
+      <Member Id="P:Microsoft.WindowsAzure.Scheduler.Models.StorageQueueMessage.SchedulerJobId" />
+    </Type>
+  </Namespace>
+</Framework>

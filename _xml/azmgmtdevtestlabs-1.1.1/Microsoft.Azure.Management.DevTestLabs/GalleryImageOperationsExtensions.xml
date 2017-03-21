@@ -1,0 +1,133 @@
+<Type Name="GalleryImageOperationsExtensions" FullName="Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class GalleryImageOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GalleryImageOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; List (this Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; odataQuery = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; List(class Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; odataQuery) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions.List(Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;&gt; ListAsync (this Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;&gt; ListAsync(class Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions.ListAsync(Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions/&lt;ListAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; ListNext (this Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt; ListNext(class Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions.ListNext(Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.GalleryImageOperationsExtensions/&lt;ListNextAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.GalleryImage&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IGalleryImageOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

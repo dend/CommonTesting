@@ -1,0 +1,120 @@
+<Type Name="EvaluatePoliciesProperties" FullName="Microsoft.Azure.Management.DevTestLabs.Models.EvaluatePoliciesProperties">
+  <TypeSignature Language="C#" Value="public class EvaluatePoliciesProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EvaluatePoliciesProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.Models.EvaluatePoliciesProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EvaluatePoliciesProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.Models.EvaluatePoliciesProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EvaluatePoliciesProperties (string factName = null, string factData = null, string valueOffset = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string factName, string factData, string valueOffset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.Models.EvaluatePoliciesProperties.#ctor(System.String,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="factName" Type="System.String" />
+        <Parameter Name="factData" Type="System.String" />
+        <Parameter Name="valueOffset" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="factName">To be added.</param>
+        <param name="factData">To be added.</param>
+        <param name="valueOffset">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FactData">
+      <MemberSignature Language="C#" Value="public string FactData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FactData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.EvaluatePoliciesProperties.FactData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="factData")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FactName">
+      <MemberSignature Language="C#" Value="public string FactName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FactName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.EvaluatePoliciesProperties.FactName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="factName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueOffset">
+      <MemberSignature Language="C#" Value="public string ValueOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ValueOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.EvaluatePoliciesProperties.ValueOffset" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="valueOffset")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

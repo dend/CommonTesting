@@ -1,0 +1,50 @@
+<Type Name="ConsentLinkInput" FullName="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput">
+  <TypeSignature Language="C#" Value="public class ConsentLinkInput" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConsentLinkInput extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.64.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConsentLinkInput ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Services">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[] Services { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[] Services" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput.Services" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

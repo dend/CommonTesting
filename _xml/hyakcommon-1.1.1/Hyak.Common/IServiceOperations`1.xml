@@ -1,0 +1,41 @@
+<Type Name="IServiceOperations&lt;TClient&gt;" FullName="Hyak.Common.IServiceOperations&lt;TClient&gt;">
+  <TypeSignature Language="C#" Value="public interface IServiceOperations&lt;TClient&gt; where TClient : ServiceClient&lt;TClient&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServiceOperations`1&lt;(class Hyak.Common.ServiceClient`1&lt;!TClient&gt;) TClient&gt;" />
+  <TypeSignature Language="DocId" Value="T:Hyak.Common.IServiceOperations`1" />
+  <AssemblyInfo>
+    <AssemblyName>Hyak.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TClient">
+      <Constraints>
+        <BaseTypeName>Hyak.Common.ServiceClient&lt;TClient&gt;</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TClient">To be added.</typeparam>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Client">
+      <MemberSignature Language="C#" Value="public TClient Client { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TClient Client" />
+      <MemberSignature Language="DocId" Value="P:Hyak.Common.IServiceOperations`1.Client" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TClient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

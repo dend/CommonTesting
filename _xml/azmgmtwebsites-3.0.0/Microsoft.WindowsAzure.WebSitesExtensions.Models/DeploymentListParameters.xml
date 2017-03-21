@@ -1,0 +1,75 @@
+<Type Name="DeploymentListParameters" FullName="Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListParameters">
+  <TypeSignature Language="C#" Value="public class DeploymentListParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeploymentListParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Get Web Site operation parameters.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeploymentListParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListParameters.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DeploymentListParameters class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public string OrderBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListParameters.OrderBy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The order by query criteria.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public string Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.Models.DeploymentListParameters.Top" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The top query criteria.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

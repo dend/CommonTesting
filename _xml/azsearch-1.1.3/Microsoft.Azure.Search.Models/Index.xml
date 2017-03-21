@@ -1,0 +1,234 @@
+<Type Name="Index" FullName="Microsoft.Azure.Search.Models.Index">
+  <TypeSignature Language="C#" Value="public class Index" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Index extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.Index" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an index definition in Azure Search, which describes the
+            fields and search behavior of an index.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Index ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.Index.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the Index class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Index (string name, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt; fields, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt; scoringProfiles = null, string defaultScoringProfile = null, Microsoft.Azure.Search.Models.CorsOptions corsOptions = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt; suggesters = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Field&gt; fields, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.ScoringProfile&gt; scoringProfiles, string defaultScoringProfile, class Microsoft.Azure.Search.Models.CorsOptions corsOptions, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Suggester&gt; suggesters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.Index.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Field},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.ScoringProfile},System.String,Microsoft.Azure.Search.Models.CorsOptions,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Suggester})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="fields" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt;" />
+        <Parameter Name="scoringProfiles" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt;" />
+        <Parameter Name="defaultScoringProfile" Type="System.String" />
+        <Parameter Name="corsOptions" Type="Microsoft.Azure.Search.Models.CorsOptions" />
+        <Parameter Name="suggesters" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="fields">To be added.</param>
+        <param name="scoringProfiles">To be added.</param>
+        <param name="defaultScoringProfile">To be added.</param>
+        <param name="corsOptions">To be added.</param>
+        <param name="suggesters">To be added.</param>
+        <summary>
+            Initializes a new instance of the Index class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CorsOptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Search.Models.CorsOptions CorsOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Search.Models.CorsOptions CorsOptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.CorsOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="corsOptions")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Search.Models.CorsOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets options to control Cross-Origin Resource Sharing
+            (CORS) for the index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultScoringProfile">
+      <MemberSignature Language="C#" Value="public string DefaultScoringProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultScoringProfile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.DefaultScoringProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="defaultScoringProfile")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the scoring profile to use if none is
+            specified in the query. If this property is not set and no
+            scoring profile is specified in the query, then default scoring
+            (tf-idf) will be used.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fields">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt; Fields { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Field&gt; Fields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Fields" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="fields")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the fields of the index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="name")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the name of the index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScoringProfiles">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt; ScoringProfiles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.ScoringProfile&gt; ScoringProfiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.ScoringProfiles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="scoringProfiles")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the scoring profiles for the index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Suggesters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt; Suggesters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Suggester&gt; Suggesters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Suggesters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="suggesters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the suggesters for the index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.Index.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object. Throws ArgumentException or ArgumentNullException if validation fails.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

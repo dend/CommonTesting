@@ -1,0 +1,96 @@
+<Type Name="PowerShellSessionResources" FullName="Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResources">
+  <TypeSignature Language="C#" Value="public class PowerShellSessionResources" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PowerShellSessionResources extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResources" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ServerManagement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PowerShellSessionResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResources.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PowerShellSessionResources (System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResource&gt; value = null, string nextLink = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResource&gt; value, string nextLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResources.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResource},System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResource&gt;" />
+        <Parameter Name="nextLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="nextLink">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextLink">
+      <MemberSignature Language="C#" Value="public string NextLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NextLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResources.NextLink" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="nextLink")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResource&gt; Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResource&gt; Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResources.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="value")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellSessionResource&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

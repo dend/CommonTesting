@@ -1,0 +1,624 @@
+<Type Name="X12EnvelopeSettings" FullName="Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings">
+  <TypeSignature Language="C#" Value="public class X12EnvelopeSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit X12EnvelopeSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12EnvelopeSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12EnvelopeSettings (Nullable&lt;int&gt; controlStandardsId = null, Nullable&lt;bool&gt; useControlStandardsIdAsRepetitionCharacter = null, string senderApplicationId = null, string receiverApplicationId = null, string controlVersionNumber = null, Nullable&lt;int&gt; interchangeControlNumberLowerBound = null, Nullable&lt;int&gt; interchangeControlNumberUpperBound = null, Nullable&lt;bool&gt; rolloverInterchangeControlNumber = null, Nullable&lt;bool&gt; enableDefaultGroupHeaders = null, string functionalGroupId = null, Nullable&lt;int&gt; groupControlNumberLowerBound = null, Nullable&lt;int&gt; groupControlNumberUpperBound = null, Nullable&lt;bool&gt; rolloverGroupControlNumber = null, string groupHeaderAgencyCode = null, string groupHeaderVersion = null, Nullable&lt;int&gt; transactionSetControlNumberLowerBound = null, Nullable&lt;int&gt; transactionSetControlNumberUpperBound = null, Nullable&lt;bool&gt; rolloverTransactionSetControlNumber = null, string transactionSetControlNumberPrefix = null, string transactionSetControlNumberSuffix = null, Nullable&lt;bool&gt; overwriteExistingTransactionSetControlNumber = null, Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12DateFormat&gt; groupHeaderDateFormat = null, Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12TimeFormat&gt; groupHeaderTimeFormat = null, Nullable&lt;Microsoft.Azure.Management.Logic.Models.UsageIndicator&gt; usageIndicator = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;int32&gt; controlStandardsId, valuetype System.Nullable`1&lt;bool&gt; useControlStandardsIdAsRepetitionCharacter, string senderApplicationId, string receiverApplicationId, string controlVersionNumber, valuetype System.Nullable`1&lt;int32&gt; interchangeControlNumberLowerBound, valuetype System.Nullable`1&lt;int32&gt; interchangeControlNumberUpperBound, valuetype System.Nullable`1&lt;bool&gt; rolloverInterchangeControlNumber, valuetype System.Nullable`1&lt;bool&gt; enableDefaultGroupHeaders, string functionalGroupId, valuetype System.Nullable`1&lt;int32&gt; groupControlNumberLowerBound, valuetype System.Nullable`1&lt;int32&gt; groupControlNumberUpperBound, valuetype System.Nullable`1&lt;bool&gt; rolloverGroupControlNumber, string groupHeaderAgencyCode, string groupHeaderVersion, valuetype System.Nullable`1&lt;int32&gt; transactionSetControlNumberLowerBound, valuetype System.Nullable`1&lt;int32&gt; transactionSetControlNumberUpperBound, valuetype System.Nullable`1&lt;bool&gt; rolloverTransactionSetControlNumber, string transactionSetControlNumberPrefix, string transactionSetControlNumberSuffix, valuetype System.Nullable`1&lt;bool&gt; overwriteExistingTransactionSetControlNumber, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Logic.Models.X12DateFormat&gt; groupHeaderDateFormat, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Logic.Models.X12TimeFormat&gt; groupHeaderTimeFormat, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Logic.Models.UsageIndicator&gt; usageIndicator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.#ctor(System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{Microsoft.Azure.Management.Logic.Models.X12DateFormat},System.Nullable{Microsoft.Azure.Management.Logic.Models.X12TimeFormat},System.Nullable{Microsoft.Azure.Management.Logic.Models.UsageIndicator})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="controlStandardsId" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="useControlStandardsIdAsRepetitionCharacter" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="senderApplicationId" Type="System.String" />
+        <Parameter Name="receiverApplicationId" Type="System.String" />
+        <Parameter Name="controlVersionNumber" Type="System.String" />
+        <Parameter Name="interchangeControlNumberLowerBound" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="interchangeControlNumberUpperBound" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="rolloverInterchangeControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="enableDefaultGroupHeaders" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="functionalGroupId" Type="System.String" />
+        <Parameter Name="groupControlNumberLowerBound" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="groupControlNumberUpperBound" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="rolloverGroupControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="groupHeaderAgencyCode" Type="System.String" />
+        <Parameter Name="groupHeaderVersion" Type="System.String" />
+        <Parameter Name="transactionSetControlNumberLowerBound" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="transactionSetControlNumberUpperBound" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="rolloverTransactionSetControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="transactionSetControlNumberPrefix" Type="System.String" />
+        <Parameter Name="transactionSetControlNumberSuffix" Type="System.String" />
+        <Parameter Name="overwriteExistingTransactionSetControlNumber" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="groupHeaderDateFormat" Type="System.Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12DateFormat&gt;" />
+        <Parameter Name="groupHeaderTimeFormat" Type="System.Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12TimeFormat&gt;" />
+        <Parameter Name="usageIndicator" Type="System.Nullable&lt;Microsoft.Azure.Management.Logic.Models.UsageIndicator&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="controlStandardsId">To be added.</param>
+        <param name="useControlStandardsIdAsRepetitionCharacter">To be added.</param>
+        <param name="senderApplicationId">To be added.</param>
+        <param name="receiverApplicationId">To be added.</param>
+        <param name="controlVersionNumber">To be added.</param>
+        <param name="interchangeControlNumberLowerBound">To be added.</param>
+        <param name="interchangeControlNumberUpperBound">To be added.</param>
+        <param name="rolloverInterchangeControlNumber">To be added.</param>
+        <param name="enableDefaultGroupHeaders">To be added.</param>
+        <param name="functionalGroupId">To be added.</param>
+        <param name="groupControlNumberLowerBound">To be added.</param>
+        <param name="groupControlNumberUpperBound">To be added.</param>
+        <param name="rolloverGroupControlNumber">To be added.</param>
+        <param name="groupHeaderAgencyCode">To be added.</param>
+        <param name="groupHeaderVersion">To be added.</param>
+        <param name="transactionSetControlNumberLowerBound">To be added.</param>
+        <param name="transactionSetControlNumberUpperBound">To be added.</param>
+        <param name="rolloverTransactionSetControlNumber">To be added.</param>
+        <param name="transactionSetControlNumberPrefix">To be added.</param>
+        <param name="transactionSetControlNumberSuffix">To be added.</param>
+        <param name="overwriteExistingTransactionSetControlNumber">To be added.</param>
+        <param name="groupHeaderDateFormat">To be added.</param>
+        <param name="groupHeaderTimeFormat">To be added.</param>
+        <param name="usageIndicator">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlStandardsId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ControlStandardsId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ControlStandardsId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.ControlStandardsId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="controlStandardsId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ControlVersionNumber">
+      <MemberSignature Language="C#" Value="public string ControlVersionNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlVersionNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.ControlVersionNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="controlVersionNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableDefaultGroupHeaders">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; EnableDefaultGroupHeaders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; EnableDefaultGroupHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.EnableDefaultGroupHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableDefaultGroupHeaders")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionalGroupId">
+      <MemberSignature Language="C#" Value="public string FunctionalGroupId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FunctionalGroupId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.FunctionalGroupId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="functionalGroupId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupControlNumberLowerBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; GroupControlNumberLowerBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; GroupControlNumberLowerBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.GroupControlNumberLowerBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupControlNumberLowerBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupControlNumberUpperBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; GroupControlNumberUpperBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; GroupControlNumberUpperBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.GroupControlNumberUpperBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupControlNumberUpperBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupHeaderAgencyCode">
+      <MemberSignature Language="C#" Value="public string GroupHeaderAgencyCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupHeaderAgencyCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.GroupHeaderAgencyCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupHeaderAgencyCode")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupHeaderDateFormat">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12DateFormat&gt; GroupHeaderDateFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Logic.Models.X12DateFormat&gt; GroupHeaderDateFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.GroupHeaderDateFormat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupHeaderDateFormat")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12DateFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupHeaderTimeFormat">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12TimeFormat&gt; GroupHeaderTimeFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Logic.Models.X12TimeFormat&gt; GroupHeaderTimeFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.GroupHeaderTimeFormat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupHeaderTimeFormat")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Logic.Models.X12TimeFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupHeaderVersion">
+      <MemberSignature Language="C#" Value="public string GroupHeaderVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupHeaderVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.GroupHeaderVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="groupHeaderVersion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterchangeControlNumberLowerBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; InterchangeControlNumberLowerBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; InterchangeControlNumberLowerBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.InterchangeControlNumberLowerBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interchangeControlNumberLowerBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterchangeControlNumberUpperBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; InterchangeControlNumberUpperBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; InterchangeControlNumberUpperBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.InterchangeControlNumberUpperBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interchangeControlNumberUpperBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OverwriteExistingTransactionSetControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; OverwriteExistingTransactionSetControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; OverwriteExistingTransactionSetControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.OverwriteExistingTransactionSetControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="overwriteExistingTransactionSetControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiverApplicationId">
+      <MemberSignature Language="C#" Value="public string ReceiverApplicationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReceiverApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.ReceiverApplicationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="receiverApplicationId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RolloverGroupControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; RolloverGroupControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; RolloverGroupControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.RolloverGroupControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="rolloverGroupControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RolloverInterchangeControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; RolloverInterchangeControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; RolloverInterchangeControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.RolloverInterchangeControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="rolloverInterchangeControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RolloverTransactionSetControlNumber">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; RolloverTransactionSetControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; RolloverTransactionSetControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.RolloverTransactionSetControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="rolloverTransactionSetControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderApplicationId">
+      <MemberSignature Language="C#" Value="public string SenderApplicationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SenderApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.SenderApplicationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="senderApplicationId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberLowerBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TransactionSetControlNumberLowerBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TransactionSetControlNumberLowerBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.TransactionSetControlNumberLowerBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberLowerBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberPrefix">
+      <MemberSignature Language="C#" Value="public string TransactionSetControlNumberPrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TransactionSetControlNumberPrefix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.TransactionSetControlNumberPrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberPrefix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberSuffix">
+      <MemberSignature Language="C#" Value="public string TransactionSetControlNumberSuffix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TransactionSetControlNumberSuffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.TransactionSetControlNumberSuffix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberSuffix")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransactionSetControlNumberUpperBound">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TransactionSetControlNumberUpperBound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TransactionSetControlNumberUpperBound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.TransactionSetControlNumberUpperBound" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="transactionSetControlNumberUpperBound")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageIndicator">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Logic.Models.UsageIndicator&gt; UsageIndicator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Logic.Models.UsageIndicator&gt; UsageIndicator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.UsageIndicator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="usageIndicator")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Logic.Models.UsageIndicator&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseControlStandardsIdAsRepetitionCharacter">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; UseControlStandardsIdAsRepetitionCharacter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; UseControlStandardsIdAsRepetitionCharacter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12EnvelopeSettings.UseControlStandardsIdAsRepetitionCharacter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="useControlStandardsIdAsRepetitionCharacter")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

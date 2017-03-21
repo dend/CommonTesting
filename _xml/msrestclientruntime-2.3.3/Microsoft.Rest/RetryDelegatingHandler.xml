@@ -1,0 +1,114 @@
+<Type Name="RetryDelegatingHandler" FullName="Microsoft.Rest.RetryDelegatingHandler">
+  <TypeSignature Language="C#" Value="public class RetryDelegatingHandler : System.Net.Http.DelegatingHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RetryDelegatingHandler extends System.Net.Http.DelegatingHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rest.RetryDelegatingHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rest.ClientRuntime</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Net.Http.DelegatingHandler</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetryDelegatingHandler ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.RetryDelegatingHandler.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetryDelegatingHandler (System.Net.Http.DelegatingHandler innerHandler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Net.Http.DelegatingHandler innerHandler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.RetryDelegatingHandler.#ctor(System.Net.Http.DelegatingHandler)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="innerHandler" Type="System.Net.Http.DelegatingHandler" />
+      </Parameters>
+      <Docs>
+        <param name="innerHandler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetryDelegatingHandler (Microsoft.Rest.TransientFaultHandling.RetryPolicy retryPolicy, System.Net.Http.DelegatingHandler innerHandler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Rest.TransientFaultHandling.RetryPolicy retryPolicy, class System.Net.Http.DelegatingHandler innerHandler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.RetryDelegatingHandler.#ctor(Microsoft.Rest.TransientFaultHandling.RetryPolicy,System.Net.Http.DelegatingHandler)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="retryPolicy" Type="Microsoft.Rest.TransientFaultHandling.RetryPolicy" />
+        <Parameter Name="innerHandler" Type="System.Net.Http.DelegatingHandler" />
+      </Parameters>
+      <Docs>
+        <param name="retryPolicy">To be added.</param>
+        <param name="innerHandler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Rest.TransientFaultHandling.RetryPolicy RetryPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Rest.TransientFaultHandling.RetryPolicy RetryPolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Rest.RetryDelegatingHandler.RetryPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.TransientFaultHandling.RetryPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAsync">
+      <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; SendAsync (System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; SendAsync(class System.Net.Http.HttpRequestMessage request, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rest.RetryDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Rest.RetryDelegatingHandler/&lt;SendAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

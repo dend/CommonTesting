@@ -1,0 +1,78 @@
+<Type Name="DiagnosticsSpecification" FullName="Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification">
+  <TypeSignature Language="C#" Value="public class DiagnosticsSpecification" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiagnosticsSpecification extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning.Management</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents the settings controlling runtime diagnostics collection
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiagnosticsSpecification (string connectionString, Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel traceLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString, valuetype Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel traceLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification.#ctor(System.String,Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="traceLevel" Type="Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">To be added.</param>
+        <param name="traceLevel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionString">
+      <MemberSignature Language="C#" Value="public string ConnectionString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification.ConnectionString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The connection string for the storage account where to store the diagnostic blobs to
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel TraceLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel TraceLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification.TraceLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The tracing level to be enabled for diagnostic collecting
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

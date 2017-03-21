@@ -1,0 +1,117 @@
+<Type Name="UriUtility" FullName="EMA.Common.UriUtility">
+  <TypeSignature Language="C#" Value="public static class UriUtility" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit UriUtility extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:EMA.Common.UriUtility" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.52.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AppendFormat">
+      <MemberSignature Language="C#" Value="public static Uri AppendFormat (this Uri x, string format, object[] args);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Uri AppendFormat(class System.Uri x, string format, object[] args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:EMA.Common.UriUtility.AppendFormat(System.Uri,System.String,System.Object[])" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Uri" RefType="this" />
+        <Parameter Name="format" Type="System.String" />
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="format">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppendQuery">
+      <MemberSignature Language="C#" Value="public static Uri AppendQuery (this Uri uri, string queryName, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Uri AppendQuery(class System.Uri uri, string queryName, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:EMA.Common.UriUtility.AppendQuery(System.Uri,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uri" Type="System.Uri" RefType="this" />
+        <Parameter Name="queryName" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uri">To be added.</param>
+        <param name="queryName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHostNameWithoutPort">
+      <MemberSignature Language="C#" Value="public static Uri GetHostNameWithoutPort (this Uri x);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Uri GetHostNameWithoutPort(class System.Uri x) cil managed" />
+      <MemberSignature Language="DocId" Value="M:EMA.Common.UriUtility.GetHostNameWithoutPort(System.Uri)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Uri" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHostNameWithPort">
+      <MemberSignature Language="C#" Value="public static Uri GetHostNameWithPort (this Uri x);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Uri GetHostNameWithPort(class System.Uri x) cil managed" />
+      <MemberSignature Language="DocId" Value="M:EMA.Common.UriUtility.GetHostNameWithPort(System.Uri)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Uri" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

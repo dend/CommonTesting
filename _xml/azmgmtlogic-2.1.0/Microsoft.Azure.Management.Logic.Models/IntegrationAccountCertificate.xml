@@ -1,0 +1,200 @@
+<Type Name="IntegrationAccountCertificate" FullName="Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate">
+  <TypeSignature Language="C#" Value="public class IntegrationAccountCertificate : Microsoft.Azure.Management.Logic.Models.Resource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IntegrationAccountCertificate extends Microsoft.Azure.Management.Logic.Models.Resource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Logic.Models.Resource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IntegrationAccountCertificate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IntegrationAccountCertificate (string id = null, string name = null, string type = null, string location = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, Nullable&lt;DateTime&gt; createdTime = null, Nullable&lt;DateTime&gt; changedTime = null, object metadata = null, Microsoft.Azure.Management.Logic.Models.KeyVaultKeyReference key = null, string publicCertificate = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string name, string type, string location, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; createdTime, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; changedTime, object metadata, class Microsoft.Azure.Management.Logic.Models.KeyVaultKeyReference key, string publicCertificate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Object,Microsoft.Azure.Management.Logic.Models.KeyVaultKeyReference,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="type" Type="System.String" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="createdTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="changedTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="metadata" Type="System.Object" />
+        <Parameter Name="key" Type="Microsoft.Azure.Management.Logic.Models.KeyVaultKeyReference" />
+        <Parameter Name="publicCertificate" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="location">To be added.</param>
+        <param name="tags">To be added.</param>
+        <param name="createdTime">To be added.</param>
+        <param name="changedTime">To be added.</param>
+        <param name="metadata">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="publicCertificate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangedTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ChangedTime { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ChangedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.ChangedTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.changedTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreatedTime { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreatedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.CreatedTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.createdTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.KeyVaultKeyReference Key { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Logic.Models.KeyVaultKeyReference Key" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.Key" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.key")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.KeyVaultKeyReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Metadata">
+      <MemberSignature Language="C#" Value="public object Metadata { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Metadata" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.Metadata" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.metadata")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicCertificate">
+      <MemberSignature Language="C#" Value="public string PublicCertificate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PublicCertificate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.PublicCertificate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.publicCertificate")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.IntegrationAccountCertificate.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

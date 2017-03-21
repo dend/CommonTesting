@@ -1,0 +1,78 @@
+<Type Name="MicroserviceUpdatePolicy" FullName="Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy">
+  <TypeSignature Language="C#" Value="public enum MicroserviceUpdatePolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MicroserviceUpdatePolicy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.52.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="Auto" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy Auto = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Auto" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy Disabled = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Inherited">
+      <MemberSignature Language="C#" Value="Inherited" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy Inherited = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Inherited" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Manual">
+      <MemberSignature Language="C#" Value="Manual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy Manual = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Manual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

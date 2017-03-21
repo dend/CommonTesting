@@ -1,0 +1,520 @@
+<Type Name="ComputeManagementClient" FullName="Microsoft.Azure.Management.Compute.ComputeManagementClient">
+  <TypeSignature Language="C#" Value="public class ComputeManagementClient : Hyak.Common.ServiceClient&lt;Microsoft.Azure.Management.Compute.ComputeManagementClient&gt;, IDisposable, Microsoft.Azure.Management.Compute.IComputeManagementClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ComputeManagementClient extends Hyak.Common.ServiceClient`1&lt;class Microsoft.Azure.Management.Compute.ComputeManagementClient&gt; implements class Microsoft.Azure.Management.Compute.IComputeManagementClient, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.ComputeManagementClient" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Hyak.Common.ServiceClient&lt;Microsoft.Azure.Management.Compute.ComputeManagementClient&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">Microsoft.Azure.Management.Compute.ComputeManagementClient</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.Compute.IComputeManagementClient</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            The Compute Management Client.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeManagementClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ComputeManagementClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <summary>
+            Initializes a new instance of the ComputeManagementClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeManagementClient (System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the ComputeManagementClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the ComputeManagementClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, Uri baseUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Uri baseUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="baseUri">
+            Optional. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <summary>
+            Initializes a new instance of the ComputeManagementClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ComputeManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, Uri baseUri, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Uri baseUri, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="baseUri">
+            Optional. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the ComputeManagementClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersion">
+      <MemberSignature Language="C#" Value="public string ApiVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.ApiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the API version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvailabilitySets">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.Compute.IAvailabilitySetOperations AvailabilitySets { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.IAvailabilitySetOperations AvailabilitySets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.IAvailabilitySetOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the availability sets in compute management.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUri">
+      <MemberSignature Language="C#" Value="public Uri BaseUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BaseUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the URI used as the base for all cloud service requests.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="protected override void Clone (Hyak.Common.ServiceClient&lt;Microsoft.Azure.Management.Compute.ComputeManagementClient&gt; client);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Clone(class Hyak.Common.ServiceClient`1&lt;class Microsoft.Azure.Management.Compute.ComputeManagementClient&gt; client) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Hyak.Common.ServiceClient&lt;Microsoft.Azure.Management.Compute.ComputeManagementClient&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="client">
+            Instance of ComputeManagementClient to clone to
+            </param>
+        <summary>
+            Clones properties from current instance to another
+            ComputeManagementClient instance
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.SubscriptionCloudCredentials Credentials { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.SubscriptionCloudCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.SubscriptionCloudCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets subscription credentials which uniquely identify Microsoft
+            Azure subscription. The subscription ID forms part of the URI for
+            every service call.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDeleteOperationStatusAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse&gt; GetDeleteOperationStatusAsync (string operationStatusLink, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse&gt; GetDeleteOperationStatusAsync(string operationStatusLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.GetDeleteOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.ComputeManagementClient/&lt;GetDeleteOperationStatusAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operationStatusLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operationStatusLink">
+            Required. Location value returned by the Begin operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            The Get Delete Operation Status operation returns the status of the
+            specified operation. After calling an asynchronous operation, you
+            can call GetDeleteOperationStatus to determine whether the
+            operation has succeeded, failed, or is still in progress.
+            </summary>
+        <returns>
+            The compute long running operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLongRunningOperationStatusAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.ComputeLongRunningOperationResponse&gt; GetLongRunningOperationStatusAsync (string operationStatusLink, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.ComputeLongRunningOperationResponse&gt; GetLongRunningOperationStatusAsync(string operationStatusLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.ComputeManagementClient.GetLongRunningOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.ComputeManagementClient/&lt;GetLongRunningOperationStatusAsync&gt;d__f))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.ComputeLongRunningOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operationStatusLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operationStatusLink">
+            Required. Location value returned by the Begin operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            The Get Operation Status operation returns the status of the
+            specified operation. After calling an asynchronous operation, you
+            can call GetLongRunningOperationStatus to determine whether the
+            operation has succeeded, failed, or is still in progress.
+            </summary>
+        <returns>
+            The Compute service response for long-running operations.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationInitialTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationInitialTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationInitialTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationInitialTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the initial timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationRetryTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationRetryTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationRetryTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the retry timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Usage">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.Compute.IUsageOperations Usage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.IUsageOperations Usage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.IUsageOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for listing usage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineExtensionImages">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations VirtualMachineExtensionImages { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations VirtualMachineExtensionImages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImageOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the virtual machine extension images in
+            compute management.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineExtensions">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.Compute.IVirtualMachineExtensionOperations VirtualMachineExtensions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.IVirtualMachineExtensionOperations VirtualMachineExtensions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.IVirtualMachineExtensionOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the virtual machine extensions in compute
+            management.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineImages">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations VirtualMachineImages { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations VirtualMachineImages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the virtual machine images in compute
+            management.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachines">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.Compute.IVirtualMachineOperations VirtualMachines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.IVirtualMachineOperations VirtualMachines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.IVirtualMachineOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the virtual machines in compute management.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineSizes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.Compute.IVirtualMachineSizeOperations VirtualMachineSizes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.IVirtualMachineSizeOperations VirtualMachineSizes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.IVirtualMachineSizeOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for listing virtual machine sizes available in a region.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

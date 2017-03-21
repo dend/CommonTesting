@@ -1,0 +1,693 @@
+<Type Name="Runtime" FullName="Microsoft.Azure.AppService.ApiApps.Service.Runtime">
+  <TypeSignature Language="C#" Value="public class Runtime" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Runtime extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.Runtime" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.64.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Runtime (Uri runtimeUrl, string microserviceId, byte[] gatewayKey, System.Net.Http.HttpClient httpClient = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri runtimeUrl, string microserviceId, unsigned int8[] gatewayKey, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.#ctor(System.Uri,System.String,System.Byte[],System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="runtimeUrl" Type="System.Uri" />
+        <Parameter Name="microserviceId" Type="System.String" />
+        <Parameter Name="gatewayKey" Type="System.Byte[]" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="runtimeUrl">To be added.</param>
+        <param name="microserviceId">To be added.</param>
+        <param name="gatewayKey">To be added.</param>
+        <param name="httpClient">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Runtime (Uri runtimeUrl, string microserviceId, byte[] gatewayKey, int maxRetries, int retryInterval);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri runtimeUrl, string microserviceId, unsigned int8[] gatewayKey, int32 maxRetries, int32 retryInterval) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.#ctor(System.Uri,System.String,System.Byte[],System.Int32,System.Int32)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("This constructor is obsolete. Custom retry behavior should be handled with a custom HttpClient.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
+        <Parameter Name="runtimeUrl" Type="System.Uri" />
+        <Parameter Name="microserviceId" Type="System.String" />
+        <Parameter Name="gatewayKey" Type="System.Byte[]" />
+        <Parameter Name="maxRetries" Type="System.Int32" />
+        <Parameter Name="retryInterval" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="runtimeUrl">To be added.</param>
+        <param name="microserviceId">To be added.</param>
+        <param name="gatewayKey">To be added.</param>
+        <param name="maxRetries">To be added.</param>
+        <param name="retryInterval">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_gatewayKey">
+      <MemberSignature Language="C#" Value="public byte[] _gatewayKey;" />
+      <MemberSignature Language="ILAsm" Value=".field public unsigned int8[] _gatewayKey" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime._gatewayKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersionField">
+      <MemberSignature Language="C#" Value="public static readonly string ApiVersionField;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string ApiVersionField" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.ApiVersionField" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersionValue">
+      <MemberSignature Language="C#" Value="public static readonly string ApiVersionValue;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string ApiVersionValue" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.ApiVersionValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CorrelationId">
+      <MemberSignature Language="C#" Value="public string CorrelationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CorrelationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.CorrelationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateNewUserAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo&gt; CreateNewUserAsync (Newtonsoft.Json.Linq.JObject claims = null, string tokenId = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo&gt; CreateNewUserAsync(class Newtonsoft.Json.Linq.JObject claims, string tokenId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.CreateNewUserAsync(Newtonsoft.Json.Linq.JObject,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;CreateNewUserAsync&gt;d__4d))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="claims" Type="Newtonsoft.Json.Linq.JObject" />
+        <Parameter Name="tokenId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="claims">To be added.</param>
+        <param name="tokenId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentUser">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo CurrentUser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo CurrentUser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.CurrentUser" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiagnosticsCorrelationHeaderName">
+      <MemberSignature Language="C#" Value="public static readonly string DiagnosticsCorrelationHeaderName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string DiagnosticsCorrelationHeaderName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.DiagnosticsCorrelationHeaderName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromAppSettings">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AppService.ApiApps.Service.Runtime FromAppSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AppService.ApiApps.Service.Runtime FromAppSettings() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.FromAppSettings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Runtime</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromAppSettings">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AppService.ApiApps.Service.Runtime FromAppSettings (System.Collections.Specialized.NameValueCollection headers);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AppService.ApiApps.Service.Runtime FromAppSettings(class System.Collections.Specialized.NameValueCollection headers) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.FromAppSettings(System.Collections.Specialized.NameValueCollection)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Runtime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="headers" Type="System.Collections.Specialized.NameValueCollection" />
+      </Parameters>
+      <Docs>
+        <param name="headers">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromAppSettings">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AppService.ApiApps.Service.Runtime FromAppSettings (System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AppService.ApiApps.Service.Runtime FromAppSettings(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.FromAppSettings(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Runtime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetApiDefinitionAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult&gt; GetApiDefinitionAsync (string service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult&gt; GetApiDefinitionAsync(string service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetApiDefinitionAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetApiDefinitionAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult&gt; GetApiDefinitionAsync (string service, Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType format);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult&gt; GetApiDefinitionAsync(string service, valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType format) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetApiDefinitionAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;GetApiDefinitionAsync&gt;d__43))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="format" Type="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <param name="format">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUrlAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Uri&gt; GetUrlAsync (string service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Uri&gt; GetUrlAsync(string service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetUrlAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;GetUrlAsync&gt;d__a))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Uri&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserFromToken">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo GetUserFromToken (string authToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo GetUserFromToken(string authToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetUserFromToken(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="authToken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="authToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JToken&gt; InvokeAsync (string service, string nickName, Newtonsoft.Json.Linq.JObject arguments, bool diagnostic = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Newtonsoft.Json.Linq.JToken&gt; InvokeAsync(string service, string nickName, class Newtonsoft.Json.Linq.JObject arguments, bool diagnostic) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.InvokeAsync(System.String,System.String,Newtonsoft.Json.Linq.JObject,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;InvokeAsync&gt;d__34))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JToken&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="nickName" Type="System.String" />
+        <Parameter Name="arguments" Type="Newtonsoft.Json.Linq.JObject" />
+        <Parameter Name="diagnostic" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <param name="nickName">To be added.</param>
+        <param name="arguments">To be added.</param>
+        <param name="diagnostic">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokePushTriggerAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task InvokePushTriggerAsync (string service, string triggerName, string triggerId, Newtonsoft.Json.Linq.JObject parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task InvokePushTriggerAsync(string service, string triggerName, string triggerId, class Newtonsoft.Json.Linq.JObject parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.InvokePushTriggerAsync(System.String,System.String,System.String,Newtonsoft.Json.Linq.JObject)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;InvokePushTriggerAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="triggerName" Type="System.String" />
+        <Parameter Name="triggerId" Type="System.String" />
+        <Parameter Name="parameters" Type="Newtonsoft.Json.Linq.JObject" />
+      </Parameters>
+      <Docs>
+        <param name="service">To be added.</param>
+        <param name="triggerName">To be added.</param>
+        <param name="triggerId">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsolatedStorage">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage IsolatedStorage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage IsolatedStorage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.IsolatedStorage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Management">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.AppService.ApiApps.Service.Management Management { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.AppService.ApiApps.Service.Management Management" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.Management" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Management</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MicroserviceId">
+      <MemberSignature Language="C#" Value="public string MicroserviceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MicroserviceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.MicroserviceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuntimeUrl">
+      <MemberSignature Language="C#" Value="public Uri RuntimeUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri RuntimeUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.RuntimeUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuntimeUserAgent">
+      <MemberSignature Language="C#" Value="public static readonly string RuntimeUserAgent;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string RuntimeUserAgent" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.RuntimeUserAgent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceIdentityHeader">
+      <MemberSignature Language="C#" Value="public static readonly string ServiceIdentityHeader;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string ServiceIdentityHeader" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.ServiceIdentityHeader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignHttpRequest">
+      <MemberSignature Language="C#" Value="public void SignHttpRequest (System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SignHttpRequest(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignHttpRequest(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignHttpRequestNoApiVersion">
+      <MemberSignature Language="C#" Value="public void SignHttpRequestNoApiVersion (System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SignHttpRequestNoApiVersion(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignHttpRequestNoApiVersion(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignOAuth1Async">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;byte[]&gt; SignOAuth1Async (Microsoft.Azure.AppService.ApiApps.Service.TokenResult token, byte[] payloadToSign, System.Net.Http.HttpMessageHandler handler = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; SignOAuth1Async(class Microsoft.Azure.AppService.ApiApps.Service.TokenResult token, unsigned int8[] payloadToSign, class System.Net.Http.HttpMessageHandler handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignOAuth1Async(Microsoft.Azure.AppService.ApiApps.Service.TokenResult,System.Byte[],System.Net.Http.HttpMessageHandler)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;SignOAuth1Async&gt;d__2b))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Byte[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="Microsoft.Azure.AppService.ApiApps.Service.TokenResult" />
+        <Parameter Name="payloadToSign" Type="System.Byte[]" />
+        <Parameter Name="handler" Type="System.Net.Http.HttpMessageHandler" />
+      </Parameters>
+      <Docs>
+        <param name="token">To be added.</param>
+        <param name="payloadToSign">To be added.</param>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignOAuth1Async">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; SignOAuth1Async (string consumerKey, byte[] payloadToSign, string accessTokenSecret);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; SignOAuth1Async(string consumerKey, unsigned int8[] payloadToSign, string accessTokenSecret) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignOAuth1Async(System.String,System.Byte[],System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;SignOAuth1Async&gt;d__1a))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Byte[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="consumerKey" Type="System.String" />
+        <Parameter Name="payloadToSign" Type="System.Byte[]" />
+        <Parameter Name="accessTokenSecret" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="consumerKey">To be added.</param>
+        <param name="payloadToSign">To be added.</param>
+        <param name="accessTokenSecret">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignOAuth1Async">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;byte[]&gt; SignOAuth1Async (string consentServerUri, string consumerKey, byte[] payloadToSign, string accessTokenSecret);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; SignOAuth1Async(string consentServerUri, string consumerKey, unsigned int8[] payloadToSign, string accessTokenSecret) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignOAuth1Async(System.String,System.String,System.Byte[],System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Obsolete</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.Runtime/&lt;SignOAuth1Async&gt;d__21))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Byte[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="consentServerUri" Type="System.String" />
+        <Parameter Name="consumerKey" Type="System.String" />
+        <Parameter Name="payloadToSign" Type="System.Byte[]" />
+        <Parameter Name="accessTokenSecret" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="consentServerUri">To be added.</param>
+        <param name="consumerKey">To be added.</param>
+        <param name="payloadToSign">To be added.</param>
+        <param name="accessTokenSecret">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XZumoAuthHeader">
+      <MemberSignature Language="C#" Value="public static readonly string XZumoAuthHeader;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string XZumoAuthHeader" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.XZumoAuthHeader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,77 @@
+<Type Name="CollectionUsageDetails" FullName="Microsoft.Azure.Management.RemoteApp.Models.CollectionUsageDetails">
+  <TypeSignature Language="C#" Value="public class CollectionUsageDetails" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CollectionUsageDetails extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RemoteApp.Models.CollectionUsageDetails" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.RemoteApp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The collection usage billing details.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CollectionUsageDetails ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.Models.CollectionUsageDetails.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the CollectionUsageDetails class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationTrackingId">
+      <MemberSignature Language="C#" Value="public string OperationTrackingId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OperationTrackingId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.RemoteApp.Models.CollectionUsageDetails.OperationTrackingId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The tracking id of the requested operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SasUri">
+      <MemberSignature Language="C#" Value="public string SasUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SasUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.RemoteApp.Models.CollectionUsageDetails.SasUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The URL of the detailed billing report. Use the operation
+            tracking ID with OperationResult.Get API to determine when the
+            report is ready, then download the report using this URI.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

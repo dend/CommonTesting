@@ -1,0 +1,140 @@
+<Type Name="VirtualMachineExtensionImage" FullName="Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage">
+  <TypeSignature Language="C#" Value="public class VirtualMachineExtensionImage : Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineExtensionImage extends Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a Virtual Machine Extension Image.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VirtualMachineExtensionImage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the VirtualMachineExtensionImage
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputeRole">
+      <MemberSignature Language="C#" Value="public string ComputeRole { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ComputeRole" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage.ComputeRole" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the type of role (IaaS or PaaS) this
+            extension supports.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HandlerSchema">
+      <MemberSignature Language="C#" Value="public string HandlerSchema { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HandlerSchema" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage.HandlerSchema" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the schema defined by publisher, where
+            extension consumers should provide settings in a matching schema.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperatingSystem">
+      <MemberSignature Language="C#" Value="public string OperatingSystem { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OperatingSystem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage.OperatingSystem" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the operating system this extension supports.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportsMultipleExtensions">
+      <MemberSignature Language="C#" Value="public bool SupportsMultipleExtensions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SupportsMultipleExtensions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage.SupportsMultipleExtensions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets whether the handler can support multiple
+            extensions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VMScaleSetEnabled">
+      <MemberSignature Language="C#" Value="public bool VMScaleSetEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool VMScaleSetEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineExtensionImage.VMScaleSetEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets whether the extension can be used on xRP
+            VMScaleSets.By default existing extensions are usable on
+            scalesets, but there might be cases where a publisher wants to
+            explicitly indicate the extension is only enabled for CRP VMs but
+            not VMSS.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

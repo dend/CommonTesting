@@ -1,0 +1,143 @@
+<Type Name="SkuName" FullName="Microsoft.Azure.Management.Logic.Models.SkuName">
+  <TypeSignature Language="C#" Value="public enum SkuName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SkuName extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.SkuName" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Basic">
+      <MemberSignature Language="C#" Value="Basic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SkuName Basic = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SkuName.Basic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="Basic")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SkuName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Free">
+      <MemberSignature Language="C#" Value="Free" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SkuName Free = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SkuName.Free" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="Free")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SkuName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSpecified">
+      <MemberSignature Language="C#" Value="NotSpecified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SkuName NotSpecified = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SkuName.NotSpecified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="NotSpecified")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SkuName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Premium">
+      <MemberSignature Language="C#" Value="Premium" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SkuName Premium = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SkuName.Premium" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="Premium")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SkuName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shared">
+      <MemberSignature Language="C#" Value="Shared" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SkuName Shared = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SkuName.Shared" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="Shared")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SkuName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SkuName Standard = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SkuName.Standard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="Standard")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SkuName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

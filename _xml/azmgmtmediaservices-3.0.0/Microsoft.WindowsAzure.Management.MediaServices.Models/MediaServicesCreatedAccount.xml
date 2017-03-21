@@ -1,0 +1,95 @@
+<Type Name="MediaServicesCreatedAccount" FullName="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount">
+  <TypeSignature Language="C#" Value="public class MediaServicesCreatedAccount" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MediaServicesCreatedAccount extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.MediaServices</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Create Media Services Account operation response.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MediaServicesCreatedAccount ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the MediaServicesCreatedAccount class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccountId">
+      <MemberSignature Language="C#" Value="public string AccountId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AccountId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.AccountId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The Id of the created Media Services account.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccountName">
+      <MemberSignature Language="C#" Value="public string AccountName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AccountName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.AccountName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The Name of the created Media Services account.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.SubscriptionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The subscription Id associated with the created Media
+            Services account.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

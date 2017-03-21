@@ -1,0 +1,137 @@
+<Type Name="AgreementContent" FullName="Microsoft.Azure.Management.Logic.Models.AgreementContent">
+  <TypeSignature Language="C#" Value="public class AgreementContent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AgreementContent extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.AgreementContent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AgreementContent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AgreementContent.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AgreementContent (Microsoft.Azure.Management.Logic.Models.AS2AgreementContent aS2 = null, Microsoft.Azure.Management.Logic.Models.X12AgreementContent x12 = null, Microsoft.Azure.Management.Logic.Models.EdifactAgreementContent edifact = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.Logic.Models.AS2AgreementContent aS2, class Microsoft.Azure.Management.Logic.Models.X12AgreementContent x12, class Microsoft.Azure.Management.Logic.Models.EdifactAgreementContent edifact) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AgreementContent.#ctor(Microsoft.Azure.Management.Logic.Models.AS2AgreementContent,Microsoft.Azure.Management.Logic.Models.X12AgreementContent,Microsoft.Azure.Management.Logic.Models.EdifactAgreementContent)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="aS2" Type="Microsoft.Azure.Management.Logic.Models.AS2AgreementContent" />
+        <Parameter Name="x12" Type="Microsoft.Azure.Management.Logic.Models.X12AgreementContent" />
+        <Parameter Name="edifact" Type="Microsoft.Azure.Management.Logic.Models.EdifactAgreementContent" />
+      </Parameters>
+      <Docs>
+        <param name="aS2">To be added.</param>
+        <param name="x12">To be added.</param>
+        <param name="edifact">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AS2">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.AS2AgreementContent AS2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Logic.Models.AS2AgreementContent AS2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AgreementContent.AS2" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="AS2")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.AS2AgreementContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Edifact">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.EdifactAgreementContent Edifact { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Logic.Models.EdifactAgreementContent Edifact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AgreementContent.Edifact" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="Edifact")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.EdifactAgreementContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AgreementContent.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="X12">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.X12AgreementContent X12 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Logic.Models.X12AgreementContent X12" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AgreementContent.X12" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="X12")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.X12AgreementContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

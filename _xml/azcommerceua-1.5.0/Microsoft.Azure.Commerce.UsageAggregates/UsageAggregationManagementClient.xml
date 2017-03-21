@@ -1,0 +1,321 @@
+<Type Name="UsageAggregationManagementClient" FullName="Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient">
+  <TypeSignature Language="C#" Value="public class UsageAggregationManagementClient : Hyak.Common.ServiceClient&lt;Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient&gt;, IDisposable, Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UsageAggregationManagementClient extends Hyak.Common.ServiceClient`1&lt;class Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient&gt; implements class Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Commerce.UsageAggregates</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Hyak.Common.ServiceClient&lt;Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsageAggregationManagementClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the UsageAggregationManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsageAggregationManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <summary>
+            Initializes a new instance of the UsageAggregationManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsageAggregationManagementClient (System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the UsageAggregationManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsageAggregationManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the UsageAggregationManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsageAggregationManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, Uri baseUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Uri baseUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="baseUri">
+            Optional. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <summary>
+            Initializes a new instance of the UsageAggregationManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UsageAggregationManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, Uri baseUri, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Uri baseUri, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="baseUri">
+            Optional. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the UsageAggregationManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersion">
+      <MemberSignature Language="C#" Value="public string ApiVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.ApiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the API version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUri">
+      <MemberSignature Language="C#" Value="public Uri BaseUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BaseUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.BaseUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the URI used as the base for all cloud service requests.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="protected override void Clone (Hyak.Common.ServiceClient&lt;Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient&gt; client);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Clone(class Hyak.Common.ServiceClient`1&lt;class Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient&gt; client) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Hyak.Common.ServiceClient&lt;Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="client">
+            Instance of UsageAggregationManagementClient to clone to
+            </param>
+        <summary>
+            Clones properties from current instance to another
+            UsageAggregationManagementClient instance
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.SubscriptionCloudCredentials Credentials { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.SubscriptionCloudCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.Credentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.SubscriptionCloudCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets subscription credentials which uniquely identify Microsoft
+            Azure subscription. The subscription ID forms part of the URI for
+            every service call.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationInitialTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationInitialTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationInitialTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.LongRunningOperationInitialTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the initial timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationRetryTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationRetryTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationRetryTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.LongRunningOperationRetryTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the retry timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsageAggregates">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations UsageAggregates { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations UsageAggregates" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.UsageAggregates" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

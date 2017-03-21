@@ -1,0 +1,257 @@
+<Type Name="GatewayResource" FullName="Microsoft.Azure.Management.ServerManagement.Models.GatewayResource">
+  <TypeSignature Language="C#" Value="public class GatewayResource : Microsoft.Azure.Management.ServerManagement.Models.Resource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GatewayResource extends Microsoft.Azure.Management.ServerManagement.Models.Resource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ServerManagement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.ServerManagement.Models.Resource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GatewayResource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GatewayResource (string id = null, string type = null, string name = null, string location = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, string etag = null, Nullable&lt;DateTime&gt; created = null, Nullable&lt;DateTime&gt; updated = null, Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.AutoUpgrade&gt; autoUpgrade = null, string desiredVersion = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.GatewayStatus&gt; instances = null, Nullable&lt;int&gt; activeMessageCount = null, string latestPublishedMsiVersion = null, Nullable&lt;DateTime&gt; publishedTimeUtc = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string type, string name, string location, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, string etag, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; created, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; updated, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.ServerManagement.Models.AutoUpgrade&gt; autoUpgrade, string desiredVersion, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ServerManagement.Models.GatewayStatus&gt; instances, valuetype System.Nullable`1&lt;int32&gt; activeMessageCount, string latestPublishedMsiVersion, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; publishedTimeUtc) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{Microsoft.Azure.Management.ServerManagement.Models.AutoUpgrade},System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.ServerManagement.Models.GatewayStatus},System.Nullable{System.Int32},System.String,System.Nullable{System.DateTime})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="type" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="etag" Type="System.String" />
+        <Parameter Name="created" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="updated" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="autoUpgrade" Type="System.Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.AutoUpgrade&gt;" />
+        <Parameter Name="desiredVersion" Type="System.String" />
+        <Parameter Name="instances" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.GatewayStatus&gt;" />
+        <Parameter Name="activeMessageCount" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="latestPublishedMsiVersion" Type="System.String" />
+        <Parameter Name="publishedTimeUtc" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="location">To be added.</param>
+        <param name="tags">To be added.</param>
+        <param name="etag">To be added.</param>
+        <param name="created">To be added.</param>
+        <param name="updated">To be added.</param>
+        <param name="autoUpgrade">To be added.</param>
+        <param name="desiredVersion">To be added.</param>
+        <param name="instances">To be added.</param>
+        <param name="activeMessageCount">To be added.</param>
+        <param name="latestPublishedMsiVersion">To be added.</param>
+        <param name="publishedTimeUtc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveMessageCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ActiveMessageCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ActiveMessageCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.ActiveMessageCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.activeMessageCount")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoUpgrade">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.AutoUpgrade&gt; AutoUpgrade { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.ServerManagement.Models.AutoUpgrade&gt; AutoUpgrade" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.AutoUpgrade" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.autoUpgrade")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.AutoUpgrade&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Created">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Created { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Created" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.Created" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.created")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DesiredVersion">
+      <MemberSignature Language="C#" Value="public string DesiredVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DesiredVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.DesiredVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.desiredVersion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Instances">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.GatewayStatus&gt; Instances { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ServerManagement.Models.GatewayStatus&gt; Instances" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.Instances" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.instances")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.GatewayStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LatestPublishedMsiVersion">
+      <MemberSignature Language="C#" Value="public string LatestPublishedMsiVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LatestPublishedMsiVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.LatestPublishedMsiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.latestPublishedMsiVersion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishedTimeUtc">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; PublishedTimeUtc { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; PublishedTimeUtc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.PublishedTimeUtc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.publishedTimeUtc")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Updated">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Updated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Updated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.GatewayResource.Updated" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.updated")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

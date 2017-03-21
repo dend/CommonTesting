@@ -1,0 +1,73 @@
+<Type Name="ParserHelper" FullName="Microsoft.WindowsAzure.Common.Internals.ParserHelper">
+  <TypeSignature Language="C#" Value="public static class ParserHelper" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ParserHelper extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.Internals.ParserHelper" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Parser helper.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsJson">
+      <MemberSignature Language="C#" Value="public static bool IsJson (string content, bool validate = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsJson(string content, bool validate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.ParserHelper.IsJson(System.String,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.String" />
+        <Parameter Name="validate" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="content">String to check.</param>
+        <param name="validate">If set to true will validate entire JSON for validity 
+            otherwise will just check the first character.</param>
+        <summary>
+            Checks if content is possibly a JSON.
+            </summary>
+        <returns>True is content is possibly an JSON otherwise false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsXml">
+      <MemberSignature Language="C#" Value="public static bool IsXml (string content, bool validate = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsXml(string content, bool validate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.ParserHelper.IsXml(System.String,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="System.String" />
+        <Parameter Name="validate" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="content">String to check.</param>
+        <param name="validate">If set to true will validate entire XML for validity 
+            otherwise will just check the first character.</param>
+        <summary>
+            Checks if content is possibly an XML.
+            </summary>
+        <returns>True is content is possibly an XML otherwise false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

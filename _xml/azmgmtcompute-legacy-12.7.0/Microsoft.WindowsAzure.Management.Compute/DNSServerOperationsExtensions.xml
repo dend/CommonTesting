@@ -1,0 +1,630 @@
+<Type Name="DNSServerOperationsExtensions" FullName="Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class DNSServerOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DNSServerOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Compute</AssemblyName>
+    <AssemblyVersion>12.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Service Management API provides programmatic access to much of the
+            functionality available through the Management Portal. The Service
+            Management API is a REST API. All API operations are performed over
+            SSL, and are mutually authenticated using X.509 v3 certificates.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/ee460799.aspx for
+            more information)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddDNSServer">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse AddDNSServer (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse AddDNSServer(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.AddDNSServer(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Add DNS Server operation.
+            </param>
+        <summary>
+            Add a definition for a DNS server to an existing deployment. VM's
+            in this deployment will be programmed to use this DNS server for
+            all DNS resolutions
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDNSServerAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; AddDNSServerAsync (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; AddDNSServerAsync(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.AddDNSServerAsync(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Add DNS Server operation.
+            </param>
+        <summary>
+            Add a definition for a DNS server to an existing deployment. VM's
+            in this deployment will be programmed to use this DNS server for
+            all DNS resolutions
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAddingDNSServer">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse BeginAddingDNSServer (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse BeginAddingDNSServer(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.BeginAddingDNSServer(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Add DNS Server operation.
+            </param>
+        <summary>
+            Add a definition for a DNS server to an existing deployment. VM's
+            in this deployment will be programmed to use this DNS server for
+            all DNS resolutions
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAddingDNSServerAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; BeginAddingDNSServerAsync (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; BeginAddingDNSServerAsync(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.BeginAddingDNSServerAsync(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSAddParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Add DNS Server operation.
+            </param>
+        <summary>
+            Add a definition for a DNS server to an existing deployment. VM's
+            in this deployment will be programmed to use this DNS server for
+            all DNS resolutions
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeletingDNSServer">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse BeginDeletingDNSServer (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse BeginDeletingDNSServer(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.BeginDeletingDNSServer(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <summary>
+            Deletes a definition for an existing DNS server from the deployment
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeletingDNSServerAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; BeginDeletingDNSServerAsync (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; BeginDeletingDNSServerAsync(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.BeginDeletingDNSServerAsync(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <summary>
+            Deletes a definition for an existing DNS server from the deployment
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdatingDNSServer">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse BeginUpdatingDNSServer (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse BeginUpdatingDNSServer(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.BeginUpdatingDNSServer(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update DNS Server operation.
+            </param>
+        <summary>
+            Updates a definition for an existing DNS server. Updates to address
+            is the only change allowed. DNS server name cannot be changed
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdatingDNSServerAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; BeginUpdatingDNSServerAsync (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; BeginUpdatingDNSServerAsync(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.BeginUpdatingDNSServerAsync(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update DNS Server operation.
+            </param>
+        <summary>
+            Updates a definition for an existing DNS server. Updates to address
+            is the only change allowed. DNS server name cannot be changed
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDNSServer">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse DeleteDNSServer (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse DeleteDNSServer(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.DeleteDNSServer(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <summary>
+            Deletes a definition for an existing DNS server from the deployment
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDNSServerAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; DeleteDNSServerAsync (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; DeleteDNSServerAsync(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.DeleteDNSServerAsync(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <summary>
+            Deletes a definition for an existing DNS server from the deployment
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDNSServer">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse UpdateDNSServer (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse UpdateDNSServer(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.UpdateDNSServer(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update DNS Server operation.
+            </param>
+        <summary>
+            Updates a definition for an existing DNS server. Updates to address
+            is the only change allowed. DNS server name cannot be changed
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDNSServerAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; UpdateDNSServerAsync (this Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; UpdateDNSServerAsync(class Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations operations, string serviceName, string deploymentName, string dnsServerName, class Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.DNSServerOperationsExtensions.UpdateDNSServerAsync(Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="dnsServerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.DNSUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IDNSServerOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="dnsServerName">
+            Required. The name of the dns server.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update DNS Server operation.
+            </param>
+        <summary>
+            Updates a definition for an existing DNS server. Updates to address
+            is the only change allowed. DNS server name cannot be changed
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

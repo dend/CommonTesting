@@ -1,0 +1,74 @@
+<Type Name="DiagnosticsTraceLevel" FullName="Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel">
+  <TypeSignature Language="C#" Value="public enum DiagnosticsTraceLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DiagnosticsTraceLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning.Management</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Defines the level of runtime tracing for an Azure Machine Learning endpoint
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel All = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Collect all runtime traces
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="Error" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel Error = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel.Error" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Only collect error traces
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

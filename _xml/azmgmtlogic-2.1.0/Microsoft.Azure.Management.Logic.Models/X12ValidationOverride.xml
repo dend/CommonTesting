@@ -1,0 +1,233 @@
+<Type Name="X12ValidationOverride" FullName="Microsoft.Azure.Management.Logic.Models.X12ValidationOverride">
+  <TypeSignature Language="C#" Value="public class X12ValidationOverride" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit X12ValidationOverride extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12ValidationOverride ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12ValidationOverride (string messageId, bool validateEDITypes, bool validateXSDTypes, bool allowLeadingAndTrailingSpacesAndZeroes, bool validateCharacterSet, bool trimLeadingAndTrailingSpacesAndZeroes, Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy trailingSeparatorPolicy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string messageId, bool validateEDITypes, bool validateXSDTypes, bool allowLeadingAndTrailingSpacesAndZeroes, bool validateCharacterSet, bool trimLeadingAndTrailingSpacesAndZeroes, valuetype Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy trailingSeparatorPolicy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="messageId" Type="System.String" />
+        <Parameter Name="validateEDITypes" Type="System.Boolean" />
+        <Parameter Name="validateXSDTypes" Type="System.Boolean" />
+        <Parameter Name="allowLeadingAndTrailingSpacesAndZeroes" Type="System.Boolean" />
+        <Parameter Name="validateCharacterSet" Type="System.Boolean" />
+        <Parameter Name="trimLeadingAndTrailingSpacesAndZeroes" Type="System.Boolean" />
+        <Parameter Name="trailingSeparatorPolicy" Type="Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy" />
+      </Parameters>
+      <Docs>
+        <param name="messageId">To be added.</param>
+        <param name="validateEDITypes">To be added.</param>
+        <param name="validateXSDTypes">To be added.</param>
+        <param name="allowLeadingAndTrailingSpacesAndZeroes">To be added.</param>
+        <param name="validateCharacterSet">To be added.</param>
+        <param name="trimLeadingAndTrailingSpacesAndZeroes">To be added.</param>
+        <param name="trailingSeparatorPolicy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowLeadingAndTrailingSpacesAndZeroes">
+      <MemberSignature Language="C#" Value="public bool AllowLeadingAndTrailingSpacesAndZeroes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowLeadingAndTrailingSpacesAndZeroes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.AllowLeadingAndTrailingSpacesAndZeroes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="allowLeadingAndTrailingSpacesAndZeroes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageId">
+      <MemberSignature Language="C#" Value="public string MessageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.MessageId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="messageId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrailingSeparatorPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy TrailingSeparatorPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy TrailingSeparatorPolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.TrailingSeparatorPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="trailingSeparatorPolicy")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimLeadingAndTrailingSpacesAndZeroes">
+      <MemberSignature Language="C#" Value="public bool TrimLeadingAndTrailingSpacesAndZeroes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TrimLeadingAndTrailingSpacesAndZeroes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.TrimLeadingAndTrailingSpacesAndZeroes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="trimLeadingAndTrailingSpacesAndZeroes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateCharacterSet">
+      <MemberSignature Language="C#" Value="public bool ValidateCharacterSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ValidateCharacterSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.ValidateCharacterSet" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="validateCharacterSet")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateEDITypes">
+      <MemberSignature Language="C#" Value="public bool ValidateEDITypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ValidateEDITypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.ValidateEDITypes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="validateEDITypes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateXSDTypes">
+      <MemberSignature Language="C#" Value="public bool ValidateXSDTypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ValidateXSDTypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ValidationOverride.ValidateXSDTypes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="validateXSDTypes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

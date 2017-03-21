@@ -1,0 +1,120 @@
+<Type Name="Incremental" FullName="Hyak.Common.TransientFaultHandling.Incremental">
+  <TypeSignature Language="C#" Value="public class Incremental : Hyak.Common.TransientFaultHandling.RetryStrategy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Incremental extends Hyak.Common.TransientFaultHandling.RetryStrategy" />
+  <TypeSignature Language="DocId" Value="T:Hyak.Common.TransientFaultHandling.Incremental" />
+  <AssemblyInfo>
+    <AssemblyName>Hyak.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Hyak.Common.TransientFaultHandling.RetryStrategy</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Incremental ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Incremental (int retryCount, TimeSpan initialInterval, TimeSpan increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 retryCount, valuetype System.TimeSpan initialInterval, valuetype System.TimeSpan increment) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor(System.Int32,System.TimeSpan,System.TimeSpan)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="retryCount" Type="System.Int32" />
+        <Parameter Name="initialInterval" Type="System.TimeSpan" />
+        <Parameter Name="increment" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="retryCount">To be added.</param>
+        <param name="initialInterval">To be added.</param>
+        <param name="increment">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Incremental (string name, int retryCount, TimeSpan initialInterval, TimeSpan increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, int32 retryCount, valuetype System.TimeSpan initialInterval, valuetype System.TimeSpan increment) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor(System.String,System.Int32,System.TimeSpan,System.TimeSpan)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="retryCount" Type="System.Int32" />
+        <Parameter Name="initialInterval" Type="System.TimeSpan" />
+        <Parameter Name="increment" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="retryCount">To be added.</param>
+        <param name="initialInterval">To be added.</param>
+        <param name="increment">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Incremental (string name, int retryCount, TimeSpan initialInterval, TimeSpan increment, bool firstFastRetry);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, int32 retryCount, valuetype System.TimeSpan initialInterval, valuetype System.TimeSpan increment, bool firstFastRetry) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.TransientFaultHandling.Incremental.#ctor(System.String,System.Int32,System.TimeSpan,System.TimeSpan,System.Boolean)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="retryCount" Type="System.Int32" />
+        <Parameter Name="initialInterval" Type="System.TimeSpan" />
+        <Parameter Name="increment" Type="System.TimeSpan" />
+        <Parameter Name="firstFastRetry" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="retryCount">To be added.</param>
+        <param name="initialInterval">To be added.</param>
+        <param name="increment">To be added.</param>
+        <param name="firstFastRetry">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetShouldRetry">
+      <MemberSignature Language="C#" Value="public override Hyak.Common.TransientFaultHandling.ShouldRetry GetShouldRetry ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class Hyak.Common.TransientFaultHandling.ShouldRetry GetShouldRetry() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.TransientFaultHandling.Incremental.GetShouldRetry" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Hyak.Common.TransientFaultHandling.ShouldRetry</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

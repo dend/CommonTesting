@@ -1,0 +1,73 @@
+<Type Name="WebSiteRuntimeAvailabilityState" FullName="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState">
+  <TypeSignature Language="C#" Value="public enum WebSiteRuntimeAvailabilityState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WebSiteRuntimeAvailabilityState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The runtime availability of a website.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Degraded">
+      <MemberSignature Language="C#" Value="Degraded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState Degraded = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState.Degraded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The web site is running temporarily in a degraded mode (typically
+            with less memory and a shared instance).
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState Normal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState.Normal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The web site is running correctly.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotAvailable">
+      <MemberSignature Language="C#" Value="NotAvailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState NotAvailable = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState.NotAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRuntimeAvailabilityState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Due to an unexpected issue, the site has been excluded from
+            provisioning. This typically occurs only for free sites.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

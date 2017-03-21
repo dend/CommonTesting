@@ -1,0 +1,156 @@
+<Type Name="DeleteOperationResponse" FullName="Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse">
+  <TypeSignature Language="C#" Value="public class DeleteOperationResponse : Microsoft.Azure.Management.Compute.Models.ComputeOperationResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeleteOperationResponse extends Microsoft.Azure.Management.Compute.Models.ComputeOperationResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Compute.Models.ComputeOperationResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The compute long running operation response.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteOperationResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DeleteOperationResponse class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteOperationResponse (string trackingOperationId, Microsoft.Azure.OperationStatus status, DateTimeOffset startTime);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string trackingOperationId, valuetype Microsoft.Azure.OperationStatus status, valuetype System.DateTimeOffset startTime) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse.#ctor(System.String,Microsoft.Azure.OperationStatus,System.DateTimeOffset)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="trackingOperationId" Type="System.String" />
+        <Parameter Name="status" Type="Microsoft.Azure.OperationStatus" />
+        <Parameter Name="startTime" Type="System.DateTimeOffset" />
+      </Parameters>
+      <Docs>
+        <param name="trackingOperationId">To be added.</param>
+        <param name="status">To be added.</param>
+        <param name="startTime">To be added.</param>
+        <summary>
+            Initializes a new instance of the DeleteOperationResponse class
+            with required arguments.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTimeOffset&gt; EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse.EndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the operation end time
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.ApiError Error { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.ApiError Error" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.ApiError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the operation error if any occurred
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets the operation start time
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.OperationStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.OperationStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets the operation status.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrackingOperationId">
+      <MemberSignature Language="C#" Value="public string TrackingOperationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TrackingOperationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DeleteOperationResponse.TrackingOperationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets the operation identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,645 @@
+<Type Name="SubscriptionOperationNames" FullName="Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames">
+  <TypeSignature Language="C#" Value="public static class SubscriptionOperationNames" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SubscriptionOperationNames extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The name of a subscription operation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivateDomainName">
+      <MemberSignature Language="C#" Value="public const string ActivateDomainName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ActivateDomainName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ActivateDomainName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddCertificates">
+      <MemberSignature Language="C#" Value="public const string AddCertificates;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AddCertificates" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.AddCertificates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddSubscriptionCertificate">
+      <MemberSignature Language="C#" Value="public const string AddSubscriptionCertificate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AddSubscriptionCertificate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.AddSubscriptionCertificate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeDeploymentConfiguration">
+      <MemberSignature Language="C#" Value="public const string ChangeDeploymentConfiguration;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ChangeDeploymentConfiguration" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ChangeDeploymentConfiguration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeDeploymentConfigurationBySlot">
+      <MemberSignature Language="C#" Value="public const string ChangeDeploymentConfigurationBySlot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ChangeDeploymentConfigurationBySlot" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ChangeDeploymentConfigurationBySlot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitImageUpload">
+      <MemberSignature Language="C#" Value="public const string CommitImageUpload;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CommitImageUpload" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CommitImageUpload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAffinityGroup">
+      <MemberSignature Language="C#" Value="public const string CreateAffinityGroup;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CreateAffinityGroup" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateAffinityGroup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDeployment">
+      <MemberSignature Language="C#" Value="public const string CreateDeployment;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CreateDeployment" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateDeployment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDeploymentBySlot">
+      <MemberSignature Language="C#" Value="public const string CreateDeploymentBySlot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CreateDeploymentBySlot" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateDeploymentBySlot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateHostedService">
+      <MemberSignature Language="C#" Value="public const string CreateHostedService;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CreateHostedService" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateHostedService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateStorageService">
+      <MemberSignature Language="C#" Value="public const string CreateStorageService;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CreateStorageService" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateStorageService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAffinityGroup">
+      <MemberSignature Language="C#" Value="public const string DeleteAffinityGroup;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DeleteAffinityGroup" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteAffinityGroup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteCertificate">
+      <MemberSignature Language="C#" Value="public const string DeleteCertificate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DeleteCertificate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteCertificate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDeployment">
+      <MemberSignature Language="C#" Value="public const string DeleteDeployment;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DeleteDeployment" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteDeployment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteHostedService">
+      <MemberSignature Language="C#" Value="public const string DeleteHostedService;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DeleteHostedService" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteHostedService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteImage">
+      <MemberSignature Language="C#" Value="public const string DeleteImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DeleteImage" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteStorageService">
+      <MemberSignature Language="C#" Value="public const string DeleteStorageService;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DeleteStorageService" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteStorageService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrepareImageUpload">
+      <MemberSignature Language="C#" Value="public const string PrepareImageUpload;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PrepareImageUpload" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.PrepareImageUpload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebootDeploymentRoleInstance">
+      <MemberSignature Language="C#" Value="public const string RebootDeploymentRoleInstance;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string RebootDeploymentRoleInstance" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RebootDeploymentRoleInstance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebootDeploymentRoleInstanceBySlot">
+      <MemberSignature Language="C#" Value="public const string RebootDeploymentRoleInstanceBySlot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string RebootDeploymentRoleInstanceBySlot" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RebootDeploymentRoleInstanceBySlot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegenerateStorageServiceKeys">
+      <MemberSignature Language="C#" Value="public const string RegenerateStorageServiceKeys;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string RegenerateStorageServiceKeys" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RegenerateStorageServiceKeys" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterDomainName">
+      <MemberSignature Language="C#" Value="public const string RegisterDomainName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string RegisterDomainName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RegisterDomainName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReimageDeploymentRoleInstance">
+      <MemberSignature Language="C#" Value="public const string ReimageDeploymentRoleInstance;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ReimageDeploymentRoleInstance" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ReimageDeploymentRoleInstance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReimageDeploymentRoleInstanceBySlot">
+      <MemberSignature Language="C#" Value="public const string ReimageDeploymentRoleInstanceBySlot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ReimageDeploymentRoleInstanceBySlot" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ReimageDeploymentRoleInstanceBySlot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveSubscriptionCertificate">
+      <MemberSignature Language="C#" Value="public const string RemoveSubscriptionCertificate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string RemoveSubscriptionCertificate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RemoveSubscriptionCertificate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RollbackDeploymentUpdateOrUpgrade">
+      <MemberSignature Language="C#" Value="public const string RollbackDeploymentUpdateOrUpgrade;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string RollbackDeploymentUpdateOrUpgrade" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RollbackDeploymentUpdateOrUpgrade" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetImageProperties">
+      <MemberSignature Language="C#" Value="public const string SetImageProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SetImageProperties" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.SetImageProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetParentImage">
+      <MemberSignature Language="C#" Value="public const string SetParentImage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SetParentImage" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.SetParentImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwapDeployment">
+      <MemberSignature Language="C#" Value="public const string SwapDeployment;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SwapDeployment" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.SwapDeployment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnregisterDomainName">
+      <MemberSignature Language="C#" Value="public const string UnregisterDomainName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UnregisterDomainName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UnregisterDomainName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAffinityGroup">
+      <MemberSignature Language="C#" Value="public const string UpdateAffinityGroup;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UpdateAffinityGroup" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateAffinityGroup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDeploymentStatus">
+      <MemberSignature Language="C#" Value="public const string UpdateDeploymentStatus;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UpdateDeploymentStatus" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateDeploymentStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDeploymentStatusBySlot">
+      <MemberSignature Language="C#" Value="public const string UpdateDeploymentStatusBySlot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UpdateDeploymentStatusBySlot" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateDeploymentStatusBySlot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateHostedService">
+      <MemberSignature Language="C#" Value="public const string UpdateHostedService;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UpdateHostedService" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateHostedService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateStorageService">
+      <MemberSignature Language="C#" Value="public const string UpdateStorageService;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UpdateStorageService" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateStorageService" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeDeployment">
+      <MemberSignature Language="C#" Value="public const string UpgradeDeployment;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UpgradeDeployment" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpgradeDeployment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradeDeploymentBySlot">
+      <MemberSignature Language="C#" Value="public const string UpgradeDeploymentBySlot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UpgradeDeploymentBySlot" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpgradeDeploymentBySlot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WalkUpgradeDomain">
+      <MemberSignature Language="C#" Value="public const string WalkUpgradeDomain;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string WalkUpgradeDomain" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.WalkUpgradeDomain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WalkUpgradeDomainBySlot">
+      <MemberSignature Language="C#" Value="public const string WalkUpgradeDomainBySlot;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string WalkUpgradeDomainBySlot" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.WalkUpgradeDomainBySlot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

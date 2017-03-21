@@ -1,0 +1,95 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.Mobile.Server.Home" Version="1.1.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("© Microsoft Corporation.  All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.1.157.1")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("rev 30d6130 from branch master at 1/29/2016 11:39:24 PM")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyMetadata("Serviceable", "True")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft® Azure Mobile Apps Server SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Azure.Mobile.Server.Home")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en-US")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.Mobile.Server.Config">
+      <Type Name="HomeMobileAppOptionsExtensions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Mobile.Server.Controllers">
+      <Type Name="HomeController" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Mobile.Server.Help.Config">
+      <Type Name="HomeExtensionConfigProvider" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.Mobile.Server.Home</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration" />
+      </Targets>
+      <Member MemberName="AddMobileAppHomeController">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration AddMobileAppHomeController (this Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration options);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration AddMobileAppHomeController(class Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration options) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Mobile.Server.Config.HomeMobileAppOptionsExtensions.AddMobileAppHomeController(Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="options" Type="Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="options">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Mobile.Server.Config.HomeMobileAppOptionsExtensions" Member="M:Microsoft.Azure.Mobile.Server.Config.HomeMobileAppOptionsExtensions.AddMobileAppHomeController(Microsoft.Azure.Mobile.Server.Config.MobileAppConfiguration)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

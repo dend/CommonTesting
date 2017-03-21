@@ -1,0 +1,37 @@
+<Type Name="UsageUnit" FullName="Microsoft.Azure.Management.Compute.Models.UsageUnit">
+  <TypeSignature Language="C#" Value="public enum UsageUnit" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UsageUnit extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.UsageUnit" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The usage unit.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="Count" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Compute.Models.UsageUnit Count = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.UsageUnit.Count" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.UsageUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The count usage unit.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

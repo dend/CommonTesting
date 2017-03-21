@@ -1,0 +1,48 @@
+<Type Name="GatewayUpdatePolicy" FullName="Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy">
+  <TypeSignature Language="C#" Value="public enum GatewayUpdatePolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GatewayUpdatePolicy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.64.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="Auto" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy Auto = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy.Auto" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.64.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,96 @@
+<Type Name="X12AgreementContent" FullName="Microsoft.Azure.Management.Logic.Models.X12AgreementContent">
+  <TypeSignature Language="C#" Value="public class X12AgreementContent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit X12AgreementContent extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.X12AgreementContent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12AgreementContent ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12AgreementContent.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12AgreementContent (Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement receiveAgreement = null, Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement sendAgreement = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement receiveAgreement, class Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement sendAgreement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12AgreementContent.#ctor(Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement,Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="receiveAgreement" Type="Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement" />
+        <Parameter Name="sendAgreement" Type="Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement" />
+      </Parameters>
+      <Docs>
+        <param name="receiveAgreement">To be added.</param>
+        <param name="sendAgreement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveAgreement">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement ReceiveAgreement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement ReceiveAgreement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12AgreementContent.ReceiveAgreement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="receiveAgreement")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAgreement">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement SendAgreement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement SendAgreement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12AgreementContent.SendAgreement" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="sendAgreement")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.X12OneWayAgreement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

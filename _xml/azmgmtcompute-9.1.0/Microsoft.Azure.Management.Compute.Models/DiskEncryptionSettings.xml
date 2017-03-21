@@ -1,0 +1,96 @@
+<Type Name="DiskEncryptionSettings" FullName="Microsoft.Azure.Management.Compute.Models.DiskEncryptionSettings">
+  <TypeSignature Language="C#" Value="public class DiskEncryptionSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiskEncryptionSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.DiskEncryptionSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a Encryption Settings for a Disk
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiskEncryptionSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.DiskEncryptionSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DiskEncryptionSettings class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiskEncryptionSettings (Microsoft.Azure.Management.Compute.Models.KeyVaultSecretReference diskEncryptionKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.Compute.Models.KeyVaultSecretReference diskEncryptionKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.DiskEncryptionSettings.#ctor(Microsoft.Azure.Management.Compute.Models.KeyVaultSecretReference)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="diskEncryptionKey" Type="Microsoft.Azure.Management.Compute.Models.KeyVaultSecretReference" />
+      </Parameters>
+      <Docs>
+        <param name="diskEncryptionKey">To be added.</param>
+        <summary>
+            Initializes a new instance of the DiskEncryptionSettings class with
+            required arguments.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiskEncryptionKey">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.KeyVaultSecretReference DiskEncryptionKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.KeyVaultSecretReference DiskEncryptionKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DiskEncryptionSettings.DiskEncryptionKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.KeyVaultSecretReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the disk encryption key which is a KeyVault
+            Secret.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyEncryptionKey">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.KeyVaultKeyReference KeyEncryptionKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.KeyVaultKeyReference KeyEncryptionKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DiskEncryptionSettings.KeyEncryptionKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.KeyVaultKeyReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the key encryption key which is KeyVault Key.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

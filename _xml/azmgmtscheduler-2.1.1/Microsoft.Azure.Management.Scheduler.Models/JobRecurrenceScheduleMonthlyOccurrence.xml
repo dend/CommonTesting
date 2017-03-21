@@ -1,0 +1,96 @@
+<Type Name="JobRecurrenceScheduleMonthlyOccurrence" FullName="Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence">
+  <TypeSignature Language="C#" Value="public class JobRecurrenceScheduleMonthlyOccurrence" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobRecurrenceScheduleMonthlyOccurrence extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobRecurrenceScheduleMonthlyOccurrence ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobRecurrenceScheduleMonthlyOccurrence (Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay&gt; day = null, Nullable&lt;int&gt; occurrence = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay&gt; day, valuetype System.Nullable`1&lt;int32&gt; occurrence) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay},System.Nullable{System.Int32})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="day" Type="System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay&gt;" />
+        <Parameter Name="occurrence" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="day">To be added.</param>
+        <param name="occurrence">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Day">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay&gt; Day { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay&gt; Day" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.Day" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="day")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Occurrence">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Occurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Occurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.Occurrence" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="Occurrence")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

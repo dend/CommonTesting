@@ -1,0 +1,164 @@
+<Type Name="IVirtualMachineImageOperations" FullName="Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations">
+  <TypeSignature Language="C#" Value="public interface IVirtualMachineImageOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IVirtualMachineImageOperations" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Operations for managing the virtual machine images in compute
+            management.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageGetResponse&gt; GetAsync (Microsoft.Azure.Management.Compute.Models.VirtualMachineImageGetParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageGetResponse&gt; GetAsync(class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageGetParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations.GetAsync(Microsoft.Azure.Management.Compute.Models.VirtualMachineImageGetParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineImageGetParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">To be added.</param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Gets a virtual machine image.
+            </summary>
+        <returns>
+            The get vm image operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListAsync (Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListAsync(class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations.ListAsync(Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">To be added.</param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Gets a list of virtual machine images.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListOffersAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListOffersAsync (Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListOffersParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListOffersAsync(class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListOffersParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations.ListOffersAsync(Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListOffersParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListOffersParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">To be added.</param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Gets a list of virtual machine image offers.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListPublishersAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListPublishersAsync (Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListPublishersParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListPublishersAsync(class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListPublishersParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations.ListPublishersAsync(Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListPublishersParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListPublishersParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">To be added.</param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Gets a list of virtual machine image publishers.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListSkusAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListSkusAsync (Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListSkusParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt; ListSkusAsync(class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListSkusParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.IVirtualMachineImageOperations.ListSkusAsync(Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListSkusParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResourceList&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineImageListSkusParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">To be added.</param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Gets a list of virtual machine image skus.
+            </summary>
+        <returns>
+            A list of virtual machine image resource information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

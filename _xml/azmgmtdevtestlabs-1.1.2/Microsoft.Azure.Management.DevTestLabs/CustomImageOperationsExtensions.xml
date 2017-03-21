@@ -1,0 +1,444 @@
+<Type Name="CustomImageOperationsExtensions" FullName="Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class CustomImageOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CustomImageOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreateOrUpdateResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.CustomImage BeginCreateOrUpdateResource (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage BeginCreateOrUpdateResource(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.BeginCreateOrUpdateResource(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.CustomImage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.CustomImage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customImage" Type="Microsoft.Azure.Management.DevTestLabs.Models.CustomImage" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="customImage">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateOrUpdateResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; BeginCreateOrUpdateResourceAsync (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; BeginCreateOrUpdateResourceAsync(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.BeginCreateOrUpdateResourceAsync(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.CustomImage,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions/&lt;BeginCreateOrUpdateResourceAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customImage" Type="Microsoft.Azure.Management.DevTestLabs.Models.CustomImage" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="customImage">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteResource">
+      <MemberSignature Language="C#" Value="public static void BeginDeleteResource (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDeleteResource(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.BeginDeleteResource(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginDeleteResourceAsync (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginDeleteResourceAsync(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.BeginDeleteResourceAsync(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions/&lt;BeginDeleteResourceAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.CustomImage CreateOrUpdateResource (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage CreateOrUpdateResource(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.CreateOrUpdateResource(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.CustomImage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.CustomImage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customImage" Type="Microsoft.Azure.Management.DevTestLabs.Models.CustomImage" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="customImage">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; CreateOrUpdateResourceAsync (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; CreateOrUpdateResourceAsync(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage customImage, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.CreateOrUpdateResourceAsync(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.CustomImage,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions/&lt;CreateOrUpdateResourceAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customImage" Type="Microsoft.Azure.Management.DevTestLabs.Models.CustomImage" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="customImage">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResource">
+      <MemberSignature Language="C#" Value="public static void DeleteResource (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteResource(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.DeleteResource(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteResourceAsync (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteResourceAsync(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.DeleteResourceAsync(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions/&lt;DeleteResourceAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.CustomImage GetResource (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage GetResource(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.GetResource(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.CustomImage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; GetResourceAsync (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; GetResourceAsync(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.GetResourceAsync(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions/&lt;GetResourceAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; List (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; odataQuery = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; List(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; odataQuery) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.List(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.CustomImage})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;&gt; ListAsync (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;&gt; ListAsync(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.ListAsync(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.CustomImage},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions/&lt;ListAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; ListNext (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt; ListNext(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.ListNext(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.CustomImageOperationsExtensions/&lt;ListNextAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.CustomImage&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.ICustomImageOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

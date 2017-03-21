@@ -1,0 +1,445 @@
+<Type Name="WebSiteExtensionsClient" FullName="Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient">
+  <TypeSignature Language="C#" Value="public class WebSiteExtensionsClient : Microsoft.WindowsAzure.Common.ServiceClient&lt;Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient&gt;, IDisposable, Microsoft.WindowsAzure.WebSitesExtensions.IWebSiteExtensionsClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebSiteExtensionsClient extends Microsoft.WindowsAzure.Common.ServiceClient`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient&gt; implements class Microsoft.WindowsAzure.WebSitesExtensions.IWebSiteExtensionsClient, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.WindowsAzure.Common.ServiceClient&lt;Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.WindowsAzure.WebSitesExtensions.IWebSiteExtensionsClient</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            The websites extensions client manages the web sites deployments, web
+            jobs and other extensions.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebSiteExtensionsClient (string siteName, Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string siteName, class Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.#ctor(System.String,Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="siteName" Type="System.String" />
+        <Parameter Name="credentials" Type="Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials" />
+      </Parameters>
+      <Docs>
+        <param name="siteName">
+            Required. The site name.
+            </param>
+        <param name="credentials">
+            Required. TBD.
+            </param>
+        <summary>
+            Initializes a new instance of the WebSiteExtensionsClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebSiteExtensionsClient (string siteName, Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string siteName, class Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.#ctor(System.String,Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="siteName" Type="System.String" />
+        <Parameter Name="credentials" Type="Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="siteName">
+            Required. The site name.
+            </param>
+        <param name="credentials">
+            Required. TBD.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the WebSiteExtensionsClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebSiteExtensionsClient (string siteName, Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials, Uri baseUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string siteName, class Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials, class System.Uri baseUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.#ctor(System.String,Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials,System.Uri)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="siteName" Type="System.String" />
+        <Parameter Name="credentials" Type="Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="siteName">
+            Required. The site name.
+            </param>
+        <param name="credentials">
+            Required. TBD.
+            </param>
+        <param name="baseUri">
+            Required. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <summary>
+            Initializes a new instance of the WebSiteExtensionsClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebSiteExtensionsClient (string siteName, Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials, Uri baseUri, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string siteName, class Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials credentials, class System.Uri baseUri, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.#ctor(System.String,Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="siteName" Type="System.String" />
+        <Parameter Name="credentials" Type="Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="siteName">
+            Required. The site name.
+            </param>
+        <param name="credentials">
+            Required. TBD.
+            </param>
+        <param name="baseUri">
+            Required. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the WebSiteExtensionsClient class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersion">
+      <MemberSignature Language="C#" Value="public string ApiVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.ApiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the API version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUri">
+      <MemberSignature Language="C#" Value="public Uri BaseUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BaseUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.BaseUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the URI used as the base for all cloud service requests.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="protected override void Clone (Microsoft.WindowsAzure.Common.ServiceClient&lt;Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient&gt; client);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Clone(class Microsoft.WindowsAzure.Common.ServiceClient`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient&gt; client) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.Clone(Microsoft.WindowsAzure.Common.ServiceClient{Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Microsoft.WindowsAzure.Common.ServiceClient&lt;Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="client">
+            Instance of WebSiteExtensionsClient to clone to
+            </param>
+        <summary>
+            Clones properties from current instance to another
+            WebSiteExtensionsClient instance
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContinuousWebJobs">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.WebSitesExtensions.IContinuousWebJobOperations ContinuousWebJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.WebSitesExtensions.IContinuousWebJobOperations ContinuousWebJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.ContinuousWebJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.IContinuousWebJobOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing continuous WebJobs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient Create (System.Collections.Generic.IDictionary&lt;string,object&gt; settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient Create(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.Create(System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="settings">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials Credentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.Credentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.BasicAuthenticationCloudCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            TBD.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deployments">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.WebSitesExtensions.IDeploymentOperations Deployments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.WebSitesExtensions.IDeploymentOperations Deployments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.Deployments" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.IDeploymentOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the repositories.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Diagnostics">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations Diagnostics { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations Diagnostics" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.Diagnostics" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the diagnostics settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationInitialTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationInitialTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationInitialTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.LongRunningOperationInitialTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the initial timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationRetryTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationRetryTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationRetryTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.LongRunningOperationRetryTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the retry timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Repository">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.WebSitesExtensions.IRepositoryOperations Repository { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.WebSitesExtensions.IRepositoryOperations Repository" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.Repository" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.IRepositoryOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the repository.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.WebSitesExtensions.ISettingsOperations Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.WebSitesExtensions.ISettingsOperations Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.Settings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.ISettingsOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing the settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SiteName">
+      <MemberSignature Language="C#" Value="public string SiteName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SiteName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.SiteName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The site name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggeredWebJobs">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.WebSitesExtensions.ITriggeredWebJobOperations TriggeredWebJobs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.WebSitesExtensions.ITriggeredWebJobOperations TriggeredWebJobs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.TriggeredWebJobs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.ITriggeredWebJobOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Operations for managing Triggered WebJobs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithHandler">
+      <MemberSignature Language="C#" Value="public override Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient WithHandler (System.Net.Http.DelegatingHandler handler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient WithHandler(class System.Net.Http.DelegatingHandler handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient.WithHandler(System.Net.Http.DelegatingHandler)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.WebSiteExtensionsClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="System.Net.Http.DelegatingHandler" />
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

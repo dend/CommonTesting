@@ -1,0 +1,50 @@
+<Type Name="DeploymentSlot" FullName="Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot">
+  <TypeSignature Language="C#" Value="public enum DeploymentSlot" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeploymentSlot extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Compute</AssemblyName>
+    <AssemblyVersion>12.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The deployment environment in which this deployment is running.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Production">
+      <MemberSignature Language="C#" Value="Production" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot Production = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot.Production" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Staging">
+      <MemberSignature Language="C#" Value="Staging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot Staging = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot.Staging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Compute.Models.DeploymentSlot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

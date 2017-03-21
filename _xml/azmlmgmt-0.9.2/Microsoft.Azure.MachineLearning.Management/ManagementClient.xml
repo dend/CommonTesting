@@ -1,0 +1,242 @@
+<Type Name="ManagementClient" FullName="Microsoft.Azure.MachineLearning.Management.ManagementClient">
+  <TypeSignature Language="C#" Value="public class ManagementClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ManagementClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Management.ManagementClient" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning.Management</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents the management client for an Azure Machine Learning service
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementClient (string workspaceId, string workspaceToken, Microsoft.Azure.MachineLearning.Logging.ILogger logger = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string workspaceId, string workspaceToken, class Microsoft.Azure.MachineLearning.Logging.ILogger logger) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.#ctor(System.String,System.String,Microsoft.Azure.MachineLearning.Logging.ILogger)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="workspaceId" Type="System.String" />
+        <Parameter Name="workspaceToken" Type="System.String" />
+        <Parameter Name="logger" Type="Microsoft.Azure.MachineLearning.Logging.ILogger" />
+      </Parameters>
+      <Docs>
+        <param name="workspaceId">Unique identifier for the workspace hosting the Azure Machine Learning service.</param>
+        <param name="workspaceToken">The unique access token required to authorize management calls for this workspace.</param>
+        <param name="logger">Logger instance for tracing functionality behavior.</param>
+        <summary>
+             Initialize a new instance of <c>ManagementClient</c></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementClient (string managementServiceBaseUriValue, string workspaceId, string workspaceToken, Microsoft.Azure.MachineLearning.Logging.ILogger logger = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string managementServiceBaseUriValue, string workspaceId, string workspaceToken, class Microsoft.Azure.MachineLearning.Logging.ILogger logger) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.#ctor(System.String,System.String,System.String,Microsoft.Azure.MachineLearning.Logging.ILogger)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="managementServiceBaseUriValue" Type="System.String" />
+        <Parameter Name="workspaceId" Type="System.String" />
+        <Parameter Name="workspaceToken" Type="System.String" />
+        <Parameter Name="logger" Type="Microsoft.Azure.MachineLearning.Logging.ILogger" />
+      </Parameters>
+      <Docs>
+        <param name="managementServiceBaseUriValue">The base uri for the management service</param>
+        <param name="workspaceId">Unique identifier for the workspace hosting the Azure Machine Learning service.</param>
+        <param name="workspaceToken">The unique access token required to authorize management calls for this workspace.</param>
+        <param name="logger">Logger instance for tracing functionality behavior.</param>
+        <summary>
+             Initialize a new instance of <c>ManagementClient</c></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService&gt; GetServiceAsync (string serviceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningService&gt; GetServiceAsync(string serviceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServiceAsync(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.ManagementClient/&lt;GetServiceAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceId">
+        </param>
+        <summary>
+            Retrieve a certain Azure Machine Learning service instance from the current workspace
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the service instance once completed.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">serviceId is not specified.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService&gt; GetServiceAsync (string serviceId, System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningService&gt; GetServiceAsync(string serviceId, valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServiceAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.ManagementClient/&lt;GetServiceAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceId" Type="System.String" />
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="serviceId">
+        </param>
+        <param name="token">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+        <summary>
+            Retrieve a certain Azure Machine Learning service instance from the current workspace
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the service instance once completed.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">serviceId is not specified.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+        <exception cref="T:System.OperationCanceledException">If a task cancellation is detected.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServicesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService[]&gt; GetServicesAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningService[]&gt; GetServicesAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServicesAsync" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.ManagementClient/&lt;GetServicesAsync&gt;d__8))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieve the list of Azure Machine Learning services available in the current workspace
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the list of services once completed.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServicesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService[]&gt; GetServicesAsync (System.Threading.CancellationToken token);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.MachineLearning.Management.MachineLearningService[]&gt; GetServicesAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServicesAsync(System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.MachineLearning.Management.ManagementClient/&lt;GetServicesAsync&gt;d__c))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.MachineLearning.Management.MachineLearningService[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="token">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+        <summary>
+            Retrieve the list of Azure Machine Learning services available in the current workspace
+            </summary>
+        <returns>Returns a continuation <c>Task</c> that will yield the list of services once completed.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">If any error is reported back from the service.</exception>
+        <exception cref="T:Microsoft.Azure.MachineLearning.Exceptions.ServiceResponseParsingException">If the service response payload fails to deserialize in the expected format.</exception>
+        <exception cref="T:System.OperationCanceledException">If a task cancellation is detected.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkspaceId">
+      <MemberSignature Language="C#" Value="public string WorkspaceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkspaceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.ManagementClient.WorkspaceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The unique identifier for the workspace hosting the Azure Machine Learning service
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkspaceToken">
+      <MemberSignature Language="C#" Value="public string WorkspaceToken { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkspaceToken" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.ManagementClient.WorkspaceToken" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The unique access token required to authorize management calls for the workspace this service belongs to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

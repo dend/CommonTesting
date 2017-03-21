@@ -1,0 +1,37 @@
+<Type Name="SourceVaultReference" FullName="Microsoft.Azure.Management.Compute.Models.SourceVaultReference">
+  <TypeSignature Language="C#" Value="public class SourceVaultReference : Microsoft.Azure.Management.Compute.Models.ApiEntityReference" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SourceVaultReference extends Microsoft.Azure.Management.Compute.Models.ApiEntityReference" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.SourceVaultReference" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Compute.Models.ApiEntityReference</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Contains a Source Key Vault relative URL.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SourceVaultReference ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.SourceVaultReference.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the SourceVaultReference class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

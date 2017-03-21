@@ -1,0 +1,161 @@
+<Type Name="MetricSettingOperationsExtensions" FullName="Microsoft.WindowsAzure.Management.Monitoring.Metrics.MetricSettingOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class MetricSettingOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MetricSettingOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Monitoring.Metrics.MetricSettingOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Monitoring</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse CreateOrUpdate (this Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse CreateOrUpdate(class Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, class Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Monitoring.Metrics.MetricSettingOperationsExtensions.CreateOrUpdate(Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations,Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations.
+            </param>
+        <param name="parameters">
+            Required. Metric settings to be created or updated.
+            </param>
+        <summary>
+            The Put Metric Settings operation creates or updates the metric
+            settings for the resource.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; CreateOrUpdateAsync (this Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; CreateOrUpdateAsync(class Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, class Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Monitoring.Metrics.MetricSettingOperationsExtensions.CreateOrUpdateAsync(Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations,Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingsPutParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations.
+            </param>
+        <param name="parameters">
+            Required. Metric settings to be created or updated.
+            </param>
+        <summary>
+            The Put Metric Settings operation creates or updates the metric
+            settings for the resource.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingListResponse List (this Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, string resourceId, string metricNamespace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingListResponse List(class Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, string resourceId, string metricNamespace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Monitoring.Metrics.MetricSettingOperationsExtensions.List(Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingListResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations" RefType="this" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="metricNamespace" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations.
+            </param>
+        <param name="resourceId">
+            Required. The id of the resource.
+            </param>
+        <param name="metricNamespace">
+            Required. The namespace of the metrics.
+            </param>
+        <summary>
+            The List Metric Settings operation lists the metric settings for
+            the resource.
+            </summary>
+        <returns>
+            The list metric settings operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingListResponse&gt; ListAsync (this Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, string resourceId, string metricNamespace);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingListResponse&gt; ListAsync(class Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations operations, string resourceId, string metricNamespace) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Monitoring.Metrics.MetricSettingOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Monitoring.Metrics.Models.MetricSettingListResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations" RefType="this" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="metricNamespace" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Monitoring.Metrics.IMetricSettingOperations.
+            </param>
+        <param name="resourceId">
+            Required. The id of the resource.
+            </param>
+        <param name="metricNamespace">
+            Required. The namespace of the metrics.
+            </param>
+        <summary>
+            The List Metric Settings operation lists the metric settings for
+            the resource.
+            </summary>
+        <returns>
+            The list metric settings operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

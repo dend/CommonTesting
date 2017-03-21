@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmobileservicerb-1.0.2.1">
+  <Namespace Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers">
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker">
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker.ResourceKey" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker.CreateResourceToken(System.String,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker.ExtractConnectionString(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker.ExtractParameters(Newtonsoft.Json.Linq.JToken,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters)" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureBlobBroker.AllowedPermissions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureQueueBroker" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureQueueBroker">
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureQueueBroker.ResourceKey" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureQueueBroker.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureQueueBroker.CreateResourceToken(System.String,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureQueueBroker.ExtractConnectionString(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureQueueBroker.AllowedPermissions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker">
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.Create(System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.CreateResourceToken(System.String,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.ExtractConnectionString(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.ExtractParameters(Newtonsoft.Json.Linq.JToken,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.ExtractPermissions(System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.ValidatePermission(Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions)" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureResourceBroker.AllowedPermissions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureStorageBroker" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureStorageBroker">
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureStorageBroker.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureStorageBroker.ExtractConnectionString(System.Collections.Generic.IDictionary{System.String,System.String})" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureTableBroker" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureTableBroker">
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureTableBroker.ResourceKey" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureTableBroker.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureTableBroker.CreateResourceToken(System.String,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureTableBroker.ExtractConnectionString(System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Brokers.AzureTableBroker.AllowedPermissions" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models">
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.BlobParameters" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.BlobParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.BlobParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.BlobParameters.Container" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Expiration" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Parameters" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Permissions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions">
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.Add" />
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.Delete" />
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.None" />
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.Process" />
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.Read" />
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.ReadWrite" />
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.Update" />
+      <Member Id="F:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions.Write" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceToken" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceToken">
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceToken.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceToken.Uri" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Providers">
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Providers.StorageProvider" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Providers.StorageProvider">
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Providers.StorageProvider.#ctor(System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Providers.StorageProvider.CreateBlobAccessToken(System.String,System.String,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions,System.Nullable{System.DateTime})" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Providers.StorageProvider.CreateQueueAccessToken(System.String,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions,System.Nullable{System.DateTime})" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Providers.StorageProvider.CreateTableAccessToken(System.String,Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions,System.Nullable{System.DateTime})" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker">
+    <Type Name="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.ResourcesControllerBase" Id="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.ResourcesControllerBase">
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.ResourcesControllerBase.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.ResourcesControllerBase.GenerateToken(System.String,Newtonsoft.Json.Linq.JToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.ResourcesControllerBase.Get" />
+      <Member Id="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.ResourcesControllerBase.Post(System.String,Newtonsoft.Json.Linq.JToken)" />
+      <Member Id="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.ResourcesControllerBase.Services" />
+    </Type>
+  </Namespace>
+</Framework>

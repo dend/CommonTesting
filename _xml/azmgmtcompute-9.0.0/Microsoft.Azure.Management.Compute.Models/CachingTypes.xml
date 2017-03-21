@@ -1,0 +1,75 @@
+<Type Name="CachingTypes" FullName="Microsoft.Azure.Management.Compute.Models.CachingTypes">
+  <TypeSignature Language="C#" Value="public static class CachingTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CachingTypes extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.CachingTypes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The caching types of OS or data disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="public const string None;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string None" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.CachingTypes.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            No Caching, which is default for data disks.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public const string ReadOnly;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ReadOnly" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.CachingTypes.ReadOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Read Only Caching.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadWrite">
+      <MemberSignature Language="C#" Value="public const string ReadWrite;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ReadWrite" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.CachingTypes.ReadWrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            ReadWrite Caching, which is default for OS disks.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

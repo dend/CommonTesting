@@ -1,0 +1,144 @@
+<Type Name="DiagnosticOperationsExtensions" FullName="Microsoft.WindowsAzure.DiagnosticOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class DiagnosticOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DiagnosticOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.DiagnosticOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The websites extensions client manages the web sites deployments, web
+            jobs and other extensions.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetSettings">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticGetResponse GetSettings (this Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticGetResponse GetSettings(class Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.DiagnosticOperationsExtensions.GetSettings(Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticGetResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations.
+            </param>
+        <summary>
+            Get diagnostics settings.
+            </summary>
+        <returns>
+            The get diagnostic settings operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSettingsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticGetResponse&gt; GetSettingsAsync (this Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticGetResponse&gt; GetSettingsAsync(class Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.DiagnosticOperationsExtensions.GetSettingsAsync(Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations.
+            </param>
+        <summary>
+            Get diagnostics settings.
+            </summary>
+        <returns>
+            The get diagnostic settings operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSettings">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.OperationResponse UpdateSettings (this Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations, Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.OperationResponse UpdateSettings(class Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations, class Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.DiagnosticOperationsExtensions.UpdateSettings(Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations,Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.OperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations.
+            </param>
+        <param name="parameters">
+            Required. The diagnostics setting information new values.
+            </param>
+        <summary>
+            Update diagnostics settings.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSettingsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; UpdateSettingsAsync (this Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations, Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; UpdateSettingsAsync(class Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations operations, class Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.DiagnosticOperationsExtensions.UpdateSettingsAsync(Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations,Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.WebSitesExtensions.Models.DiagnosticUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.WebSitesExtensions.IDiagnosticOperations.
+            </param>
+        <param name="parameters">
+            Required. The diagnostics setting information new values.
+            </param>
+        <summary>
+            Update diagnostics settings.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

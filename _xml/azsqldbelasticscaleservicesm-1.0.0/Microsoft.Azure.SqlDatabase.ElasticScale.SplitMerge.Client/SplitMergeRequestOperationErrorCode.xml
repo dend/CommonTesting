@@ -1,0 +1,33 @@
+<Type Name="SplitMergeRequestOperationErrorCode" FullName="Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.SplitMergeRequestOperationErrorCode">
+  <TypeSignature Language="C#" Value="public enum SplitMergeRequestOperationErrorCode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SplitMergeRequestOperationErrorCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.SplitMergeRequestOperationErrorCode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DispatchRetryExhausted">
+      <MemberSignature Language="C#" Value="DispatchRetryExhausted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.SplitMergeRequestOperationErrorCode DispatchRetryExhausted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.SplitMergeRequestOperationErrorCode.DispatchRetryExhausted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.SplitMerge.Client.SplitMergeRequestOperationErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

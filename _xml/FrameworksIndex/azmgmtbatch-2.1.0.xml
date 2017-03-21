@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmgmtbatch-2.1.0">
+  <Namespace Name="Microsoft.Azure.Management.Batch">
+    <Type Name="Microsoft.Azure.Management.Batch.AccountOperationsExtensions" Id="T:Microsoft.Azure.Management.Batch.AccountOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.GetAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.List(Microsoft.Azure.Management.Batch.IAccountOperations)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Batch.IAccountOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Batch.IAccountOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListKeys(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListKeysAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListNext(Microsoft.Azure.Management.Batch.IAccountOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.RegenerateKey(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.RegenerateKeyAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.SynchronizeAutoStorageKeys(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.SynchronizeAutoStorageKeysAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.Update(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.AccountOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Batch.IAccountOperations,System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions" Id="T:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ActivateApplicationPackage(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ActivateApplicationPackageAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.AddApplication(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AddApplicationParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.AddApplicationAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AddApplicationParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.AddApplicationPackage(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.AddApplicationPackageAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.DeleteApplication(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.DeleteApplicationAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.DeleteApplicationPackage(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.DeleteApplicationPackageAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.GetApplication(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.GetApplicationAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.GetApplicationPackage(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.GetApplicationPackageAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.List(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.Nullable{System.Int32})" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListNext(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.UpdateApplication(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.ApplicationOperationsExtensions.UpdateApplicationAsync(Microsoft.Azure.Management.Batch.IApplicationOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.BatchManagementClient" Id="T:Microsoft.Azure.Management.Batch.BatchManagementClient">
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.BatchManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.Account" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.Application" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.Subscription" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.BatchManagementClient.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.IAccountOperations" Id="T:Microsoft.Azure.Management.Batch.IAccountOperations">
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.BeginCreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.CreateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.ListByResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.ListKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.RegenerateKeyWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.SynchronizeAutoStorageKeysWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IAccountOperations.UpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.IApplicationOperations" Id="T:Microsoft.Azure.Management.Batch.IApplicationOperations">
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.ActivateApplicationPackageWithHttpMessagesAsync(System.String,System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.AddApplicationPackageWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.AddApplicationWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.AddApplicationParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.DeleteApplicationPackageWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.DeleteApplicationWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.GetApplicationPackageWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.GetApplicationWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.ListWithHttpMessagesAsync(System.String,System.String,System.Nullable{System.Int32},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.IApplicationOperations.UpdateApplicationWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.IBatchManagementClient" Id="T:Microsoft.Azure.Management.Batch.IBatchManagementClient">
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.Account" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.Application" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.Subscription" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.IBatchManagementClient.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.ISubscriptionOperations" Id="T:Microsoft.Azure.Management.Batch.ISubscriptionOperations">
+      <Member Id="M:Microsoft.Azure.Management.Batch.ISubscriptionOperations.GetSubscriptionQuotasWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions" Id="T:Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions.GetSubscriptionQuotas(Microsoft.Azure.Management.Batch.ISubscriptionOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions.GetSubscriptionQuotasAsync(Microsoft.Azure.Management.Batch.ISubscriptionOperations,System.String,System.Threading.CancellationToken)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Management.Batch.Models">
+    <Type Name="Microsoft.Azure.Management.Batch.Models.AccountKeyType" Id="T:Microsoft.Azure.Management.Batch.Models.AccountKeyType">
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountKeyType.Primary" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountKeyType.Secondary" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.AccountProvisioningState" Id="T:Microsoft.Azure.Management.Batch.Models.AccountProvisioningState">
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountProvisioningState.Cancelled" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountProvisioningState.Creating" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountProvisioningState.Deleting" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountProvisioningState.Failed" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountProvisioningState.Invalid" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.AccountProvisioningState.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.AccountResource" Id="T:Microsoft.Azure.Management.Batch.Models.AccountResource">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AccountResource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AccountResource.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{Microsoft.Azure.Management.Batch.Models.AccountProvisioningState},Microsoft.Azure.Management.Batch.Models.AutoStorageProperties)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AccountResource.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AccountResource.AccountEndpoint" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AccountResource.ActiveJobAndJobScheduleQuota" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AccountResource.AutoStorage" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AccountResource.CoreQuota" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AccountResource.PoolQuota" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AccountResource.ProvisioningState" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters" Id="T:Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.ActivateApplicationPackageParameters.Format" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult" Id="T:Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult.#ctor(System.String,System.String,System.String,System.Nullable{System.DateTime})" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult.Id" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult.StorageUrl" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult.StorageUrlExpiry" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AddApplicationPackageResult.Version" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.AddApplicationParameters" Id="T:Microsoft.Azure.Management.Batch.Models.AddApplicationParameters">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AddApplicationParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AddApplicationParameters.#ctor(System.Nullable{System.Boolean},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AddApplicationParameters.AllowUpdates" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AddApplicationParameters.DisplayName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.Application" Id="T:Microsoft.Azure.Management.Batch.Models.Application">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.Application.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.Application.#ctor(System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Batch.Models.ApplicationPackage},System.Nullable{System.Boolean},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Application.AllowUpdates" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Application.DefaultVersion" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Application.DisplayName" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Application.Id" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Application.Packages" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.ApplicationPackage" Id="T:Microsoft.Azure.Management.Batch.Models.ApplicationPackage">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.ApplicationPackage.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.ApplicationPackage.#ctor(System.String,System.Nullable{Microsoft.Azure.Management.Batch.Models.PackageState},System.String,System.Nullable{System.DateTime})" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.ApplicationPackage.Format" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.ApplicationPackage.LastActivationTime" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.ApplicationPackage.State" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.ApplicationPackage.Version" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties" Id="T:Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties.StorageAccountId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.AutoStorageProperties" Id="T:Microsoft.Azure.Management.Batch.Models.AutoStorageProperties">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AutoStorageProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AutoStorageProperties.#ctor(System.String,System.DateTime)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.AutoStorageProperties.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AutoStorageProperties.LastKeySync" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.AutoStorageProperties.StorageAccountId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters" Id="T:Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters.#ctor(System.String,System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters.AutoStorage" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters.Location" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountCreateParameters.Tags" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.BatchAccountListKeyResult" Id="T:Microsoft.Azure.Management.Batch.Models.BatchAccountListKeyResult">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountListKeyResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountListKeyResult.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountListKeyResult.Primary" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountListKeyResult.Secondary" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters" Id="T:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters.#ctor(Microsoft.Azure.Management.Batch.Models.AccountKeyType)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyParameters.KeyName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyResult" Id="T:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyResult">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyResult.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyResult.Primary" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountRegenerateKeyResult.Secondary" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters" Id="T:Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters.#ctor(System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.Batch.Models.AutoStorageBaseProperties)" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters.AutoStorage" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.BatchAccountUpdateParameters.Tags" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult" Id="T:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.#ctor(System.String,System.String,System.Nullable{Microsoft.Azure.Management.Batch.Models.PackageState},System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.Format" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.Id" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.LastActivationTime" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.State" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.StorageUrl" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.StorageUrlExpiry" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.GetApplicationPackageResult.Version" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.PackageState" Id="T:Microsoft.Azure.Management.Batch.Models.PackageState">
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.PackageState.Active" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.PackageState.Pending" />
+      <Member Id="F:Microsoft.Azure.Management.Batch.Models.PackageState.Unmapped" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.Page`1" Id="T:Microsoft.Azure.Management.Batch.Models.Page`1">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.Page`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.Page`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.Page`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Page`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.Resource" Id="T:Microsoft.Azure.Management.Batch.Models.Resource">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.Resource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.Resource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Resource.Id" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Resource.Location" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Resource.Name" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Resource.Tags" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.Resource.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult" Id="T:Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult.#ctor(System.Nullable{System.Int32})" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult.AccountQuota" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters" Id="T:Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters">
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters.#ctor(System.Nullable{System.Boolean},System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters.AllowUpdates" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters.DefaultVersion" />
+      <Member Id="P:Microsoft.Azure.Management.Batch.Models.UpdateApplicationParameters.DisplayName" />
+    </Type>
+  </Namespace>
+</Framework>

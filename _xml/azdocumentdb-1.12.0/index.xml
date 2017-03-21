@@ -1,0 +1,449 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Azure.Documents.Client" Version="1.12.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation. All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.12.4.1")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.12.4.1")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft(R) Azure DocumentDB")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("Microsoft and Windows are either registered trademarks or trademarks of Microsoft Corporation in the U.S. and/or other countries.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en-US")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Tools.QueryOracle.UnitTests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Tools.QueryOracle, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Admin, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.Management, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.CrudLatencyService.CrudLatency, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.Management2, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("DocumentDBStudio, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("ManifestGenerator, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.Load, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.Stress, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.StressTest, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.Functional, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.Performance, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.QueryOracle, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Portal.Extension, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Services.Runners.DatabaseAccountCrud, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Interop.Mongo, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Client.Test, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.DocDbCore, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.DocDBDotNet, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.IndexOracle, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.ScenarioDepot, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Azure.Documents.Test.Workloads.ElasticCollectionsModule, PublicKey=0024000004800000940000000602000000240000525341310004000001000100197c25d0a04f73cb271e8181dba1c0c713df8deebb25864541a66670500f34896d280484b45fe1ff6c29f2ee7aa175d8bcbd0c83cc23901a894a86996030f6292ce6eda6e6f3e6c74b3c5a3ded4903c951e6747e6102969503360f7781bf8bf015058eb89b7621798ccc85aaca036ff1bc1556bb7f62de15908484886aa8bbae")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("DynamicProxyGenAssembly2,PublicKey=0024000004800000940000000602000000240000525341310004000001000100c547cac37abd99c8db225ef2f6c8a3602f3b3606cc9891605d02baa56104f4cfc0734aa39b93bf7852f7d9266654753cc297e7d2edfe0bac1cdcf9f717241550e0a7b191195b7667bb4f64bcb8e2121380fd1d9d46ad2d92d2d15605093924cceaf74c4861eff62abf69b9291ed0a340e113be11e6a7d3113e92484cf7045cc7")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.Guid("841B26AA-4E1D-4894-9249-AA0C947580C4")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Azure.Documents">
+      <Type Name="Attachment" Kind="Class" />
+      <Type Name="Conflict" Kind="Class" />
+      <Type Name="ConsistencyLevel" Kind="Enumeration" />
+      <Type Name="ConsistencyPolicy" Kind="Class" />
+      <Type Name="Database" Kind="Class" />
+      <Type Name="DatabaseAccount" Kind="Class" />
+      <Type Name="DatabaseAccountLocation" Kind="Class" />
+      <Type Name="DataType" Kind="Enumeration" />
+      <Type Name="Document" Kind="Class" />
+      <Type Name="DocumentClientException" Kind="Class" />
+      <Type Name="DocumentCollection" Kind="Class" />
+      <Type Name="Error" Kind="Class" />
+      <Type Name="ExcludedPath" Kind="Class" />
+      <Type Name="HashIndex" Kind="Class" />
+      <Type Name="IDocumentClient" Kind="Interface" />
+      <Type Name="IncludedPath" Kind="Class" />
+      <Type Name="Index" Kind="Class" />
+      <Type Name="IndexingDirective" Kind="Enumeration" />
+      <Type Name="IndexingMode" Kind="Enumeration" />
+      <Type Name="IndexingPolicy" Kind="Class" />
+      <Type Name="IndexKind" Kind="Enumeration" />
+      <Type Name="JsonSerializable" Kind="Class" />
+      <Type Name="LocationNames" Kind="Class" />
+      <Type Name="Offer" Kind="Class" />
+      <Type Name="OfferContentV2" Kind="Class" />
+      <Type Name="OfferV2" Kind="Class" />
+      <Type Name="OperationKind" Kind="Enumeration" />
+      <Type Name="PartitionKey" Kind="Class" />
+      <Type Name="PartitionKeyDefinition" Kind="Class" />
+      <Type Name="PartitionKeyRange" Kind="Class" />
+      <Type Name="Permission" Kind="Class" />
+      <Type Name="PermissionMode" Kind="Enumeration" />
+      <Type Name="RangeIndex" Kind="Class" />
+      <Type Name="ReplicationPolicy" Kind="Class" />
+      <Type Name="Resource" Kind="Class" />
+      <Type Name="SerializationFormattingPolicy" Kind="Enumeration" />
+      <Type Name="SpatialIndex" Kind="Class" />
+      <Type Name="SqlParameter" Kind="Class" />
+      <Type Name="SqlParameterCollection" Kind="Class" />
+      <Type Name="SqlQuerySpec" Kind="Class" />
+      <Type Name="StoredProcedure" Kind="Class" />
+      <Type Name="Trigger" Kind="Class" />
+      <Type Name="TriggerOperation" Kind="Enumeration" />
+      <Type Name="TriggerType" Kind="Enumeration" />
+      <Type Name="Undefined" Kind="Class" />
+      <Type Name="UnixDateTimeConverter" Kind="Class" />
+      <Type Name="User" Kind="Class" />
+      <Type Name="UserDefinedFunction" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Documents.Client">
+      <Type Name="AccessCondition" Kind="Class" />
+      <Type Name="AccessConditionType" Kind="Enumeration" />
+      <Type Name="ChangeFeedOptions" Kind="Class" />
+      <Type Name="ConnectionMode" Kind="Enumeration" />
+      <Type Name="ConnectionPolicy" Kind="Class" />
+      <Type Name="DocumentClient" Kind="Class" />
+      <Type Name="FeedOptions" Kind="Class" />
+      <Type Name="FeedResponse`1" DisplayName="FeedResponse&lt;T&gt;" Kind="Class" />
+      <Type Name="IFeedResponse`1" DisplayName="IFeedResponse&lt;T&gt;" Kind="Interface" />
+      <Type Name="IMediaResponse" Kind="Interface" />
+      <Type Name="IPartitionResolver" Kind="Interface" />
+      <Type Name="IResourceResponse`1" DisplayName="IResourceResponse&lt;T&gt;" Kind="Interface" />
+      <Type Name="IStoredProcedureResponse`1" DisplayName="IStoredProcedureResponse&lt;TValue&gt;" Kind="Interface" />
+      <Type Name="MediaOptions" Kind="Class" />
+      <Type Name="MediaReadMode" Kind="Enumeration" />
+      <Type Name="MediaResponse" Kind="Class" />
+      <Type Name="Protocol" Kind="Enumeration" />
+      <Type Name="RequestOptions" Kind="Class" />
+      <Type Name="ResourceResponse`1" DisplayName="ResourceResponse&lt;T&gt;" Kind="Class" />
+      <Type Name="RetryOptions" Kind="Class" />
+      <Type Name="StoredProcedureResponse`1" DisplayName="StoredProcedureResponse&lt;TValue&gt;" Kind="Class" />
+      <Type Name="UriFactory" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Documents.Linq">
+      <Type Name="DocumentQueryable" Kind="Class" />
+      <Type Name="DocumentQueryException" Kind="Class" />
+      <Type Name="IDocumentQuery" Kind="Interface" />
+      <Type Name="IDocumentQuery`1" DisplayName="IDocumentQuery&lt;T&gt;" Kind="Interface" />
+      <Type Name="UserDefinedFunctionProvider" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Documents.Partitioning">
+      <Type Name="HashPartitionResolver" Kind="Class" />
+      <Type Name="IHashGenerator" Kind="Interface" />
+      <Type Name="Range`1" DisplayName="Range&lt;T&gt;" Kind="Class" />
+      <Type Name="RangePartitionResolver`1" DisplayName="RangePartitionResolver&lt;T&gt;" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Documents.Spatial">
+      <Type Name="BoundingBox" Kind="Class" />
+      <Type Name="Crs" Kind="Class" />
+      <Type Name="CrsType" Kind="Enumeration" />
+      <Type Name="Geometry" Kind="Class" />
+      <Type Name="GeometryOperationExtensions" Kind="Class" />
+      <Type Name="GeometryParams" Kind="Class" />
+      <Type Name="GeometryType" Kind="Enumeration" />
+      <Type Name="GeometryValidationResult" Kind="Class" />
+      <Type Name="LinearRing" Kind="Class" />
+      <Type Name="LineString" Kind="Class" />
+      <Type Name="LinkedCrs" Kind="Class" />
+      <Type Name="NamedCrs" Kind="Class" />
+      <Type Name="Point" Kind="Class" />
+      <Type Name="Polygon" Kind="Class" />
+      <Type Name="Position" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Azure.Documents.SystemFunctions">
+      <Type Name="TypeCheckFunctionsExtensions" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Azure.Documents.Client</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Linq.IQueryable`1" />
+      </Targets>
+      <Member MemberName="AsDocumentQuery&lt;T&gt;">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Documents.Linq.IDocumentQuery&lt;T&gt; AsDocumentQuery&lt;T&gt; (this System.Linq.IQueryable&lt;T&gt; query);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Documents.Linq.IDocumentQuery`1&lt;!!T&gt; AsDocumentQuery&lt;T&gt;(class System.Linq.IQueryable`1&lt;!!T&gt; query) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AsDocumentQuery``1(System.Linq.IQueryable{``0})" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Documents.Linq.IDocumentQuery&lt;T&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="T" />
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="query" Type="System.Linq.IQueryable&lt;T&gt;" RefType="this" />
+        </Parameters>
+        <Docs>
+          <typeparam name="T">the type of object to query.</typeparam>
+          <param name="query">the IQueryable{T} to be converted.</param>
+          <summary>
+            Converts an IQueryable to IDocumentQuery which supports pagination and asynchronous execution in the Azure DocumentDB database service.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.Linq.DocumentQueryable" Member="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AsDocumentQuery``1(System.Linq.IQueryable{``0})" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Documents.Spatial.Geometry" />
+      </Targets>
+      <Member MemberName="Distance">
+        <MemberSignature Language="C#" Value="public static double Distance (this Microsoft.Azure.Documents.Spatial.Geometry from, Microsoft.Azure.Documents.Spatial.Geometry to);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 Distance(class Microsoft.Azure.Documents.Spatial.Geometry from, class Microsoft.Azure.Documents.Spatial.Geometry to) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.Distance(Microsoft.Azure.Documents.Spatial.Geometry,Microsoft.Azure.Documents.Spatial.Geometry)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Double</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="from" Type="Microsoft.Azure.Documents.Spatial.Geometry" RefType="this" />
+          <Parameter Name="to" Type="Microsoft.Azure.Documents.Spatial.Geometry" />
+        </Parameters>
+        <Docs>
+          <param name="from">First <see cref="T:Microsoft.Azure.Documents.Spatial.Geometry" />.</param>
+          <param name="to">Second <see cref="T:Microsoft.Azure.Documents.Spatial.Geometry" />.</param>
+          <summary>
+            Distance in meters between two geometries in the Azure DocumentDB database service.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions" Member="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.Distance(Microsoft.Azure.Documents.Spatial.Geometry,Microsoft.Azure.Documents.Spatial.Geometry)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Documents.Spatial.Geometry" />
+      </Targets>
+      <Member MemberName="IsValid">
+        <MemberSignature Language="C#" Value="public static bool IsValid (this Microsoft.Azure.Documents.Spatial.Geometry geometry);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsValid(class Microsoft.Azure.Documents.Spatial.Geometry geometry) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.IsValid(Microsoft.Azure.Documents.Spatial.Geometry)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="geometry" Type="Microsoft.Azure.Documents.Spatial.Geometry" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="geometry">The geometry to check for validity.</param>
+          <summary>
+            <para>
+            Determines if the <paramref name="geometry" /> specified is valid and can be indexed
+            or used in queries by Azure DocumentDB database service.
+            </para>
+            <para>
+            If a geometry is not valid, it will not be indexed. Also during query time invalid geometries are equivalent to <c>undefined</c>.
+            </para>
+          </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions" Member="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.IsValid(Microsoft.Azure.Documents.Spatial.Geometry)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Documents.Spatial.Geometry" />
+      </Targets>
+      <Member MemberName="IsValidDetailed">
+        <MemberSignature Language="C#" Value="public static Microsoft.Azure.Documents.Spatial.GeometryValidationResult IsValidDetailed (this Microsoft.Azure.Documents.Spatial.Geometry geometry);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Documents.Spatial.GeometryValidationResult IsValidDetailed(class Microsoft.Azure.Documents.Spatial.Geometry geometry) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.IsValidDetailed(Microsoft.Azure.Documents.Spatial.Geometry)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Microsoft.Azure.Documents.Spatial.GeometryValidationResult</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="geometry" Type="Microsoft.Azure.Documents.Spatial.Geometry" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="geometry">The geometry to check for validity.</param>
+          <summary>
+            <para>
+            Determines if the <paramref name="geometry" /> specified is valid and can be indexed
+            or used in queries by Azure DocumentDB database service.
+            </para>
+            <para>
+            If a geometry is not valid, it will not be indexed. Also during query time invalid geometries are equivalent to <c>undefined</c>.
+            </para>
+          </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions" Member="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.IsValidDetailed(Microsoft.Azure.Documents.Spatial.Geometry)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Azure.Documents.Spatial.Geometry" />
+      </Targets>
+      <Member MemberName="Within">
+        <MemberSignature Language="C#" Value="public static bool Within (this Microsoft.Azure.Documents.Spatial.Geometry inner, Microsoft.Azure.Documents.Spatial.Geometry outer);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Within(class Microsoft.Azure.Documents.Spatial.Geometry inner, class Microsoft.Azure.Documents.Spatial.Geometry outer) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.Within(Microsoft.Azure.Documents.Spatial.Geometry,Microsoft.Azure.Documents.Spatial.Geometry)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="inner" Type="Microsoft.Azure.Documents.Spatial.Geometry" RefType="this" />
+          <Parameter Name="outer" Type="Microsoft.Azure.Documents.Spatial.Geometry" />
+        </Parameters>
+        <Docs>
+          <param name="inner">Inner <see cref="T:Microsoft.Azure.Documents.Spatial.Geometry" />.</param>
+          <param name="outer">Outer <see cref="T:Microsoft.Azure.Documents.Spatial.Geometry" />.</param>
+          <summary>
+            Determines if <paramref name="inner" /><see cref="T:Microsoft.Azure.Documents.Spatial.Geometry" /> is fully contained inside <paramref name="outer" /><see cref="T:Microsoft.Azure.Documents.Spatial.Geometry" /> in the Azure DocumentDB database service.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions" Member="M:Microsoft.Azure.Documents.Spatial.GeometryOperationExtensions.Within(Microsoft.Azure.Documents.Spatial.Geometry,Microsoft.Azure.Documents.Spatial.Geometry)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Object" />
+      </Targets>
+      <Member MemberName="IsDefined">
+        <MemberSignature Language="C#" Value="public static bool IsDefined (this object obj);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsDefined(object obj) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions.IsDefined(System.Object)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="obj" Type="System.Object" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="obj" />
+          <summary>
+            Determines if a certain property is defined or not.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions" Member="M:Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions.IsDefined(System.Object)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Object" />
+      </Targets>
+      <Member MemberName="IsNull">
+        <MemberSignature Language="C#" Value="public static bool IsNull (this object obj);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsNull(object obj) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions.IsNull(System.Object)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="obj" Type="System.Object" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="obj" />
+          <summary>
+            Determines if a certain property is null or not.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions" Member="M:Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions.IsNull(System.Object)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:System.Object" />
+      </Targets>
+      <Member MemberName="IsPrimitive">
+        <MemberSignature Language="C#" Value="public static bool IsPrimitive (this object obj);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsPrimitive(object obj) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions.IsPrimitive(System.Object)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Boolean</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="obj" Type="System.Object" RefType="this" />
+        </Parameters>
+        <Docs>
+          <param name="obj" />
+          <summary>
+            Determines if a certain property is of premitive JSON type.
+            </summary>
+        </Docs>
+        <Link Type="Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions" Member="M:Microsoft.Azure.Documents.SystemFunctions.TypeCheckFunctionsExtensions.IsPrimitive(System.Object)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

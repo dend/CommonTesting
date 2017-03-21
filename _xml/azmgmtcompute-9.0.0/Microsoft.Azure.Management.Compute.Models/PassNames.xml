@@ -1,0 +1,39 @@
+<Type Name="PassNames" FullName="Microsoft.Azure.Management.Compute.Models.PassNames">
+  <TypeSignature Language="C#" Value="public static class PassNames" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PassNames extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.PassNames" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Pass names supported by AdditionalUnattendContent.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OOBESystem">
+      <MemberSignature Language="C#" Value="public const string OOBESystem;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string OOBESystem" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.PassNames.OOBESystem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            oobeSystem pass in unattend.xml file
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

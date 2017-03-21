@@ -1,0 +1,509 @@
+<Type Name="VirtualNetworkOperationsExtensions" FullName="Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class VirtualNetworkOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VirtualNetworkOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreateOrUpdateResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork BeginCreateOrUpdateResource (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork BeginCreateOrUpdateResource(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.BeginCreateOrUpdateResource(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="virtualNetwork" Type="Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="virtualNetwork">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateOrUpdateResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; BeginCreateOrUpdateResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; BeginCreateOrUpdateResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.BeginCreateOrUpdateResourceAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;BeginCreateOrUpdateResourceAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="virtualNetwork" Type="Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="virtualNetwork">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteResource">
+      <MemberSignature Language="C#" Value="public static void BeginDeleteResource (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDeleteResource(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.BeginDeleteResource(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginDeleteResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginDeleteResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.BeginDeleteResourceAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;BeginDeleteResourceAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork CreateOrUpdateResource (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork CreateOrUpdateResource(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.CreateOrUpdateResource(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="virtualNetwork" Type="Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="virtualNetwork">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; CreateOrUpdateResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; CreateOrUpdateResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.CreateOrUpdateResourceAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;CreateOrUpdateResourceAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="virtualNetwork" Type="Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="virtualNetwork">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResource">
+      <MemberSignature Language="C#" Value="public static void DeleteResource (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteResource(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.DeleteResource(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.DeleteResourceAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;DeleteResourceAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork GetResource (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork GetResource(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.GetResource(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; GetResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; GetResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.GetResourceAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;GetResourceAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; List (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; odataQuery = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; List(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; odataQuery) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.List(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;&gt; ListAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; odataQuery = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;&gt; ListAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; odataQuery, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.ListAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;ListAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="odataQuery" Type="Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="odataQuery">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; ListNext (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; ListNext(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.ListNext(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;ListNextAsync&gt;d__15))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchResource">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork PatchResource (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork PatchResource(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.PatchResource(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="virtualNetwork" Type="Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="virtualNetwork">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchResourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; PatchResourceAsync (this Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt; PatchResourceAsync(class Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations operations, string resourceGroupName, string labName, string name, class Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork virtualNetwork, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions.PatchResourceAsync(Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations,System.String,System.String,System.String,Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DevTestLabs.VirtualNetworkOperationsExtensions/&lt;PatchResourceAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DevTestLabs.IVirtualNetworkOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="labName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="virtualNetwork" Type="Microsoft.Azure.Management.DevTestLabs.Models.VirtualNetwork" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="labName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="virtualNetwork">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

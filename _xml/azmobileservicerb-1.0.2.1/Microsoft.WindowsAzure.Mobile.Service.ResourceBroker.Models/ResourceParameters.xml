@@ -1,0 +1,101 @@
+<Type Name="ResourceParameters" FullName="Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters">
+  <TypeSignature Language="C#" Value="public class ResourceParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Mobile.Service.ResourceBroker</AssemblyName>
+    <AssemblyVersion>1.0.2.1</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResourceParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.2.1</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Expiration">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Expiration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Expiration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Expiration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.2.1</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.2.1</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameters">
+      <MemberSignature Language="C#" Value="public Newtonsoft.Json.Linq.JToken Parameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Newtonsoft.Json.Linq.JToken Parameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Parameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.2.1</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Newtonsoft.Json.Linq.JToken</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permissions">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions Permissions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions Permissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourceParameters.Permissions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.2.1</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Mobile.Service.ResourceBroker.Models.ResourcePermissions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

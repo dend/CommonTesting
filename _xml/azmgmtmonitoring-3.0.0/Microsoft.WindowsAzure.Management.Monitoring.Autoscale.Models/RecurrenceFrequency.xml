@@ -1,0 +1,154 @@
+<Type Name="RecurrenceFrequency" FullName="Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency">
+  <TypeSignature Language="C#" Value="public enum RecurrenceFrequency" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RecurrenceFrequency extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Monitoring</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Day">
+      <MemberSignature Language="C#" Value="Day" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency Day = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.Day" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A recurrence value measured in days.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hour">
+      <MemberSignature Language="C#" Value="Hour" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency Hour = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.Hour" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A recurrence value measured in hours.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Minute">
+      <MemberSignature Language="C#" Value="Minute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency Minute = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.Minute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A recurrence value measured in minutes.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Month">
+      <MemberSignature Language="C#" Value="Month" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency Month = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.Month" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A recurrence value measured in months.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            No recurrence.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Second">
+      <MemberSignature Language="C#" Value="Second" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency Second = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.Second" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A recurrence value measured in seconds.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Week">
+      <MemberSignature Language="C#" Value="Week" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency Week = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.Week" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A recurrence value measured in weeks.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Year">
+      <MemberSignature Language="C#" Value="Year" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency Year = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency.Year" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.RecurrenceFrequency</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A recurrence value measured in years.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

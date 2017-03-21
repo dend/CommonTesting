@@ -1,0 +1,160 @@
+<Type Name="PushTriggerListener" FullName="Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener">
+  <TypeSignature Language="C#" Value="public class PushTriggerListener : Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PushTriggerListener extends Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.50.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PushTriggerListener (Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime, string service, string triggerName, Newtonsoft.Json.Linq.JObject parameters, string pushCallbackUri, string triggerId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime, string service, string triggerName, class Newtonsoft.Json.Linq.JObject parameters, string pushCallbackUri, string triggerId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String,System.String,Newtonsoft.Json.Linq.JObject,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="runtime" Type="Microsoft.Azure.AppService.ApiApps.Service.Runtime" />
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="triggerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Newtonsoft.Json.Linq.JObject" />
+        <Parameter Name="pushCallbackUri" Type="System.String" />
+        <Parameter Name="triggerId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="runtime">To be added.</param>
+        <param name="service">To be added.</param>
+        <param name="triggerName">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <param name="pushCallbackUri">To be added.</param>
+        <param name="triggerId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokePushCallback">
+      <MemberSignature Language="C#" Value="public void InvokePushCallback (Newtonsoft.Json.Linq.JObject triggerParams);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void InvokePushCallback(class Newtonsoft.Json.Linq.JObject triggerParams) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.InvokePushCallback(Newtonsoft.Json.Linq.JObject)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="triggerParams" Type="Newtonsoft.Json.Linq.JObject" />
+      </Parameters>
+      <Docs>
+        <param name="triggerParams">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PushCallbackUri">
+      <MemberSignature Language="C#" Value="public string PushCallbackUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PushCallbackUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.PushCallbackUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendCancelAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; SendCancelAsync (System.Threading.CancellationToken cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;bool&gt; SendCancelAsync(valuetype System.Threading.CancellationToken cancel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.SendCancelAsync(System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener/&lt;SendCancelAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancel" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TriggerId">
+      <MemberSignature Language="C#" Value="public string TriggerId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TriggerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.TriggerId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitAsync">
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.Task WaitAsync (Action&lt;Newtonsoft.Json.Linq.JObject&gt; fpEvent, System.Threading.CancellationToken cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task WaitAsync(class System.Action`1&lt;class Newtonsoft.Json.Linq.JObject&gt; fpEvent, valuetype System.Threading.CancellationToken cancel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.WaitAsync(System.Action{Newtonsoft.Json.Linq.JObject},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener/&lt;WaitAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fpEvent" Type="System.Action&lt;Newtonsoft.Json.Linq.JObject&gt;" />
+        <Parameter Name="cancel" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="fpEvent">To be added.</param>
+        <param name="cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

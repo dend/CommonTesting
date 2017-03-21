@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azsearch-1.1.3">
+  <Namespace Name="Microsoft.Azure.Search">
+    <Type Name="Microsoft.Azure.Search.DataSourcesOperationsExtensions" Id="T:Microsoft.Azure.Search.DataSourcesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.Create(Microsoft.Azure.Search.IDataSourcesOperations,Microsoft.Azure.Search.Models.DataSource,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.CreateAsync(Microsoft.Azure.Search.IDataSourcesOperations,Microsoft.Azure.Search.Models.DataSource,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Search.IDataSourcesOperations,Microsoft.Azure.Search.Models.DataSource,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Search.IDataSourcesOperations,Microsoft.Azure.Search.Models.DataSource,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.Delete(Microsoft.Azure.Search.IDataSourcesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.DeleteAsync(Microsoft.Azure.Search.IDataSourcesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.Exists(Microsoft.Azure.Search.IDataSourcesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.ExistsAsync(Microsoft.Azure.Search.IDataSourcesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.Get(Microsoft.Azure.Search.IDataSourcesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.GetAsync(Microsoft.Azure.Search.IDataSourcesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.List(Microsoft.Azure.Search.IDataSourcesOperations,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DataSourcesOperationsExtensions.ListAsync(Microsoft.Azure.Search.IDataSourcesOperations,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.DocumentsOperationsExtensions" Id="T:Microsoft.Azure.Search.DocumentsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.ContinueSearch(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.SearchContinuationToken,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.ContinueSearch``1(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.SearchContinuationToken,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.ContinueSearchAsync(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.SearchContinuationToken,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.ContinueSearchAsync``1(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.SearchContinuationToken,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Count(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.CountAsync(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Get(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.Collections.Generic.IEnumerable{System.String},Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Get``1(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.Collections.Generic.IEnumerable{System.String},Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.GetAsync(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.Collections.Generic.IEnumerable{System.String},Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.GetAsync``1(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.Collections.Generic.IEnumerable{System.String},Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Index(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.IndexBatch,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Index``1(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.IndexBatch{``0},Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.IndexAsync(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.IndexBatch,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.IndexAsync``1(Microsoft.Azure.Search.IDocumentsOperations,Microsoft.Azure.Search.Models.IndexBatch{``0},Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Search(Microsoft.Azure.Search.IDocumentsOperations,System.String,Microsoft.Azure.Search.Models.SearchParameters,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Search``1(Microsoft.Azure.Search.IDocumentsOperations,System.String,Microsoft.Azure.Search.Models.SearchParameters,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.SearchAsync(Microsoft.Azure.Search.IDocumentsOperations,System.String,Microsoft.Azure.Search.Models.SearchParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.SearchAsync``1(Microsoft.Azure.Search.IDocumentsOperations,System.String,Microsoft.Azure.Search.Models.SearchParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Suggest(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.String,Microsoft.Azure.Search.Models.SuggestParameters,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.Suggest``1(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.String,Microsoft.Azure.Search.Models.SuggestParameters,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.SuggestAsync(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.String,Microsoft.Azure.Search.Models.SuggestParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.DocumentsOperationsExtensions.SuggestAsync``1(Microsoft.Azure.Search.IDocumentsOperations,System.String,System.String,Microsoft.Azure.Search.Models.SuggestParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.IDataSourcesOperations" Id="T:Microsoft.Azure.Search.IDataSourcesOperations">
+      <Member Id="M:Microsoft.Azure.Search.IDataSourcesOperations.CreateOrUpdateWithHttpMessagesAsync(Microsoft.Azure.Search.Models.DataSource,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDataSourcesOperations.CreateWithHttpMessagesAsync(Microsoft.Azure.Search.Models.DataSource,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDataSourcesOperations.DeleteWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDataSourcesOperations.ExistsWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDataSourcesOperations.GetWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDataSourcesOperations.ListWithHttpMessagesAsync(Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.IDocumentsOperations" Id="T:Microsoft.Azure.Search.IDocumentsOperations">
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.ContinueSearchWithHttpMessagesAsync(Microsoft.Azure.Search.Models.SearchContinuationToken,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.ContinueSearchWithHttpMessagesAsync``1(Microsoft.Azure.Search.Models.SearchContinuationToken,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.CountWithHttpMessagesAsync(Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.GetWithHttpMessagesAsync(System.String,System.Collections.Generic.IEnumerable{System.String},Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.GetWithHttpMessagesAsync``1(System.String,System.Collections.Generic.IEnumerable{System.String},Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.IndexWithHttpMessagesAsync(Microsoft.Azure.Search.Models.IndexBatch,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.IndexWithHttpMessagesAsync``1(Microsoft.Azure.Search.Models.IndexBatch{``0},Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.SearchWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.SearchWithHttpMessagesAsync``1(System.String,Microsoft.Azure.Search.Models.SearchParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.SuggestWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Search.Models.SuggestParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IDocumentsOperations.SuggestWithHttpMessagesAsync``1(System.String,System.String,Microsoft.Azure.Search.Models.SuggestParameters,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.IIndexersOperations" Id="T:Microsoft.Azure.Search.IIndexersOperations">
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.CreateOrUpdateWithHttpMessagesAsync(Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.CreateWithHttpMessagesAsync(Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.DeleteWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.ExistsWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.GetStatusWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.GetWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.ListWithHttpMessagesAsync(Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.ResetWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexersOperations.RunWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.IIndexesOperations" Id="T:Microsoft.Azure.Search.IIndexesOperations">
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.CreateOrUpdateWithHttpMessagesAsync(Microsoft.Azure.Search.Models.Index,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.CreateWithHttpMessagesAsync(Microsoft.Azure.Search.Models.Index,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.DeleteWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.ExistsWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.GetClient(System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.GetStatisticsWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.GetWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IIndexesOperations.ListWithHttpMessagesAsync(System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.IndexBatchException" Id="T:Microsoft.Azure.Search.IndexBatchException">
+      <Member Id="M:Microsoft.Azure.Search.IndexBatchException.#ctor(Microsoft.Azure.Search.Models.DocumentIndexResult)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexBatchException.FindFailedActionsToRetry(Microsoft.Azure.Search.Models.IndexBatch,System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexBatchException.FindFailedActionsToRetry``1(Microsoft.Azure.Search.Models.IndexBatch{``0},System.Func{``0,System.String})" />
+      <Member Id="P:Microsoft.Azure.Search.IndexBatchException.IndexingResults" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.IndexersOperationsExtensions" Id="T:Microsoft.Azure.Search.IndexersOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Create(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateAsync(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Delete(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.DeleteAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Exists(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.ExistsAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Get(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.GetAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.GetStatus(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.GetStatusAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.List(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.ListAsync(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Reset(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.ResetAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Run(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexersOperationsExtensions.RunAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.IndexesOperationsExtensions" Id="T:Microsoft.Azure.Search.IndexesOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.Create(Microsoft.Azure.Search.IIndexesOperations,Microsoft.Azure.Search.Models.Index,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.CreateAsync(Microsoft.Azure.Search.IIndexesOperations,Microsoft.Azure.Search.Models.Index,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Search.IIndexesOperations,Microsoft.Azure.Search.Models.Index,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Search.IIndexesOperations,Microsoft.Azure.Search.Models.Index,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.Delete(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.DeleteAsync(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.Exists(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.ExistsAsync(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.Get(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.GetAsync(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.GetStatistics(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.GetStatisticsAsync(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.List(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.ListAsync(Microsoft.Azure.Search.IIndexesOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.ListNames(Microsoft.Azure.Search.IIndexesOperations,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
+      <Member Id="M:Microsoft.Azure.Search.IndexesOperationsExtensions.ListNamesAsync(Microsoft.Azure.Search.IIndexesOperations,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.ISearchIndexClient" Id="T:Microsoft.Azure.Search.ISearchIndexClient">
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.Documents" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.SearchCredentials" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchIndexClient.UseHttpGetForQueries" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.ISearchServiceClient" Id="T:Microsoft.Azure.Search.ISearchServiceClient">
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.DataSources" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.Indexers" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.Indexes" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.SearchCredentials" />
+      <Member Id="P:Microsoft.Azure.Search.ISearchServiceClient.SerializationSettings" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.SearchCredentials" Id="T:Microsoft.Azure.Search.SearchCredentials">
+      <Member Id="M:Microsoft.Azure.Search.SearchCredentials.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.SearchCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.Search.SearchCredentials.ApiKey" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.SearchIndexClient" Id="T:Microsoft.Azure.Search.SearchIndexClient">
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.String,System.String,Microsoft.Azure.Search.SearchCredentials)" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.String,System.String,Microsoft.Azure.Search.SearchCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchIndexClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.Documents" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.SearchCredentials" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Search.SearchIndexClient.UseHttpGetForQueries" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.SearchServiceClient" Id="T:Microsoft.Azure.Search.SearchServiceClient">
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.String,Microsoft.Azure.Search.SearchCredentials)" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.String,Microsoft.Azure.Search.SearchCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Search.SearchServiceClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.DataSources" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.Indexers" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.Indexes" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.SearchCredentials" />
+      <Member Id="P:Microsoft.Azure.Search.SearchServiceClient.SerializationSettings" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Search.Models">
+    <Type Name="Microsoft.Azure.Search.Models.AnalyzerName" Id="T:Microsoft.Azure.Search.Models.AnalyzerName">
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ArLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ArMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.BgLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.BgMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.BnMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.CaLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.CaMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.CsLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.CsMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.DaLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.DaMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.DeLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.DeMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ElLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ElMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.EnLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.EnMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.EsLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.EsMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.EtMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.EuLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.FaLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.FiLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.FiMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.FrLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.FrMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.GaLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.GlLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.GuMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.HeMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.HiLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.HiMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.HrMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.HuLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.HuMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.HyLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.IdLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.IdMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.IsMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ItLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ItMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.JaLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.JaMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.KnMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.KoLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.KoMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.LtMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.LvLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.LvMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.MlMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.MrMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.MsMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.NbMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.NlLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.NlMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.NoLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.PaMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.PlLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.PlMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.PtBRLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.PtBrMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.PtPTLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.PtPtMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.RoLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.RoMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.RuLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.RuMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.SkMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.SlMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.SrCyrillicMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.SrLatinMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.StandardAsciiFoldingLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.StandardLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.SvLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.SvMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.TaMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.TeMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ThLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ThMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.TrLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.TrMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.UkMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.UrMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ViMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ZhHansLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ZhHansMicrosoft" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ZhHantLucene" />
+      <Member Id="F:Microsoft.Azure.Search.Models.AnalyzerName.ZhHantMicrosoft" />
+      <Member Id="M:Microsoft.Azure.Search.Models.AnalyzerName.Create(System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.AnalyzerName.Equals(Microsoft.Azure.Search.Models.AnalyzerName)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.AnalyzerName.Equals(System.Object)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.AnalyzerName.GetHashCode" />
+      <Member Id="M:Microsoft.Azure.Search.Models.AnalyzerName.op_Implicit(Microsoft.Azure.Search.Models.AnalyzerName)~System.String" />
+      <Member Id="M:Microsoft.Azure.Search.Models.AnalyzerName.ToString" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.CorsOptions" Id="T:Microsoft.Azure.Search.Models.CorsOptions">
+      <Member Id="M:Microsoft.Azure.Search.Models.CorsOptions.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.CorsOptions.#ctor(System.Collections.Generic.IList{System.String},System.Nullable{System.Int64})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.CorsOptions.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.CorsOptions.AllowedOrigins" />
+      <Member Id="P:Microsoft.Azure.Search.Models.CorsOptions.MaxAgeInSeconds" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataChangeDetectionPolicy" Id="T:Microsoft.Azure.Search.Models.DataChangeDetectionPolicy">
+      <Member Id="M:Microsoft.Azure.Search.Models.DataChangeDetectionPolicy.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataContainer" Id="T:Microsoft.Azure.Search.Models.DataContainer">
+      <Member Id="M:Microsoft.Azure.Search.Models.DataContainer.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataContainer.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataContainer.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataContainer.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataContainer.Query" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataDeletionDetectionPolicy" Id="T:Microsoft.Azure.Search.Models.DataDeletionDetectionPolicy">
+      <Member Id="M:Microsoft.Azure.Search.Models.DataDeletionDetectionPolicy.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataSource" Id="T:Microsoft.Azure.Search.Models.DataSource">
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSource.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSource.#ctor(System.String,System.String,Microsoft.Azure.Search.Models.DataSourceCredentials,Microsoft.Azure.Search.Models.DataContainer,System.String,Microsoft.Azure.Search.Models.DataChangeDetectionPolicy,Microsoft.Azure.Search.Models.DataDeletionDetectionPolicy)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSource.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSource.Container" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSource.Credentials" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSource.DataChangeDetectionPolicy" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSource.DataDeletionDetectionPolicy" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSource.Description" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSource.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSource.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataSourceCredentials" Id="T:Microsoft.Azure.Search.Models.DataSourceCredentials">
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSourceCredentials.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSourceCredentials.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSourceCredentials.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSourceCredentials.ConnectionString" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataSourceListResult" Id="T:Microsoft.Azure.Search.Models.DataSourceListResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSourceListResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSourceListResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Search.Models.DataSource})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DataSourceListResult.DataSources" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataSourceType" Id="T:Microsoft.Azure.Search.Models.DataSourceType">
+      <Member Id="F:Microsoft.Azure.Search.Models.DataSourceType.AzureSql" />
+      <Member Id="F:Microsoft.Azure.Search.Models.DataSourceType.DocumentDb" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSourceType.op_Implicit(Microsoft.Azure.Search.Models.DataSourceType)~System.String" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataSourceType.ToString" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DataType" Id="T:Microsoft.Azure.Search.Models.DataType">
+      <Member Id="F:Microsoft.Azure.Search.Models.DataType.Boolean" />
+      <Member Id="F:Microsoft.Azure.Search.Models.DataType.DateTimeOffset" />
+      <Member Id="F:Microsoft.Azure.Search.Models.DataType.Double" />
+      <Member Id="F:Microsoft.Azure.Search.Models.DataType.GeographyPoint" />
+      <Member Id="F:Microsoft.Azure.Search.Models.DataType.Int32" />
+      <Member Id="F:Microsoft.Azure.Search.Models.DataType.Int64" />
+      <Member Id="F:Microsoft.Azure.Search.Models.DataType.String" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataType.Collection(Microsoft.Azure.Search.Models.DataType)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataType.Create(System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataType.Equals(Microsoft.Azure.Search.Models.DataType)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataType.Equals(System.Object)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataType.GetHashCode" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataType.op_Implicit(Microsoft.Azure.Search.Models.DataType)~System.String" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DataType.ToString" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DistanceScoringFunction" Id="T:Microsoft.Azure.Search.Models.DistanceScoringFunction">
+      <Member Id="M:Microsoft.Azure.Search.Models.DistanceScoringFunction.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DistanceScoringFunction.#ctor(System.String,System.Double,Microsoft.Azure.Search.Models.DistanceScoringParameters,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DistanceScoringFunction.#ctor(System.String,System.Double,System.String,System.Double,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DistanceScoringFunction.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DistanceScoringFunction.Parameters" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DistanceScoringParameters" Id="T:Microsoft.Azure.Search.Models.DistanceScoringParameters">
+      <Member Id="M:Microsoft.Azure.Search.Models.DistanceScoringParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DistanceScoringParameters.#ctor(System.String,System.Double)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DistanceScoringParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DistanceScoringParameters.BoostingDistance" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DistanceScoringParameters.ReferencePointParameter" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.Document" Id="T:Microsoft.Azure.Search.Models.Document">
+      <Member Id="M:Microsoft.Azure.Search.Models.Document.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DocumentIndexResult" Id="T:Microsoft.Azure.Search.Models.DocumentIndexResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentIndexResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentIndexResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Search.Models.IndexingResult})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentIndexResult.Results" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DocumentSearchResult" Id="T:Microsoft.Azure.Search.Models.DocumentSearchResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentSearchResult.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DocumentSearchResult`1" Id="T:Microsoft.Azure.Search.Models.DocumentSearchResult`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentSearchResult`1.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DocumentSearchResultBase`2" Id="T:Microsoft.Azure.Search.Models.DocumentSearchResultBase`2">
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentSearchResultBase`2.#ctor" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentSearchResultBase`2.ContinuationToken" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentSearchResultBase`2.Count" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentSearchResultBase`2.Coverage" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentSearchResultBase`2.Facets" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentSearchResultBase`2.Results" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DocumentSuggestResult" Id="T:Microsoft.Azure.Search.Models.DocumentSuggestResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentSuggestResult.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DocumentSuggestResult`1" Id="T:Microsoft.Azure.Search.Models.DocumentSuggestResult`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentSuggestResult`1.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.DocumentSuggestResultBase`2" Id="T:Microsoft.Azure.Search.Models.DocumentSuggestResultBase`2">
+      <Member Id="M:Microsoft.Azure.Search.Models.DocumentSuggestResultBase`2.#ctor" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentSuggestResultBase`2.Coverage" />
+      <Member Id="P:Microsoft.Azure.Search.Models.DocumentSuggestResultBase`2.Results" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.FacetResult" Id="T:Microsoft.Azure.Search.Models.FacetResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.FacetResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.FacetResult.AsRangeFacetResult``1" />
+      <Member Id="M:Microsoft.Azure.Search.Models.FacetResult.AsValueFacetResult``1" />
+      <Member Id="P:Microsoft.Azure.Search.Models.FacetResult.Count" />
+      <Member Id="P:Microsoft.Azure.Search.Models.FacetResult.From" />
+      <Member Id="P:Microsoft.Azure.Search.Models.FacetResult.To" />
+      <Member Id="P:Microsoft.Azure.Search.Models.FacetResult.Type" />
+      <Member Id="P:Microsoft.Azure.Search.Models.FacetResult.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.FacetResults" Id="T:Microsoft.Azure.Search.Models.FacetResults">
+      <Member Id="M:Microsoft.Azure.Search.Models.FacetResults.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.FacetType" Id="T:Microsoft.Azure.Search.Models.FacetType">
+      <Member Id="F:Microsoft.Azure.Search.Models.FacetType.Range" />
+      <Member Id="F:Microsoft.Azure.Search.Models.FacetType.Value" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.Field" Id="T:Microsoft.Azure.Search.Models.Field">
+      <Member Id="M:Microsoft.Azure.Search.Models.Field.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Field.#ctor(System.String,Microsoft.Azure.Search.Models.AnalyzerName)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Field.#ctor(System.String,Microsoft.Azure.Search.Models.DataType)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Field.#ctor(System.String,Microsoft.Azure.Search.Models.DataType,Microsoft.Azure.Search.Models.AnalyzerName)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Field.OnDeserialized(System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Field.OnSerializing(System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Field.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.Analyzer" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.IsFacetable" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.IsFilterable" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.IsKey" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.IsRetrievable" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.IsSearchable" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.IsSortable" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Field.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.FreshnessScoringFunction" Id="T:Microsoft.Azure.Search.Models.FreshnessScoringFunction">
+      <Member Id="M:Microsoft.Azure.Search.Models.FreshnessScoringFunction.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.FreshnessScoringFunction.#ctor(System.String,System.Double,Microsoft.Azure.Search.Models.FreshnessScoringParameters,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.FreshnessScoringFunction.#ctor(System.String,System.Double,System.TimeSpan,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.FreshnessScoringFunction.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.FreshnessScoringFunction.Parameters" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.FreshnessScoringParameters" Id="T:Microsoft.Azure.Search.Models.FreshnessScoringParameters">
+      <Member Id="M:Microsoft.Azure.Search.Models.FreshnessScoringParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.FreshnessScoringParameters.#ctor(System.TimeSpan)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.FreshnessScoringParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.FreshnessScoringParameters.BoostingDuration" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.HighWaterMarkChangeDetectionPolicy" Id="T:Microsoft.Azure.Search.Models.HighWaterMarkChangeDetectionPolicy">
+      <Member Id="M:Microsoft.Azure.Search.Models.HighWaterMarkChangeDetectionPolicy.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.HighWaterMarkChangeDetectionPolicy.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.HighWaterMarkChangeDetectionPolicy.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.HighWaterMarkChangeDetectionPolicy.HighWaterMarkColumnName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.HitHighlights" Id="T:Microsoft.Azure.Search.Models.HitHighlights">
+      <Member Id="M:Microsoft.Azure.Search.Models.HitHighlights.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.Index" Id="T:Microsoft.Azure.Search.Models.Index">
+      <Member Id="M:Microsoft.Azure.Search.Models.Index.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Index.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Field},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.ScoringProfile},System.String,Microsoft.Azure.Search.Models.CorsOptions,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Suggester})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Index.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Index.CorsOptions" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Index.DefaultScoringProfile" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Index.Fields" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Index.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Index.ScoringProfiles" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Index.Suggesters" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexAction" Id="T:Microsoft.Azure.Search.Models.IndexAction">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.Delete(Microsoft.Azure.Search.Models.Document)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.Delete(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.Delete``1(``0)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.Merge(Microsoft.Azure.Search.Models.Document)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.Merge``1(``0)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.MergeOrUpload(Microsoft.Azure.Search.Models.Document)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.MergeOrUpload``1(``0)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.Upload(Microsoft.Azure.Search.Models.Document)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexAction.Upload``1(``0)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexAction`1" Id="T:Microsoft.Azure.Search.Models.IndexAction`1" />
+    <Type Name="Microsoft.Azure.Search.Models.IndexActionBase`1" Id="T:Microsoft.Azure.Search.Models.IndexActionBase`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexActionBase`1.#ctor(Microsoft.Azure.Search.Models.IndexActionType,`0)" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexActionBase`1.ActionType" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexActionBase`1.Document" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexActionType" Id="T:Microsoft.Azure.Search.Models.IndexActionType">
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexActionType.Delete" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexActionType.Merge" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexActionType.MergeOrUpload" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexActionType.Upload" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexBatch" Id="T:Microsoft.Azure.Search.Models.IndexBatch">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.IndexAction})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.Delete(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.Document})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.Delete(System.String,System.Collections.Generic.IEnumerable{System.String})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.Delete``1(System.Collections.Generic.IEnumerable{``0})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.Merge(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.Document})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.Merge``1(System.Collections.Generic.IEnumerable{``0})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.MergeOrUpload(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.Document})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.MergeOrUpload``1(System.Collections.Generic.IEnumerable{``0})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.New(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.IndexAction})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.New``1(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.IndexAction{``0}})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.Upload(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.Document})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch.Upload``1(System.Collections.Generic.IEnumerable{``0})" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexBatch`1" Id="T:Microsoft.Azure.Search.Models.IndexBatch`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatch`1.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Azure.Search.Models.IndexAction{`0}})" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexBatchBase`2" Id="T:Microsoft.Azure.Search.Models.IndexBatchBase`2">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexBatchBase`2.#ctor(System.Collections.Generic.IEnumerable{`0})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexBatchBase`2.Actions" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.Indexer" Id="T:Microsoft.Azure.Search.Models.Indexer">
+      <Member Id="M:Microsoft.Azure.Search.Models.Indexer.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Indexer.#ctor(System.String,System.String,System.String,System.String,Microsoft.Azure.Search.Models.IndexingSchedule,Microsoft.Azure.Search.Models.IndexingParameters)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Indexer.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Indexer.DataSourceName" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Indexer.Description" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Indexer.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Indexer.Parameters" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Indexer.Schedule" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Indexer.TargetIndexName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexerExecutionInfo" Id="T:Microsoft.Azure.Search.Models.IndexerExecutionInfo">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexerExecutionInfo.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexerExecutionInfo.#ctor(Microsoft.Azure.Search.Models.IndexerStatus,Microsoft.Azure.Search.Models.IndexerExecutionResult,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.IndexerExecutionResult})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionInfo.ExecutionHistory" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionInfo.LastResult" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionInfo.Status" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexerExecutionResult" Id="T:Microsoft.Azure.Search.Models.IndexerExecutionResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexerExecutionResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexerExecutionResult.#ctor(Microsoft.Azure.Search.Models.IndexerExecutionStatus,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.ItemError},System.Int32,System.Int32,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.EndTime" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.ErrorMessage" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.Errors" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.FailedItemCount" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.FinalTrackingState" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.InitialTrackingState" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.ItemCount" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.StartTime" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerExecutionResult.Status" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexerExecutionStatus" Id="T:Microsoft.Azure.Search.Models.IndexerExecutionStatus">
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexerExecutionStatus.InProgress" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexerExecutionStatus.Reset" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexerExecutionStatus.Success" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexerExecutionStatus.TransientFailure" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexerListResult" Id="T:Microsoft.Azure.Search.Models.IndexerListResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexerListResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexerListResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Indexer})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexerListResult.Indexers" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexerStatus" Id="T:Microsoft.Azure.Search.Models.IndexerStatus">
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexerStatus.Error" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexerStatus.Running" />
+      <Member Id="F:Microsoft.Azure.Search.Models.IndexerStatus.Unknown" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexGetStatisticsResult" Id="T:Microsoft.Azure.Search.Models.IndexGetStatisticsResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexGetStatisticsResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexGetStatisticsResult.#ctor(System.Int64,System.Int64)" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexGetStatisticsResult.DocumentCount" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexGetStatisticsResult.StorageSize" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexingParameters" Id="T:Microsoft.Azure.Search.Models.IndexingParameters">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexingParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexingParameters.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingParameters.Base64EncodeKeys" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingParameters.MaxFailedItems" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingParameters.MaxFailedItemsPerBatch" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexingResult" Id="T:Microsoft.Azure.Search.Models.IndexingResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexingResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexingResult.#ctor(System.String,System.String,System.Boolean)" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingResult.ErrorMessage" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingResult.Key" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingResult.Succeeded" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexingSchedule" Id="T:Microsoft.Azure.Search.Models.IndexingSchedule">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexingSchedule.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexingSchedule.#ctor(System.TimeSpan,System.Nullable{System.DateTimeOffset})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexingSchedule.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingSchedule.Interval" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexingSchedule.StartTime" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.IndexListResult" Id="T:Microsoft.Azure.Search.Models.IndexListResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexListResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.IndexListResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Index})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.IndexListResult.Indexes" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.ItemError" Id="T:Microsoft.Azure.Search.Models.ItemError">
+      <Member Id="M:Microsoft.Azure.Search.Models.ItemError.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ItemError.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ItemError.ErrorMessage" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ItemError.Key" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.MagnitudeScoringFunction" Id="T:Microsoft.Azure.Search.Models.MagnitudeScoringFunction">
+      <Member Id="M:Microsoft.Azure.Search.Models.MagnitudeScoringFunction.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.MagnitudeScoringFunction.#ctor(System.String,System.Double,Microsoft.Azure.Search.Models.MagnitudeScoringParameters,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.MagnitudeScoringFunction.#ctor(System.String,System.Double,System.Double,System.Double,System.Nullable{System.Boolean},System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.MagnitudeScoringFunction.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.MagnitudeScoringFunction.Parameters" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.MagnitudeScoringParameters" Id="T:Microsoft.Azure.Search.Models.MagnitudeScoringParameters">
+      <Member Id="M:Microsoft.Azure.Search.Models.MagnitudeScoringParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.MagnitudeScoringParameters.#ctor(System.Double,System.Double,System.Nullable{System.Boolean})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.MagnitudeScoringParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.MagnitudeScoringParameters.BoostingRangeEnd" />
+      <Member Id="P:Microsoft.Azure.Search.Models.MagnitudeScoringParameters.BoostingRangeStart" />
+      <Member Id="P:Microsoft.Azure.Search.Models.MagnitudeScoringParameters.ShouldBoostBeyondRangeByConstant" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.QueryType" Id="T:Microsoft.Azure.Search.Models.QueryType">
+      <Member Id="F:Microsoft.Azure.Search.Models.QueryType.Full" />
+      <Member Id="F:Microsoft.Azure.Search.Models.QueryType.Simple" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.RangeFacetResult`1" Id="T:Microsoft.Azure.Search.Models.RangeFacetResult`1">
+      <Member Id="P:Microsoft.Azure.Search.Models.RangeFacetResult`1.Count" />
+      <Member Id="P:Microsoft.Azure.Search.Models.RangeFacetResult`1.From" />
+      <Member Id="P:Microsoft.Azure.Search.Models.RangeFacetResult`1.To" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.ScoringFunction" Id="T:Microsoft.Azure.Search.Models.ScoringFunction">
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringFunction.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringFunction.#ctor(System.String,System.Double,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringFunction.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringFunction.Boost" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringFunction.FieldName" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringFunction.Interpolation" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.ScoringFunctionAggregation" Id="T:Microsoft.Azure.Search.Models.ScoringFunctionAggregation">
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionAggregation.Average" />
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionAggregation.FirstMatching" />
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionAggregation.Maximum" />
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionAggregation.Minimum" />
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionAggregation.Sum" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.ScoringFunctionInterpolation" Id="T:Microsoft.Azure.Search.Models.ScoringFunctionInterpolation">
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionInterpolation.Constant" />
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionInterpolation.Linear" />
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionInterpolation.Logarithmic" />
+      <Member Id="F:Microsoft.Azure.Search.Models.ScoringFunctionInterpolation.Quadratic" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.ScoringParameter" Id="T:Microsoft.Azure.Search.Models.ScoringParameter">
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringParameter.#ctor(System.String,Microsoft.Spatial.GeographyPoint)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringParameter.#ctor(System.String,System.Collections.Generic.IEnumerable{System.String})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringParameter.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringParameter.ToString" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringParameter.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringParameter.Value" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringParameter.Values" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.ScoringProfile" Id="T:Microsoft.Azure.Search.Models.ScoringProfile">
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringProfile.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringProfile.#ctor(System.String,Microsoft.Azure.Search.Models.TextWeights,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.ScoringFunction},System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionAggregation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.ScoringProfile.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringProfile.FunctionAggregation" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringProfile.Functions" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringProfile.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ScoringProfile.TextWeights" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SearchContinuationToken" Id="T:Microsoft.Azure.Search.Models.SearchContinuationToken" />
+    <Type Name="Microsoft.Azure.Search.Models.SearchMode" Id="T:Microsoft.Azure.Search.Models.SearchMode">
+      <Member Id="F:Microsoft.Azure.Search.Models.SearchMode.All" />
+      <Member Id="F:Microsoft.Azure.Search.Models.SearchMode.Any" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SearchParameters" Id="T:Microsoft.Azure.Search.Models.SearchParameters">
+      <Member Id="M:Microsoft.Azure.Search.Models.SearchParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.SearchParameters.ToString" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.Facets" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.Filter" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.HighlightFields" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.HighlightPostTag" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.HighlightPreTag" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.IncludeTotalResultCount" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.MinimumCoverage" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.OrderBy" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.QueryType" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.ScoringParameters" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.ScoringProfile" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.SearchFields" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.SearchMode" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.Select" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.Skip" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchParameters.Top" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SearchRequestOptions" Id="T:Microsoft.Azure.Search.Models.SearchRequestOptions">
+      <Member Id="M:Microsoft.Azure.Search.Models.SearchRequestOptions.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.SearchRequestOptions.#ctor(System.Nullable{System.Guid})" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchRequestOptions.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SearchResult" Id="T:Microsoft.Azure.Search.Models.SearchResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.SearchResult.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SearchResult`1" Id="T:Microsoft.Azure.Search.Models.SearchResult`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.SearchResult`1.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SearchResultBase`1" Id="T:Microsoft.Azure.Search.Models.SearchResultBase`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.SearchResultBase`1.#ctor" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchResultBase`1.Document" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchResultBase`1.Highlights" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SearchResultBase`1.Score" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SerializePropertyNamesAsCamelCaseAttribute" Id="T:Microsoft.Azure.Search.Models.SerializePropertyNamesAsCamelCaseAttribute">
+      <Member Id="M:Microsoft.Azure.Search.Models.SerializePropertyNamesAsCamelCaseAttribute.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SoftDeleteColumnDeletionDetectionPolicy" Id="T:Microsoft.Azure.Search.Models.SoftDeleteColumnDeletionDetectionPolicy">
+      <Member Id="M:Microsoft.Azure.Search.Models.SoftDeleteColumnDeletionDetectionPolicy.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.SoftDeleteColumnDeletionDetectionPolicy.#ctor(System.String,System.Object)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.SoftDeleteColumnDeletionDetectionPolicy.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SoftDeleteColumnDeletionDetectionPolicy.SoftDeleteColumnName" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SoftDeleteColumnDeletionDetectionPolicy.SoftDeleteMarkerValue" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SqlIntegratedChangeTrackingPolicy" Id="T:Microsoft.Azure.Search.Models.SqlIntegratedChangeTrackingPolicy">
+      <Member Id="M:Microsoft.Azure.Search.Models.SqlIntegratedChangeTrackingPolicy.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.Suggester" Id="T:Microsoft.Azure.Search.Models.Suggester">
+      <Member Id="M:Microsoft.Azure.Search.Models.Suggester.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Suggester.#ctor(System.String,Microsoft.Azure.Search.Models.SuggesterSearchMode,System.Collections.Generic.IList{System.String})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Suggester.#ctor(System.String,Microsoft.Azure.Search.Models.SuggesterSearchMode,System.String[])" />
+      <Member Id="M:Microsoft.Azure.Search.Models.Suggester.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Suggester.Name" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Suggester.SearchMode" />
+      <Member Id="P:Microsoft.Azure.Search.Models.Suggester.SourceFields" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SuggesterSearchMode" Id="T:Microsoft.Azure.Search.Models.SuggesterSearchMode">
+      <Member Id="F:Microsoft.Azure.Search.Models.SuggesterSearchMode.AnalyzingInfixMatching" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SuggestParameters" Id="T:Microsoft.Azure.Search.Models.SuggestParameters">
+      <Member Id="M:Microsoft.Azure.Search.Models.SuggestParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.SuggestParameters.ToString" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.Filter" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.HighlightPostTag" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.HighlightPreTag" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.MinimumCoverage" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.OrderBy" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.SearchFields" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.Select" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.Top" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestParameters.UseFuzzyMatching" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SuggestResult" Id="T:Microsoft.Azure.Search.Models.SuggestResult">
+      <Member Id="M:Microsoft.Azure.Search.Models.SuggestResult.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SuggestResult`1" Id="T:Microsoft.Azure.Search.Models.SuggestResult`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.SuggestResult`1.#ctor" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.SuggestResultBase`1" Id="T:Microsoft.Azure.Search.Models.SuggestResultBase`1">
+      <Member Id="M:Microsoft.Azure.Search.Models.SuggestResultBase`1.#ctor" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestResultBase`1.Document" />
+      <Member Id="P:Microsoft.Azure.Search.Models.SuggestResultBase`1.Text" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.TagScoringFunction" Id="T:Microsoft.Azure.Search.Models.TagScoringFunction">
+      <Member Id="M:Microsoft.Azure.Search.Models.TagScoringFunction.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.TagScoringFunction.#ctor(System.String,System.Double,Microsoft.Azure.Search.Models.TagScoringParameters,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.TagScoringFunction.#ctor(System.String,System.Double,System.String,System.Nullable{Microsoft.Azure.Search.Models.ScoringFunctionInterpolation})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.TagScoringFunction.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.TagScoringFunction.Parameters" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.TagScoringParameters" Id="T:Microsoft.Azure.Search.Models.TagScoringParameters">
+      <Member Id="M:Microsoft.Azure.Search.Models.TagScoringParameters.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.TagScoringParameters.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.Search.Models.TagScoringParameters.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.TagScoringParameters.TagsParameter" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.TextWeights" Id="T:Microsoft.Azure.Search.Models.TextWeights">
+      <Member Id="M:Microsoft.Azure.Search.Models.TextWeights.#ctor" />
+      <Member Id="M:Microsoft.Azure.Search.Models.TextWeights.#ctor(System.Collections.Generic.IDictionary{System.String,System.Double})" />
+      <Member Id="M:Microsoft.Azure.Search.Models.TextWeights.Validate" />
+      <Member Id="P:Microsoft.Azure.Search.Models.TextWeights.Weights" />
+    </Type>
+    <Type Name="Microsoft.Azure.Search.Models.ValueFacetResult`1" Id="T:Microsoft.Azure.Search.Models.ValueFacetResult`1">
+      <Member Id="P:Microsoft.Azure.Search.Models.ValueFacetResult`1.Count" />
+      <Member Id="P:Microsoft.Azure.Search.Models.ValueFacetResult`1.Value" />
+    </Type>
+  </Namespace>
+</Framework>

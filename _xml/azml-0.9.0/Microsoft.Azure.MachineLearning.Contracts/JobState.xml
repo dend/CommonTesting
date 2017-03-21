@@ -1,0 +1,110 @@
+<Type Name="JobState" FullName="Microsoft.Azure.MachineLearning.Contracts.JobState">
+  <TypeSignature Language="C#" Value="public enum JobState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Contracts.JobState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            The various possible states for an Azure Machine Learning batch job run
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Cancelled">
+      <MemberSignature Language="C#" Value="Cancelled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Contracts.JobState Cancelled = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Contracts.JobState.Cancelled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Contracts.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The job has been explicitly cancelled by the user
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Contracts.JobState Failed = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Contracts.JobState.Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Contracts.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The job run has encountered a failure and stopped running
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Finished">
+      <MemberSignature Language="C#" Value="Finished" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Contracts.JobState Finished = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Contracts.JobState.Finished" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Contracts.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The job has completed running successfully
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotStarted">
+      <MemberSignature Language="C#" Value="NotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Contracts.JobState NotStarted = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Contracts.JobState.NotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Contracts.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The job was registered with the Azure Machine Learning service, but not explicitly started yet by the user
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Running">
+      <MemberSignature Language="C#" Value="Running" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Contracts.JobState Running = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Contracts.JobState.Running" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Contracts.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The job is currently running 
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

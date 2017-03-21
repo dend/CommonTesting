@@ -1,0 +1,113 @@
+<Type Name="ScaleAction" FullName="Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleAction">
+  <TypeSignature Language="C#" Value="public class ScaleAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScaleAction extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Monitoring</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The action for scaling.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ScaleAction ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleAction.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the ScaleAction class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cooldown">
+      <MemberSignature Language="C#" Value="public TimeSpan Cooldown { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Cooldown" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleAction.Cooldown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The cooldown interval for scaling action.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Direction">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleDirection Direction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleDirection Direction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleAction.Direction" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The direction of scaling.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleAction.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The type of scaling.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.ScaleAction.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The rate of scaling.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

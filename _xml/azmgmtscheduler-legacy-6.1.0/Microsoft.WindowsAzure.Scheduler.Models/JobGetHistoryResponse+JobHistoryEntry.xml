@@ -1,0 +1,230 @@
+<Type Name="JobGetHistoryResponse+JobHistoryEntry" FullName="Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse+JobHistoryEntry">
+  <TypeSignature Language="C#" Value="public class JobGetHistoryResponse.JobHistoryEntry" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit JobGetHistoryResponse/JobHistoryEntry extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A job history entry.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobHistoryEntry ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the JobHistoryEntry class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionName">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Scheduler.Models.JobHistoryActionName ActionName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Scheduler.Models.JobHistoryActionName ActionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.ActionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Scheduler.Models.JobHistoryActionName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The action of this execution, MainAction or
+            ErrorAction.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.EndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The time the execution attempt concluded.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The job id that this history entry is for.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. A description of the result of the execution attempt.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatCount">
+      <MemberSignature Language="C#" Value="public int RepeatCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RepeatCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.RepeatCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The occurrence count of this execution.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetryCount">
+      <MemberSignature Language="C#" Value="public int RetryCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RetryCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.RetryCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The retry count of this occurrence.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The time the execution attempt began.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Scheduler.Models.JobState State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Scheduler.Models.JobState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.State" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Scheduler.Models.JobState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The state of the job: enabled, disabled, faulted, or
+            completed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Scheduler.Models.JobHistoryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The status of this execution attempt, completed or
+            failed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public DateTime Timestamp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Scheduler.Models.JobGetHistoryResponse.JobHistoryEntry.Timestamp" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The time the execution attempt began.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

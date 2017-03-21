@@ -1,0 +1,482 @@
+<Type Name="CustomDomainsOperationsExtensions" FullName="Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class CustomDomainsOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CustomDomainsOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.CustomDomain BeginCreate (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.CustomDomain BeginCreate(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.CustomDomain</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hostName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="hostName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; BeginCreateAsync (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; BeginCreateAsync(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions/&lt;BeginCreateAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hostName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="hostName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteIfExists">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.CustomDomain BeginDeleteIfExists (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.CustomDomain BeginDeleteIfExists(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.BeginDeleteIfExists(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.CustomDomain</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteIfExistsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; BeginDeleteIfExistsAsync (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; BeginDeleteIfExistsAsync(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.BeginDeleteIfExistsAsync(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions/&lt;BeginDeleteIfExistsAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.CustomDomain Create (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.CustomDomain Create(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.Create(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.CustomDomain</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hostName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="hostName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; CreateAsync (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; CreateAsync(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions/&lt;CreateAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hostName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="hostName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteIfExists">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.CustomDomain DeleteIfExists (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.CustomDomain DeleteIfExists(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.DeleteIfExists(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.CustomDomain</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteIfExistsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; DeleteIfExistsAsync (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; DeleteIfExistsAsync(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.DeleteIfExistsAsync(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions/&lt;DeleteIfExistsAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.CustomDomain Get (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.CustomDomain Get(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.Get(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.CustomDomain</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; GetAsync (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; GetAsync(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions/&lt;GetAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByEndpoint">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; ListByEndpoint (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string endpointName, string profileName, string resourceGroupName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt; ListByEndpoint(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string endpointName, string profileName, string resourceGroupName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.ListByEndpoint(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListByEndpointAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;&gt; ListByEndpointAsync (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string endpointName, string profileName, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;&gt; ListByEndpointAsync(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string endpointName, string profileName, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.ListByEndpointAsync(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions/&lt;ListByEndpointAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Cdn.Models.CustomDomain&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.ErrorResponse Update (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.ErrorResponse Update(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.Update(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Cdn.Models.ErrorResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hostName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="hostName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.ErrorResponse&gt; UpdateAsync (this Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Cdn.Models.ErrorResponse&gt; UpdateAsync(class Microsoft.Azure.Management.Cdn.ICustomDomainsOperations operations, string customDomainName, string endpointName, string profileName, string resourceGroupName, string hostName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Cdn.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CustomDomainsOperationsExtensions/&lt;UpdateAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Cdn.Models.ErrorResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.ICustomDomainsOperations" RefType="this" />
+        <Parameter Name="customDomainName" Type="System.String" />
+        <Parameter Name="endpointName" Type="System.String" />
+        <Parameter Name="profileName" Type="System.String" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="hostName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="customDomainName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="hostName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

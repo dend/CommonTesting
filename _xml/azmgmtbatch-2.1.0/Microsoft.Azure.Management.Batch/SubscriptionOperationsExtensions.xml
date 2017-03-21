@@ -1,0 +1,72 @@
+<Type Name="SubscriptionOperationsExtensions" FullName="Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class SubscriptionOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SubscriptionOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetSubscriptionQuotas">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult GetSubscriptionQuotas (this Microsoft.Azure.Management.Batch.ISubscriptionOperations operations, string locationName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult GetSubscriptionQuotas(class Microsoft.Azure.Management.Batch.ISubscriptionOperations operations, string locationName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions.GetSubscriptionQuotas(Microsoft.Azure.Management.Batch.ISubscriptionOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.ISubscriptionOperations" RefType="this" />
+        <Parameter Name="locationName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="locationName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSubscriptionQuotasAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult&gt; GetSubscriptionQuotasAsync (this Microsoft.Azure.Management.Batch.ISubscriptionOperations operations, string locationName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult&gt; GetSubscriptionQuotasAsync(class Microsoft.Azure.Management.Batch.ISubscriptionOperations operations, string locationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions.GetSubscriptionQuotasAsync(Microsoft.Azure.Management.Batch.ISubscriptionOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Batch.SubscriptionOperationsExtensions/&lt;GetSubscriptionQuotasAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Batch.Models.SubscriptionQuotasGetResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Batch.ISubscriptionOperations" RefType="this" />
+        <Parameter Name="locationName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="locationName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

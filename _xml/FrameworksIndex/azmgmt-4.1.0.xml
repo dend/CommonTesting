@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmgmt-4.1.0">
+  <Namespace Name="Microsoft.WindowsAzure.Management">
+    <Type Name="Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.Create(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.Get(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.List(Microsoft.WindowsAzure.Management.IAffinityGroupOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.IAffinityGroupOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.Update(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,System.String,Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.AffinityGroupOperationsExtensions.UpdateAsync(Microsoft.WindowsAzure.Management.IAffinityGroupOperations,System.String,Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.IAffinityGroupOperations" Id="T:Microsoft.WindowsAzure.Management.IAffinityGroupOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.IAffinityGroupOperations.CreateAsync(Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.IAffinityGroupOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.IAffinityGroupOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.IAffinityGroupOperations.ListAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.IAffinityGroupOperations.UpdateAsync(System.String,Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.ILocationOperations" Id="T:Microsoft.WindowsAzure.Management.ILocationOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.ILocationOperations.ListAsync(System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.IManagementCertificateOperations" Id="T:Microsoft.WindowsAzure.Management.IManagementCertificateOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.IManagementCertificateOperations.CreateAsync(Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.IManagementCertificateOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.IManagementCertificateOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.IManagementCertificateOperations.ListAsync(System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.IManagementClient" Id="T:Microsoft.WindowsAzure.Management.IManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.IManagementClient.GetOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.AffinityGroups" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.Locations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.ManagementCertificates" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.RoleSizes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.IManagementClient.Subscriptions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.IRoleSizeOperations" Id="T:Microsoft.WindowsAzure.Management.IRoleSizeOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.IRoleSizeOperations.ListAsync(System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.ISubscriptionOperations" Id="T:Microsoft.WindowsAzure.Management.ISubscriptionOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.ISubscriptionOperations.GetAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ISubscriptionOperations.ListOperationsAsync(Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ISubscriptionOperations.RegisterResourceAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ISubscriptionOperations.UnregisterResourceAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.LocationOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.LocationOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.LocationOperationsExtensions.List(Microsoft.WindowsAzure.Management.ILocationOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.LocationOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.ILocationOperations)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.Create(Microsoft.WindowsAzure.Management.IManagementCertificateOperations,Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.IManagementCertificateOperations,Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.IManagementCertificateOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.IManagementCertificateOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.Get(Microsoft.WindowsAzure.Management.IManagementCertificateOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.IManagementCertificateOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.List(Microsoft.WindowsAzure.Management.IManagementCertificateOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementCertificateOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.IManagementCertificateOperations)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.ManagementClient" Id="T:Microsoft.WindowsAzure.Management.ManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Management.ManagementClient})" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClient.GetOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.AffinityGroups" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.Locations" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.ManagementCertificates" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.RoleSizes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.ManagementClient.Subscriptions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.ManagementClientExtensions" Id="T:Microsoft.WindowsAzure.Management.ManagementClientExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClientExtensions.GetOperationStatus(Microsoft.WindowsAzure.Management.IManagementClient,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.ManagementClientExtensions.GetOperationStatusAsync(Microsoft.WindowsAzure.Management.IManagementClient,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RoleSizeOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RoleSizeOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RoleSizeOperationsExtensions.List(Microsoft.WindowsAzure.Management.IRoleSizeOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RoleSizeOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.IRoleSizeOperations)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.Get(Microsoft.WindowsAzure.Management.ISubscriptionOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.ISubscriptionOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.ListOperations(Microsoft.WindowsAzure.Management.ISubscriptionOperations,Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.ListOperationsAsync(Microsoft.WindowsAzure.Management.ISubscriptionOperations,Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.RegisterResource(Microsoft.WindowsAzure.Management.ISubscriptionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.RegisterResourceAsync(Microsoft.WindowsAzure.Management.ISubscriptionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.UnregisterResource(Microsoft.WindowsAzure.Management.ISubscriptionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.SubscriptionOperationsExtensions.UnregisterResourceAsync(Microsoft.WindowsAzure.Management.ISubscriptionOperations,System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Management.Models">
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupCapabilities" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupCapabilities">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.AffinityGroupCapabilities.PersistentVMRole" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters.Location" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupCreateParameters.Name" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.Capabilities" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.ComputeCapabilities" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.CreatedTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.HostedServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.Location" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.StorageServices" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroups" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupUpdateParameters.Label" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.ComputeCapabilities" Id="T:Microsoft.WindowsAzure.Management.Models.ComputeCapabilities">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.ComputeCapabilities.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ComputeCapabilities.VirtualMachinesRoleSizes" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ComputeCapabilities.WebWorkerRoleSizes" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.LocationAvailableServiceNames" Id="T:Microsoft.WindowsAzure.Management.Models.LocationAvailableServiceNames">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationAvailableServiceNames.Compute" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationAvailableServiceNames.HighMemory" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationAvailableServiceNames.PersistentVMRole" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationAvailableServiceNames.Storage" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.LocationNames" Id="T:Microsoft.WindowsAzure.Management.Models.LocationNames">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.EastAsia" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.EastUS" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.NorthCentralUS" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.NorthEurope" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.SouthCentralUS" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.SoutheastAsia" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.WestEurope" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.LocationNames.WestUS" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.LocationsListResponse" Id="T:Microsoft.WindowsAzure.Management.Models.LocationsListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Locations" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters" Id="T:Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters.Data" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters.PublicKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateCreateParameters.Thumbprint" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.ManagementCertificateGetResponse" Id="T:Microsoft.WindowsAzure.Management.Models.ManagementCertificateGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.ManagementCertificateGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateGetResponse.Created" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateGetResponse.Data" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateGetResponse.PublicKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateGetResponse.Thumbprint" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse" Id="T:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.SubscriptionCertificates" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse" Id="T:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSizes" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.StorageCapabilities" Id="T:Microsoft.WindowsAzure.Management.Models.StorageCapabilities">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.StorageCapabilities.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.StorageCapabilities.StorageAccountTypes" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse" Id="T:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.AccountAdminLiveEmailId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.CurrentCoreCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.CurrentDnsServers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.CurrentHostedServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.CurrentLocalNetworkSites" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.CurrentStorageAccounts" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.CurrentVirtualNetworkSites" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.MaximumCoreCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.MaximumDnsServers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.MaximumHostedServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.MaximumLocalNetworkSites" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.MaximumStorageAccounts" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.MaximumVirtualNetworkSites" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.ServiceAdminLiveEmailId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.SubscriptionID" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.SubscriptionName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionGetResponse.SubscriptionStatus" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters" Id="T:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters.#ctor(System.DateTime,System.DateTime)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters.ContinuationToken" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters.EndTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters.ObjectIdFilter" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters.OperationStatus" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsParameters.StartTime" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse" Id="T:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.ContinuationToken" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperations" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames" Id="T:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ActivateDomainName" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.AddCertificates" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.AddSubscriptionCertificate" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ChangeDeploymentConfiguration" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ChangeDeploymentConfigurationBySlot" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CommitImageUpload" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateAffinityGroup" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateDeployment" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateDeploymentBySlot" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateHostedService" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.CreateStorageService" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteAffinityGroup" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteCertificate" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteDeployment" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteHostedService" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteImage" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.DeleteStorageService" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.PrepareImageUpload" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RebootDeploymentRoleInstance" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RebootDeploymentRoleInstanceBySlot" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RegenerateStorageServiceKeys" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RegisterDomainName" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ReimageDeploymentRoleInstance" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.ReimageDeploymentRoleInstanceBySlot" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RemoveSubscriptionCertificate" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.RollbackDeploymentUpdateOrUpgrade" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.SetImageProperties" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.SetParentImage" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.SwapDeployment" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UnregisterDomainName" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateAffinityGroup" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateDeploymentStatus" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateDeploymentStatusBySlot" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateHostedService" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpdateStorageService" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpgradeDeployment" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.UpgradeDeploymentBySlot" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.WalkUpgradeDomain" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionOperationNames.WalkUpgradeDomainBySlot" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.SubscriptionStatus" Id="T:Microsoft.WindowsAzure.Management.Models.SubscriptionStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionStatus.Active" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionStatus.Deleted" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionStatus.Deleting" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionStatus.Disabled" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.Models.SubscriptionStatus.Warned" />
+    </Type>
+  </Namespace>
+  <Namespace Name="">
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse/HostedServiceReference" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.HostedServiceReference">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.HostedServiceReference.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.HostedServiceReference.ServiceName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.HostedServiceReference.Uri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse/StorageServiceReference" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.StorageServiceReference">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.StorageServiceReference.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.StorageServiceReference.ServiceName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupGetResponse.StorageServiceReference.Uri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse/AffinityGroup" Id="T:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.Capabilities" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.ComputeCapabilities" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.CreatedTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.Location" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.AffinityGroupListResponse.AffinityGroup.Name" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.LocationsListResponse/Location" Id="T:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Location">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Location.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Location.AvailableServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Location.ComputeCapabilities" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Location.DisplayName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Location.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.LocationsListResponse.Location.StorageCapabilities" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse/SubscriptionCertificate" Id="T:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.SubscriptionCertificate">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.SubscriptionCertificate.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.SubscriptionCertificate.Created" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.SubscriptionCertificate.Data" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.SubscriptionCertificate.PublicKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.ManagementCertificateListResponse.SubscriptionCertificate.Thumbprint" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse/RoleSize" Id="T:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.Cores" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.Label" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.MaxDataDiskCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.MemoryInMb" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.SupportedByVirtualMachines" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.SupportedByWebWorkerRoles" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.VirtualMachineResourceDiskSizeInMb" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.RoleSizeListResponse.RoleSize.WebWorkerResourceDiskSizeInMb" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse/OperationCallerDetails" Id="T:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.OperationCallerDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.OperationCallerDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.OperationCallerDetails.ClientIPAddress" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.OperationCallerDetails.SubscriptionCertificateThumbprint" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.OperationCallerDetails.UsedServiceManagementApi" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.OperationCallerDetails.UserEmailAddress" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse/SubscriptionOperation" Id="T:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation">
+      <Member Id="M:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationCaller" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationCompletedTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationObjectId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationParameters" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationStartedTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.Models.SubscriptionListOperationsResponse.SubscriptionOperation.OperationStatus" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse/Subscription" Id="T:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription">
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.AccountAdminLiveEmailId" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.ActiveDirectoryTenantId" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.Created" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.CurrentCoreCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.CurrentHostedServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.CurrentStorageAccounts" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.MaximumCoreCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.MaximumDnsServers" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.MaximumExtraVirtualIPCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.MaximumHostedServices" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.MaximumLocalNetworkSites" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.MaximumStorageAccounts" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.MaximumVirtualNetworkSites" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.ServiceAdminLiveEmailId" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.SubscriptionId" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.SubscriptionName" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscription.SubscriptionStatus" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Subscriptions">
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient" Id="T:Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient">
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.ISubscriptionClient.Subscriptions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.ISubscriptionOperations" Id="T:Microsoft.WindowsAzure.Subscriptions.ISubscriptionOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.ISubscriptionOperations.ListAsync(System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.SubscriptionClient" Id="T:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient">
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.#ctor(Hyak.Common.CloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.#ctor(Hyak.Common.CloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.#ctor(Hyak.Common.CloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.#ctor(Hyak.Common.CloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Subscriptions.SubscriptionClient})" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.SubscriptionClient.Subscriptions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.SubscriptionClientExtensions" Id="T:Microsoft.WindowsAzure.Subscriptions.SubscriptionClientExtensions" />
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.SubscriptionOperationsExtensions" Id="T:Microsoft.WindowsAzure.Subscriptions.SubscriptionOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionOperationsExtensions.List(Microsoft.WindowsAzure.Subscriptions.ISubscriptionOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.SubscriptionOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Subscriptions.ISubscriptionOperations)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Subscriptions.Models">
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse" Id="T:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionListOperationResponse.Subscriptions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionStatus" Id="T:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionStatus.Active" />
+      <Member Id="F:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionStatus.Deleted" />
+      <Member Id="F:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionStatus.Deleting" />
+      <Member Id="F:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionStatus.Disabled" />
+      <Member Id="F:Microsoft.WindowsAzure.Subscriptions.Models.SubscriptionStatus.Warned" />
+    </Type>
+  </Namespace>
+</Framework>

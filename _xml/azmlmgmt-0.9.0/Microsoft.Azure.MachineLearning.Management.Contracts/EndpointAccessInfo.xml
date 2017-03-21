@@ -1,0 +1,130 @@
+<Type Name="EndpointAccessInfo" FullName="Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo">
+  <TypeSignature Language="C#" Value="public sealed class EndpointAccessInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EndpointAccessInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning.Management</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents information for accessing various aspects of an Azure Machine Learning endpoint
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EndpointAccessInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExperimentUri">
+      <MemberSignature Language="C#" Value="public Uri ExperimentUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ExperimentUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.ExperimentUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Reference URI to the parent experiment for the service that exposes this endpoint
+            </summary>
+        <value>To be added.</value>
+        <remarks>Can be null if the service was not published from an experiment.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HelpPageUri">
+      <MemberSignature Language="C#" Value="public Uri HelpPageUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri HelpPageUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.HelpPageUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Reference URI for the help page describing the runtime APIs of this endpoint
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryRuntimeAccessKey">
+      <MemberSignature Language="C#" Value="public string PrimaryRuntimeAccessKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimaryRuntimeAccessKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.PrimaryRuntimeAccessKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The primary unique key used to access the endpoint's runtime APIs
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuntimeApiUri">
+      <MemberSignature Language="C#" Value="public Uri RuntimeApiUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri RuntimeApiUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.RuntimeApiUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Reference base URI for the runtime APIs enabled on this endpoint
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecondaryRuntimeAccessKey">
+      <MemberSignature Language="C#" Value="public string SecondaryRuntimeAccessKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SecondaryRuntimeAccessKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.SecondaryRuntimeAccessKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The secondary unique key used to access the endpoint's runtime APIs
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

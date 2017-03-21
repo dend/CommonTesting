@@ -1,0 +1,209 @@
+<Type Name="X12ProcessingSettings" FullName="Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings">
+  <TypeSignature Language="C#" Value="public class X12ProcessingSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit X12ProcessingSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12ProcessingSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public X12ProcessingSettings (bool maskSecurityInfo, bool convertImpliedDecimal, bool preserveInterchange, bool suspendInterchangeOnError, bool createEmptyXmlTagsForTrailingSeparators, bool useDotAsDecimalSeparator);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool maskSecurityInfo, bool convertImpliedDecimal, bool preserveInterchange, bool suspendInterchangeOnError, bool createEmptyXmlTagsForTrailingSeparators, bool useDotAsDecimalSeparator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="maskSecurityInfo" Type="System.Boolean" />
+        <Parameter Name="convertImpliedDecimal" Type="System.Boolean" />
+        <Parameter Name="preserveInterchange" Type="System.Boolean" />
+        <Parameter Name="suspendInterchangeOnError" Type="System.Boolean" />
+        <Parameter Name="createEmptyXmlTagsForTrailingSeparators" Type="System.Boolean" />
+        <Parameter Name="useDotAsDecimalSeparator" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="maskSecurityInfo">To be added.</param>
+        <param name="convertImpliedDecimal">To be added.</param>
+        <param name="preserveInterchange">To be added.</param>
+        <param name="suspendInterchangeOnError">To be added.</param>
+        <param name="createEmptyXmlTagsForTrailingSeparators">To be added.</param>
+        <param name="useDotAsDecimalSeparator">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertImpliedDecimal">
+      <MemberSignature Language="C#" Value="public bool ConvertImpliedDecimal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ConvertImpliedDecimal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.ConvertImpliedDecimal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="convertImpliedDecimal")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateEmptyXmlTagsForTrailingSeparators">
+      <MemberSignature Language="C#" Value="public bool CreateEmptyXmlTagsForTrailingSeparators { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CreateEmptyXmlTagsForTrailingSeparators" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.CreateEmptyXmlTagsForTrailingSeparators" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="createEmptyXmlTagsForTrailingSeparators")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskSecurityInfo">
+      <MemberSignature Language="C#" Value="public bool MaskSecurityInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MaskSecurityInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.MaskSecurityInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="maskSecurityInfo")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreserveInterchange">
+      <MemberSignature Language="C#" Value="public bool PreserveInterchange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PreserveInterchange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.PreserveInterchange" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="preserveInterchange")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuspendInterchangeOnError">
+      <MemberSignature Language="C#" Value="public bool SuspendInterchangeOnError { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SuspendInterchangeOnError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.SuspendInterchangeOnError" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="suspendInterchangeOnError")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseDotAsDecimalSeparator">
+      <MemberSignature Language="C#" Value="public bool UseDotAsDecimalSeparator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseDotAsDecimalSeparator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.UseDotAsDecimalSeparator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="useDotAsDecimalSeparator")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.X12ProcessingSettings.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

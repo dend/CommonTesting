@@ -1,0 +1,165 @@
+<Type Name="PowerShellCommandStatus" FullName="Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus">
+  <TypeSignature Language="C#" Value="public class PowerShellCommandStatus : Microsoft.Azure.Management.ServerManagement.Models.Resource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PowerShellCommandStatus extends Microsoft.Azure.Management.ServerManagement.Models.Resource" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ServerManagement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.ServerManagement.Models.Resource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PowerShellCommandStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the PowerShellCommandStatus class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PowerShellCommandStatus (string id = null, string type = null, string name = null, string location = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, string etag = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandResult&gt; results = null, string pssession = null, string command = null, Nullable&lt;bool&gt; completed = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string type, string name, string location, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, string etag, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandResult&gt; results, string pssession, string command, valuetype System.Nullable`1&lt;bool&gt; completed) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandResult},System.String,System.String,System.Nullable{System.Boolean})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="type" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="etag" Type="System.String" />
+        <Parameter Name="results" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandResult&gt;" />
+        <Parameter Name="pssession" Type="System.String" />
+        <Parameter Name="command" Type="System.String" />
+        <Parameter Name="completed" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="location">To be added.</param>
+        <param name="tags">To be added.</param>
+        <param name="etag">To be added.</param>
+        <param name="results">To be added.</param>
+        <param name="pssession">To be added.</param>
+        <param name="command">To be added.</param>
+        <param name="completed">To be added.</param>
+        <summary>
+            Initializes a new instance of the PowerShellCommandStatus class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public string Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Command" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus.Command" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.command")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary />
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Completed">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Completed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Completed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus.Completed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.completed")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary />
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pssession">
+      <MemberSignature Language="C#" Value="public string Pssession { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Pssession" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus.Pssession" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.pssession")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary />
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Results">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandResult&gt; Results { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandResult&gt; Results" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandStatus.Results" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.results")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ServerManagement.Models.PowerShellCommandResult&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary />
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

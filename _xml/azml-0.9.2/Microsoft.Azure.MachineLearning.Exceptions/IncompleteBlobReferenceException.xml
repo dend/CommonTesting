@@ -1,0 +1,39 @@
+<Type Name="IncompleteBlobReferenceException" FullName="Microsoft.Azure.MachineLearning.Exceptions.IncompleteBlobReferenceException">
+  <TypeSignature Language="C#" Value="public class IncompleteBlobReferenceException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit IncompleteBlobReferenceException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Exceptions.IncompleteBlobReferenceException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Thrown if a blob reference returned by an Machine Learning API is incomplete
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IncompleteBlobReferenceException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Exceptions.IncompleteBlobReferenceException.#ctor(System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">The message detailing the cause of this error.</param>
+        <summary>
+            Initializes an instance of <c>IncompleteBlobReferenceException</c></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

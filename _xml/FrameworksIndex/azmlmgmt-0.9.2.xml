@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmlmgmt-0.9.2">
+  <Namespace Name="Microsoft.Azure.MachineLearning.Management.Contracts">
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel">
+      <Member Id="F:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel.High" />
+      <Member Id="F:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel.Low" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencySettings" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencySettings">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencySettings.#ctor" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencySettings.ConcurrencyLevel" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencySettings.MaxConcurrentCalls" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSettings" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSettings">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSettings.#ctor" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSettings.TraceLevel" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification.#ctor(System.String,Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel)" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification.ConnectionString" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification.TraceLevel" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel">
+      <Member Id="F:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel.All" />
+      <Member Id="F:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel.Error" />
+      <Member Id="F:Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsTraceLevel.None" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.#ctor" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.ExperimentUri" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.HelpPageUri" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.PrimaryRuntimeAccessKey" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.RuntimeApiUri" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointAccessInfo.SecondaryRuntimeAccessKey" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.EndpointResourceKind" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointResourceKind">
+      <Member Id="F:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointResourceKind.TrainedModel" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSettings" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSettings">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSettings.#ctor" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSettings.Concurrency" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSettings.Diagnostics" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification.#ctor(System.String,System.String,System.Nullable{Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel},System.Nullable{System.Int32})" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification.ConcurrencyLevel" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification.Description" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification.MaxConcurrentCalls" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification.Name" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.MachineLearningEndpointResource" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.MachineLearningEndpointResource">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.MachineLearningEndpointResource.UpdateAsync(Microsoft.Azure.MachineLearning.Contracts.BlobReference)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.MachineLearningEndpointResource.UpdateAsync(Microsoft.Azure.MachineLearning.Contracts.BlobReference,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.MachineLearningEndpointResource.Kind" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.MachineLearningEndpointResource.Name" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Contracts.ResourceSpecification" Id="T:Microsoft.Azure.MachineLearning.Management.Contracts.ResourceSpecification">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Contracts.ResourceSpecification.#ctor(System.String,Microsoft.Azure.MachineLearning.Management.Contracts.EndpointResourceKind,Microsoft.Azure.MachineLearning.Contracts.BlobReference)" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.ResourceSpecification.Kind" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.ResourceSpecification.Location" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Contracts.ResourceSpecification.Name" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.MachineLearning.Management.Exceptions">
+    <Type Name="Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException" Id="T:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.Exceptions.ManagementException.Code" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.MachineLearning.Management">
+    <Type Name="Microsoft.Azure.MachineLearning.Management.MachineLearningService" Id="T:Microsoft.Azure.MachineLearning.Management.MachineLearningService">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.CreateEndpointAsync(Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.CreateEndpointAsync(Microsoft.Azure.MachineLearning.Management.Contracts.EndpointSpecification,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointsAsync" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningService.GetEndpointsAsync(System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.CreatedAt" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.DefaultEndpointName" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.Description" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.Id" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.Name" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningService.WorkspaceId" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint" Id="T:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.CreateRuntimeClient(Microsoft.Azure.MachineLearning.RetryPolicies.RetryPolicy,Microsoft.Azure.MachineLearning.Logging.ILogger)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.DeleteAsync" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.DeleteAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.FetchResourcesAsync" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.FetchResourcesAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.RefreshAsync(System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.RefreshAsync(System.Boolean,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateConcurrencyLevelAsync(Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateConcurrencyLevelAsync(Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateDescriptionAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateDescriptionAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateDiagnosticsSettingsAsync(Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateDiagnosticsSettingsAsync(Microsoft.Azure.MachineLearning.Management.Contracts.DiagnosticsSpecification,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateMaxConcurrentCallsAsync(System.Int32)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.UpdateMaxConcurrentCallsAsync(System.Int32,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.AccessInfo" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.CreatedAt" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.Description" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.Name" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.Settings" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.Version" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.WebServiceId" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.MachineLearningServiceEndpoint.WorkspaceId" />
+    </Type>
+    <Type Name="Microsoft.Azure.MachineLearning.Management.ManagementClient" Id="T:Microsoft.Azure.MachineLearning.Management.ManagementClient">
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.#ctor(System.String,System.String,Microsoft.Azure.MachineLearning.Logging.ILogger)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.#ctor(System.String,System.String,System.String,Microsoft.Azure.MachineLearning.Logging.ILogger)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServiceAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServiceAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServicesAsync" />
+      <Member Id="M:Microsoft.Azure.MachineLearning.Management.ManagementClient.GetServicesAsync(System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.ManagementClient.WorkspaceId" />
+      <Member Id="P:Microsoft.Azure.MachineLearning.Management.ManagementClient.WorkspaceToken" />
+    </Type>
+  </Namespace>
+</Framework>

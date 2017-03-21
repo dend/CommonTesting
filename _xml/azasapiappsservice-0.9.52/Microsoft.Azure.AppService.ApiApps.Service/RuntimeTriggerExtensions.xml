@@ -1,0 +1,79 @@
+<Type Name="RuntimeTriggerExtensions" FullName="Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions">
+  <TypeSignature Language="C#" Value="public static class RuntimeTriggerExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RuntimeTriggerExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.52.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreatePollListener">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener CreatePollListener (this Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime, string service, string triggerName, Newtonsoft.Json.Linq.JObject parameters, string triggerState = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener CreatePollListener(class Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime, string service, string triggerName, class Newtonsoft.Json.Linq.JObject parameters, string triggerState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions.CreatePollListener(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String,System.String,Newtonsoft.Json.Linq.JObject,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="runtime" Type="Microsoft.Azure.AppService.ApiApps.Service.Runtime" RefType="this" />
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="triggerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Newtonsoft.Json.Linq.JObject" />
+        <Parameter Name="triggerState" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="runtime">To be added.</param>
+        <param name="service">To be added.</param>
+        <param name="triggerName">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <param name="triggerState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePushListener">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener CreatePushListener (this Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime, string service, string triggerName, Newtonsoft.Json.Linq.JObject triggerParams, string callbackUri, string triggerId = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener CreatePushListener(class Microsoft.Azure.AppService.ApiApps.Service.Runtime runtime, string service, string triggerName, class Newtonsoft.Json.Linq.JObject triggerParams, string callbackUri, string triggerId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions.CreatePushListener(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String,System.String,Newtonsoft.Json.Linq.JObject,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="runtime" Type="Microsoft.Azure.AppService.ApiApps.Service.Runtime" RefType="this" />
+        <Parameter Name="service" Type="System.String" />
+        <Parameter Name="triggerName" Type="System.String" />
+        <Parameter Name="triggerParams" Type="Newtonsoft.Json.Linq.JObject" />
+        <Parameter Name="callbackUri" Type="System.String" />
+        <Parameter Name="triggerId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="runtime">To be added.</param>
+        <param name="service">To be added.</param>
+        <param name="triggerName">To be added.</param>
+        <param name="triggerParams">To be added.</param>
+        <param name="callbackUri">To be added.</param>
+        <param name="triggerId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

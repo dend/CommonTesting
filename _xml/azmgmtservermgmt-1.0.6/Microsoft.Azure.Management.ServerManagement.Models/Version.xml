@@ -1,0 +1,210 @@
+<Type Name="Version" FullName="Microsoft.Azure.Management.ServerManagement.Models.Version">
+  <TypeSignature Language="C#" Value="public class Version" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Version extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ServerManagement.Models.Version" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ServerManagement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A multipart-numeric version number
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Version ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.Version.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the Version class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Version (Nullable&lt;int&gt; major = null, Nullable&lt;int&gt; minor = null, Nullable&lt;int&gt; build = null, Nullable&lt;int&gt; revision = null, Nullable&lt;int&gt; majorRevision = null, Nullable&lt;int&gt; minorRevision = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;int32&gt; major, valuetype System.Nullable`1&lt;int32&gt; minor, valuetype System.Nullable`1&lt;int32&gt; build, valuetype System.Nullable`1&lt;int32&gt; revision, valuetype System.Nullable`1&lt;int32&gt; majorRevision, valuetype System.Nullable`1&lt;int32&gt; minorRevision) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.Version.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="major" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="minor" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="build" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="revision" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="majorRevision" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="minorRevision" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="major">To be added.</param>
+        <param name="minor">To be added.</param>
+        <param name="build">To be added.</param>
+        <param name="revision">To be added.</param>
+        <param name="majorRevision">To be added.</param>
+        <param name="minorRevision">To be added.</param>
+        <summary>
+            Initializes a new instance of the Version class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Build">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Build { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Build" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.Version.Build" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="build")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the third number of the version
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Major">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Major { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Major" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.Version.Major" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="major")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the leftmost number of the version
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorRevision">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MajorRevision { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MajorRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.Version.MajorRevision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="majorRevision")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the MSW of the fourth part
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Minor">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Minor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Minor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.Version.Minor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="minor")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the second leftmost number of the version
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorRevision">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MinorRevision { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MinorRevision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.Version.MinorRevision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="minorRevision")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the LSW of the fourth part
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Revision">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Revision { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Revision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.Version.Revision" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="revision")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the fourth number of the version
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

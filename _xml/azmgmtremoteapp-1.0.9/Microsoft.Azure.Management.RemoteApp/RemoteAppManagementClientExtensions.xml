@@ -1,0 +1,20 @@
+<Type Name="RemoteAppManagementClientExtensions" FullName="Microsoft.Azure.Management.RemoteApp.RemoteAppManagementClientExtensions">
+  <TypeSignature Language="C#" Value="public static class RemoteAppManagementClientExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RemoteAppManagementClientExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RemoteApp.RemoteAppManagementClientExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.RemoteApp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            RmoteApp management client
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

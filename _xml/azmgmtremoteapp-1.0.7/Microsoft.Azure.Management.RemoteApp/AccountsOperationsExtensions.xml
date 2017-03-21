@@ -1,0 +1,311 @@
+<Type Name="AccountsOperationsExtensions" FullName="Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class AccountsOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AccountsOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.RemoteApp</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            RmoteApp management client
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivateBilling">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse ActivateBilling (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse ActivateBilling(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.ActivateBilling(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Updates the customer account for billing.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivateBillingAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; ActivateBillingAsync (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; ActivateBillingAsync(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.ActivateBillingAsync(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Updates the customer account for billing.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.GetAccountResult Get (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.GetAccountResult Get(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.Get(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.GetAccountResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Gets the details of the account.
+            </summary>
+        <returns>
+            Definition for result of GetAccount operaton.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetAccountResult&gt; GetAsync (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.GetAccountResult&gt; GetAsync(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.GetAsync(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.GetAccountResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Gets the details of the account.
+            </summary>
+        <returns>
+            Definition for result of GetAccount operaton.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnabledFeatures">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.EnabledFeaturesResult GetEnabledFeatures (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.EnabledFeaturesResult GetEnabledFeatures(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.GetEnabledFeatures(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.EnabledFeaturesResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Gets additional features enabled for the account.
+            </summary>
+        <returns>
+            Additional features enabled for the account.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnabledFeaturesAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.EnabledFeaturesResult&gt; GetEnabledFeaturesAsync (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.EnabledFeaturesResult&gt; GetEnabledFeaturesAsync(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.GetEnabledFeaturesAsync(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.EnabledFeaturesResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Gets additional features enabled for the account.
+            </summary>
+        <returns>
+            Additional features enabled for the account.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListBillingPlans">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.ListBillingPlansResult ListBillingPlans (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.ListBillingPlansResult ListBillingPlans(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.ListBillingPlans(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.ListBillingPlansResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Gets the list of available billing plans for the customer.
+            </summary>
+        <returns>
+            Definition for result of ListBillingPlans operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListBillingPlansAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.ListBillingPlansResult&gt; ListBillingPlansAsync (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.ListBillingPlansResult&gt; ListBillingPlansAsync(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.ListBillingPlansAsync(Microsoft.Azure.Management.RemoteApp.IAccountsOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.ListBillingPlansResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <summary>
+            Gets the list of available billing plans for the customer.
+            </summary>
+        <returns>
+            Definition for result of ListBillingPlans operation.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Set">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId Set (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations, Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter accountInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId Set(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations, class Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter accountInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.Set(Microsoft.Azure.Management.RemoteApp.IAccountsOperations,Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+        <Parameter Name="accountInfo" Type="Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <param name="accountInfo">
+            Required. New details of account.
+            </param>
+        <summary>
+            Sets the new details of the account.
+            </summary>
+        <returns>
+            The response containing the operation tracking id.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId&gt; SetAsync (this Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations, Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter accountInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId&gt; SetAsync(class Microsoft.Azure.Management.RemoteApp.IAccountsOperations operations, class Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter accountInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RemoteApp.AccountsOperationsExtensions.SetAsync(Microsoft.Azure.Management.RemoteApp.IAccountsOperations,Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.RemoteApp.Models.OperationResultWithTrackingId&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.RemoteApp.IAccountsOperations" RefType="this" />
+        <Parameter Name="accountInfo" Type="Microsoft.Azure.Management.RemoteApp.Models.AccountDetailsParameter" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.Azure.Management.RemoteApp.IAccountsOperations.
+            </param>
+        <param name="accountInfo">
+            Required. New details of account.
+            </param>
+        <summary>
+            Sets the new details of the account.
+            </summary>
+        <returns>
+            The response containing the operation tracking id.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

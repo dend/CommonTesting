@@ -1,0 +1,48 @@
+<Type Name="MediaServicesKeyType" FullName="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType">
+  <TypeSignature Language="C#" Value="public enum MediaServicesKeyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MediaServicesKeyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.MediaServices</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Primary">
+      <MemberSignature Language="C#" Value="Primary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType Primary = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType.Primary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Secondary">
+      <MemberSignature Language="C#" Value="Secondary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType Secondary = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType.Secondary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

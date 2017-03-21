@@ -1,0 +1,122 @@
+<Type Name="TriggerListenerConnection" FullName="Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection">
+  <TypeSignature Language="C#" Value="public abstract class TriggerListenerConnection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TriggerListenerConnection extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.50.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_fpEvent">
+      <MemberSignature Language="C#" Value="protected Action&lt;Newtonsoft.Json.Linq.JObject&gt; _fpEvent;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Action`1&lt;class Newtonsoft.Json.Linq.JObject&gt; _fpEvent" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._fpEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Action&lt;Newtonsoft.Json.Linq.JObject&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_parameters">
+      <MemberSignature Language="C#" Value="protected readonly Newtonsoft.Json.Linq.JObject _parameters;" />
+      <MemberSignature Language="ILAsm" Value=".field family initonly class Newtonsoft.Json.Linq.JObject _parameters" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._parameters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Newtonsoft.Json.Linq.JObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_runtime">
+      <MemberSignature Language="C#" Value="protected readonly Microsoft.Azure.AppService.ApiApps.Service.Runtime _runtime;" />
+      <MemberSignature Language="ILAsm" Value=".field family initonly class Microsoft.Azure.AppService.ApiApps.Service.Runtime _runtime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._runtime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AppService.ApiApps.Service.Runtime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_service">
+      <MemberSignature Language="C#" Value="protected readonly string _service;" />
+      <MemberSignature Language="ILAsm" Value=".field family initonly string _service" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._service" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_triggerName">
+      <MemberSignature Language="C#" Value="protected string _triggerName;" />
+      <MemberSignature Language="ILAsm" Value=".field family string _triggerName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._triggerName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitAsync">
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.Task WaitAsync (Action&lt;Newtonsoft.Json.Linq.JObject&gt; fpEvent, System.Threading.CancellationToken cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task WaitAsync(class System.Action`1&lt;class Newtonsoft.Json.Linq.JObject&gt; fpEvent, valuetype System.Threading.CancellationToken cancel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection.WaitAsync(System.Action{Newtonsoft.Json.Linq.JObject},System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fpEvent" Type="System.Action&lt;Newtonsoft.Json.Linq.JObject&gt;" />
+        <Parameter Name="cancel" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="fpEvent">To be added.</param>
+        <param name="cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

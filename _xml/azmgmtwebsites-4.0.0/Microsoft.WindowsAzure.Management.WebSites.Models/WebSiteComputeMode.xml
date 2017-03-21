@@ -1,0 +1,50 @@
+<Type Name="WebSiteComputeMode" FullName="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode">
+  <TypeSignature Language="C#" Value="public enum WebSiteComputeMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WebSiteComputeMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The compute mode for a web site.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Dedicated">
+      <MemberSignature Language="C#" Value="Dedicated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode Dedicated = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode.Dedicated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shared">
+      <MemberSignature Language="C#" Value="Shared" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode Shared = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode.Shared" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteComputeMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1272 @@
+<Type Name="VirtualMachineDiskOperationsExtensions" FullName="Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class VirtualMachineDiskOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VirtualMachineDiskOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Compute</AssemblyName>
+    <AssemblyVersion>12.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Service Management API provides programmatic access to much of the
+            functionality available through the Management Portal. The Service
+            Management API is a REST API. All API operations are performed over
+            SSL, and are mutually authenticated using X.509 v3 certificates.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/ee460799.aspx for
+            more information)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreatingDataDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginCreatingDataDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginCreatingDataDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.BeginCreatingDataDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to add the data disk to.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Virtual Machine Data
+            Disk operation.
+            </param>
+        <summary>
+            The Create Data Disk operation adds a data disk to a virtual
+            machine. There are three ways to create the data disk using the
+            Add Data Disk operation. Option 1 - Attach an empty data disk to
+            the role by specifying the disk label and location of the disk
+            image. Do not include the DiskName and SourceMediaLink elements in
+            the request body. Include the MediaLink element and reference a
+            blob that is in the same geographical region as the role. You can
+            also omit the MediaLink element. In this usage, Azure will create
+            the data disk in the storage account configured as default for the
+            role. Option 2 - Attach an existing data disk that is in the image
+            repository. Do not include the DiskName and SourceMediaLink
+            elements in the request body. Specify the data disk to use by
+            including the DiskName element. Note: If included the in the
+            response body, the MediaLink and LogicalDiskSizeInGB elements are
+            ignored. Option 3 - Specify the location of a blob in your storage
+            account that contain a disk image to use. Include the
+            SourceMediaLink element. Note: If the MediaLink element
+            isincluded, it is ignored.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157199.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreatingDataDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginCreatingDataDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginCreatingDataDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.BeginCreatingDataDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to add the data disk to.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Virtual Machine Data
+            Disk operation.
+            </param>
+        <summary>
+            The Create Data Disk operation adds a data disk to a virtual
+            machine. There are three ways to create the data disk using the
+            Add Data Disk operation. Option 1 - Attach an empty data disk to
+            the role by specifying the disk label and location of the disk
+            image. Do not include the DiskName and SourceMediaLink elements in
+            the request body. Include the MediaLink element and reference a
+            blob that is in the same geographical region as the role. You can
+            also omit the MediaLink element. In this usage, Azure will create
+            the data disk in the storage account configured as default for the
+            role. Option 2 - Attach an existing data disk that is in the image
+            repository. Do not include the DiskName and SourceMediaLink
+            elements in the request body. Specify the data disk to use by
+            including the DiskName element. Note: If included the in the
+            response body, the MediaLink and LogicalDiskSizeInGB elements are
+            ignored. Option 3 - Specify the location of a blob in your storage
+            account that contain a disk image to use. Include the
+            SourceMediaLink element. Note: If the MediaLink element
+            isincluded, it is ignored.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157199.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeletingDataDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginDeletingDataDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber, bool deleteFromStorage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginDeletingDataDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber, bool deleteFromStorage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.BeginDeletingDataDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+        <Parameter Name="deleteFromStorage" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to delete the data disk from.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <param name="deleteFromStorage">
+            Required. Specifies that the source blob for the disk should also
+            be deleted from storage.
+            </param>
+        <summary>
+            The Begin Deleting Data Disk operation removes the specified data
+            disk from a virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157179.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeletingDataDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginDeletingDataDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber, bool deleteFromStorage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginDeletingDataDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber, bool deleteFromStorage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.BeginDeletingDataDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+        <Parameter Name="deleteFromStorage" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to delete the data disk from.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <param name="deleteFromStorage">
+            Required. Specifies that the source blob for the disk should also
+            be deleted from storage.
+            </param>
+        <summary>
+            The Begin Deleting Data Disk operation removes the specified data
+            disk from a virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157179.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdatingDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginUpdatingDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginUpdatingDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.BeginUpdatingDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk being updated.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Add Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdatingDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginUpdatingDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginUpdatingDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.BeginUpdatingDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk being updated.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Add Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDataDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse CreateDataDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse CreateDataDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.CreateDataDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to add the data disk to.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Virtual Machine Data
+            Disk operation.
+            </param>
+        <summary>
+            The Create Data Disk operation adds a data disk to a virtual
+            machine. There are three ways to create the data disk using the
+            Add Data Disk operation. Option 1 - Attach an empty data disk to
+            the role by specifying the disk label and location of the disk
+            image. Do not include the DiskName and SourceMediaLink elements in
+            the request body. Include the MediaLink element and reference a
+            blob that is in the same geographical region as the role. You can
+            also omit the MediaLink element. In this usage, Azure will create
+            the data disk in the storage account configured as default for the
+            role. Option 2 - Attach an existing data disk that is in the image
+            repository. Do not include the DiskName and SourceMediaLink
+            elements in the request body. Specify the data disk to use by
+            including the DiskName element. Note: If included the in the
+            response body, the MediaLink and LogicalDiskSizeInGB elements are
+            ignored. Option 3 - Specify the location of a blob in your storage
+            account that contain a disk image to use. Include the
+            SourceMediaLink element. Note: If the MediaLink element
+            isincluded, it is ignored.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157199.aspx
+            for more information)
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDataDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; CreateDataDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; CreateDataDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.CreateDataDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to add the data disk to.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Virtual Machine Data
+            Disk operation.
+            </param>
+        <summary>
+            The Create Data Disk operation adds a data disk to a virtual
+            machine. There are three ways to create the data disk using the
+            Add Data Disk operation. Option 1 - Attach an empty data disk to
+            the role by specifying the disk label and location of the disk
+            image. Do not include the DiskName and SourceMediaLink elements in
+            the request body. Include the MediaLink element and reference a
+            blob that is in the same geographical region as the role. You can
+            also omit the MediaLink element. In this usage, Azure will create
+            the data disk in the storage account configured as default for the
+            role. Option 2 - Attach an existing data disk that is in the image
+            repository. Do not include the DiskName and SourceMediaLink
+            elements in the request body. Specify the data disk to use by
+            including the DiskName element. Note: If included the in the
+            response body, the MediaLink and LogicalDiskSizeInGB elements are
+            ignored. Option 3 - Specify the location of a blob in your storage
+            account that contain a disk image to use. Include the
+            SourceMediaLink element. Note: If the MediaLink element
+            isincluded, it is ignored.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157199.aspx
+            for more information)
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateResponse CreateDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateResponse CreateDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.CreateDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Create Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A virtual machine disk associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateResponse&gt; CreateDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateResponse&gt; CreateDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.CreateDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskCreateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Create Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Create Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A virtual machine disk associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDataDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse DeleteDataDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber, bool deleteFromStorage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse DeleteDataDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber, bool deleteFromStorage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.DeleteDataDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+        <Parameter Name="deleteFromStorage" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to delete the data disk from.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <param name="deleteFromStorage">
+            Required. Specifies that the source blob for the disk should also
+            be deleted from storage.
+            </param>
+        <summary>
+            The Delete Data Disk operation removes the specified data disk from
+            a virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157179.aspx
+            for more information)
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDataDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; DeleteDataDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber, bool deleteFromStorage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; DeleteDataDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber, bool deleteFromStorage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.DeleteDataDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+        <Parameter Name="deleteFromStorage" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to delete the data disk from.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <param name="deleteFromStorage">
+            Required. Specifies that the source blob for the disk should also
+            be deleted from storage.
+            </param>
+        <summary>
+            The Delete Data Disk operation removes the specified data disk from
+            a virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157179.aspx
+            for more information)
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse DeleteDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, bool deleteFromStorage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse DeleteDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, bool deleteFromStorage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.DeleteDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="deleteFromStorage" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk to delete.
+            </param>
+        <param name="deleteFromStorage">
+            Required. Specifies that the source blob for the disk should also
+            be deleted from storage.
+            </param>
+        <summary>
+            The Delete Disk operation deletes the specified data or operating
+            system disk from your image repository.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157200.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; DeleteDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, bool deleteFromStorage);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; DeleteDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, bool deleteFromStorage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.DeleteDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="deleteFromStorage" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk to delete.
+            </param>
+        <param name="deleteFromStorage">
+            Required. Specifies that the source blob for the disk should also
+            be deleted from storage.
+            </param>
+        <summary>
+            The Delete Disk operation deletes the specified data or operating
+            system disk from your image repository.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157200.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDataDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskGetResponse GetDataDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskGetResponse GetDataDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.GetDataDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskGetResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <summary>
+            The Get Data Disk operation retrieves the specified data disk from
+            a virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157180.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Data Disk operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDataDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskGetResponse&gt; GetDataDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskGetResponse&gt; GetDataDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.GetDataDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <summary>
+            The Get Data Disk operation retrieves the specified data disk from
+            a virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157180.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Data Disk operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskGetResponse GetDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskGetResponse GetDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.GetDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskGetResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk.
+            </param>
+        <summary>
+            The Get Disk operation retrieves a disk from the user image
+            repository. The disk can be an operating system disk or a data
+            disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A virtual machine disk associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskGetResponse&gt; GetDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskGetResponse&gt; GetDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.GetDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk.
+            </param>
+        <summary>
+            The Get Disk operation retrieves a disk from the user image
+            repository. The disk can be an operating system disk or a data
+            disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A virtual machine disk associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListDisks">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskListResponse ListDisks (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskListResponse ListDisks(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.ListDisks(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskListResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <summary>
+            The List Disks operation retrieves a list of the disks in your
+            image repository.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157176.aspx
+            for more information)
+            </summary>
+        <returns>
+            The List Disks operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListDisksAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskListResponse&gt; ListDisksAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskListResponse&gt; ListDisksAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.ListDisksAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskListResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <summary>
+            The List Disks operation retrieves a list of the disks in your
+            image repository.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157176.aspx
+            for more information)
+            </summary>
+        <returns>
+            The List Disks operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDataDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse UpdateDataDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse UpdateDataDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.UpdateDataDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to add the data disk to.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Data
+            Disk operation.
+            </param>
+        <summary>
+            The Update Data Disk operation updates the specified data disk
+            attached to the specified virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157190.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDataDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; UpdateDataDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int logicalUnitNumber, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; UpdateDataDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string serviceName, string deploymentName, string roleName, int32 logicalUnitNumber, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.UpdateDataDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,System.String,System.String,System.Int32,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleName" Type="System.String" />
+        <Parameter Name="logicalUnitNumber" Type="System.Int32" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDataDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of your service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleName">
+            Required. The name of the role to add the data disk to.
+            </param>
+        <param name="logicalUnitNumber">
+            Required. The logical unit number of the disk.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Data
+            Disk operation.
+            </param>
+        <summary>
+            The Update Data Disk operation updates the specified data disk
+            attached to the specified virtual machine.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157190.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDisk">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateResponse UpdateDisk (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateResponse UpdateDisk(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.UpdateDisk(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk being updated.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Add Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A virtual machine disk associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDiskAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateResponse&gt; UpdateDiskAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateResponse&gt; UpdateDiskAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.UpdateDiskAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk being updated.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Add Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            A virtual machine disk associated with your subscription.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDiskSize">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse UpdateDiskSize (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse UpdateDiskSize(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.UpdateDiskSize(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk being updated.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Add Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDiskSizeAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; UpdateDiskSizeAsync (this Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; UpdateDiskSizeAsync(class Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations operations, string name, class Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.VirtualMachineDiskOperationsExtensions.UpdateDiskSizeAsync(Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations,System.String,Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Compute.Models.VirtualMachineDiskUpdateParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Compute.IVirtualMachineDiskOperations.
+            </param>
+        <param name="name">
+            Required. The name of the disk being updated.
+            </param>
+        <param name="parameters">
+            Required. Parameters supplied to the Update Virtual Machine Disk
+            operation.
+            </param>
+        <summary>
+            The Add Disk operation adds a disk to the user image repository.
+            The disk can be an operating system disk or a data disk.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157178.aspx
+            for more information)
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request and error information regarding
+            the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

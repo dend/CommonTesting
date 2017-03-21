@@ -1,0 +1,1498 @@
+<Type Name="RouteOperationsExtensions" FullName="Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class RouteOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RouteOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Network</AssemblyName>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Service Management API includes operations for managing the virtual
+            networks for your subscription.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/jj157182.aspx for
+            more information)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddRouteTableToSubnet">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse AddRouteTableToSubnet (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse AddRouteTableToSubnet(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, class Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.AddRouteTableToSubnet(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be added
+            to.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to add a route table to the
+            provided subnet.
+            </param>
+        <summary>
+            Set the specified route table for the provided subnet in the
+            provided virtual network in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRouteTableToSubnetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; AddRouteTableToSubnetAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; AddRouteTableToSubnetAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, class Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.AddRouteTableToSubnetAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be added
+            to.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to add a route table to the
+            provided subnet.
+            </param>
+        <summary>
+            Set the specified route table for the provided subnet in the
+            provided virtual network in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAddRouteTableToSubnet">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginAddRouteTableToSubnet (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginAddRouteTableToSubnet(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, class Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginAddRouteTableToSubnet(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be added
+            to.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to add a route table to the
+            provided subnet.
+            </param>
+        <summary>
+            Set the specified route table for the provided subnet in the
+            provided virtual network in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginAddRouteTableToSubnetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginAddRouteTableToSubnetAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginAddRouteTableToSubnetAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName, class Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginAddRouteTableToSubnetAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.AddRouteTableToSubnetParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be added
+            to.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to add a route table to the
+            provided subnet.
+            </param>
+        <summary>
+            Set the specified route table for the provided subnet in the
+            provided virtual network in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateRouteTable">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginCreateRouteTable (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginCreateRouteTable(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginCreateRouteTable(Microsoft.WindowsAzure.Management.Network.IRouteOperations,Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Create the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateRouteTableAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginCreateRouteTableAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginCreateRouteTableAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginCreateRouteTableAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Create the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteRoute">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginDeleteRoute (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginDeleteRoute(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginDeleteRoute(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteRouteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginDeleteRouteAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginDeleteRouteAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginDeleteRouteAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteRouteTable">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginDeleteRouteTable (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginDeleteRouteTable(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginDeleteRouteTable(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table to delete.
+            </param>
+        <summary>
+            Delete the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteRouteTableAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginDeleteRouteTableAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginDeleteRouteTableAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginDeleteRouteTableAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table to delete.
+            </param>
+        <summary>
+            Delete the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRemoveRouteTableFromSubnet">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginRemoveRouteTableFromSubnet (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginRemoveRouteTableFromSubnet(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginRemoveRouteTableFromSubnet(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be
+            removed from.
+            </param>
+        <summary>
+            Remove the route table from the provided subnet in the provided
+            virtual network in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRemoveRouteTableFromSubnetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginRemoveRouteTableFromSubnetAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginRemoveRouteTableFromSubnetAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginRemoveRouteTableFromSubnetAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be
+            removed from.
+            </param>
+        <summary>
+            Remove the route table from the provided subnet in the provided
+            virtual network in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSetRoute">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse BeginSetRoute (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse BeginSetRoute(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, class Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginSetRoute(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSetRouteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; BeginSetRouteAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; BeginSetRouteAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, class Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.BeginSetRouteAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateRouteTable">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse CreateRouteTable (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse CreateRouteTable(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.CreateRouteTable(Microsoft.WindowsAzure.Management.Network.IRouteOperations,Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Create the specified route table for this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateRouteTableAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; CreateRouteTableAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; CreateRouteTableAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, class Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.CreateRouteTableAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.CreateRouteTableParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Create the specified route table for this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteRoute">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse DeleteRoute (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse DeleteRoute(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.DeleteRoute(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteRouteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; DeleteRouteAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; DeleteRouteAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.DeleteRouteAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteRouteTable">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse DeleteRouteTable (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse DeleteRouteTable(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.DeleteRouteTable(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table to delete.
+            </param>
+        <summary>
+            Delete the specified route table for this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteRouteTableAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; DeleteRouteTableAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; DeleteRouteTableAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.DeleteRouteTableAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table to delete.
+            </param>
+        <summary>
+            Delete the specified route table for this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEffectiveRouteTableForNetworkInterface">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse GetEffectiveRouteTableForNetworkInterface (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName, string networkInterfaceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse GetEffectiveRouteTableForNetworkInterface(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName, string networkInterfaceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetEffectiveRouteTableForNetworkInterface(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleinstanceName" Type="System.String" />
+        <Parameter Name="networkInterfaceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the cloud service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleinstanceName">
+            Required. The name of the role instance.
+            </param>
+        <param name="networkInterfaceName">
+            Required. The name of the network interface.
+            </param>
+        <summary>
+            Get the effective route table for the provided network interface in
+            this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEffectiveRouteTableForNetworkInterfaceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse&gt; GetEffectiveRouteTableForNetworkInterfaceAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName, string networkInterfaceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse&gt; GetEffectiveRouteTableForNetworkInterfaceAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName, string networkInterfaceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetEffectiveRouteTableForNetworkInterfaceAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleinstanceName" Type="System.String" />
+        <Parameter Name="networkInterfaceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the cloud service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleinstanceName">
+            Required. The name of the role instance.
+            </param>
+        <param name="networkInterfaceName">
+            Required. The name of the network interface.
+            </param>
+        <summary>
+            Get the effective route table for the provided network interface in
+            this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEffectiveRouteTableForRoleInstance">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse GetEffectiveRouteTableForRoleInstance (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse GetEffectiveRouteTableForRoleInstance(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetEffectiveRouteTableForRoleInstance(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleinstanceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the cloud service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleinstanceName">
+            Required. The name of the role instance.
+            </param>
+        <summary>
+            Get the effective route table for the provided role instance in
+            this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEffectiveRouteTableForRoleInstanceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse&gt; GetEffectiveRouteTableForRoleInstanceAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse&gt; GetEffectiveRouteTableForRoleInstanceAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string serviceName, string deploymentName, string roleinstanceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetEffectiveRouteTableForRoleInstanceAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetEffectiveRouteTableResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="serviceName" Type="System.String" />
+        <Parameter Name="deploymentName" Type="System.String" />
+        <Parameter Name="roleinstanceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="serviceName">
+            Required. The name of the cloud service.
+            </param>
+        <param name="deploymentName">
+            Required. The name of the deployment.
+            </param>
+        <param name="roleinstanceName">
+            Required. The name of the role instance.
+            </param>
+        <summary>
+            Get the effective route table for the provided role instance in
+            this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRouteTable">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse GetRouteTable (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse GetRouteTable(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetRouteTable(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table in this subscription to
+            retrieve.
+            </param>
+        <summary>
+            Get the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRouteTableAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse&gt; GetRouteTableAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse&gt; GetRouteTableAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetRouteTableAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table in this subscription to
+            retrieve.
+            </param>
+        <summary>
+            Get the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRouteTableForSubnet">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableForSubnetResponse GetRouteTableForSubnet (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableForSubnetResponse GetRouteTableForSubnet(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetRouteTableForSubnet(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableForSubnetResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet.
+            </param>
+        <summary>
+            Get the specified route table for the provided subnet in the
+            provided virtual network in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRouteTableForSubnetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableForSubnetResponse&gt; GetRouteTableForSubnetAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableForSubnetResponse&gt; GetRouteTableForSubnetAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetRouteTableForSubnetAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableForSubnetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet.
+            </param>
+        <summary>
+            Get the specified route table for the provided subnet in the
+            provided virtual network in this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRouteTableWithDetails">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse GetRouteTableWithDetails (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string detailLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse GetRouteTableWithDetails(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string detailLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetRouteTableWithDetails(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="detailLevel" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table in this subscription to
+            retrieve.
+            </param>
+        <param name="detailLevel">
+            Required. The amount of detail about the requested route table that
+            will be returned.
+            </param>
+        <summary>
+            Get the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRouteTableWithDetailsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse&gt; GetRouteTableWithDetailsAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string detailLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse&gt; GetRouteTableWithDetailsAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string detailLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.GetRouteTableWithDetailsAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.GetRouteTableResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="detailLevel" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table in this subscription to
+            retrieve.
+            </param>
+        <param name="detailLevel">
+            Required. The amount of detail about the requested route table that
+            will be returned.
+            </param>
+        <summary>
+            Get the specified route table for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListRouteTables">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Management.Network.Models.ListRouteTablesResponse ListRouteTables (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Management.Network.Models.ListRouteTablesResponse ListRouteTables(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.ListRouteTables(Microsoft.WindowsAzure.Management.Network.IRouteOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Network.Models.ListRouteTablesResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <summary>
+            List the existing route tables for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListRouteTablesAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.ListRouteTablesResponse&gt; ListRouteTablesAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Network.Models.ListRouteTablesResponse&gt; ListRouteTablesAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.ListRouteTablesAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Network.Models.ListRouteTablesResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <summary>
+            List the existing route tables for this subscription.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveRouteTableFromSubnet">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse RemoveRouteTableFromSubnet (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse RemoveRouteTableFromSubnet(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.RemoveRouteTableFromSubnet(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be
+            removed from.
+            </param>
+        <summary>
+            Remove the route table from the provided subnet in the provided
+            virtual network in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveRouteTableFromSubnetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; RemoveRouteTableFromSubnetAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; RemoveRouteTableFromSubnetAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string vnetName, string subnetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.RemoveRouteTableFromSubnetAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="vnetName" Type="System.String" />
+        <Parameter Name="subnetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="vnetName">
+            Required. The name of the virtual network that contains the
+            provided subnet.
+            </param>
+        <param name="subnetName">
+            Required. The name of the subnet that the route table will be
+            removed from.
+            </param>
+        <summary>
+            Remove the route table from the provided subnet in the provided
+            virtual network in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRoute">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.OperationStatusResponse SetRoute (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.OperationStatusResponse SetRoute(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, class Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.SetRoute(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.OperationStatusResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRouteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt; SetRouteAsync (this Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.OperationStatusResponse&gt; SetRouteAsync(class Microsoft.WindowsAzure.Management.Network.IRouteOperations operations, string routeTableName, string routeName, class Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Network.RouteOperationsExtensions.SetRouteAsync(Microsoft.WindowsAzure.Management.Network.IRouteOperations,System.String,System.String,Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.OperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.WindowsAzure.Management.Network.IRouteOperations" RefType="this" />
+        <Parameter Name="routeTableName" Type="System.String" />
+        <Parameter Name="routeName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Network.Models.SetRouteParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Reference to the
+            Microsoft.WindowsAzure.Management.Network.IRouteOperations.
+            </param>
+        <param name="routeTableName">
+            Required. The name of the route table where the provided route will
+            be set.
+            </param>
+        <param name="routeName">
+            Required. The name of the route that will be set on the provided
+            route table.
+            </param>
+        <param name="parameters">
+            Required. The parameters necessary to create a new route table.
+            </param>
+        <summary>
+            Set the specified route for the provided table in this subscription.
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself. If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request. If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

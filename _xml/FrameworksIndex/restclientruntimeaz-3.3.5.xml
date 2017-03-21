@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="restclientruntimeaz-3.3.5">
+  <Namespace Name="Microsoft.Rest.Azure">
+    <Type Name="Microsoft.Rest.Azure.AzureAsyncOperation" Id="T:Microsoft.Rest.Azure.AzureAsyncOperation">
+      <Member Id="F:Microsoft.Rest.Azure.AzureAsyncOperation.CanceledStatus" />
+      <Member Id="F:Microsoft.Rest.Azure.AzureAsyncOperation.DefaultDelay" />
+      <Member Id="F:Microsoft.Rest.Azure.AzureAsyncOperation.FailedStatus" />
+      <Member Id="F:Microsoft.Rest.Azure.AzureAsyncOperation.InProgressStatus" />
+      <Member Id="F:Microsoft.Rest.Azure.AzureAsyncOperation.SuccessStatus" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureAsyncOperation.#ctor" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureAsyncOperation.Error" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureAsyncOperation.FailedStatuses" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureAsyncOperation.RetryAfter" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureAsyncOperation.Status" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureAsyncOperation.TerminalStatuses" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.AzureClientExtensions" Id="T:Microsoft.Rest.Azure.AzureClientExtensions">
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationHeaderResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationHeaderResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.AzureOperationHeaderResponse`1" Id="T:Microsoft.Rest.Azure.AzureOperationHeaderResponse`1">
+      <Member Id="M:Microsoft.Rest.Azure.AzureOperationHeaderResponse`1.#ctor" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureOperationHeaderResponse`1.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.AzureOperationResponse" Id="T:Microsoft.Rest.Azure.AzureOperationResponse">
+      <Member Id="M:Microsoft.Rest.Azure.AzureOperationResponse.#ctor" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureOperationResponse.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.AzureOperationResponse`1" Id="T:Microsoft.Rest.Azure.AzureOperationResponse`1">
+      <Member Id="M:Microsoft.Rest.Azure.AzureOperationResponse`1.#ctor" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureOperationResponse`1.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.AzureOperationResponse`2" Id="T:Microsoft.Rest.Azure.AzureOperationResponse`2">
+      <Member Id="M:Microsoft.Rest.Azure.AzureOperationResponse`2.#ctor" />
+      <Member Id="P:Microsoft.Rest.Azure.AzureOperationResponse`2.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.ClientRequestTrackingHandler" Id="T:Microsoft.Rest.Azure.ClientRequestTrackingHandler">
+      <Member Id="M:Microsoft.Rest.Azure.ClientRequestTrackingHandler.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.ClientRequestTrackingHandler.ProcessRequest(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Rest.Azure.ClientRequestTrackingHandler.ProcessResponse(System.Net.Http.HttpResponseMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Rest.Azure.ClientRequestTrackingHandler.TrackingId" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.CloudError" Id="T:Microsoft.Rest.Azure.CloudError">
+      <Member Id="M:Microsoft.Rest.Azure.CloudError.#ctor" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudError.Code" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudError.Details" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudError.Message" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudError.Target" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.CloudErrorJsonConverter" Id="T:Microsoft.Rest.Azure.CloudErrorJsonConverter">
+      <Member Id="M:Microsoft.Rest.Azure.CloudErrorJsonConverter.#ctor" />
+      <Member Id="M:Microsoft.Rest.Azure.CloudErrorJsonConverter.CanConvert(System.Type)" />
+      <Member Id="M:Microsoft.Rest.Azure.CloudErrorJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)" />
+      <Member Id="M:Microsoft.Rest.Azure.CloudErrorJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.CloudException" Id="T:Microsoft.Rest.Azure.CloudException">
+      <Member Id="M:Microsoft.Rest.Azure.CloudException.#ctor" />
+      <Member Id="M:Microsoft.Rest.Azure.CloudException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.CloudException.#ctor(System.String,System.Exception)" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudException.Body" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudException.Request" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudException.RequestId" />
+      <Member Id="P:Microsoft.Rest.Azure.CloudException.Response" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.IAzureClient" Id="T:Microsoft.Rest.Azure.IAzureClient">
+      <Member Id="P:Microsoft.Rest.Azure.IAzureClient.Credentials" />
+      <Member Id="P:Microsoft.Rest.Azure.IAzureClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Rest.Azure.IAzureClient.HttpClient" />
+      <Member Id="P:Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Rest.Azure.IAzureClient.SerializationSettings" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.IAzureOperationResponse" Id="T:Microsoft.Rest.Azure.IAzureOperationResponse">
+      <Member Id="P:Microsoft.Rest.Azure.IAzureOperationResponse.RequestId" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.IPage`1" Id="T:Microsoft.Rest.Azure.IPage`1">
+      <Member Id="P:Microsoft.Rest.Azure.IPage`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.IResource" Id="T:Microsoft.Rest.Azure.IResource" />
+    <Type Name="Microsoft.Rest.Azure.JsonSerializerExtensions" Id="T:Microsoft.Rest.Azure.JsonSerializerExtensions">
+      <Member Id="M:Microsoft.Rest.Azure.JsonSerializerExtensions.WithoutConverter(Newtonsoft.Json.JsonSerializer,Newtonsoft.Json.JsonConverter)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.ResourceJsonConverter" Id="T:Microsoft.Rest.Azure.ResourceJsonConverter">
+      <Member Id="M:Microsoft.Rest.Azure.ResourceJsonConverter.#ctor" />
+      <Member Id="M:Microsoft.Rest.Azure.ResourceJsonConverter.CanConvert(System.Type)" />
+      <Member Id="M:Microsoft.Rest.Azure.ResourceJsonConverter.GetSerializerWithoutCurrentConverter(Newtonsoft.Json.JsonSerializer)" />
+      <Member Id="M:Microsoft.Rest.Azure.ResourceJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)" />
+      <Member Id="M:Microsoft.Rest.Azure.ResourceJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Rest.Azure.OData">
+    <Type Name="Microsoft.Rest.Azure.OData.FilterString" Id="T:Microsoft.Rest.Azure.OData.FilterString">
+      <Member Id="M:Microsoft.Rest.Azure.OData.FilterString.Generate``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.FilterString.Generate``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Boolean)" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.OData.ODataMethodAttribute" Id="T:Microsoft.Rest.Azure.OData.ODataMethodAttribute">
+      <Member Id="M:Microsoft.Rest.Azure.OData.ODataMethodAttribute.#ctor(System.String)" />
+      <Member Id="P:Microsoft.Rest.Azure.OData.ODataMethodAttribute.MethodName" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.OData.ODataQuery`1" Id="T:Microsoft.Rest.Azure.OData.ODataQuery`1">
+      <Member Id="M:Microsoft.Rest.Azure.OData.ODataQuery`1.#ctor" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.ODataQuery`1.#ctor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.ODataQuery`1.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.ODataQuery`1.op_Implicit(System.String)~Microsoft.Rest.Azure.OData.ODataQuery{`0}" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.ODataQuery`1.SetFilter(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.ODataQuery`1.ToString" />
+      <Member Id="P:Microsoft.Rest.Azure.OData.ODataQuery`1.Expand" />
+      <Member Id="P:Microsoft.Rest.Azure.OData.ODataQuery`1.Filter" />
+      <Member Id="P:Microsoft.Rest.Azure.OData.ODataQuery`1.OrderBy" />
+      <Member Id="P:Microsoft.Rest.Azure.OData.ODataQuery`1.Skip" />
+      <Member Id="P:Microsoft.Rest.Azure.OData.ODataQuery`1.SkipNullFilterParameters" />
+      <Member Id="P:Microsoft.Rest.Azure.OData.ODataQuery`1.Top" />
+    </Type>
+    <Type Name="Microsoft.Rest.Azure.OData.UrlExpressionVisitor" Id="T:Microsoft.Rest.Azure.OData.UrlExpressionVisitor">
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.#ctor(System.Linq.Expressions.Expression)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.#ctor(System.Linq.Expressions.Expression,System.Boolean)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.ToString" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.VisitBinary(System.Linq.Expressions.BinaryExpression)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.VisitConditional(System.Linq.Expressions.ConditionalExpression)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.VisitConstant(System.Linq.Expressions.ConstantExpression)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.VisitMember(System.Linq.Expressions.MemberExpression)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.VisitNew(System.Linq.Expressions.NewExpression)" />
+      <Member Id="M:Microsoft.Rest.Azure.OData.UrlExpressionVisitor.VisitUnary(System.Linq.Expressions.UnaryExpression)" />
+    </Type>
+  </Namespace>
+</Framework>

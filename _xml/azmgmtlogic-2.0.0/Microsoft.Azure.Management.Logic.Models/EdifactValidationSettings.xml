@@ -1,0 +1,305 @@
+<Type Name="EdifactValidationSettings" FullName="Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings">
+  <TypeSignature Language="C#" Value="public class EdifactValidationSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EdifactValidationSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EdifactValidationSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EdifactValidationSettings (bool validateCharacterSet, bool checkDuplicateInterchangeControlNumber, int interchangeControlNumberValidityDays, bool checkDuplicateGroupControlNumber, bool checkDuplicateTransactionSetControlNumber, bool validateEDITypes, bool validateXSDTypes, bool allowLeadingAndTrailingSpacesAndZeroes, bool trimLeadingAndTrailingSpacesAndZeroes, Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy trailingSeparatorPolicy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool validateCharacterSet, bool checkDuplicateInterchangeControlNumber, int32 interchangeControlNumberValidityDays, bool checkDuplicateGroupControlNumber, bool checkDuplicateTransactionSetControlNumber, bool validateEDITypes, bool validateXSDTypes, bool allowLeadingAndTrailingSpacesAndZeroes, bool trimLeadingAndTrailingSpacesAndZeroes, valuetype Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy trailingSeparatorPolicy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.#ctor(System.Boolean,System.Boolean,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="validateCharacterSet" Type="System.Boolean" />
+        <Parameter Name="checkDuplicateInterchangeControlNumber" Type="System.Boolean" />
+        <Parameter Name="interchangeControlNumberValidityDays" Type="System.Int32" />
+        <Parameter Name="checkDuplicateGroupControlNumber" Type="System.Boolean" />
+        <Parameter Name="checkDuplicateTransactionSetControlNumber" Type="System.Boolean" />
+        <Parameter Name="validateEDITypes" Type="System.Boolean" />
+        <Parameter Name="validateXSDTypes" Type="System.Boolean" />
+        <Parameter Name="allowLeadingAndTrailingSpacesAndZeroes" Type="System.Boolean" />
+        <Parameter Name="trimLeadingAndTrailingSpacesAndZeroes" Type="System.Boolean" />
+        <Parameter Name="trailingSeparatorPolicy" Type="Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy" />
+      </Parameters>
+      <Docs>
+        <param name="validateCharacterSet">To be added.</param>
+        <param name="checkDuplicateInterchangeControlNumber">To be added.</param>
+        <param name="interchangeControlNumberValidityDays">To be added.</param>
+        <param name="checkDuplicateGroupControlNumber">To be added.</param>
+        <param name="checkDuplicateTransactionSetControlNumber">To be added.</param>
+        <param name="validateEDITypes">To be added.</param>
+        <param name="validateXSDTypes">To be added.</param>
+        <param name="allowLeadingAndTrailingSpacesAndZeroes">To be added.</param>
+        <param name="trimLeadingAndTrailingSpacesAndZeroes">To be added.</param>
+        <param name="trailingSeparatorPolicy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowLeadingAndTrailingSpacesAndZeroes">
+      <MemberSignature Language="C#" Value="public bool AllowLeadingAndTrailingSpacesAndZeroes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowLeadingAndTrailingSpacesAndZeroes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.AllowLeadingAndTrailingSpacesAndZeroes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="allowLeadingAndTrailingSpacesAndZeroes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckDuplicateGroupControlNumber">
+      <MemberSignature Language="C#" Value="public bool CheckDuplicateGroupControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CheckDuplicateGroupControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.CheckDuplicateGroupControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="checkDuplicateGroupControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckDuplicateInterchangeControlNumber">
+      <MemberSignature Language="C#" Value="public bool CheckDuplicateInterchangeControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CheckDuplicateInterchangeControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.CheckDuplicateInterchangeControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="checkDuplicateInterchangeControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckDuplicateTransactionSetControlNumber">
+      <MemberSignature Language="C#" Value="public bool CheckDuplicateTransactionSetControlNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CheckDuplicateTransactionSetControlNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.CheckDuplicateTransactionSetControlNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="checkDuplicateTransactionSetControlNumber")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InterchangeControlNumberValidityDays">
+      <MemberSignature Language="C#" Value="public int InterchangeControlNumberValidityDays { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InterchangeControlNumberValidityDays" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.InterchangeControlNumberValidityDays" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="interchangeControlNumberValidityDays")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrailingSeparatorPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy TrailingSeparatorPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy TrailingSeparatorPolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.TrailingSeparatorPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="trailingSeparatorPolicy")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.TrailingSeparatorPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimLeadingAndTrailingSpacesAndZeroes">
+      <MemberSignature Language="C#" Value="public bool TrimLeadingAndTrailingSpacesAndZeroes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TrimLeadingAndTrailingSpacesAndZeroes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.TrimLeadingAndTrailingSpacesAndZeroes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="trimLeadingAndTrailingSpacesAndZeroes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateCharacterSet">
+      <MemberSignature Language="C#" Value="public bool ValidateCharacterSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ValidateCharacterSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.ValidateCharacterSet" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="validateCharacterSet")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateEDITypes">
+      <MemberSignature Language="C#" Value="public bool ValidateEDITypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ValidateEDITypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.ValidateEDITypes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="validateEDITypes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateXSDTypes">
+      <MemberSignature Language="C#" Value="public bool ValidateXSDTypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ValidateXSDTypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.EdifactValidationSettings.ValidateXSDTypes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="validateXSDTypes")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

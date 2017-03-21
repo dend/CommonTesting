@@ -1,0 +1,1031 @@
+<Type Name="IWebSiteOperations" FullName="Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations">
+  <TypeSignature Language="C#" Value="public interface IWebSiteOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWebSiteOperations" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Operations for managing the web sites in a web space.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166981.aspx for
+            more information)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BackupAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteBackupResponse&gt; BackupAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest backupRequest, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteBackupResponse&gt; BackupAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest backupRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.BackupAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteBackupResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="backupRequest" Type="Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="backupRequest">
+            A backup specification.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Backups a site on-demand.
+            </summary>
+        <returns>
+            The backup record created based on the backup request.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginSwappingSlotsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteOperationStatusResponse&gt; BeginSwappingSlotsAsync (string webSpaceName, string webSiteName, string sourceSlotName, string targetSlotName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteOperationStatusResponse&gt; BeginSwappingSlotsAsync(string webSpaceName, string webSiteName, string sourceSlotName, string targetSlotName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.BeginSwappingSlotsAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteOperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="sourceSlotName" Type="System.String" />
+        <Parameter Name="targetSlotName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="sourceSlotName">
+            The name of the first web site slot to swap (source).
+            </param>
+        <param name="targetSlotName">
+            The name of the second web site slot to swap with (target).
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can swap a web site from one slot to another slot.
+            </summary>
+        <returns>
+            The response body contains the status of the specified long-running
+            operation, indicating whether it has succeeded, is inprogress, has
+            timed out, or has failed. Note that this status is distinct from
+            the HTTP status code returned for the Get Operation Status
+            operation itself. If the long-running operation failed, the
+            response body includes error information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteCreateResponse&gt; CreateAsync (string webSpaceName, Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteCreateParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteCreateResponse&gt; CreateAsync(string webSpaceName, class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteCreateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.CreateAsync(System.String,Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteCreateParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteCreateResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteCreateParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the Create Web Site operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can create a web site by using a POST request that includes the
+            name of the web site and other information in the request body.
+            (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166986.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Create Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateRepositoryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; CreateRepositoryAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; CreateRepositoryAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.CreateRepositoryAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            A web site repository is essentially a Git repository that you can
+            use to manage your web site content. By using Git source control
+            tools, you can push or pull version-controlled changes to your
+            site. This API executes a repository create operation.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166967.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; DeleteAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteDeleteParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; DeleteAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteDeleteParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.DeleteAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteDeleteParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteDeleteParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the Delete Web Site operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can delete a web site by issuing an HTTP DELETE request. If the
+            web site being deleted is the only site remaining in a server
+            farm, you can optionally delete the server farm as well by using
+            the deleteEmptyServerFarm parameter.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn236430.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteRepositoryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteDeleteRepositoryResponse&gt; DeleteRepositoryAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteDeleteRepositoryResponse&gt; DeleteRepositoryAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.DeleteRepositoryAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteDeleteRepositoryResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            A web site repository is essentially a Git repository that you can
+            use to manage your web site content. By using Git source control
+            tools, you can push or pull version-controlled changes to your
+            site. This API executes a repository delete operation.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166967.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Delete Repository Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiscoverAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRestoreDiscoverResponse&gt; DiscoverAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest restoreRequest, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRestoreDiscoverResponse&gt; DiscoverAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest restoreRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.DiscoverAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRestoreDiscoverResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="restoreRequest" Type="Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="restoreRequest">
+            A restore request.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Scans a backup in a storage account and returns database
+            information etc. Should be called before calling Restore to
+            discover what parameters are needed for the restore operation.
+            </summary>
+        <returns>
+            The information gathered about a backup storaged in a storage
+            account.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GeneratePasswordAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; GeneratePasswordAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; GeneratePasswordAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GeneratePasswordAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can generate a new random password for publishing a site by
+            issuing an HTTP POST request. Tip: If you want to verify that the
+            publish password has changed, issue an HTTP GET on /publishxml
+            before calling /newpassword. In the publish XML, note the hash
+            value in the userPWD attribute. After calling /newpassword, call
+            /publishxml again. You can then compare the new value of userPWD
+            in the Publish XML with the one you noted earlier.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn236428.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetResponse&gt; GetAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetResponse&gt; GetAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the Get Web Site Operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can retrieve details for a web site by issuing an HTTP GET
+            request.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn167007.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBackupConfigurationAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetBackupConfigurationResponse&gt; GetBackupConfigurationAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetBackupConfigurationResponse&gt; GetBackupConfigurationAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetBackupConfigurationAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetBackupConfigurationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Gets a schedule configuration for site backups.
+            </summary>
+        <returns>
+            Scheduled backup definition.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfigurationAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetConfigurationResponse&gt; GetConfigurationAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetConfigurationResponse&gt; GetConfigurationAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetConfigurationAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetConfigurationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can retrieve the config settings for a web site by issuing an
+            HTTP GET request.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166985.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Configuration Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHistoricalUsageMetricsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetHistoricalUsageMetricsResponse&gt; GetHistoricalUsageMetricsAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetHistoricalUsageMetricsParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetHistoricalUsageMetricsResponse&gt; GetHistoricalUsageMetricsAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetHistoricalUsageMetricsParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetHistoricalUsageMetricsAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetHistoricalUsageMetricsParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetHistoricalUsageMetricsResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetHistoricalUsageMetricsParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the Get Historical Usage Metrics Web Site
+            operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can retrieve historical usage metrics for a site by issuing an
+            HTTP GET request.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166964.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Historical Usage Metrics Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInstanceIdsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteInstanceIdsResponse&gt; GetInstanceIdsAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteInstanceIdsResponse&gt; GetInstanceIdsAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetInstanceIdsAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteInstanceIdsResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can retrieve the list of active instances by ids for a web site
+            by issuing an HTTP GET request.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166981.aspx
+            for more information)
+            </summary>
+        <returns>
+            The web site instance ids response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPublishProfileAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetPublishProfileResponse&gt; GetPublishProfileAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetPublishProfileResponse&gt; GetPublishProfileAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetPublishProfileAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetPublishProfileResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can retrieve the publish settings information for a web site by
+            issuing an HTTP GET request.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166996.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Publish Profile Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRepositoryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetRepositoryResponse&gt; GetRepositoryAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetRepositoryResponse&gt; GetRepositoryAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetRepositoryAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetRepositoryResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            A web site repository is essentially a Git repository that you can
+            use to manage your web site content. By using Git source control
+            tools, you can push or pull version-controlled changes to your
+            site. This API executes a repository get operation.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166967.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Repository Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUsageMetricsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetUsageMetricsResponse&gt; GetUsageMetricsAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetUsageMetricsResponse&gt; GetUsageMetricsAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.GetUsageMetricsAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetUsageMetricsResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can retrieve current usage metrics for a site by issuing an
+            HTTP GET request. The metrics returned include CPU Time, Data In,
+            Data Out, Local Bytes Read, Local Bytes Written, Network Bytes
+            Read, Network Bytes Written, WP Stop Requests, Memory Usage, CPU
+            Time - Minute Limit, and File System Storage.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166991.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Get Usage Metrics Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHostnameAvailableAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteIsHostnameAvailableResponse&gt; IsHostnameAvailableAsync (string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteIsHostnameAvailableResponse&gt; IsHostnameAvailableAsync(string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.IsHostnameAvailableAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteIsHostnameAvailableResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Determines if a host name is available.
+            </summary>
+        <returns>
+            The Is Hostname Available Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListBackupsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetBackupsResponse&gt; ListBackupsAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetBackupsResponse&gt; ListBackupsAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.ListBackupsAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteGetBackupsResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Returns list of all backups which are tracked by the system.
+            </summary>
+        <returns>
+            List of backups for the website.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestartAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; RestartAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; RestartAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.RestartAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can restart a web site by issuing an HTTP POST request.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn236425.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRestoreResponse&gt; RestoreAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest restoreRequest, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRestoreResponse&gt; RestoreAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest restoreRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.RestoreAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteRestoreResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="restoreRequest" Type="Microsoft.WindowsAzure.Management.WebSites.Models.RestoreRequest" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="restoreRequest">
+            A restore request.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Restores a site to either a new site or existing site (Overwrite
+            flag has to be set to true for that).
+            </summary>
+        <returns>
+            Restore operation information.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwapSlotsAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteOperationStatusResponse&gt; SwapSlotsAsync (string webSpaceName, string webSiteName, string sourceSlotName, string targetSlotName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteOperationStatusResponse&gt; SwapSlotsAsync(string webSpaceName, string webSiteName, string sourceSlotName, string targetSlotName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.SwapSlotsAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteOperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="sourceSlotName" Type="System.String" />
+        <Parameter Name="targetSlotName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="sourceSlotName">
+            The name of the first web site slot to swap (source).
+            </param>
+        <param name="targetSlotName">
+            The name of the second web site slot to swap with (target).
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can swap a web site from one slot to another slot.
+            </summary>
+        <returns>
+            The response body contains the status of the specified long-running
+            operation, indicating whether it has succeeded, is inprogress, has
+            timed out, or has failed. Note that this status is distinct from
+            the HTTP status code returned for the Get Operation Status
+            operation itself. If the long-running operation failed, the
+            response body includes error information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncRepositoryAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; SyncRepositoryAsync (string webSpaceName, string webSiteName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; SyncRepositoryAsync(string webSpaceName, string webSiteName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.SyncRepositoryAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            A web site repository is essentially a Git repository that you can
+            use to manage your web site content. By using Git source control
+            tools, you can push or pull version-controlled changes to your
+            site. This API executes a repository sync operation.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn166967.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateResponse&gt; UpdateAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateResponse&gt; UpdateAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.UpdateAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the Update Web Site operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can update the settings for a web site by using the HTTP PUT
+            method and by specifying the settings in the request body.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/dn167005.aspx
+            for more information)
+            </summary>
+        <returns>
+            The Update Web Site operation response.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateBackupConfigurationAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; UpdateBackupConfigurationAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest backupRequest, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; UpdateBackupConfigurationAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest backupRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.UpdateBackupConfigurationAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="backupRequest" Type="Microsoft.WindowsAzure.Management.WebSites.Models.BackupRequest" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="backupRequest">
+            A backup schedule specification.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            Updates a backup schedule for a site.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateConfigurationAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt; UpdateConfigurationAsync (string webSpaceName, string webSiteName, Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateConfigurationParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.OperationResponse&gt; UpdateConfigurationAsync(string webSpaceName, string webSiteName, class Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateConfigurationParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.WebSites.IWebSiteOperations.UpdateConfigurationAsync(System.String,System.String,Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateConfigurationParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="webSpaceName" Type="System.String" />
+        <Parameter Name="webSiteName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.WebSites.Models.WebSiteUpdateConfigurationParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="webSpaceName">
+            The name of the web space.
+            </param>
+        <param name="webSiteName">
+            The name of the web site.
+            </param>
+        <param name="parameters">
+            Parameters supplied to the Update Configuration Web Site operation.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            You can update the config settings for a web site by issuing an
+            HTTP PUT with a request body containing the updated settings.
+            (see http://msdn.microsoft.com/en-us/library/windowsazure/dn166985.aspx
+            for more information)
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

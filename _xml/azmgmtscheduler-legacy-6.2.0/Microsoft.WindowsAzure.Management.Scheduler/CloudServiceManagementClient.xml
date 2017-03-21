@@ -1,0 +1,417 @@
+<Type Name="CloudServiceManagementClient" FullName="Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient">
+  <TypeSignature Language="C#" Value="public class CloudServiceManagementClient : Hyak.Common.ServiceClient&lt;Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient&gt;, IDisposable, Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloudServiceManagementClient extends Hyak.Common.ServiceClient`1&lt;class Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient&gt; implements class Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient, class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Scheduler</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Hyak.Common.ServiceClient&lt;Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceManagementClient</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudServiceManagementClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the CloudServiceManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudServiceManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <summary>
+            Initializes a new instance of the CloudServiceManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudServiceManagementClient (System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the CloudServiceManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudServiceManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the CloudServiceManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudServiceManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, Uri baseUri);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Uri baseUri) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="baseUri">
+            Optional. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <summary>
+            Initializes a new instance of the CloudServiceManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudServiceManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, Uri baseUri, System.Net.Http.HttpClient httpClient);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Uri baseUri, class System.Net.Http.HttpClient httpClient) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
+        <Parameter Name="baseUri" Type="System.Uri" />
+        <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
+      </Parameters>
+      <Docs>
+        <param name="credentials">
+            Required. Gets subscription credentials which uniquely identify
+            Microsoft Azure subscription. The subscription ID forms part of
+            the URI for every service call.
+            </param>
+        <param name="baseUri">
+            Optional. Gets the URI used as the base for all cloud service
+            requests.
+            </param>
+        <param name="httpClient">
+            The Http client
+            </param>
+        <summary>
+            Initializes a new instance of the CloudServiceManagementClient
+            class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersion">
+      <MemberSignature Language="C#" Value="public string ApiVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.ApiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the API version.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUri">
+      <MemberSignature Language="C#" Value="public Uri BaseUri { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BaseUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.BaseUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the URI used as the base for all cloud service requests.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="protected override void Clone (Hyak.Common.ServiceClient&lt;Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient&gt; client);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Clone(class Hyak.Common.ServiceClient`1&lt;class Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient&gt; client) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="client" Type="Hyak.Common.ServiceClient&lt;Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="client">
+            Instance of CloudServiceManagementClient to clone to
+            </param>
+        <summary>
+            Clones properties from current instance to another
+            CloudServiceManagementClient instance
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloudServices">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations CloudServices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations CloudServices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.CloudServices" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Scheduler.ICloudServiceOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.SubscriptionCloudCredentials Credentials { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.SubscriptionCloudCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.Credentials" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.SubscriptionCloudCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets subscription credentials which uniquely identify Microsoft
+            Azure subscription. The subscription ID forms part of the URI for
+            every service call.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntitleResourceAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; EntitleResourceAsync (Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; EntitleResourceAsync(class Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.EntitleResourceAsync(Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient/&lt;EntitleResourceAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Microsoft.WindowsAzure.Management.Scheduler.Models.EntitleResourceParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters">
+            Required. Parameters provided to the EntitleResource method.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            EntitleResource is used only for 3rd party Store providers. Each
+            subscription must be entitled for the resource before creating
+            that particular type of resource.
+            </summary>
+        <returns>
+            A standard service response including an HTTP status code and
+            request ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationStatusAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse&gt; GetOperationStatusAsync (string requestId, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse&gt; GetOperationStatusAsync(string requestId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.GetOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient/&lt;GetOperationStatusAsync&gt;d__14))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Management.Scheduler.Models.CloudServiceOperationStatusResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="requestId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="requestId">
+            Required. The request ID for the request you wish to track. The
+            request ID is returned in the x-ms-request-id response header for
+            every request.
+            </param>
+        <param name="cancellationToken">
+            Cancellation token.
+            </param>
+        <summary>
+            The Get Operation Status operation returns the status of
+            thespecified operation. After calling an asynchronous operation,
+            you can call Get Operation Status to determine whether the
+            operation has succeeded, failed, or is still in progress.  (see
+            http://msdn.microsoft.com/en-us/library/windowsazure/ee460783.aspx
+            for more information)
+            </summary>
+        <returns>
+            The response body contains the status of the specified asynchronous
+            operation, indicating whether it has succeeded, is inprogress, or
+            has failed. Note that this status is distinct from the HTTP status
+            code returned for the Get Operation Status operation itself.  If
+            the asynchronous operation succeeded, the response body includes
+            the HTTP status code for the successful request.  If the
+            asynchronous operation failed, the response body includes the HTTP
+            status code for the failed request, and also includes error
+            information regarding the failure.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationInitialTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationInitialTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationInitialTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.LongRunningOperationInitialTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the initial timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongRunningOperationRetryTimeout">
+      <MemberSignature Language="C#" Value="public int LongRunningOperationRetryTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationRetryTimeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Scheduler.CloudServiceManagementClient.LongRunningOperationRetryTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the retry timeout for Long Running Operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

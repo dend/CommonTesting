@@ -1,0 +1,56 @@
+<Type Name="EndpointAcl" FullName="Microsoft.WindowsAzure.Management.Compute.Models.EndpointAcl">
+  <TypeSignature Language="C#" Value="public class EndpointAcl" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EndpointAcl extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Compute.Models.EndpointAcl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Compute</AssemblyName>
+    <AssemblyVersion>12.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The set of access control rules for the endpoint.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EndpointAcl ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.Models.EndpointAcl.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the EndpointAcl class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rules">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.Management.Compute.Models.AccessControlListRule&gt; Rules { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.WindowsAzure.Management.Compute.Models.AccessControlListRule&gt; Rules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Compute.Models.EndpointAcl.Rules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.Management.Compute.Models.AccessControlListRule&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The set of access control rules for the endpoint.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,96 @@
+<Type Name="ConfigurationSet+PublicIP" FullName="Microsoft.WindowsAzure.Management.Compute.Models.ConfigurationSet+PublicIP">
+  <TypeSignature Language="C#" Value="public class ConfigurationSet.PublicIP" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit ConfigurationSet/PublicIP extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Compute.Models.ConfigurationSet.PublicIP" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Compute</AssemblyName>
+    <AssemblyVersion>12.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An additional public IP that will be created for the role. The
+            public IP will be an additional IP for the role. The role
+            continues to be addressable via the default deployment VIP.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PublicIP ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.Models.ConfigurationSet.PublicIP.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the PublicIP class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DomainNameLabel">
+      <MemberSignature Language="C#" Value="public string DomainNameLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DomainNameLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Compute.Models.ConfigurationSet.PublicIP.DomainNameLabel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The DNS name of the public IP.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdleTimeoutInMinutes">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; IdleTimeoutInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; IdleTimeoutInMinutes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Compute.Models.ConfigurationSet.PublicIP.IdleTimeoutInMinutes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The idle timeout in minutes for this Public IP.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Compute.Models.ConfigurationSet.PublicIP.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. The name of the public IP.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

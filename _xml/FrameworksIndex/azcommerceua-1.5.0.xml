@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azcommerceua-1.5.0">
+  <Namespace Name="Microsoft.Azure.Commerce.UsageAggregates">
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient" Id="T:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient">
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationManagementClient.UsageAggregates" />
+    </Type>
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations" Id="T:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations">
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations.GetAsync(System.DateTime,System.DateTime,Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity,System.Boolean,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient" Id="T:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient">
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor" />
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient})" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClient.UsageAggregates" />
+    </Type>
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClientExtensions" Id="T:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationManagementClientExtensions" />
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions" Id="T:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions.Get(Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations,System.DateTime,System.DateTime,Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity,System.Boolean,System.String)" />
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.UsageAggregationOperationsExtensions.GetAsync(Microsoft.Azure.Commerce.UsageAggregates.IUsageAggregationOperations,System.DateTime,System.DateTime,Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity,System.Boolean,System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Commerce.UsageAggregates.Models">
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity" Id="T:Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity">
+      <Member Id="F:Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity.Daily" />
+      <Member Id="F:Microsoft.Azure.Commerce.UsageAggregates.Models.AggregationGranularity.Hourly" />
+    </Type>
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.Models.InfoField" Id="T:Microsoft.Azure.Commerce.UsageAggregates.Models.InfoField">
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.Models.InfoField.#ctor" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.InfoField.Project" />
+    </Type>
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregation" Id="T:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregation">
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregation.#ctor" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregation.Id" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregation.Name" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregation.Properties" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregation.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse" Id="T:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse">
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse.#ctor" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse.ContinuationToken" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse.NextLink" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageAggregationGetResponse.UsageAggregations" />
+    </Type>
+    <Type Name="Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample" Id="T:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample">
+      <Member Id="M:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.#ctor" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.InfoFields" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.InstanceData" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.MeterCategory" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.MeterId" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.MeterName" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.MeterRegion" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.MeterSubCategory" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.Quantity" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.Unit" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.UsageEndTime" />
+      <Member Id="P:Microsoft.Azure.Commerce.UsageAggregates.Models.UsageSample.UsageStartTime" />
+    </Type>
+  </Namespace>
+</Framework>

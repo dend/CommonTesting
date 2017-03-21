@@ -1,0 +1,111 @@
+<Type Name="CloudHttpResponseErrorInfo" FullName="Hyak.Common.CloudHttpResponseErrorInfo">
+  <TypeSignature Language="C#" Value="public class CloudHttpResponseErrorInfo : Hyak.Common.CloudHttpErrorInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloudHttpResponseErrorInfo extends Hyak.Common.CloudHttpErrorInfo" />
+  <TypeSignature Language="DocId" Value="T:Hyak.Common.CloudHttpResponseErrorInfo" />
+  <AssemblyInfo>
+    <AssemblyName>Hyak.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Hyak.Common.CloudHttpErrorInfo</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected CloudHttpResponseErrorInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.CloudHttpResponseErrorInfo.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Hyak.Common.CloudHttpResponseErrorInfo Create (System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Hyak.Common.CloudHttpResponseErrorInfo Create(class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.CloudHttpResponseErrorInfo.Create(System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Hyak.Common.CloudHttpResponseErrorInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static Hyak.Common.CloudHttpResponseErrorInfo Create (System.Net.Http.HttpResponseMessage response, string content);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Hyak.Common.CloudHttpResponseErrorInfo Create(class System.Net.Http.HttpResponseMessage response, string content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.CloudHttpResponseErrorInfo.Create(System.Net.Http.HttpResponseMessage,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Hyak.Common.CloudHttpResponseErrorInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" />
+        <Parameter Name="content" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReasonPhrase">
+      <MemberSignature Language="C#" Value="public string ReasonPhrase { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReasonPhrase" />
+      <MemberSignature Language="DocId" Value="P:Hyak.Common.CloudHttpResponseErrorInfo.ReasonPhrase" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusCode">
+      <MemberSignature Language="C#" Value="public System.Net.HttpStatusCode StatusCode { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Net.HttpStatusCode StatusCode" />
+      <MemberSignature Language="DocId" Value="P:Hyak.Common.CloudHttpResponseErrorInfo.StatusCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.HttpStatusCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

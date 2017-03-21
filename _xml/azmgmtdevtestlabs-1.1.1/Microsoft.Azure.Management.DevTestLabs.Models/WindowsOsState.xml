@@ -1,0 +1,67 @@
+<Type Name="WindowsOsState" FullName="Microsoft.Azure.Management.DevTestLabs.Models.WindowsOsState">
+  <TypeSignature Language="C#" Value="public static class WindowsOsState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WindowsOsState extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.Models.WindowsOsState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NonSysprepped">
+      <MemberSignature Language="C#" Value="public const string NonSysprepped;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string NonSysprepped" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DevTestLabs.Models.WindowsOsState.NonSysprepped" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SysprepApplied">
+      <MemberSignature Language="C#" Value="public const string SysprepApplied;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SysprepApplied" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DevTestLabs.Models.WindowsOsState.SysprepApplied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SysprepRequested">
+      <MemberSignature Language="C#" Value="public const string SysprepRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SysprepRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DevTestLabs.Models.WindowsOsState.SysprepRequested" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

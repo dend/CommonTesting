@@ -1,0 +1,114 @@
+<Type Name="DebugSettings" FullName="Microsoft.WindowsAzure.Management.Compute.Models.DebugSettings">
+  <TypeSignature Language="C#" Value="public class DebugSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DebugSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Compute.Models.DebugSettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Compute</AssemblyName>
+    <AssemblyVersion>13.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The parameters Azure uses to set debug settings for console output.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DebugSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.Models.DebugSettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>13.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DebugSettings class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DebugSettings (bool bootDiagnosticsEnabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool bootDiagnosticsEnabled) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Compute.Models.DebugSettings.#ctor(System.Boolean)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>13.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="bootDiagnosticsEnabled" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bootDiagnosticsEnabled">To be added.</param>
+        <summary>
+            Initializes a new instance of the DebugSettings class with required
+            arguments.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BootDiagnosticsEnabled">
+      <MemberSignature Language="C#" Value="public bool BootDiagnosticsEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BootDiagnosticsEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Compute.Models.DebugSettings.BootDiagnosticsEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>13.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Enable or disable boot diagnostics.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsoleScreenshotBlobUri">
+      <MemberSignature Language="C#" Value="public Uri ConsoleScreenshotBlobUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ConsoleScreenshotBlobUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Compute.Models.DebugSettings.ConsoleScreenshotBlobUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>13.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Blob uri for console screen shot.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerialOutputBlobUri">
+      <MemberSignature Language="C#" Value="public Uri SerialOutputBlobUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri SerialOutputBlobUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Compute.Models.DebugSettings.SerialOutputBlobUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>13.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Blob uri for serial output.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

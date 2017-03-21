@@ -1,0 +1,81 @@
+<Type Name="WebErrorsKnowledgeForIdempotentOperations" FullName="Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledgeForIdempotentOperations">
+  <TypeSignature Language="C#" Value="public sealed class WebErrorsKnowledgeForIdempotentOperations : Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledge" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit WebErrorsKnowledgeForIdempotentOperations extends Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledge" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledgeForIdempotentOperations" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Documents.Client.TransientFaultHandling</AssemblyName>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledge</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a knowledge about transient web errors for idempotent operations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebErrorsKnowledgeForIdempotentOperations ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledgeForIdempotentOperations.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTransientHttpError">
+      <MemberSignature Language="C#" Value="public override bool IsTransientHttpError (System.Net.HttpStatusCode statusCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsTransientHttpError(valuetype System.Net.HttpStatusCode statusCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledgeForIdempotentOperations.IsTransientHttpError(System.Net.HttpStatusCode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="statusCode" Type="System.Net.HttpStatusCode" />
+      </Parameters>
+      <Docs>
+        <param name="statusCode">Web error status code.</param>
+        <summary>
+            Determines if web error status code represents transient failure or not.
+            </summary>
+        <returns>True if status code represents transient failure, False otherwise.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTransientWebError">
+      <MemberSignature Language="C#" Value="public override bool IsTransientWebError (System.Net.WebExceptionStatus statusCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsTransientWebError(valuetype System.Net.WebExceptionStatus statusCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Client.TransientFaultHandling.Strategies.WebErrorsKnowledgeForIdempotentOperations.IsTransientWebError(System.Net.WebExceptionStatus)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="statusCode" Type="System.Net.WebExceptionStatus" />
+      </Parameters>
+      <Docs>
+        <param name="statusCode">Web error status code.</param>
+        <summary>
+            Determines if web error status code represents transient failure or not.
+            </summary>
+        <returns>True if status code represents transient failure, False otherwise.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

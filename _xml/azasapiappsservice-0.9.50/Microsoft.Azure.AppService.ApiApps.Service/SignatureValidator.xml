@@ -1,0 +1,91 @@
+<Type Name="SignatureValidator" FullName="Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator">
+  <TypeSignature Language="C#" Value="public static class SignatureValidator" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SignatureValidator extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.50.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnonymousPrincipal">
+      <MemberSignature Language="C#" Value="public static readonly System.Security.Claims.ClaimsPrincipal AnonymousPrincipal;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Security.Claims.ClaimsPrincipal AnonymousPrincipal" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator.AnonymousPrincipal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Claims.ClaimsPrincipal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculateBodyMd5">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;byte[]&gt; CalculateBodyMd5 (System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; CalculateBodyMd5(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator.CalculateBodyMd5(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator/&lt;CalculateBodyMd5&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Byte[]&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public static System.Security.Claims.ClaimsPrincipal Validate (System.Net.Http.HttpRequestMessage request, Func&lt;string,byte[]&gt; resolver, DateTime now, TimeSpan maxAge);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Claims.ClaimsPrincipal Validate(class System.Net.Http.HttpRequestMessage request, class System.Func`2&lt;string, unsigned int8[]&gt; resolver, valuetype System.DateTime now, valuetype System.TimeSpan maxAge) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator.Validate(System.Net.Http.HttpRequestMessage,System.Func{System.String,System.Byte[]},System.DateTime,System.TimeSpan)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.50.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Claims.ClaimsPrincipal</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+        <Parameter Name="resolver" Type="System.Func&lt;System.String,System.Byte[]&gt;" />
+        <Parameter Name="now" Type="System.DateTime" />
+        <Parameter Name="maxAge" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <param name="resolver">To be added.</param>
+        <param name="now">To be added.</param>
+        <param name="maxAge">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

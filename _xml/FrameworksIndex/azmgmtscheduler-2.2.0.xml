@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmgmtscheduler-2.2.0">
+  <Namespace Name="Microsoft.Azure.Management.Scheduler">
+    <Type Name="Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations" Id="T:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.BeginDeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.BeginDisableWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.BeginEnableWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.DisableWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.EnableWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.ListByResourceGroupNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.ListBySubscriptionNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.ListBySubscriptionWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations.PatchWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.IJobsOperations" Id="T:Microsoft.Azure.Management.Scheduler.IJobsOperations">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobDefinition,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.ListJobHistoryNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.ListJobHistoryWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.ListNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.ListWithHttpMessagesAsync(System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Scheduler.Models.JobStateFilter},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.PatchWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobDefinition,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.IJobsOperations.RunWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient" Id="T:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient">
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.JobCollections" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.Jobs" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions" Id="T:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.BeginDisable(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.BeginDisableAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.BeginEnable(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.BeginEnableAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.Delete(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.Disable(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.DisableAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.Enable(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.EnableAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.Get(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListBySubscription(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListBySubscriptionAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListBySubscriptionNext(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.ListBySubscriptionNextAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.Patch(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobCollectionsOperationsExtensions.PatchAsync(Microsoft.Azure.Management.Scheduler.IJobCollectionsOperations,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions" Id="T:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobDefinition)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobDefinition,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.Delete(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.Get(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.List(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Scheduler.Models.JobStateFilter})" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Scheduler.Models.JobStateFilter},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.ListJobHistory(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter})" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.ListJobHistoryAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter},System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.ListJobHistoryNext(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.ListJobHistoryNextAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.ListNext(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.Patch(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobDefinition)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.PatchAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobDefinition,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.Run(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.JobsOperationsExtensions.RunAsync(Microsoft.Azure.Management.Scheduler.IJobsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.SchedulerManagementClient" Id="T:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.AcceptLanguage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.Credentials" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.DeserializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.GenerateClientRequestId" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.JobCollections" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.Jobs" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.SerializationSettings" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.SchedulerManagementClient.SubscriptionId" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.Management.Scheduler.Models">
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.BasicAuthentication" Id="T:Microsoft.Azure.Management.Scheduler.Models.BasicAuthentication">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.BasicAuthentication.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.BasicAuthentication.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType},System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.BasicAuthentication.Password" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.BasicAuthentication.Username" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication" Id="T:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType},System.String,System.String,System.String,System.Nullable{System.DateTime},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication.CertificateExpirationDate" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication.CertificateSubjectName" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication.CertificateThumbprint" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication.Password" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ClientCertAuthentication.Pfx" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.DayOfWeek" Id="T:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek.Friday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek.Monday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek.Saturday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek.Sunday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek.Thursday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek.Tuesday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.DayOfWeek.Wednesday" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.HttpAuthentication" Id="T:Microsoft.Azure.Management.Scheduler.Models.HttpAuthentication">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.HttpAuthentication.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.HttpAuthentication.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.HttpAuthentication.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType" Id="T:Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType.ActiveDirectoryOAuth" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType.Basic" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType.ClientCertificate" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType.NotSpecified" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.HttpRequest" Id="T:Microsoft.Azure.Management.Scheduler.Models.HttpRequest">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.HttpRequest.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.HttpRequest.#ctor(Microsoft.Azure.Management.Scheduler.Models.HttpAuthentication,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.HttpRequest.Authentication" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.HttpRequest.Body" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.HttpRequest.Headers" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.HttpRequest.Method" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.HttpRequest.Uri" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobAction" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobAction">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobAction.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobAction.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobActionType},Microsoft.Azure.Management.Scheduler.Models.HttpRequest,Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage,Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage,Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage,Microsoft.Azure.Management.Scheduler.Models.RetryPolicy,Microsoft.Azure.Management.Scheduler.Models.JobErrorAction)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.ErrorAction" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.QueueMessage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.Request" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.RetryPolicy" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.ServiceBusQueueMessage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.ServiceBusTopicMessage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobAction.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobActionType" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobActionType">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobActionType.Http" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobActionType.Https" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobActionType.ServiceBusQueue" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobActionType.ServiceBusTopic" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobActionType.StorageQueue" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.Id" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.Location" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.Name" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.Properties" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.Tags" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionDefinition.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.#ctor(Microsoft.Azure.Management.Scheduler.Models.Sku,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobCollectionState},Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.Quota" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.Sku" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionProperties.State" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},Microsoft.Azure.Management.Scheduler.Models.JobMaxRecurrence)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota.MaxJobCount" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota.MaxJobOccurrence" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobCollectionQuota.MaxRecurrence" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobCollectionState" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobCollectionState">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobCollectionState.Deleted" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobCollectionState.Disabled" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobCollectionState.Enabled" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobCollectionState.Suspended" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobDefinition" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobDefinition">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobDefinition.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobDefinition.#ctor(System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobProperties)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobDefinition.Id" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobDefinition.Name" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobDefinition.Properties" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobDefinition.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobErrorAction" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobActionType},Microsoft.Azure.Management.Scheduler.Models.HttpRequest,Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage,Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage,Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage,Microsoft.Azure.Management.Scheduler.Models.RetryPolicy)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.QueueMessage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.Request" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.RetryPolicy" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.ServiceBusQueueMessage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.ServiceBusTopicMessage" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobErrorAction.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus.Completed" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus.Failed" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus.Postponed" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobHistoryActionName" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobHistoryActionName">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobHistoryActionName.ErrorAction" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobHistoryActionName.MainAction" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition.#ctor(System.String,System.String,System.String,Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition.Id" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition.Name" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition.Properties" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinition.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.#ctor(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobHistoryActionName},System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus},System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.ActionName" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.EndTime" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.ExpectedExecutionTime" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.Message" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.RepeatCount" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.RetryCount" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.StartTime" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryDefinitionProperties.Status" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobExecutionStatus})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobHistoryFilter.Status" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobMaxRecurrence" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobMaxRecurrence">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobMaxRecurrence.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobMaxRecurrence.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency},System.Nullable{System.Int32})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobMaxRecurrence.Frequency" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobMaxRecurrence.Interval" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobProperties" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobProperties">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobProperties.#ctor(System.Nullable{System.DateTime},Microsoft.Azure.Management.Scheduler.Models.JobAction,Microsoft.Azure.Management.Scheduler.Models.JobRecurrence,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobState},Microsoft.Azure.Management.Scheduler.Models.JobStatus)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobProperties.Action" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobProperties.Recurrence" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobProperties.StartTime" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobProperties.State" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobProperties.Status" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobRecurrence" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.DateTime},Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence.Count" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence.EndTime" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence.Frequency" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence.Interval" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrence.Schedule" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule.#ctor(System.Collections.Generic.IList{System.Nullable{Microsoft.Azure.Management.Scheduler.Models.DayOfWeek}},System.Collections.Generic.IList{System.Nullable{System.Int32}},System.Collections.Generic.IList{System.Nullable{System.Int32}},System.Collections.Generic.IList{System.Nullable{System.Int32}},System.Collections.Generic.IList{Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule.Hours" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule.Minutes" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule.MonthDays" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule.MonthlyOccurrences" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceSchedule.WeekDays" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay},System.Nullable{System.Int32})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.Day" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobRecurrenceScheduleMonthlyOccurrence.Occurrence" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay.Friday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay.Monday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay.Saturday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay.Sunday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay.Thursday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay.Tuesday" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobScheduleDay.Wednesday" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobState" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobState">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobState.Completed" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobState.Disabled" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobState.Enabled" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.JobState.Faulted" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobStateFilter" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobStateFilter">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobStateFilter.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobStateFilter.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.JobState})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobStateFilter.State" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.JobStatus" Id="T:Microsoft.Azure.Management.Scheduler.Models.JobStatus">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobStatus.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.JobStatus.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobStatus.ExecutionCount" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobStatus.FailureCount" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobStatus.FaultedCount" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobStatus.LastExecutionTime" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.JobStatus.NextExecutionTime" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication" Id="T:Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.HttpAuthenticationType},System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication.Audience" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication.ClientId" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication.Secret" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.OAuthAuthentication.Tenant" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.Page`1" Id="T:Microsoft.Azure.Management.Scheduler.Models.Page`1">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.Page`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.Page`1.GetEnumerator" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.Page`1.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.Page`1.NextPageLink" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency" Id="T:Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency.Day" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency.Hour" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency.Minute" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency.Month" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.RecurrenceFrequency.Week" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.RetryPolicy" Id="T:Microsoft.Azure.Management.Scheduler.Models.RetryPolicy">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.RetryPolicy.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.RetryPolicy.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.RetryType},System.Nullable{System.TimeSpan},System.Nullable{System.Int32})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.RetryPolicy.RetryCount" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.RetryPolicy.RetryInterval" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.RetryPolicy.RetryType" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.RetryType" Id="T:Microsoft.Azure.Management.Scheduler.Models.RetryType">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.RetryType.Fixed" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.RetryType.None" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication" Id="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication.#ctor(System.String,System.String,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthenticationType})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication.SasKey" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication.SasKeyName" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthenticationType" Id="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthenticationType">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthenticationType.NotSpecified" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthenticationType.SharedAccessKey" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties" Id="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.#ctor(System.String,System.String,System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},System.String,System.Nullable{System.TimeSpan},System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.ContentType" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.CorrelationId" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.ForcePersistence" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.Label" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.MessageId" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.PartitionKey" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.ReplyTo" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.ReplyToSessionId" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.ScheduledEnqueueTimeUtc" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.SessionId" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.TimeToLive" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.To" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties.ViaPartitionKey" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage" Id="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.#ctor(Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication,Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.Authentication" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.BrokeredMessageProperties" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.CustomMessageProperties" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.Message" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.NamespaceProperty" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusMessage.TransportType" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage" Id="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage.#ctor(Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication,Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusQueueMessage.QueueName" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage" Id="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage.#ctor(Microsoft.Azure.Management.Scheduler.Models.ServiceBusAuthentication,Microsoft.Azure.Management.Scheduler.Models.ServiceBusBrokeredMessageProperties,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Nullable{Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType},System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTopicMessage.TopicPath" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType" Id="T:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType.AMQP" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType.NetMessaging" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.ServiceBusTransportType.NotSpecified" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.Sku" Id="T:Microsoft.Azure.Management.Scheduler.Models.Sku">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.Sku.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.Sku.#ctor(System.Nullable{Microsoft.Azure.Management.Scheduler.Models.SkuDefinition})" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.Sku.Name" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.SkuDefinition" Id="T:Microsoft.Azure.Management.Scheduler.Models.SkuDefinition">
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.SkuDefinition.Free" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.SkuDefinition.P10Premium" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.SkuDefinition.P20Premium" />
+      <Member Id="F:Microsoft.Azure.Management.Scheduler.Models.SkuDefinition.Standard" />
+    </Type>
+    <Type Name="Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage" Id="T:Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage">
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage.#ctor" />
+      <Member Id="M:Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage.#ctor(System.String,System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage.Message" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage.QueueName" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage.SasToken" />
+      <Member Id="P:Microsoft.Azure.Management.Scheduler.Models.StorageQueueMessage.StorageAccount" />
+    </Type>
+  </Namespace>
+</Framework>

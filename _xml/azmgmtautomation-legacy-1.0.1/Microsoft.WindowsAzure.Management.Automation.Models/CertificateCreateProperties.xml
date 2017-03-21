@@ -1,0 +1,133 @@
+<Type Name="CertificateCreateProperties" FullName="Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties">
+  <TypeSignature Language="C#" Value="public class CertificateCreateProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CertificateCreateProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Automation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The properties of the create certificate operation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CertificateCreateProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the CertificateCreateProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CertificateCreateProperties (string base64Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string base64Value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties.#ctor(System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="base64Value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="base64Value">To be added.</param>
+        <summary>
+            Initializes a new instance of the CertificateCreateProperties class
+            with required arguments.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Base64Value">
+      <MemberSignature Language="C#" Value="public string Base64Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Base64Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties.Base64Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the base64 encoded value of the certificate.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the description of the certificate.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExportable">
+      <MemberSignature Language="C#" Value="public bool IsExportable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExportable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties.IsExportable" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the is exportable flag of the certificate.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Thumbprint">
+      <MemberSignature Language="C#" Value="public string Thumbprint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Thumbprint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Automation.Models.CertificateCreateProperties.Thumbprint" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the thumbprint of the certificate.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

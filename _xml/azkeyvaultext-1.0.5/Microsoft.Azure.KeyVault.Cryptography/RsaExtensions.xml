@@ -1,0 +1,67 @@
+<Type Name="RsaExtensions" FullName="Microsoft.Azure.KeyVault.Cryptography.RsaExtensions">
+  <TypeSignature Language="C#" Value="public static class RsaExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RsaExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Cryptography.RsaExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.KeyVault.Extensions</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ToJsonWebKey">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey (this System.Security.Cryptography.RSAParameters self);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey(valuetype System.Security.Cryptography.RSAParameters self) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.RsaExtensions.ToJsonWebKey(System.Security.Cryptography.RSAParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.KeyVault.WebKey.JsonWebKey</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="self" Type="System.Security.Cryptography.RSAParameters" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="self">The RSA parameters object to convert</param>
+        <summary>
+            Converts a RSAParameters object to a WebKey of type RSA.
+            </summary>
+        <returns>A WebKey representing the RSA object</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToJsonWebKey">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey (this System.Security.Cryptography.RSA self, bool includePrivateParameters = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.KeyVault.WebKey.JsonWebKey ToJsonWebKey(class System.Security.Cryptography.RSA self, bool includePrivateParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.RsaExtensions.ToJsonWebKey(System.Security.Cryptography.RSA,System.Boolean)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.KeyVault.WebKey.JsonWebKey</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="self" Type="System.Security.Cryptography.RSA" RefType="this" />
+        <Parameter Name="includePrivateParameters" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="self">The RSA object to convert</param>
+        <param name="includePrivateParameters">True to include the RSA private key parameters</param>
+        <summary>
+            Converts a RSA object to a JsonWebKey of type RSA.
+            </summary>
+        <returns>A WebKey representing the RSA object</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

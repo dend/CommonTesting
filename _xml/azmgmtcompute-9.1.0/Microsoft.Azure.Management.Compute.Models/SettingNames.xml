@@ -1,0 +1,57 @@
+<Type Name="SettingNames" FullName="Microsoft.Azure.Management.Compute.Models.SettingNames">
+  <TypeSignature Language="C#" Value="public static class SettingNames" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SettingNames extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.SettingNames" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Setting names supported by AdditionalUnattendContent.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutoLogon">
+      <MemberSignature Language="C#" Value="public const string AutoLogon;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AutoLogon" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.SettingNames.AutoLogon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Auto Logon setting
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstLogonCommands">
+      <MemberSignature Language="C#" Value="public const string FirstLogonCommands;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string FirstLogonCommands" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.SettingNames.FirstLogonCommands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            First Logon Commands setting
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

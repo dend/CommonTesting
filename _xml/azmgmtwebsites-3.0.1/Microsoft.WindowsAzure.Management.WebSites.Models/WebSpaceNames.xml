@@ -1,0 +1,115 @@
+<Type Name="WebSpaceNames" FullName="Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames">
+  <TypeSignature Language="C#" Value="public static class WebSpaceNames" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit WebSpaceNames extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EastAsiaWebSpace">
+      <MemberSignature Language="C#" Value="public const string EastAsiaWebSpace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EastAsiaWebSpace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames.EastAsiaWebSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EastUSWebSpace">
+      <MemberSignature Language="C#" Value="public const string EastUSWebSpace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EastUSWebSpace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames.EastUSWebSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NorthCentralUSWebSpace">
+      <MemberSignature Language="C#" Value="public const string NorthCentralUSWebSpace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string NorthCentralUSWebSpace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames.NorthCentralUSWebSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NorthEuropeWebSpace">
+      <MemberSignature Language="C#" Value="public const string NorthEuropeWebSpace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string NorthEuropeWebSpace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames.NorthEuropeWebSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WestEuropeWebSpace">
+      <MemberSignature Language="C#" Value="public const string WestEuropeWebSpace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string WestEuropeWebSpace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames.WestEuropeWebSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WestUSWebSpace">
+      <MemberSignature Language="C#" Value="public const string WestUSWebSpace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string WestUSWebSpace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.WebSpaceNames.WestUSWebSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

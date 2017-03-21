@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmgmtremoteapp-legacy-2.0.7">
+  <Namespace Name="Microsoft.WindowsAzure.Management.RemoteApp">
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.ActivateBilling(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.ActivateBillingAsync(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.Get(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.GetEnabledFeatures(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.GetEnabledFeaturesAsync(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.ListBillingPlans(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.ListBillingPlansAsync(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.Set(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations,Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetailsParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.AccountsOperationsExtensions.SetAsync(Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations,Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetailsParameter)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.Create(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.Boolean,Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.Boolean,Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.DisconnectSession(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.DisconnectSessionAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.Get(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.GetAd(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.GetAdAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.GetUsageDetails(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.GetUsageDetailsAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.GetUsageSummary(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.GetUsageSummaryAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.List(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.ListSessions(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.ListSessionsAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.ListVms(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.ListVmsAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.LogoffSession(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.LogoffSessionAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.RegionList(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.RegionListAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.RestartVm(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.RestartVmAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.SendMessageToSession(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.SendMessageToSessionAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.Set(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,System.Boolean,System.Boolean,Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.SetAd(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.SetAdAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.CollectionOperationsExtensions.SetAsync(Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations,System.String,System.Boolean,System.Boolean,Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations.ActivateBillingAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations.GetAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations.GetEnabledFeaturesAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations.ListBillingPlansAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IAccountsOperations.SetAsync(Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetailsParameter,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.CreateAsync(System.Boolean,Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.DisconnectSessionAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.GetAdAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.GetUsageDetailsAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.GetUsageSummaryAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.ListAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.ListSessionsAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.ListVmsAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.LogoffSessionAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.RegionListAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.RestartVmAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.SendMessageToSessionAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.SetAdAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ICollectionOperations.SetAsync(System.String,System.Boolean,System.Boolean,Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.IOperationResultOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.IOperationResultOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IOperationResultOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.AddAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.AddToAppAsync(System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.DeleteAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.DeleteFromAppAsync(System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.ListForAppAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.ListForAppWithTokenAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations.ListWithTokenAsync(System.String,System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.ModifyApplicationAsync(System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.PublishApplicationsAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsListParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.StartMenuApplicationAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.StartMenuApplicationListAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.UnpublishAllAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations.UnpublishAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.AliasesListParameter,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient">
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.Account" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.Collections" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.OperationResults" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.Principals" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.Publishing" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.RdfeNamespace" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.TemplateImages" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.UserDisks" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.IRemoteAppManagementClient.VNet" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations.EnsureStorageInRegionAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations.GetUploadScriptAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations.ListAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations.MigrateAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations.SetAsync(Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations.CopyAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations.DeleteAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations.MigrateAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.CreateOrUpdateAsync(System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetParameter,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.GetAsync(System.String,System.Boolean,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.GetResetVpnSharedKeyOperationStatusAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.GetVpnDeviceConfigScriptAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.GetVpnDevicesAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.ListAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations.ResetVpnSharedKeyAsync(System.String,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.OperationResultOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.OperationResultOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.OperationResultOperationsExtensions.Get(Microsoft.WindowsAzure.Management.RemoteApp.IOperationResultOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.OperationResultOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.RemoteApp.IOperationResultOperations,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.Add(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.AddAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.AddToApp(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.AddToAppAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.DeleteFromApp(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.DeleteFromAppAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.List(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.ListForApp(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.ListForAppAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.ListForAppWithToken(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.ListForAppWithTokenAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.ListWithToken(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PrincipalOperationsExtensions.ListWithTokenAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPrincipalOperations,System.String,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.Get(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.List(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.ModifyApplication(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.ModifyApplicationAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.PublishApplications(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsListParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.PublishApplicationsAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsListParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplication(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplicationAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplicationList(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.StartMenuApplicationListAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.Unpublish(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.AliasesListParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.UnpublishAll(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.UnpublishAllAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.PublishingOperationsExtensions.UnpublishAsync(Microsoft.WindowsAzure.Management.RemoteApp.IPublishingOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.AliasesListParameter)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient})" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.Account" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.Collections" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.LongRunningOperationRetryTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.OperationResults" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.Principals" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.Publishing" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.RdfeNamespace" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.TemplateImages" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.UserDisks" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClient.VNet" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClientExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.RemoteAppManagementClientExtensions" />
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.EnsureStorageInRegion(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.EnsureStorageInRegionAsync(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.Get(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.GetUploadScript(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.GetUploadScriptAsync(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.List(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.Migrate(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String,System.String,System.String,System.String,System.Boolean)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.MigrateAsync(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,System.String,System.String,System.String,System.String,System.Boolean)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.Set(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.TemplateImageOperationsExtensions.SetAsync(Microsoft.WindowsAzure.Management.RemoteApp.ITemplateImageOperations,Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions.Copy(Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations,System.String,System.String,System.String,System.Boolean)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions.CopyAsync(Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations,System.String,System.String,System.String,System.Boolean)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions.Migrate(Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations,System.String,System.String,System.String,System.String,System.Boolean)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.UserDiskOperationsExtensions.MigrateAsync(Microsoft.WindowsAzure.Management.RemoteApp.IUserDiskOperations,System.String,System.String,System.String,System.String,System.Boolean)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.CreateOrUpdate(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.CreateOrUpdateAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String,Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetParameter)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.Get(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String,System.Boolean)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String,System.Boolean)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.GetResetVpnSharedKeyOperationStatus(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.GetResetVpnSharedKeyOperationStatusAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.GetVpnDeviceConfigScript(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.GetVpnDeviceConfigScriptAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.GetVpnDevices(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.GetVpnDevicesAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.List(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.ResetVpnSharedKey(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.VNetOperationsExtensions.ResetVpnSharedKeyAsync(Microsoft.WindowsAzure.Management.RemoteApp.IVNetOperations,System.String)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Management.RemoteApp.Models">
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.ClientUrl" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.ContactEmail" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.DesktopEnabled" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.MaxCollections" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.MaxPublishedAppsPerCollection" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.MaxUsersPerCollection" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetails.OptIntoMarketingEmail" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetailsParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetailsParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetailsParameter.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountDetailsParameter.AccountInfo" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountUpdateDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountUpdateDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountUpdateDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AccountUpdateDetails.EndUserFeedName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig.#ctor(System.String,System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig.DomainName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig.OrganizationalUnit" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig.Password" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfig.UserName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigParameter.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigParameter.#ctor(System.String,System.String,System.String)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ActiveDirectoryConfigResult.ActiveDirectoryConfig" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.AliasesListParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.AliasesListParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.AliasesListParameter.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.AliasesListParameter.AliasesList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsListParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsListParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsListParameter.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsListParameter.DetailsList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsParameter.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ApplicationDetailsParameter.Details" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.AppPublishingStatus" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.AppPublishingStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.AppPublishingStatus.Invalid" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.AppPublishingStatus.Modifying" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.AppPublishingStatus.Published" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.AppPublishingStatus.Publishing" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.AppPublishingStatus.Unpublishing" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan.AddOns" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan.CoresPerUser" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan.MinimumBilledUserCount" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingPlan.Name" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary.IncludedUsage" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary.OverageUsage" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary.TotalUsage" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary.UserName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.BillingUsageSummary.WaivedUsage" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.AclLevel" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.AdInfo" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.CustomRdpProperty" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.DnsServers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.LastErrorCode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.LastModifiedTimeUtc" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.MaxSessions" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.Mode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.OfficeType" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.PlanName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.ReadyForPublishing" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.Region" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.SessionWarningThreshold" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.Status" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.SubnetName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.TemplateImageName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.TrialOnly" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.Type" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Collection.VNetName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionAclLevel" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionAclLevel">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionAclLevel.Application" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionAclLevel.Collection" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionAclLevel.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.AdInfo" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.AllowedPrincipals" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.CustomRdpProperty" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.DnsServers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.Mode" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.PlanName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.PublishedApplications" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.ReadyForPublishing" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.Region" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.SubnetName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.TemplateImageName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionCreationDetails.VNetName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionListResult.Collections" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionMode" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionMode">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionMode.Apps" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionMode.Desktop" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionMode.Unassigned" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionResult.Collection" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionSessionListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionSessionListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionSessionListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionSessionListResult.Sessions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionType" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionType">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionType.CloudOnly" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionType.Hybrid" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.AclLevel" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.AdInfo" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.CustomRdpProperty" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.PlanName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.SubnetName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.TemplateImageName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUpdateDetails.WaitBeforeShutdownInMinutes" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetails.OperationTrackingId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetails.SasUri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetailsResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetailsResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetailsResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageDetailsResult.UsageDetails" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageSummaryListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageSummaryListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageSummaryListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionUsageSummaryListResult.UsageSummaryList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionVmsListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionVmsListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionVmsListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.CollectionVmsListResult.Vms" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus.Accepted" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus.Ignore" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus.NotFound" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus.Pending" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus.Rejected" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.ConsentStatus.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.EnabledFeaturesResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.EnabledFeaturesResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.EnabledFeaturesResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.EnabledFeaturesResult.EnabledFeatures" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.GatewayType" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.GatewayType">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.GatewayType.DynamicRouting" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.GatewayType.StaticRouting" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.GetAccountResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetAccountResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetAccountResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetAccountResult.Details" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationListResult.ResultList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetPublishedApplicationResult.Result" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationListResult.ResultList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.GetStartMenuApplicationResult.Result" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.IconPngUrisType" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.IconPngUrisType">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.IconPngUrisType.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.IconPngUrisType.IconPngUris" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ListBillingPlansResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ListBillingPlansResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ListBillingPlansResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ListBillingPlansResult.PlanList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.ModifyApplicationResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.ModifyApplicationResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.ModifyApplicationResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.ModifyApplicationResult.Result" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.OfficeType" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.OfficeType">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.OfficeType.None" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.OfficeType.Office365" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.OfficeType.OfficeSAL" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.OfficeType.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResult.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResult.ErrorDetails" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResult.Status" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResultWithTrackingId" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResultWithTrackingId">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResultWithTrackingId.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.OperationResultWithTrackingId.TrackingId" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.OsFamily" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.OsFamily">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.OsFamily.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.OsFamily.Name" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.Platform" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.Platform">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.Platform.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Platform.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Platform.OsFamilies" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalProviderType" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalProviderType">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalProviderType.MicrosoftAccount" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalProviderType.OrgId" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalType" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalType">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalType.Group" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.PrincipalType.User" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishApplicationsResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishApplicationsResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishApplicationsResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishApplicationsResult.ResultList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.Alias" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.AvailableToUsers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.CommandLineArguments" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.IconPngUris" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.IconUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.Status" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishedApplicationDetails.VirtualPath" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishingOperationResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishingOperationResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishingOperationResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishingOperationResult.ApplicationAlias" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishingOperationResult.ApplicationVirtualPath" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishingOperationResult.ErrorMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.PublishingOperationResult.Success" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.Region" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.Region">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.Region.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Region.DisplayName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Region.Name" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.RegionListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.RegionListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.RegionListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RegionListResult.Regions" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatus" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatus.Failed" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatus.InProgress" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatus.Pending" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatus.Success" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatusResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatusResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatusResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppOperationStatusResult.RemoteAppOperationResult" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppSession" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppSession">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppSession.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppSession.LogonTimeUtc" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppSession.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppSession.UserUpn" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppVm" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppVm">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppVm.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppVm.LoggedOnUserUpns" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RemoteAppVm.VirtualMachineName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter.LogoffMessage" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter.LogoffWaitTimeInSeconds" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.RestartVmCommandParameter.VirtualMachineName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal.AadObjectId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal.Description" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal.SecurityPrincipalType" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipal.UserIdType" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfo" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfo">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfo.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfo.SecurityPrincipal" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfo.Status" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListResult.SecurityPrincipalInfoList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithToken" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithToken">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithToken.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithToken.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithToken.NewContinuationToken" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithToken.SecurityPrincipalInfoList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithTokenResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithTokenResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithTokenResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalInfoListWithTokenResult.SecurityPrincipalInfoListWithToken" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalList.SecurityPrincipals" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError.AlreadyExists" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError.AssignedToAnotherCollection" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError.CouldNotBeResolved" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError.NotDirsynced" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError.NotFound" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationError.NotSupported" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails.Error" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails.ErrorDetails" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationErrorDetails.SecurityPrincipal" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SecurityPrincipalOperationsResult.Errors" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionCommandParameter.UserUpn" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter.Message" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionSendMessageCommandParameter.UserUpn" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionState" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionState">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionState.Connected" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionState.Disconnected" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionState.NoSession" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.SessionState.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.#ctor(System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.CommandLineArguments" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.IconPngUris" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.IconUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.StartMenuAppId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.StartMenuApplication.VirtualPath" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.NumberOfLinkedCollections" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.OfficeType" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.PathOnClient" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.RegionList" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.Sas" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.SasExpiry" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.Size" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.Status" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.TrialOnly" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.Type" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.UploadCompleteTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.UploadSetupTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.UploadStartTime" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImage.Uri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails.#ctor(System.String,System.String)" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails.Id" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails.Region" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails.SizeInGB" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageDetails.SourceImageSasUri" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageListResult.RemoteAppTemplateImageList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageResult.TemplateImage" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.Corrupted" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.Deleting" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.ImportComplete" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.ImportFailed" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.ImportInProgress" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.Ready" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.UploadComplete" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.UploadFailed" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.UploadInProgress" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.UploadPending" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageStatus.ValidationFailed" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageType" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageType">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageType.CustomerImage" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageType.PlatformImage" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.TemplateImageType.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.UnpublishApplicationsResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.UnpublishApplicationsResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.UnpublishApplicationsResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.UnpublishApplicationsResult.ResultList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.UploadScriptResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.UploadScriptResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.UploadScriptResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.UploadScriptResult.Script" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.Vendor" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.Vendor">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.Vendor.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Vendor.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.Vendor.Platforms" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet.SharedKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet.StateInfo" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNet.UpgradeInProgress" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.DnsServers" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.GatewayIp" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.GatewaySubnet" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.GatewayType" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.LocalAddressSpaces" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.Region" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.VnetAddressSpaces" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetCommonFields.VpnAddress" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetConfigScriptResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetConfigScriptResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetConfigScriptResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetConfigScriptResult.ConfigScript" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetListResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetListResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetListResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetListResult.VNetList" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatus" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatus">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatus.Failed" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatus.InProgress" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatus.Success" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatus.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatusResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatusResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatusResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetOperationStatusResult.Status" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetParameter" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetParameter">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetParameter.#ctor" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetResult.VNet" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState">
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.Connecting" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.ConnectionError" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.CreationError" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.Deleted" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.Deleting" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.None" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.Provisioning" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.Ready" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetState.Unknown" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetVpnDeviceResult" Id="T:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetVpnDeviceResult">
+      <Member Id="M:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetVpnDeviceResult.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.RemoteApp.Models.VNetVpnDeviceResult.Vendors" />
+    </Type>
+  </Namespace>
+</Framework>

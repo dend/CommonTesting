@@ -1,0 +1,115 @@
+<Type Name="GeoRegionNames" FullName="Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames">
+  <TypeSignature Language="C#" Value="public static class GeoRegionNames" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit GeoRegionNames extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.WebSites</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EastAsia">
+      <MemberSignature Language="C#" Value="public const string EastAsia;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EastAsia" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames.EastAsia" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EastUS">
+      <MemberSignature Language="C#" Value="public const string EastUS;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EastUS" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames.EastUS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NorthCentralUS">
+      <MemberSignature Language="C#" Value="public const string NorthCentralUS;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string NorthCentralUS" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames.NorthCentralUS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NorthEurope">
+      <MemberSignature Language="C#" Value="public const string NorthEurope;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string NorthEurope" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames.NorthEurope" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WestEurope">
+      <MemberSignature Language="C#" Value="public const string WestEurope;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string WestEurope" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames.WestEurope" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WestUS">
+      <MemberSignature Language="C#" Value="public const string WestUS;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string WestUS" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Management.WebSites.Models.GeoRegionNames.WestUS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

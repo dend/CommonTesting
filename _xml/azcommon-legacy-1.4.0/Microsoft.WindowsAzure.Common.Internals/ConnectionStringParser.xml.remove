@@ -1,0 +1,84 @@
+<Type Name="ConnectionStringParser" FullName="Microsoft.WindowsAzure.Common.Internals.ConnectionStringParser">
+  <TypeSignature Language="C#" Value="public class ConnectionStringParser" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConnectionStringParser extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.Internals.ConnectionStringParser" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Parse connection strings.
+            </summary>
+    <remarks>
+            The following simplified grammar was obtained from the specification
+            "[MS-OLEDBSTR]: OLEDB Connection String Structure".  Refer to the spec
+            for full details.  We support case-insensitive keys and multiple
+            occurrences of the same key, but not multiple values for keys (i.e.,
+            the CompoundValue nonterminal in the spec's grammar).
+            <para />
+            ws :=           [ \t]*
+            semi :=         ;
+            eq :=           =
+            esc-eq :=       ==
+            dq :=           "
+            sq :=           '
+            esc-dq :=       ""
+            esc-sq :=       ''
+            key-start:      (==)|[^ \t;]
+            key-body:       (==)[^;]*
+            key-end:        (==)|[^ \t;]
+            lit-start:      [^ \t'";=]
+            lit-body:       [^;]
+            lit-end:        [^ \t;]
+            sq-lit:         ''|[^']
+            dq-lit:         ""|[^"]
+            <para />
+            ConnectionString :=
+                (ConnectionStringClause semi)* (ConnectionStringClause semi?)?
+            <para />
+            ConnectionStringClause :=
+                KeyValuePair | ws
+            <para /> 
+            KeyValuePair :=
+                ws Key ws eq ws Value ws
+            <para />
+            Key :=
+                key-start (key-body* key-end)?
+            <para />
+            Value :=
+                (lit-start (lit-body* lit-end)?)?
+                | sq sq-lit* sq
+                | dq dq-lit* dq    
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Parse">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;string,string&gt; Parse (string connectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Parse(string connectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.Internals.ConnectionStringParser.Parse(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">Connection string.</param>
+        <summary>
+            Parses the connection string into a collection of key/value pairs.
+            </summary>
+        <returns>Parsed connection string.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

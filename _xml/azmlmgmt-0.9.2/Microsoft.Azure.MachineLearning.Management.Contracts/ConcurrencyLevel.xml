@@ -1,0 +1,62 @@
+<Type Name="ConcurrencyLevel" FullName="Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel">
+  <TypeSignature Language="C#" Value="public enum ConcurrencyLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConcurrencyLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning.Management</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Defines the levels of concurrency allowed on a Machine Learning endpoint
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="High">
+      <MemberSignature Language="C#" Value="High" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel High = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel.High" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Sets the allowed number of concurrent requests for and endpoint to the defined
+            maximum limit. The default value for this limit is 20, but it can be overriden
+            by changing the endpoint's MaxConcurrentCalls setting.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Low">
+      <MemberSignature Language="C#" Value="Low" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel Low = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel.Low" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.MachineLearning.Management.Contracts.ConcurrencyLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Sets the allowed number of concurrent requests for an endpoint to the service
+            defined minimum of 4.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

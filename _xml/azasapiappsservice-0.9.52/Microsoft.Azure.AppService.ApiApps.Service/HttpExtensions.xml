@@ -1,0 +1,256 @@
+<Type Name="HttpExtensions" FullName="Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions">
+  <TypeSignature Language="C#" Value="public static class HttpExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit HttpExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.AppService.ApiApps.Service</AssemblyName>
+    <AssemblyVersion>0.9.52.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetHeader">
+      <MemberSignature Language="C#" Value="public static string GetHeader (this System.Net.Http.HttpRequestMessage request, string headerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetHeader(class System.Net.Http.HttpRequestMessage request, string headerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.GetHeader(System.Net.Http.HttpRequestMessage,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" RefType="this" />
+        <Parameter Name="headerName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <param name="headerName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHeader">
+      <MemberSignature Language="C#" Value="public static string GetHeader (this System.Net.Http.HttpResponseMessage response, System.Net.HttpResponseHeader headerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetHeader(class System.Net.Http.HttpResponseMessage response, valuetype System.Net.HttpResponseHeader headerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.GetHeader(System.Net.Http.HttpResponseMessage,System.Net.HttpResponseHeader)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+        <Parameter Name="headerName" Type="System.Net.HttpResponseHeader" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <param name="headerName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHeader">
+      <MemberSignature Language="C#" Value="public static string GetHeader (this System.Net.Http.HttpResponseMessage response, string headerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetHeader(class System.Net.Http.HttpResponseMessage response, string headerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.GetHeader(System.Net.Http.HttpResponseMessage,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+        <Parameter Name="headerName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <param name="headerName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsHeaderAlreadyInRequest">
+      <MemberSignature Language="C#" Value="public static bool IsHeaderAlreadyInRequest (this System.Net.Http.HttpRequestMessage request, string headerName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsHeaderAlreadyInRequest(class System.Net.Http.HttpRequestMessage request, string headerName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.IsHeaderAlreadyInRequest(System.Net.Http.HttpRequestMessage,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" RefType="this" />
+        <Parameter Name="headerName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <param name="headerName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonContent">
+      <MemberSignature Language="C#" Value="public static System.Net.Http.HttpContent JsonContent (this Newtonsoft.Json.Linq.JObject obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Http.HttpContent JsonContent(class Newtonsoft.Json.Linq.JObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.JsonContent(Newtonsoft.Json.Linq.JObject)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.HttpContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="Newtonsoft.Json.Linq.JObject" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonContent">
+      <MemberSignature Language="C#" Value="public static System.Net.Http.HttpContent JsonContent (object values);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Http.HttpContent JsonContent(object values) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.JsonContent(System.Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.HttpContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="values" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="values">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JsonContent">
+      <MemberSignature Language="C#" Value="public static System.Net.Http.HttpContent JsonContent (object values, Newtonsoft.Json.JsonSerializerSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Http.HttpContent JsonContent(object values, class Newtonsoft.Json.JsonSerializerSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.JsonContent(System.Object,Newtonsoft.Json.JsonSerializerSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.Http.HttpContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="values" Type="System.Object" />
+        <Parameter Name="settings" Type="Newtonsoft.Json.JsonSerializerSettings" />
+      </Parameters>
+      <Docs>
+        <param name="values">To be added.</param>
+        <param name="settings">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadAsJObjectAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JObject&gt; ReadAsJObjectAsync (this System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Newtonsoft.Json.Linq.JObject&gt; ReadAsJObjectAsync(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.ReadAsJObjectAsync(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions/&lt;ReadAsJObjectAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JObject&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadJsonAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; ReadJsonAsync (this System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; ReadJsonAsync(class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.ReadJsonAsync(System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions/&lt;ReadJsonAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepathCookies">
+      <MemberSignature Language="C#" Value="public static void RepathCookies (this System.Net.Http.HttpResponseMessage response, string basePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RepathCookies(class System.Net.Http.HttpResponseMessage response, string basePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.RepathCookies(System.Net.Http.HttpResponseMessage,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.52.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" RefType="this" />
+        <Parameter Name="basePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <param name="basePath">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

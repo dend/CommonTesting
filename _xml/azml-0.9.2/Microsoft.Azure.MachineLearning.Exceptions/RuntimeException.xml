@@ -1,0 +1,138 @@
+<Type Name="RuntimeException" FullName="Microsoft.Azure.MachineLearning.Exceptions.RuntimeException">
+  <TypeSignature Language="C#" Value="public class RuntimeException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RuntimeException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.MachineLearning.Exceptions.RuntimeException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.MachineLearning</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2240:ImplementISerializableCorrectly", Justification="No need to override GetObjectData for this class.")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Thrown when an error is reported back from the runtime APIs of the Azure Machine Learning platform.
+            </summary>
+    <remarks>
+            A sample of such error in JSON notation:
+            
+            {
+              "errorcode": "BadArgument",
+              "message": "Invalid argument provided."
+              "details":
+              [
+                {
+                   "code": "MissingInputBlobInformation",
+                   "message": "Missing Azure storage blob information. Provide a valid connection string and relative path or URI and try again."
+                   "target": "ServiceInputPort"
+                }
+              ]
+            }
+             
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.MachineLearning.Exceptions.RuntimeExceptionDetails&gt; Details { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.MachineLearning.Exceptions.RuntimeExceptionDetails&gt; Details" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Exceptions.RuntimeException.Details" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.MachineLearning.Exceptions.RuntimeExceptionDetails&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the details for this error
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public string ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Exceptions.RuntimeException.ErrorCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the general error code for this error
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InnerMessage">
+      <MemberSignature Language="C#" Value="public string InnerMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InnerMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Exceptions.RuntimeException.InnerMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the inner message of this error
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInternal">
+      <MemberSignature Language="C#" Value="public bool IsInternal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInternal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.MachineLearning.Exceptions.RuntimeException.IsInternal" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the indicator whether this is an internal error or not
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.MachineLearning.Exceptions.RuntimeException.ToString" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Convert to a string representation of the current object
+            </summary>
+        <returns>A string representation of a <c>RuntimeException</c> instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

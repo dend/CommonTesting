@@ -1,0 +1,281 @@
+<Type Name="AS2SecuritySettings" FullName="Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings">
+  <TypeSignature Language="C#" Value="public class AS2SecuritySettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AS2SecuritySettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AS2SecuritySettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AS2SecuritySettings (bool overrideGroupSigningCertificate, bool enableNrrForInboundEncodedMessages, bool enableNrrForInboundDecodedMessages, bool enableNrrForOutboundMdn, bool enableNrrForOutboundEncodedMessages, bool enableNrrForOutboundDecodedMessages, bool enableNrrForInboundMdn, string signingCertificateName = null, string encryptionCertificateName = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool overrideGroupSigningCertificate, bool enableNrrForInboundEncodedMessages, bool enableNrrForInboundDecodedMessages, bool enableNrrForOutboundMdn, bool enableNrrForOutboundEncodedMessages, bool enableNrrForOutboundDecodedMessages, bool enableNrrForInboundMdn, string signingCertificateName, string encryptionCertificateName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="overrideGroupSigningCertificate" Type="System.Boolean" />
+        <Parameter Name="enableNrrForInboundEncodedMessages" Type="System.Boolean" />
+        <Parameter Name="enableNrrForInboundDecodedMessages" Type="System.Boolean" />
+        <Parameter Name="enableNrrForOutboundMdn" Type="System.Boolean" />
+        <Parameter Name="enableNrrForOutboundEncodedMessages" Type="System.Boolean" />
+        <Parameter Name="enableNrrForOutboundDecodedMessages" Type="System.Boolean" />
+        <Parameter Name="enableNrrForInboundMdn" Type="System.Boolean" />
+        <Parameter Name="signingCertificateName" Type="System.String" />
+        <Parameter Name="encryptionCertificateName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="overrideGroupSigningCertificate">To be added.</param>
+        <param name="enableNrrForInboundEncodedMessages">To be added.</param>
+        <param name="enableNrrForInboundDecodedMessages">To be added.</param>
+        <param name="enableNrrForOutboundMdn">To be added.</param>
+        <param name="enableNrrForOutboundEncodedMessages">To be added.</param>
+        <param name="enableNrrForOutboundDecodedMessages">To be added.</param>
+        <param name="enableNrrForInboundMdn">To be added.</param>
+        <param name="signingCertificateName">To be added.</param>
+        <param name="encryptionCertificateName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableNrrForInboundDecodedMessages">
+      <MemberSignature Language="C#" Value="public bool EnableNrrForInboundDecodedMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableNrrForInboundDecodedMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.EnableNrrForInboundDecodedMessages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableNrrForInboundDecodedMessages")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableNrrForInboundEncodedMessages">
+      <MemberSignature Language="C#" Value="public bool EnableNrrForInboundEncodedMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableNrrForInboundEncodedMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.EnableNrrForInboundEncodedMessages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableNrrForInboundEncodedMessages")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableNrrForInboundMdn">
+      <MemberSignature Language="C#" Value="public bool EnableNrrForInboundMdn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableNrrForInboundMdn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.EnableNrrForInboundMdn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableNrrForInboundMdn")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableNrrForOutboundDecodedMessages">
+      <MemberSignature Language="C#" Value="public bool EnableNrrForOutboundDecodedMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableNrrForOutboundDecodedMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.EnableNrrForOutboundDecodedMessages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableNrrForOutboundDecodedMessages")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableNrrForOutboundEncodedMessages">
+      <MemberSignature Language="C#" Value="public bool EnableNrrForOutboundEncodedMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableNrrForOutboundEncodedMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.EnableNrrForOutboundEncodedMessages" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableNrrForOutboundEncodedMessages")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableNrrForOutboundMdn">
+      <MemberSignature Language="C#" Value="public bool EnableNrrForOutboundMdn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableNrrForOutboundMdn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.EnableNrrForOutboundMdn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="enableNrrForOutboundMdn")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionCertificateName">
+      <MemberSignature Language="C#" Value="public string EncryptionCertificateName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EncryptionCertificateName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.EncryptionCertificateName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="encryptionCertificateName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OverrideGroupSigningCertificate">
+      <MemberSignature Language="C#" Value="public bool OverrideGroupSigningCertificate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OverrideGroupSigningCertificate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.OverrideGroupSigningCertificate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="overrideGroupSigningCertificate")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SigningCertificateName">
+      <MemberSignature Language="C#" Value="public string SigningCertificateName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SigningCertificateName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.SigningCertificateName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="signingCertificateName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Logic.Models.AS2SecuritySettings.Validate" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

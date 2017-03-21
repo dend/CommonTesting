@@ -1,0 +1,502 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="Microsoft.Rest.ClientRuntime.Azure" Version="3.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright (c) Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("Client infrastructure for Azure client libraries.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("3.3.4.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("3.3.4")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Azure .NET SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft Rest Azure Client Runtime")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Rest.Azure">
+      <Type Name="AzureAsyncOperation" Kind="Class" />
+      <Type Name="AzureClientExtensions" Kind="Class" />
+      <Type Name="AzureOperationHeaderResponse`1" DisplayName="AzureOperationHeaderResponse&lt;THeader&gt;" Kind="Class" />
+      <Type Name="AzureOperationResponse" Kind="Class" />
+      <Type Name="AzureOperationResponse`1" DisplayName="AzureOperationResponse&lt;T&gt;" Kind="Class" />
+      <Type Name="AzureOperationResponse`2" DisplayName="AzureOperationResponse&lt;TBody,THeader&gt;" Kind="Class" />
+      <Type Name="ClientRequestTrackingHandler" Kind="Class" />
+      <Type Name="CloudError" Kind="Class" />
+      <Type Name="CloudErrorJsonConverter" Kind="Class" />
+      <Type Name="CloudException" Kind="Class" />
+      <Type Name="IAzureClient" Kind="Interface" />
+      <Type Name="IAzureOperationResponse" Kind="Interface" />
+      <Type Name="IPage`1" DisplayName="IPage&lt;T&gt;" Kind="Interface" />
+      <Type Name="IResource" Kind="Interface" />
+      <Type Name="JsonSerializerExtensions" Kind="Class" />
+      <Type Name="ResourceJsonConverter" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Rest.Azure.OData">
+      <Type Name="FilterString" Kind="Class" />
+      <Type Name="ODataMethodAttribute" Kind="Class" />
+      <Type Name="ODataQuery`1" DisplayName="ODataQuery&lt;T&gt;" Kind="Class" />
+      <Type Name="UrlExpressionVisitor" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Microsoft.Rest.ClientRuntime.Azure</Title>
+  <ExtensionMethods>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetLongRunningOperationResultAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt; GetLongRunningOperationResultAsync (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse&gt; GetLongRunningOperationResultAsync(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetLongRunningOperationResultAsync&lt;THeader&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt;&gt; GetLongRunningOperationResultAsync&lt;THeader&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where THeader : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationHeaderResponse`1&lt;!!THeader&gt;&gt; GetLongRunningOperationResultAsync&lt;class THeader&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationHeaderResponse`1&lt;!!THeader&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationHeaderResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="THeader">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="THeader">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationHeaderResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetLongRunningOperationResultAsync&lt;TBody&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;&gt; GetLongRunningOperationResultAsync&lt;TBody&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where TBody : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse`1&lt;!!TBody&gt;&gt; GetLongRunningOperationResultAsync&lt;class TBody&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse`1&lt;!!TBody&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TBody">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TBody">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetLongRunningOperationResultAsync&lt;TBody,THeader&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;&gt; GetLongRunningOperationResultAsync&lt;TBody,THeader&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where TBody : class where THeader : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse`2&lt;!!TBody, !!THeader&gt;&gt; GetLongRunningOperationResultAsync&lt;class TBody, class THeader&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse`2&lt;!!TBody, !!THeader&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TBody">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+          <TypeParameter Name="THeader">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TBody">To be added.</typeparam>
+          <typeparam name="THeader">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetLongRunningOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetPostOrDeleteOperationResultAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt; GetPostOrDeleteOperationResultAsync (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse&gt; GetPostOrDeleteOperationResultAsync(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetPostOrDeleteOperationResultAsync&lt;THeader&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt;&gt; GetPostOrDeleteOperationResultAsync&lt;THeader&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where THeader : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationHeaderResponse`1&lt;!!THeader&gt;&gt; GetPostOrDeleteOperationResultAsync&lt;class THeader&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationHeaderResponse`1&lt;!!THeader&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationHeaderResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="THeader">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationHeaderResponse&lt;THeader&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="THeader">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationHeaderResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetPostOrDeleteOperationResultAsync&lt;TBody&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;&gt; GetPostOrDeleteOperationResultAsync&lt;TBody&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where TBody : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse`1&lt;!!TBody&gt;&gt; GetPostOrDeleteOperationResultAsync&lt;class TBody&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse`1&lt;!!TBody&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TBody">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TBody">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetPostOrDeleteOperationResultAsync&lt;TBody,THeader&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;&gt; GetPostOrDeleteOperationResultAsync&lt;TBody,THeader&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where TBody : class where THeader : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse`2&lt;!!TBody, !!THeader&gt;&gt; GetPostOrDeleteOperationResultAsync&lt;class TBody, class THeader&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse`2&lt;!!TBody, !!THeader&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TBody">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+          <TypeParameter Name="THeader">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TBody">To be added.</typeparam>
+          <typeparam name="THeader">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPostOrDeleteOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetPutOrPatchOperationResultAsync">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt; GetPutOrPatchOperationResultAsync (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse&gt; GetPutOrPatchOperationResultAsync(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt;</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetPutOrPatchOperationResultAsync&lt;TBody&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;&gt; GetPutOrPatchOperationResultAsync&lt;TBody&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where TBody : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse`1&lt;!!TBody&gt;&gt; GetPutOrPatchOperationResultAsync&lt;class TBody&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse`1&lt;!!TBody&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TBody">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TBody">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync``1(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Microsoft.Rest.Azure.IAzureClient" />
+      </Targets>
+      <Member MemberName="GetPutOrPatchOperationResultAsync&lt;TBody,THeader&gt;">
+        <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;&gt; GetPutOrPatchOperationResultAsync&lt;TBody,THeader&gt; (this Microsoft.Rest.Azure.IAzureClient client, Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt; response, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders, System.Threading.CancellationToken cancellationToken) where TBody : class where THeader : class;" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.AzureOperationResponse`2&lt;!!TBody, !!THeader&gt;&gt; GetPutOrPatchOperationResultAsync&lt;class TBody, class THeader&gt;(class Microsoft.Rest.Azure.IAzureClient client, class Microsoft.Rest.Azure.AzureOperationResponse`2&lt;!!TBody, !!THeader&gt; response, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;&gt;</ReturnType>
+        </ReturnValue>
+        <TypeParameters>
+          <TypeParameter Name="TBody">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+          <TypeParameter Name="THeader">
+            <Constraints>
+              <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
+            </Constraints>
+          </TypeParameter>
+        </TypeParameters>
+        <Parameters>
+          <Parameter Name="client" Type="Microsoft.Rest.Azure.IAzureClient" RefType="this" />
+          <Parameter Name="response" Type="Microsoft.Rest.Azure.AzureOperationResponse&lt;TBody,THeader&gt;" />
+          <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
+          <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        </Parameters>
+        <Docs>
+          <typeparam name="TBody">To be added.</typeparam>
+          <typeparam name="THeader">To be added.</typeparam>
+          <param name="client">To be added.</param>
+          <param name="response">To be added.</param>
+          <param name="customHeaders">To be added.</param>
+          <param name="cancellationToken">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.AzureClientExtensions" Member="M:Microsoft.Rest.Azure.AzureClientExtensions.GetPutOrPatchOperationResultAsync``2(Microsoft.Rest.Azure.IAzureClient,Microsoft.Rest.Azure.AzureOperationResponse{``0,``1},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
+      </Member>
+    </ExtensionMethod>
+    <ExtensionMethod>
+      <Targets>
+        <Target Type="T:Newtonsoft.Json.JsonSerializer" />
+      </Targets>
+      <Member MemberName="WithoutConverter">
+        <MemberSignature Language="C#" Value="public static Newtonsoft.Json.JsonSerializer WithoutConverter (this Newtonsoft.Json.JsonSerializer serializer, Newtonsoft.Json.JsonConverter converterToExclude);" />
+        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Newtonsoft.Json.JsonSerializer WithoutConverter(class Newtonsoft.Json.JsonSerializer serializer, class Newtonsoft.Json.JsonConverter converterToExclude) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Microsoft.Rest.Azure.JsonSerializerExtensions.WithoutConverter(Newtonsoft.Json.JsonSerializer,Newtonsoft.Json.JsonConverter)" />
+        <MemberType>ExtensionMethod</MemberType>
+        <ReturnValue>
+          <ReturnType>Newtonsoft.Json.JsonSerializer</ReturnType>
+        </ReturnValue>
+        <Parameters>
+          <Parameter Name="serializer" Type="Newtonsoft.Json.JsonSerializer" RefType="this" />
+          <Parameter Name="converterToExclude" Type="Newtonsoft.Json.JsonConverter" />
+        </Parameters>
+        <Docs>
+          <param name="serializer">To be added.</param>
+          <param name="converterToExclude">To be added.</param>
+          <summary>To be added.</summary>
+        </Docs>
+        <Link Type="Microsoft.Rest.Azure.JsonSerializerExtensions" Member="M:Microsoft.Rest.Azure.JsonSerializerExtensions.WithoutConverter(Newtonsoft.Json.JsonSerializer,Newtonsoft.Json.JsonConverter)" />
+      </Member>
+    </ExtensionMethod>
+  </ExtensionMethods>
+</Overview>

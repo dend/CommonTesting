@@ -1,0 +1,174 @@
+<Type Name="ICloudTracingInterceptor" FullName="Hyak.Common.ICloudTracingInterceptor">
+  <TypeSignature Language="C#" Value="public interface ICloudTracingInterceptor" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICloudTracingInterceptor" />
+  <TypeSignature Language="DocId" Value="T:Hyak.Common.ICloudTracingInterceptor" />
+  <AssemblyInfo>
+    <AssemblyName>Hyak.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Configuration">
+      <MemberSignature Language="C#" Value="public void Configuration (string source, string name, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Configuration(string source, string name, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.ICloudTracingInterceptor.Configuration(System.String,System.String,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="public void Enter (string invocationId, object instance, string method, System.Collections.Generic.IDictionary&lt;string,object&gt; parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Enter(string invocationId, object instance, string method, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.ICloudTracingInterceptor.Enter(System.String,System.Object,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invocationId" Type="System.String" />
+        <Parameter Name="instance" Type="System.Object" />
+        <Parameter Name="method" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="invocationId">To be added.</param>
+        <param name="instance">To be added.</param>
+        <param name="method">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public void Error (string invocationId, Exception exception);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Error(string invocationId, class System.Exception exception) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.ICloudTracingInterceptor.Error(System.String,System.Exception)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invocationId" Type="System.String" />
+        <Parameter Name="exception" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="invocationId">To be added.</param>
+        <param name="exception">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="public void Exit (string invocationId, object returnValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Exit(string invocationId, object returnValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.ICloudTracingInterceptor.Exit(System.String,System.Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invocationId" Type="System.String" />
+        <Parameter Name="returnValue" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="invocationId">To be added.</param>
+        <param name="returnValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Information">
+      <MemberSignature Language="C#" Value="public void Information (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Information(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.ICloudTracingInterceptor.Information(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveResponse">
+      <MemberSignature Language="C#" Value="public void ReceiveResponse (string invocationId, System.Net.Http.HttpResponseMessage response);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReceiveResponse(string invocationId, class System.Net.Http.HttpResponseMessage response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.ICloudTracingInterceptor.ReceiveResponse(System.String,System.Net.Http.HttpResponseMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invocationId" Type="System.String" />
+        <Parameter Name="response" Type="System.Net.Http.HttpResponseMessage" />
+      </Parameters>
+      <Docs>
+        <param name="invocationId">To be added.</param>
+        <param name="response">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendRequest">
+      <MemberSignature Language="C#" Value="public void SendRequest (string invocationId, System.Net.Http.HttpRequestMessage request);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendRequest(string invocationId, class System.Net.Http.HttpRequestMessage request) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Hyak.Common.ICloudTracingInterceptor.SendRequest(System.String,System.Net.Http.HttpRequestMessage)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invocationId" Type="System.String" />
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+      </Parameters>
+      <Docs>
+        <param name="invocationId">To be added.</param>
+        <param name="request">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,75 @@
+<Type Name="AutoscaleSetting" FullName="Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleSetting">
+  <TypeSignature Language="C#" Value="public class AutoscaleSetting" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AutoscaleSetting extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleSetting" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Monitoring</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Autoscale setting.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutoscaleSetting ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleSetting.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the AutoscaleSetting class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleSetting.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Profiles">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleProfile&gt; Profiles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleProfile&gt; Profiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleSetting.Profiles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.WindowsAzure.Management.Monitoring.Autoscale.Models.AutoscaleProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

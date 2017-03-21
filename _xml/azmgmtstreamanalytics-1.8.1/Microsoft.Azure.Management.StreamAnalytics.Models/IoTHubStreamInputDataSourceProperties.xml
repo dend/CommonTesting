@@ -1,0 +1,119 @@
+<Type Name="IoTHubStreamInputDataSourceProperties" FullName="Microsoft.Azure.Management.StreamAnalytics.Models.IoTHubStreamInputDataSourceProperties">
+  <TypeSignature Language="C#" Value="public class IoTHubStreamInputDataSourceProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IoTHubStreamInputDataSourceProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.StreamAnalytics.Models.IoTHubStreamInputDataSourceProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.StreamAnalytics</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The properties of the IoT Hub data source as stream input.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IoTHubStreamInputDataSourceProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.StreamAnalytics.Models.IoTHubStreamInputDataSourceProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the
+            IoTHubStreamInputDataSourceProperties class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsumerGroupName">
+      <MemberSignature Language="C#" Value="public string ConsumerGroupName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConsumerGroupName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.StreamAnalytics.Models.IoTHubStreamInputDataSourceProperties.ConsumerGroupName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the name of an IoT Hub Consumer Group by
+            which to identify this input. If not specified, the input uses the
+            Iot Hub’s default consumer group.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IotHubNamespace">
+      <MemberSignature Language="C#" Value="public string IotHubNamespace { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IotHubNamespace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.StreamAnalytics.Models.IoTHubStreamInputDataSourceProperties.IotHubNamespace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the namespace of the IoT Hub (the URI of the
+            IoT Hub).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedAccessPolicyKey">
+      <MemberSignature Language="C#" Value="public string SharedAccessPolicyKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SharedAccessPolicyKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.StreamAnalytics.Models.IoTHubStreamInputDataSourceProperties.SharedAccessPolicyKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the shared access policy key for the
+            specified shared access policy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharedAccessPolicyName">
+      <MemberSignature Language="C#" Value="public string SharedAccessPolicyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SharedAccessPolicyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.StreamAnalytics.Models.IoTHubStreamInputDataSourceProperties.SharedAccessPolicyName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the shared access policy name for the IoT
+            Hub with Service connect permission.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

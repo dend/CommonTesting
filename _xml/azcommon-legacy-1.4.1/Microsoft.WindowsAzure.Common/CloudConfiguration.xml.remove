@@ -1,0 +1,305 @@
+<Type Name="CloudConfiguration" FullName="Microsoft.WindowsAzure.Common.CloudConfiguration">
+  <TypeSignature Language="C#" Value="public sealed class CloudConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CloudConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.CloudConfiguration" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Utilities for easily retrieving configuration settings across a variety
+            of platform appropriate sources.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConfigurationProvider">
+      <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Common.Platform.ICloudConfigurationProvider ConfigurationProvider { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class Microsoft.WindowsAzure.Common.Platform.ICloudConfigurationProvider ConfigurationProvider" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Common.CloudConfiguration.ConfigurationProvider" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Common.Platform.ICloudConfigurationProvider</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a platform specific configuration provider.  There is no
+            standard configuration support in the Portable Class Libraries BCL.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConnectionInfo">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; GetConnectionInfo (Type type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; GetConnectionInfo(class System.Type type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.GetConnectionInfo(System.Type)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="type">
+            The type to obtain connection info for.
+            </param>
+        <summary>
+            Get connection info that can be used to instantiate a type by
+            searching for configuration settings of the form
+            Namespace.Type.format.  If no connection info is found for the
+            type, we will search for connection info for all of its base types.
+            </summary>
+        <returns>
+            Connection info used to instantiate the given type or null if no
+            connection info is found.
+            </returns>
+        <remarks>
+            You can get insight into the connection info search by checking
+            the tracing output.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConnectionInfo">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; GetConnectionInfo (Type type, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; GetConnectionInfo(class System.Type type, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.GetConnectionInfo(System.Type,System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="type">
+            The type to obtain connection info for.
+            </param>
+        <param name="name">The name of the connection info.</param>
+        <summary>
+            Get named connection info that can be used to instantiate a type by
+            searching for configuration settings of the format
+            Namespace.Type.Name.format.  If no connection info is found for
+            the type, we will search for connection info for all of its base
+            types.
+            </summary>
+        <returns>
+            Connection info used to instantiate the given type or null if
+            no connection string is found.
+            </returns>
+        <remarks>
+            You can get insight into the connection info search by checking
+            the tracing output.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConnectionInfo&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; GetConnectionInfo&lt;T&gt; ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; GetConnectionInfo&lt;T&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.GetConnectionInfo``1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="T">
+            The type to obtain connection info for.
+            </typeparam>
+        <summary>
+            Get connection info that can be used to instantiate type T by
+            searching for configuration settings of the form
+            Namespace.Type.format.  If no connection info is found for the
+            type, we will search for connection info for all of its base types.
+            </summary>
+        <returns>
+            Connection info used to instantiate the given type or null if no
+            connection info is found.
+            </returns>
+        <remarks>
+            You can get insight into the connection info search by checking
+            the tracing output.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConnectionInfo&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; GetConnectionInfo&lt;T&gt; (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; GetConnectionInfo&lt;T&gt;(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.GetConnectionInfo``1(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">
+            The type to obtain connection info for.
+            </typeparam>
+        <param name="name">The name of the connection info.</param>
+        <summary>
+            Get named connection info that can be used to instantiate a type by
+            searching for configuration settings of the format
+            Namespace.Type.Name.format.  If no connection info is found for the
+            type, we will search for connection info for all of its base types.
+            </summary>
+        <returns>
+            Connection info used to instantiate the given type or null if no
+            connection info is found.
+            </returns>
+        <remarks>
+            You can get insight into the connection info search by checking
+            the tracing output.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSetting">
+      <MemberSignature Language="C#" Value="public string GetSetting (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetSetting(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.GetSetting(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">The name of the setting.</param>
+        <summary>
+            Get the value of a configuration setting from a platform specific
+            configuration source.
+            </summary>
+        <returns>The value of the setting, or null if not found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParseConnectionStringSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; ParseConnectionStringSettings (string connectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; ParseConnectionStringSettings(string connectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.ParseConnectionStringSettings(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">The connection string.</param>
+        <summary>
+            Parse a connection string.
+            </summary>
+        <returns>
+            A dictionary of the setting names and values from the connection
+            string.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParseJsonSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; ParseJsonSettings (string settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; ParseJsonSettings(string settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.ParseJsonSettings(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="settings">The JSON settings.</param>
+        <summary>
+            Parse a JSON settings file.
+            </summary>
+        <returns>
+            A dictionary of the setting names and values from the JSON
+            settings.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterCloudCredentialsProvider">
+      <MemberSignature Language="C#" Value="public static void RegisterCloudCredentialsProvider (Microsoft.WindowsAzure.Common.Platform.ICloudCredentialsProvider provider);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterCloudCredentialsProvider(class Microsoft.WindowsAzure.Common.Platform.ICloudCredentialsProvider provider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.CloudConfiguration.RegisterCloudCredentialsProvider(Microsoft.WindowsAzure.Common.Platform.ICloudCredentialsProvider)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="provider" Type="Microsoft.WindowsAzure.Common.Platform.ICloudCredentialsProvider" />
+      </Parameters>
+      <Docs>
+        <param name="provider">Instance of a cloud credentials provider.</param>
+        <summary>
+            Registers a cloud credentials provider with the configuration
+            runtime.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tracing">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Common.CloudTracing Tracing { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Common.CloudTracing Tracing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Common.CloudConfiguration.Tracing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Common.CloudTracing</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the tracing utilities used to provide insight into all aspects
+            of client operations.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

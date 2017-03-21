@@ -1,0 +1,173 @@
+<Type Name="SessionParameters" FullName="Microsoft.Azure.Management.ServerManagement.Models.SessionParameters">
+  <TypeSignature Language="C#" Value="public class SessionParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SessionParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ServerManagement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SessionParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SessionParameters (string userName = null, string password = null, Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.RetentionPeriod&gt; retentionPeriod = null, Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.CredentialDataFormat&gt; credentialDataFormat = null, string encryptionCertificateThumbprint = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string userName, string password, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.ServerManagement.Models.RetentionPeriod&gt; retentionPeriod, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.ServerManagement.Models.CredentialDataFormat&gt; credentialDataFormat, string encryptionCertificateThumbprint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters.#ctor(System.String,System.String,System.Nullable{Microsoft.Azure.Management.ServerManagement.Models.RetentionPeriod},System.Nullable{Microsoft.Azure.Management.ServerManagement.Models.CredentialDataFormat},System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userName" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="retentionPeriod" Type="System.Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.RetentionPeriod&gt;" />
+        <Parameter Name="credentialDataFormat" Type="System.Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.CredentialDataFormat&gt;" />
+        <Parameter Name="encryptionCertificateThumbprint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userName">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="retentionPeriod">To be added.</param>
+        <param name="credentialDataFormat">To be added.</param>
+        <param name="encryptionCertificateThumbprint">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CredentialDataFormat">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.CredentialDataFormat&gt; CredentialDataFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.ServerManagement.Models.CredentialDataFormat&gt; CredentialDataFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters.CredentialDataFormat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.credentialDataFormat")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.CredentialDataFormat&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptionCertificateThumbprint">
+      <MemberSignature Language="C#" Value="public string EncryptionCertificateThumbprint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EncryptionCertificateThumbprint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters.EncryptionCertificateThumbprint" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.EncryptionCertificateThumbprint")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Password">
+      <MemberSignature Language="C#" Value="public string Password { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Password" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters.Password" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.password")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionPeriod">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.RetentionPeriod&gt; RetentionPeriod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.ServerManagement.Models.RetentionPeriod&gt; RetentionPeriod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters.RetentionPeriod" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.retentionPeriod")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.ServerManagement.Models.RetentionPeriod&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public string UserName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ServerManagement.Models.SessionParameters.UserName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.userName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

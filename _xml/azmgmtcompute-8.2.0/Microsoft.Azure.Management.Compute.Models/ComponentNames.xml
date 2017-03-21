@@ -1,0 +1,39 @@
+<Type Name="ComponentNames" FullName="Microsoft.Azure.Management.Compute.Models.ComponentNames">
+  <TypeSignature Language="C#" Value="public static class ComponentNames" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ComponentNames extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.ComponentNames" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Component names supported by AdditionalUnattendContent.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MicrosoftWindowsShellSetup">
+      <MemberSignature Language="C#" Value="public const string MicrosoftWindowsShellSetup;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string MicrosoftWindowsShellSetup" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Compute.Models.ComponentNames.MicrosoftWindowsShellSetup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Microsoft-Windows-Shell-Setup componenet in unattend.xml file
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

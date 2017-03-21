@@ -1,0 +1,120 @@
+<Type Name="ArtifactDeploymentStatusProperties" FullName="Microsoft.Azure.Management.DevTestLabs.Models.ArtifactDeploymentStatusProperties">
+  <TypeSignature Language="C#" Value="public class ArtifactDeploymentStatusProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ArtifactDeploymentStatusProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactDeploymentStatusProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DevTestLabs</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArtifactDeploymentStatusProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactDeploymentStatusProperties.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArtifactDeploymentStatusProperties (string deploymentStatus = null, Nullable&lt;int&gt; artifactsApplied = null, Nullable&lt;int&gt; totalArtifacts = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string deploymentStatus, valuetype System.Nullable`1&lt;int32&gt; artifactsApplied, valuetype System.Nullable`1&lt;int32&gt; totalArtifacts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactDeploymentStatusProperties.#ctor(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="deploymentStatus" Type="System.String" />
+        <Parameter Name="artifactsApplied" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="totalArtifacts" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="deploymentStatus">To be added.</param>
+        <param name="artifactsApplied">To be added.</param>
+        <param name="totalArtifacts">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArtifactsApplied">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ArtifactsApplied { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ArtifactsApplied" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactDeploymentStatusProperties.ArtifactsApplied" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="artifactsApplied")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeploymentStatus">
+      <MemberSignature Language="C#" Value="public string DeploymentStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DeploymentStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactDeploymentStatusProperties.DeploymentStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="deploymentStatus")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalArtifacts">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TotalArtifacts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TotalArtifacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DevTestLabs.Models.ArtifactDeploymentStatusProperties.TotalArtifacts" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="totalArtifacts")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

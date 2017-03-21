@@ -1,0 +1,60 @@
+<Type Name="ICloudSettingsFormat" FullName="Microsoft.WindowsAzure.Common.ICloudSettingsFormat">
+  <TypeSignature Language="C#" Value="public interface ICloudSettingsFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICloudSettingsFormat" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.ICloudSettingsFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Defines an interface for setting parsers.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Common.ICloudSettingsFormat.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the setting name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parse">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Parse (string settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Parse(string settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.ICloudSettingsFormat.Parse(System.String)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="settings">Setting to parse.</param>
+        <summary>
+            Parses the setting.
+            </summary>
+        <returns>Dictionary representation of the setting.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

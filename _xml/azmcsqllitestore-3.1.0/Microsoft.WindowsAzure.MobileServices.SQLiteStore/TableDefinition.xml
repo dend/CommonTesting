@@ -1,0 +1,75 @@
+<Type Name="TableDefinition" FullName="Microsoft.WindowsAzure.MobileServices.SQLiteStore.TableDefinition">
+  <TypeSignature Language="C#" Value="public class TableDefinition : System.Collections.Generic.Dictionary&lt;string,Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TableDefinition extends System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MobileServices.SQLiteStore.TableDefinition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Mobile.SQLiteStore</AssemblyName>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">System.String</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="!1">Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A class that represents the structure of table on local store
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TableDefinition ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.TableDefinition.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TableDefinition (System.Collections.Generic.IDictionary&lt;string,Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition&gt; definition, Microsoft.WindowsAzure.MobileServices.MobileServiceSystemProperties systemProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition&gt; definition, valuetype Microsoft.WindowsAzure.MobileServices.MobileServiceSystemProperties systemProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.SQLiteStore.TableDefinition.#ctor(System.Collections.Generic.IDictionary{System.String,Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition},Microsoft.WindowsAzure.MobileServices.MobileServiceSystemProperties)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="definition" Type="System.Collections.Generic.IDictionary&lt;System.String,Microsoft.WindowsAzure.MobileServices.SQLiteStore.ColumnDefinition&gt;" />
+        <Parameter Name="systemProperties" Type="Microsoft.WindowsAzure.MobileServices.MobileServiceSystemProperties" />
+      </Parameters>
+      <Docs>
+        <param name="definition">To be added.</param>
+        <param name="systemProperties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.MobileServiceSystemProperties SystemProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.MobileServices.MobileServiceSystemProperties SystemProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.SQLiteStore.TableDefinition.SystemProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.MobileServices.MobileServiceSystemProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azmgmtmediaservices-3.0.0">
+  <Namespace Name="Microsoft.WindowsAzure.Management.MediaServices">
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions" Id="T:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.Create(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.CreateAsync(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.Delete(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.DeleteAsync(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.Get(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.GetAsync(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,System.String)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.List(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.ListAsync(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.RegenerateKey(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,System.String,Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.AccountOperationsExtensions.RegenerateKeyAsync(Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations,System.String,Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations" Id="T:Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations.CreateAsync(Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations.DeleteAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations.ListAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.IAccountOperations.RegenerateKeyAsync(System.String,Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient" Id="T:Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient">
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient.Accounts" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.IMediaServicesManagementClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient" Id="T:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.#ctor(System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient})" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.Accounts" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.ApiVersion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.BaseUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.Credentials" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.LongRunningOperationInitialTimeout" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClient.LongRunningOperationRetryTimeout" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClientExtensions" Id="T:Microsoft.WindowsAzure.Management.MediaServices.MediaServicesManagementClientExtensions" />
+  </Namespace>
+  <Namespace Name="Microsoft.WindowsAzure.Management.MediaServices.Models">
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.AccountKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.AccountName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.AccountRegion" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.StorageAccountKeys" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.StorageAccountName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters.AccountName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters.BlobStorageEndpointUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters.Region" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters.StorageAccountKey" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateParameters.StorageAccountName" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateResponse" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountCreateResponse.Account" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountGetResponse" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountGetResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountGetResponse.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountGetResponse.Account" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.#ctor" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.GetEnumerator" />
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.System#Collections#IEnumerable#GetEnumerator" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.Accounts" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.AccountId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.AccountName" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesCreatedAccount.SubscriptionId" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType">
+      <Member Id="F:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType.Primary" />
+      <Member Id="F:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesKeyType.Secondary" />
+    </Type>
+  </Namespace>
+  <Namespace Name="">
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount/AccountKeys" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.AccountKeys">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.AccountKeys.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.AccountKeys.Primary" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccount.AccountKeys.Secondary" />
+    </Type>
+    <Type Name="Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse/MediaServiceAccount" Id="T:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount">
+      <Member Id="M:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount.#ctor" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount.AccountId" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount.Name" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount.ParentUri" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount.State" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount.Type" />
+      <Member Id="P:Microsoft.WindowsAzure.Management.MediaServices.Models.MediaServicesAccountListResponse.MediaServiceAccount.Uri" />
+    </Type>
+  </Namespace>
+</Framework>

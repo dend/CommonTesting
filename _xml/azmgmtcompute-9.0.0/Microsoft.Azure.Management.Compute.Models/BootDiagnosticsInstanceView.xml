@@ -1,0 +1,75 @@
+<Type Name="BootDiagnosticsInstanceView" FullName="Microsoft.Azure.Management.Compute.Models.BootDiagnosticsInstanceView">
+  <TypeSignature Language="C#" Value="public class BootDiagnosticsInstanceView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BootDiagnosticsInstanceView extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.BootDiagnosticsInstanceView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The instance view of a virtual machine boot diagnostics.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BootDiagnosticsInstanceView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.BootDiagnosticsInstanceView.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the BootDiagnosticsInstanceView class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsoleScreenshotBlobUri">
+      <MemberSignature Language="C#" Value="public Uri ConsoleScreenshotBlobUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ConsoleScreenshotBlobUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.BootDiagnosticsInstanceView.ConsoleScreenshotBlobUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the console screenshot blob Uri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerialConsoleLogBlobUri">
+      <MemberSignature Language="C#" Value="public Uri SerialConsoleLogBlobUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri SerialConsoleLogBlobUri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.BootDiagnosticsInstanceView.SerialConsoleLogBlobUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the Linux serial console log blob Uri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

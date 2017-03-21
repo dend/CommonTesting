@@ -1,0 +1,56 @@
+<Type Name="DataDisk" FullName="Microsoft.Azure.Management.Compute.Models.DataDisk">
+  <TypeSignature Language="C#" Value="public class DataDisk : Microsoft.Azure.Management.Compute.Models.Disk" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataDisk extends Microsoft.Azure.Management.Compute.Models.Disk" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.DataDisk" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Management.Compute.Models.Disk</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Describes a data disk.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DataDisk ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.DataDisk.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DataDisk class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lun">
+      <MemberSignature Language="C#" Value="public int Lun { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Lun" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.DataDisk.Lun" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Required. Gets or sets the logical unit number.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

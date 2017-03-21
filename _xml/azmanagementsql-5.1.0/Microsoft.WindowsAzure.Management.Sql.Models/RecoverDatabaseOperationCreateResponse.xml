@@ -1,0 +1,58 @@
+<Type Name="RecoverDatabaseOperationCreateResponse" FullName="Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse">
+  <TypeSignature Language="C#" Value="public class RecoverDatabaseOperationCreateResponse : Microsoft.Azure.AzureOperationResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecoverDatabaseOperationCreateResponse extends Microsoft.Azure.AzureOperationResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Sql</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.AzureOperationResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Contains the response to the Create Recover Database Operation request.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecoverDatabaseOperationCreateResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the
+            RecoverDatabaseOperationCreateResponse class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operation">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation Operation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation Operation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperationCreateResponse.Operation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Management.Sql.Models.RecoverDatabaseOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets or sets the operation that has been returned from a
+            Create Recover Database Operation request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

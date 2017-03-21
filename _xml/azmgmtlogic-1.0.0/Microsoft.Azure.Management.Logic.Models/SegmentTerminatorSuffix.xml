@@ -1,0 +1,123 @@
+<Type Name="SegmentTerminatorSuffix" FullName="Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix">
+  <TypeSignature Language="C#" Value="public enum SegmentTerminatorSuffix" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SegmentTerminatorSuffix extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Logic</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CR">
+      <MemberSignature Language="C#" Value="CR" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix CR = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix.CR" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="CR")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CRLF">
+      <MemberSignature Language="C#" Value="CRLF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix CRLF = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix.CRLF" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="CRLF")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LF">
+      <MemberSignature Language="C#" Value="LF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix LF = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix.LF" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="LF")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix None = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="None")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSpecified">
+      <MemberSignature Language="C#" Value="NotSpecified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix NotSpecified = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix.NotSpecified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="NotSpecified")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Logic.Models.SegmentTerminatorSuffix</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

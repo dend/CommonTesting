@@ -1,0 +1,99 @@
+<Type Name="HttpRequestExceptionWithStatus" FullName="Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus">
+  <TypeSignature Language="C#" Value="public class HttpRequestExceptionWithStatus : System.Net.Http.HttpRequestException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HttpRequestExceptionWithStatus extends System.Net.Http.HttpRequestException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Common</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Net.Http.HttpRequestException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Inherits HttpRequestException adding HttpStatusCode to the exception.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HttpRequestExceptionWithStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HttpRequestExceptionWithStatus (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.#ctor(System.String)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">A message that describes the current exception.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus" /> class
+            with a specific message that describes the current exception.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HttpRequestExceptionWithStatus (string message, Exception inner);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception inner) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.#ctor(System.String,System.Exception)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="inner" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">A message that describes the current exception.</param>
+        <param name="inner">The inner exception.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus" /> class
+            with a specific message that describes the current exception and an inner
+            exception.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusCode">
+      <MemberSignature Language="C#" Value="public System.Net.HttpStatusCode StatusCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Net.HttpStatusCode StatusCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Common.TransientFaultHandling.HttpRequestExceptionWithStatus.StatusCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.HttpStatusCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Http status code.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

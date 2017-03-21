@@ -1,0 +1,256 @@
+<Type Name="DatabaseOperation" FullName="Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation">
+  <TypeSignature Language="C#" Value="public class DatabaseOperation : Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DatabaseOperation extends Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Management.Sql</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.WindowsAzure.Management.Sql.Models.SqlModelCommon</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Contains all the information pertaining to a database operation that
+            transpired.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DatabaseOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initializes a new instance of the DatabaseOperation class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DatabaseName">
+      <MemberSignature Language="C#" Value="public string DatabaseName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DatabaseName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.DatabaseName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the name of the Azure SQL Database on which the
+            operation is performed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public string Error { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Error" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the description of the error that occurred during a
+            failed operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public int ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.ErrorCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the code indicating the error that occurred during a
+            failed operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorSeverity">
+      <MemberSignature Language="C#" Value="public int ErrorSeverity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ErrorSeverity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.ErrorSeverity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the severity level of the error that occurred during
+            a failed operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorState">
+      <MemberSignature Language="C#" Value="public int ErrorState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ErrorState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.ErrorState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the error state of the operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets a unique identifier for this database operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifyTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifyTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifyTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.LastModifyTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the timestamp when the record was last modified for
+            a long running operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PercentComplete">
+      <MemberSignature Language="C#" Value="public int PercentComplete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PercentComplete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.PercentComplete" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the percentage of the operation that has completed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionActivityId">
+      <MemberSignature Language="C#" Value="public string SessionActivityId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SessionActivityId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.SessionActivityId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the unique Guid that identifies the session that
+            this operation occured in. This is helpful if contacting support
+            for an issue.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets the timestamp when the operation started.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StateId">
+      <MemberSignature Language="C#" Value="public int StateId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StateId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Management.Sql.Models.DatabaseOperation.StateId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Gets a unique identifier for the service activity
+            representing the operation. This activity id can be provided to
+            the service support for investigating an operation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

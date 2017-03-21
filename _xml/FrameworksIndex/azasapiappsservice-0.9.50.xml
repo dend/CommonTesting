@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="azasapiappsservice-0.9.50">
+  <Namespace Name="EMA.Common.Properties">
+    <Type Name="EMA.Common.Properties.Versions" Id="T:EMA.Common.Properties.Versions">
+      <Member Id="F:EMA.Common.Properties.Versions.Gateway" />
+    </Type>
+  </Namespace>
+  <Namespace Name="EMA.Common">
+    <Type Name="EMA.Common.UriUtility" Id="T:EMA.Common.UriUtility">
+      <Member Id="M:EMA.Common.UriUtility.AppendFormat(System.Uri,System.String,System.Object[])" />
+      <Member Id="M:EMA.Common.UriUtility.AppendQuery(System.Uri,System.String,System.String)" />
+      <Member Id="M:EMA.Common.UriUtility.GetHostNameWithoutPort(System.Uri)" />
+      <Member Id="M:EMA.Common.UriUtility.GetHostNameWithPort(System.Uri)" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.AppService.ApiApps.Service">
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult" Id="T:Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult.ApiDefinition" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult.DefinitionType" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.ApiDefinitionResult.Diagnostics" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.AuthenticationHelper" Id="T:Microsoft.Azure.AppService.ApiApps.Service.AuthenticationHelper">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.AuthenticationHelper.MaximumMessageAge" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.AuthenticationHelper.HexStringToByteArray(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.AuthenticationHelper.SignHttpRequest(System.Net.Http.HttpRequestMessage,System.String,System.Byte[])" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback" Id="T:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback.#ctor(System.Uri)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback.InvokeAsync(Microsoft.Azure.AppService.ApiApps.Service.Runtime,Newtonsoft.Json.Linq.JObject)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback.InvokeAsync(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.Object)" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback.CallbackUri" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback`1" Id="T:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback`1">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback`1.#ctor(System.Uri)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback`1.InvokeAsync(Microsoft.Azure.AppService.ApiApps.Service.Runtime,`0)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallbackJsonConverter" Id="T:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallbackJsonConverter">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallbackJsonConverter.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallbackJsonConverter.CanConvert(System.Type)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallbackJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallbackJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage" Id="T:Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Runtime)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage.DeleteAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage.EnumerateAsync" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage.OpenReadAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.CloudIsolatedStorage.WriteAsync(System.String,System.Byte[])" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo" Id="T:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo.GetDisplayNameAsync" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo.GetEmailAsync" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo.GetHeader" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo.GetRawTokenAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo.RefreshTokenAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.TokenResult)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo.SetTokenAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.TokenResult)" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.EmaUserInfo.UserId" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.ForbiddenException" Id="T:Microsoft.Azure.AppService.ApiApps.Service.ForbiddenException">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ForbiddenException.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ForbiddenException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ForbiddenException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.ForbiddenException.#ctor(System.String,System.Exception)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions" Id="T:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.GetHeader(System.Net.Http.HttpRequestMessage,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.GetHeader(System.Net.Http.HttpResponseMessage,System.Net.HttpResponseHeader)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.GetHeader(System.Net.Http.HttpResponseMessage,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.IsHeaderAlreadyInRequest(System.Net.Http.HttpRequestMessage,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.JsonContent(Newtonsoft.Json.Linq.JObject)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.JsonContent(System.Object)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.JsonContent(System.Object,Newtonsoft.Json.JsonSerializerSettings)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.ReadAsJObjectAsync(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.ReadJsonAsync(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpExtensions.RepathCookies(System.Net.Http.HttpResponseMessage,System.String)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions" Id="T:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.DeserializeErrorJsonAsync``1(System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.DeserializeJsonAsync``1(System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.ReadAsJObjectAsync(System.Net.Http.HttpResponseMessage,System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.ReadErrorJsonAsync(System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.ReadJsonAsync(System.Net.Http.HttpResponseMessage,System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.SafeForLoggingToString(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.SafeForLoggingToString(System.Net.Http.HttpResponseMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpResponseMessageExtensions.VerifySuccess(System.Net.Http.HttpResponseMessage)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions" Id="T:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.TriggerCallbackUrl" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.TriggerStateFieldName" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.EventTriggered(System.Net.Http.HttpRequestMessage,System.Object,System.String,System.Nullable{System.TimeSpan})" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.EventWaitPoll(System.Net.Http.HttpRequestMessage,System.Nullable{System.TimeSpan},System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.GetTriggerParams(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.GetTriggerState(Newtonsoft.Json.Linq.JObject)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.GetTriggerState(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.HttpTriggerExtensions.PushTriggerRegistered(System.Net.Http.HttpRequestMessage,Microsoft.Azure.AppService.ApiApps.Service.ClientTriggerCallback)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage" Id="T:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage.DeleteAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage.EnumerateAsync" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage.OpenReadAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage.WriteAsync(System.String,System.Byte[])" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorageExtensions" Id="T:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorageExtensions">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorageExtensions.ReadAsStringAsync(Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorageExtensions.WriteAsync(Microsoft.Azure.AppService.ApiApps.Service.IIsolatedStorage,System.String,System.String)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Management" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Management">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Runtime)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.CreateServiceAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.DeleteServiceAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.DeleteSiteSecretsAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetConsentLinksAsync(Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry[])" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetConsentLinksAsync(System.Uri)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetGatewayInfoAsync" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetGatewayPermissionAsync" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetMetadataAsync(System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetServiceAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetServicesAsync" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetSiteSecretsAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.GetStatusAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetGatewayInfoAsync(Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetGatewayPermissionAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetMetadataAsync(System.String,System.String,System.Byte[])" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.SetMetadataAsync(System.String,System.String,System.IO.Stream)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Management.UpdateServiceAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener" Id="T:Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String,System.String,Newtonsoft.Json.Linq.JObject,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener.GetPollUri" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener.WaitAsync(System.Action{Newtonsoft.Json.Linq.JObject},System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.PollTriggerListener.TriggerState" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.PreconditionFailedException" Id="T:Microsoft.Azure.AppService.ApiApps.Service.PreconditionFailedException">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PreconditionFailedException.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PreconditionFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PreconditionFailedException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PreconditionFailedException.#ctor(System.String,System.Exception)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener" Id="T:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String,System.String,Newtonsoft.Json.Linq.JObject,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.InvokePushCallback(Newtonsoft.Json.Linq.JObject)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.SendCancelAsync(System.Threading.CancellationToken)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.WaitAsync(System.Action{Newtonsoft.Json.Linq.JObject},System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.PushCallbackUri" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.PushTriggerListener.TriggerId" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.RequestTimeoutException" Id="T:Microsoft.Azure.AppService.ApiApps.Service.RequestTimeoutException">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.RequestTimeoutException.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.RequestTimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.RequestTimeoutException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.RequestTimeoutException.#ctor(System.String,System.Exception)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Runtime" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Runtime">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime._gatewayKey" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.ApiVersionField" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.ApiVersionValue" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.DiagnosticsCorrelationHeaderName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.RuntimeUserAgent" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.ServiceIdentityHeader" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Runtime.XZumoAuthHeader" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.#ctor(System.Uri,System.String,System.Byte[],System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.#ctor(System.Uri,System.String,System.Byte[],System.Net.Http.HttpClient)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.CreateNewUserAsync(Newtonsoft.Json.Linq.JObject,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.FromAppSettings" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.FromAppSettings(System.Collections.Specialized.NameValueCollection)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.FromAppSettings(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetApiDefinitionAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetApiDefinitionAsync(System.String,Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetUrlAsync(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.GetUserFromToken(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.InvokeAsync(System.String,System.String,Newtonsoft.Json.Linq.JObject,System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.InvokePushTriggerAsync(System.String,System.String,System.String,Newtonsoft.Json.Linq.JObject)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignHttpRequest(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignOAuth1Async(Microsoft.Azure.AppService.ApiApps.Service.TokenResult,System.Byte[],System.Net.Http.HttpMessageHandler)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignOAuth1Async(System.String,System.Byte[],System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Runtime.SignOAuth1Async(System.String,System.String,System.Byte[],System.String)" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.CorrelationId" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.CurrentUser" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.IsolatedStorage" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.Management" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.MicroserviceId" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Runtime.RuntimeUrl" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions" Id="T:Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions.CreatePollListener(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String,System.String,Newtonsoft.Json.Linq.JObject,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.RuntimeTriggerExtensions.CreatePushListener(Microsoft.Azure.AppService.ApiApps.Service.Runtime,System.String,System.String,Newtonsoft.Json.Linq.JObject,System.String,System.String)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator" Id="T:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator.AnonymousPrincipal" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator.CalculateBodyMd5(System.Net.Http.HttpRequestMessage)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.SignatureValidator.Validate(System.Net.Http.HttpRequestMessage,System.Func{System.String,System.Byte[]},System.DateTime,System.TimeSpan)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.SitePermission" Id="T:Microsoft.Azure.AppService.ApiApps.Service.SitePermission">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.SitePermission.Internal" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.SitePermission.PublicAnon" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.SitePermission.PublicAuth" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.TimeoutErrorHandler" Id="T:Microsoft.Azure.AppService.ApiApps.Service.TimeoutErrorHandler">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TimeoutErrorHandler.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TimeoutErrorHandler.#ctor(System.Net.Http.HttpMessageHandler)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TimeoutErrorHandler.CreateClient(System.Net.Http.HttpMessageHandler)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TimeoutErrorHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.TokenResult" Id="T:Microsoft.Azure.AppService.ApiApps.Service.TokenResult">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Error(System.String,System.Object[])" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Claims" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Diagnostics" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.ExpireTime" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Properties" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.RefreshUrl" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.StartTime" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Type" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`1" Id="T:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`1">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`1.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`1.GetCallback" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`1.inputs" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2" Id="T:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.GetCallback" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.inputs" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.TriggerInput`2.outputs" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection" Id="T:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._fpEvent" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._parameters" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._runtime" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._service" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection._triggerName" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.TriggerListenerConnection.WaitAsync(System.Action{Newtonsoft.Json.Linq.JObject},System.Threading.CancellationToken)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.UnauthorizedException" Id="T:Microsoft.Azure.AppService.ApiApps.Service.UnauthorizedException">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.UnauthorizedException.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.UnauthorizedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.UnauthorizedException.#ctor(System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.UnauthorizedException.#ctor(System.String,System.Exception)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler" Id="T:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.DefaultMaxRetries" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.DefaultRetryInterval" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.#ctor(System.Net.Http.HttpMessageHandler)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.Dispose(System.Boolean)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.MaxRetries" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.WaitForGatewayHandler.RetryIntervalms" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.AppService.ApiApps.Service.Logging">
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Logging.LogEntry" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogEntry">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogEntry.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogEntry.Level" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogEntry.Message" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogEntry.Timestamp" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Logging.LogLevel" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogLevel">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogLevel.Error" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogLevel.Info" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogLevel.Verbose" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Logging.LogLevel.Warning" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol">
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType.Swagger" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType.Wadl" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionTypeStrings" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionTypeStrings">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionTypeStrings.SwaggerStandard" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionTypeStrings.SwaggerWorkflow" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionTypeStrings.WadlSiena" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionTypeStrings.FromApiDefinitionType(Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionType)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ApiDefinitionTypeStrings.ToApiDefinitionType(System.String)" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInput.Services" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry.ApplicationId" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry.RedirectUri" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentLinkInputEntry.Service" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry.Diagnostics" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry.login" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.ConsentOutputEntry.Parameters" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.ConsentServer" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.DefaultAuthProvider" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.InternalVersion" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.PackageId" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.PublicSigningKeyTag" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.RoutingRules" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.UpdatePolicy" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayInfo.Version" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy.Auto" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.GatewayUpdatePolicy.None" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Auto" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Disabled" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Inherited" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.MicroserviceUpdatePolicy.Manual" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.RoutingRules" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.RoutingRules">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.RoutingRules.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.RoutingRules.DefaultService" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.Manifest" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.PackageName" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.PackageVersion" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.SiteName" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.SitePermission" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.SiteSecrets" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.UpdatePolicy" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteInfo.Uri" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo.#ctor" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo.ClientId" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo.ClientSecret" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo.DefaultScope" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo.Parameters" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.SiteSecretInfo.RedirectUri" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry[])" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusLevel,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.Error(System.String,System.Object[])" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.Healthy" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.ToString" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.Warning(System.String,System.Object[])" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.status" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheck.WorstLevel" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry">
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry.#ctor" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry.#ctor(Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusLevel,System.String,System.String)" />
+      <Member Id="M:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry.ToString" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry.level" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry.message" />
+      <Member Id="P:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusCheckEntry.name" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusLevel" Id="T:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusLevel">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusLevel.Error" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusLevel.Info" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.Protocol.StatusLevel.Warning" />
+    </Type>
+  </Namespace>
+  <Namespace Name="">
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.TokenResult/Authentication" Id="T:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Authentication">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Authentication.AccessTokenName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Authentication.BlackList" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Authentication.ExpiresInName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Authentication.ExpiresOnName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Authentication.LocalConsentName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Authentication.RefreshTokenName" />
+    </Type>
+    <Type Name="Microsoft.Azure.AppService.ApiApps.Service.TokenResult/Oauth1" Id="T:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1">
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.ConsumerKeyName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.ResourceUriName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.SecretName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.ServiceEndpointUriName" />
+      <Member Id="F:Microsoft.Azure.AppService.ApiApps.Service.TokenResult.Oauth1.SigningUri" />
+    </Type>
+  </Namespace>
+</Framework>
