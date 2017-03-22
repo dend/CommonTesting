@@ -31,12 +31,12 @@ foreach($package in $individualPackages)
             if ($documentationXmlExists)
             {
                 Write-Output "Found XML documentation file!"
-                & $exePath update -i $docPath -o ($outputFolder + "\" + $package.Name) $dll.FullName -L $resolutionPath --use-docid
+                & $exePath update -i $docPath -o ($outputFolder) $dll.FullName -L $resolutionPath --use-docid
             }
             else
             {
                 Write-Output "There is no XML documentation file."
-                & $exePath update -o ($outputFolder + "\" + $package.Name) $dll.FullName -L $resolutionPath --use-docid
+                & $exePath update -o ($outputFolder) $dll.FullName -L $resolutionPath --use-docid
             }
         }
     }
