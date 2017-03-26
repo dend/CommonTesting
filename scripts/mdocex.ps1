@@ -17,6 +17,7 @@ foreach($package in $individualPackages)
         $packageWorkingFolder = ($outputFolder + "\" + $package)
         $finalPackageOutput = ($packageWorkingFolder + "\" + $package)
         $packageDocOutput = ($outputFolder + "\docs\" + $package)
+        $newDocPath = $null
 
         # Default the dependency folder.
         $finalDependencyOutput = $null
@@ -79,14 +80,19 @@ foreach($package in $individualPackages)
         $hasDocumentation = $docFilesInWork.count -gt 0
 
         if ($hasDocumentation) {
-            if ($dependenciesExist)
+            foreach($xml in $docFilesInWork)
             {
-                & $exePath update -i $newDocPath -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) -L $finalDependencyOutput --use-docid
+                $dllName = ([io.path]::GetFileNameWithoutExtension($xml.FullName) + ".dll")
+                # The package folder has documentation XML, therefore we might consider running XML files 
+                if ($dependenciesExist)
+                {
+                    & $exePath update -i $xml -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) -L $finalDependencyOutput --use-docid
+                }
+                else {
+                    & $exePath update -i $xml -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) --use-docid
+                }
             }
-            else {
-                & $exePath update -i $newDocPath -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) --use-docid
-            }
-        
+
             # Now run the framework tooling.
             & $exePath fx-bootstrap  ($packageWorkingFolder)
             New-Item ($packageWorkingFolder + "\temp") -Type Directory -force
