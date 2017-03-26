@@ -38,7 +38,7 @@ foreach($package in $individualPackages)
             New-Item ($outputFolder + "\" + $package + "\" + $package + "\dependencies") -Type Directory -force
             New-Item ($finalDependencyOutput) -Type Directory -force
 
-            foreach($dependency in dependencies)
+            foreach($dependency in $dependencies)
             {
                 $depFileName = [io.path]::GetFileName($dependency.FullName)
                 Copy-Item $dependency.FullName ($finalDependencyOutput + "\" + $depFileName)
@@ -71,14 +71,14 @@ foreach($package in $individualPackages)
                 # Now run the framework tooling.
                 & $exePath fx-bootstrap $finalPackageOutput
                 New-Item ($finalPackageOutput + "\temp") -Type Directory -force
-                & $exePath update -fw $finalPackageOutput -o ($finalPackageOutput + "\temp") --use-docid
+                & $exePath update -fx $finalPackageOutput -o ($finalPackageOutput + "\temp") --use-docid
                 Copy-Item ($finalPackageOutput + "\temp\FrameworksIndex") ($packageDocOutput + "\FrameworksIndex")
             }
             else
             {
                 Write-Output "There is no XML documentation file."
                 & $exePath fx-bootstrap $finalPackageOutput
-                & $exePath update -fw $finalPackageOutput -o ($packageDocOutput) --use-docid
+                & $exePath update -fx $finalPackageOutput -o ($packageDocOutput) --use-docid
             }
         }
     }
