@@ -19,6 +19,7 @@ foreach($package in $individualPackages)
 
         # Default the dependency folder.
         $finalDependencyOutput = ($azureLibs + "\dependencies\" + $package)
+        $dependencies = $null
 
         # Create a new folder for the package, and related subfolders.
         # We treat individual Azure packages as if those are "frameworks" on their own.
@@ -28,11 +29,14 @@ foreach($package in $individualPackages)
         New-Item ($finalPackageOutput) -Type Directory -force
 
         $dlls = Get-ChildItem -Path $package.FullName -Filter *.dll
-        $dependencies = Get-ChildItem -Path ($azureLibs + "\dependencies\" + $package) -Filter *.dll
-        
-        # Copy all dependencies locally into the package folder.
-        if ($dependencies.count -gt 0)
+
+        $dependenciesExist = Test-Path ($azureLibs + "\dependencies\" + $package)
+
+        if ($dependenciesExist)
         {
+            $dependencies = Get-ChildItem -Path ($azureLibs + "\dependencies\" + $package) -Filter *.dll
+            
+            # Copy all dependencies locally into the package folder.
             $finalDependencyOutput = ($outputFolder + "\" + $package + "\" + $package + "\dependencies\" + $package)
 
             New-Item ($outputFolder + "\" + $package + "\" + $package + "\dependencies") -Type Directory -force
@@ -66,8 +70,14 @@ foreach($package in $individualPackages)
                 Copy-Item $docPath $newDocPath
                 
                 # Run the standard import of the existing doc file.
-                & $exePath update -i $newDocPath -o ($packageDocOutput) $dll.FullName -L $finalDependencyOutput --use-docid
-
+                if ($dependenciesExist)
+                {
+                    & $exePath update -i $newDocPath -o ($packageDocOutput) $dll.FullName -L $finalDependencyOutput --use-docid
+                }
+                else {
+                    & $exePath update -i $newDocPath -o ($packageDocOutput) $dll.FullName --use-docid
+                }
+            
                 # Now run the framework tooling.
                 & $exePath fx-bootstrap $finalPackageOutput
                 New-Item ($finalPackageOutput + "\temp") -Type Directory -force
