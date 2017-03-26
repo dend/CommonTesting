@@ -86,10 +86,10 @@ foreach($package in $individualPackages)
                 # The package folder has documentation XML, therefore we might consider running XML files 
                 if ($dependenciesExist)
                 {
-                    & $exePath update -i $xml -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) -L $finalDependencyOutput --use-docid
+                    & $exePath update -i $xml.FullName -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) -L $finalDependencyOutput --use-docid
                 }
                 else {
-                    & $exePath update -i $xml -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) --use-docid
+                    & $exePath update -i $xml.FullName -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) --use-docid
                 }
             }
 
