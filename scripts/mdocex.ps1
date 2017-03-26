@@ -14,7 +14,8 @@ Write-Output "Current packages:"
 foreach($package in $individualPackages)
 {
     if (-Not ($package.Name -Eq 'dependencies')){
-        $finalPackageOutput = ($outputFolder + "\" + $package + "\" + $package)
+        $packageWorkingFolder = ($outputFolder + "\" + $package)
+        $finalPackageOutput = ($packageWorkingFolder + "\" + $package)
         $packageDocOutput = ($outputFolder + "\docs\" + $package)
 
         # Default the dependency folder.
@@ -25,7 +26,7 @@ foreach($package in $individualPackages)
         # We treat individual Azure packages as if those are "frameworks" on their own.
         New-Item ($packageDocOutput) -Type Directory -force
 
-        New-Item ($outputFolder + "\" + $package) -Type Directory -force
+        New-Item ($packageWorkingFolder) -Type Directory -force
         New-Item ($finalPackageOutput) -Type Directory -force
 
         $dlls = Get-ChildItem -Path $package.FullName -Filter *.dll
@@ -37,9 +38,9 @@ foreach($package in $individualPackages)
             $dependencies = Get-ChildItem -Path ($azureLibs + "\dependencies\" + $package) -Filter *.dll
             
             # Copy all dependencies locally into the package folder.
-            $finalDependencyOutput = ($outputFolder + "\" + $package + "\dependencies\" + $package)
+            $finalDependencyOutput = ($packageWorkingFolder + "\dependencies\" + $package)
 
-            New-Item ($outputFolder + "\" + $package + "\dependencies") -Type Directory -force
+            New-Item ($packageWorkingFolder + "\dependencies") -Type Directory -force
             New-Item ($finalDependencyOutput) -Type Directory -force
 
             foreach($dependency in $dependencies)
@@ -64,32 +65,37 @@ foreach($package in $individualPackages)
             $newDocPath = ($finalPackageOutput + "\" + $packageFullName + ".xml")
             $documentationXmlExists = Test-Path $docPath
 
+            Write-Host
             if ($documentationXmlExists)
             {
                 Write-Output "Found XML documentation file!"
-                Copy-Item $docPath $newDocPath
-                
-                # Run the standard import of the existing doc file.
-                if ($dependenciesExist)
-                {
-                    & $exePath update -i $newDocPath -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) -L $finalDependencyOutput --use-docid
-                }
-                else {
-                    & $exePath update -i $newDocPath -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) --use-docid
-                }
-            
-                # Now run the framework tooling.
-                & $exePath fx-bootstrap  ($outputFolder + "\" + $package)
-                New-Item ($outputFolder + "\" + $package + "\temp") -Type Directory -force
-                & $exePath update -fx ($outputFolder + "\" + $package) -o ($outputFolder + "\" + $package + "\temp") --use-docid
-                Copy-Item ($outputFolder + "\" + $package + "\temp\FrameworksIndex") ($packageDocOutput + "\FrameworksIndex")
+                Copy-Item $docPath $newDocPath   
             }
-            else
+        }
+
+        # We now need to start processing things that were copied over.
+        # Your working folder is $packageWorkingFolder
+        $docFilesInWork = Get-ChildItem $finalPackageOutput -Filter *.xml
+        $hasDocumentation = $docFilesInWork.count -gt 0
+
+        if ($hasDocumentation) {
+            if ($dependenciesExist)
             {
-                Write-Output "There is no XML documentation file."
-                & $exePath fx-bootstrap  ($outputFolder + "\" + $package)
-                & $exePath update -fx ($outputFolder + "\" + $package) -o ($packageDocOutput) --use-docid
+                & $exePath update -i $newDocPath -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) -L $finalDependencyOutput --use-docid
             }
+            else {
+                & $exePath update -i $newDocPath -o ($packageDocOutput) ($finalPackageOutput + "\" + $dllName) --use-docid
+            }
+        
+            # Now run the framework tooling.
+            & $exePath fx-bootstrap  ($packageWorkingFolder)
+            New-Item ($packageWorkingFolder + "\temp") -Type Directory -force
+            & $exePath update -fx ($packageWorkingFolder) -o ($packageWorkingFolder + "\temp") --use-docid
+            Copy-Item ($packageWorkingFolder + "\temp\FrameworksIndex") ($packageDocOutput + "\FrameworksIndex")
+        } else {
+            Write-Output "There is no XML documentation file."
+            & $exePath fx-bootstrap ($packageWorkingFolder)
+            & $exePath update -fx ($packageWorkingFolder) -o ($packageDocOutput) --use-docid
         }
     }
 }
