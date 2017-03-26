@@ -30,6 +30,9 @@ foreach($package in $individualPackages)
         New-Item ($packageWorkingFolder) -Type Directory -force
         New-Item ($finalPackageOutput) -Type Directory -force
 
+        # Bootstrap now to make sure we do not accidentally include the dependencies folder.
+        & $exePath fx-bootstrap ($packageWorkingFolder)
+
         $dlls = Get-ChildItem -Path $package.FullName -Filter *.dll
 
         $dependenciesExist = Test-Path ($azureLibs + "\dependencies\" + $package)
@@ -95,7 +98,7 @@ foreach($package in $individualPackages)
 
             Write-Output ("Package working folder: " + $packageWorkingFolder)
             # Now run the framework tooling.
-            & $exePath fx-bootstrap  ($packageWorkingFolder)
+
             New-Item ($packageWorkingFolder + "\temp") -Type Directory -force
             & $exePath update -fx ($packageWorkingFolder) -o ($packageWorkingFolder + "\temp") --use-docid
 
@@ -104,7 +107,7 @@ foreach($package in $individualPackages)
             Copy-Item ($packageWorkingFolder + "\temp\FrameworksIndex") ($packageDocOutput + "\FrameworksIndex") -Recurse -Force
         } else {
             Write-Output "There is no XML documentation file."
-            & $exePath fx-bootstrap ($packageWorkingFolder)
+
             & $exePath update -fx ($packageWorkingFolder) -o ($packageDocOutput) --use-docid
         }
     }
