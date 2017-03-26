@@ -80,9 +80,9 @@ foreach($package in $individualPackages)
             
                 # Now run the framework tooling.
                 & $exePath fx-bootstrap  ($outputFolder + "\" + $package)
-                New-Item ($finalPackageOutput + "\temp") -Type Directory -force
-                & $exePath update -fx ($outputFolder + "\" + $package) -o ($finalPackageOutput + "\temp") --use-docid
-                Copy-Item ($finalPackageOutput + "\temp\FrameworksIndex") ($packageDocOutput + "\FrameworksIndex")
+                New-Item ($outputFolder + "\" + $package + "\temp") -Type Directory -force
+                & $exePath update -fx ($outputFolder + "\" + $package) -o ($outputFolder + "\" + $package + "\temp") --use-docid
+                Copy-Item ($outputFolder + "\" + $package + "\temp\FrameworksIndex") ($packageDocOutput + "\FrameworksIndex")
             }
             else
             {
