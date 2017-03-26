@@ -93,10 +93,14 @@ foreach($package in $individualPackages)
                 }
             }
 
+            Write-Output ("Package working folder: " + $packageWorkingFolder)
             # Now run the framework tooling.
             & $exePath fx-bootstrap  ($packageWorkingFolder)
             New-Item ($packageWorkingFolder + "\temp") -Type Directory -force
             & $exePath update -fx ($packageWorkingFolder) -o ($packageWorkingFolder + "\temp") --use-docid
+
+            Write-Output ("Preparing to copy...")
+            Get-ChildItem ($packageWorkingFolder + "\temp")
             Copy-Item ($packageWorkingFolder + "\temp\FrameworksIndex") ($packageDocOutput + "\FrameworksIndex") -Recurse -Force
         } else {
             Write-Output "There is no XML documentation file."
