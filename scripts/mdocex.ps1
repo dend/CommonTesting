@@ -18,7 +18,7 @@ Write-Output "Current packages:"
 # |_somepackage-2.0
 foreach($package in $individualPackages)
 {
-    $monikerizedPackages = Get-ChildItem $package
+    $monikerizedPackages = Get-ChildItem ($azureLibs + "\" + $package)
     
     foreach($monikerizedPackage in $monikerizedPackages)
     {
