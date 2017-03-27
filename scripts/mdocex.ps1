@@ -109,7 +109,7 @@ foreach($package in $individualPackages)
                 # Now run the framework tooling.
 
                 New-Item ($packageWorkingFolder + "\temp") -Type Directory -force
-                & $exePath update -fx ($packageWorkingFolder) -o ($packageWorkingFolder + "\temp") --use-docid
+                & $exePath update -fx ($outputFolder + "\" + $package) -o ($packageWorkingFolder + "\temp") --use-docid
 
                 Write-Output ("Preparing to copy...")
                 Get-ChildItem ($packageWorkingFolder + "\temp")
@@ -117,7 +117,7 @@ foreach($package in $individualPackages)
             } else {
                 Write-Output "There is no XML documentation file."
 
-                & $exePath update -fx ($packageWorkingFolder) -o ($packageDocOutput) --use-docid
+                & $exePath update -fx ($outputFolder + "\" + $package) -o ($packageDocOutput) --use-docid
             }
         }
     }
