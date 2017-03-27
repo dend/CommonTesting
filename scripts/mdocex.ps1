@@ -44,7 +44,7 @@ foreach($package in $individualPackages)
 
             $dlls = Get-ChildItem -Path $monikerizedPackage.FullName -Filter *.dll
 
-            $dependenciesExist = Test-Path ($azureLibs + "\dependencies\" + $monikerizedPackage)
+            $dependenciesExist = Test-Path ($azureLibs + "\" + $package + "\dependencies\" + $monikerizedPackage)
 
             if ($dependenciesExist)
             {
