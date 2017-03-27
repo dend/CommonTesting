@@ -44,11 +44,13 @@ foreach($package in $individualPackages)
 
             $dlls = Get-ChildItem -Path $monikerizedPackage.FullName -Filter *.dll
 
+            Write-Output "Testing for dependencies"
             $dependenciesExist = Test-Path ($azureLibs + "\" + $package + "\dependencies\" + $monikerizedPackage)
+            Write-Output $dependenciesExist
 
             if ($dependenciesExist)
             {
-                $dependencies = Get-ChildItem -Path ($azureLibs + "\dependencies\" + $monikerizedPackage) -Filter *.dll
+                $dependencies = Get-ChildItem -Path ($azureLibs + "\" + $package + "\dependencies\" + $monikerizedPackage) -Filter *.dll
                 
                 # Copy all dependencies locally into the package folder.
                 $finalDependencyOutput = ($packageWorkingFolder + "\dependencies\" + $monikerizedPackage)
