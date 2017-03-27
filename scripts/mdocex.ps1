@@ -40,7 +40,7 @@ foreach($package in $individualPackages)
             New-Item ($finalPackageOutput) -Type Directory -force
 
             # Bootstrap now to make sure we do not accidentally include the dependencies folder.
-            & $exePath fx-bootstrap ($packageWorkingFolder)
+            & $exePath fx-bootstrap ($outputFolder + "\" + $package)
 
             $dlls = Get-ChildItem -Path $monikerizedPackage.FullName -Filter *.dll
 
