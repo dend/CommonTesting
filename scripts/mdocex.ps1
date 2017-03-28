@@ -23,9 +23,9 @@ foreach($package in $individualPackages)
     foreach($monikerizedPackage in $monikerizedPackages)
     {
         if (-Not ($monikerizedPackage.Name -Eq 'dependencies')){
-            $packageWorkingFolder = ($outputFolder + "\" + $package + "\" + $monikerizedPackage)
+            $packageWorkingFolder = ($outputFolder + "\" + $package)
             $finalPackageOutput = ($packageWorkingFolder + "\" + $monikerizedPackage)
-            $packageDocOutput = ($outputFolder + "\docs\" + $package + "\" + $monikerizedPackage)
+            $packageDocOutput = ($outputFolder + "\docs\" + $package)
             $newDocPath = $null
 
             # Default the dependency folder.
