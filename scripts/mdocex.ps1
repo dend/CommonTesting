@@ -53,9 +53,9 @@ foreach($package in $individualPackages)
                 $dependencies = Get-ChildItem -Path ($azureLibs + "\" + $package + "\dependencies\" + $monikerizedPackage) -Filter *.dll
                 
                 # Copy all dependencies locally into the package folder.
-                $finalDependencyOutput = ($packageWorkingFolder + "\dependencies\" + $monikerizedPackage)
+                $finalDependencyOutput = ($outputFolder + "\" + $package + "\dependencies\" + $monikerizedPackage)
 
-                New-Item ($packageWorkingFolder + "\dependencies") -Type Directory -force
+                New-Item ($outputFolder + "\" + $package + "\dependencies") -Type Directory -force
                 New-Item ($finalDependencyOutput) -Type Directory -force
 
                 foreach($dependency in $dependencies)
