@@ -16,7 +16,7 @@ foreach($package in $individualPackages)
         # Write-Output $package.FullName
         New-Item $outputFolder\$package -Type Directory -force
 
-        $dlls = Get-ChildItem -Path ($package.FullName + "\") -Include *.dll, *.exe
+        $dlls = Get-ChildItem -Path ($package.FullName) -Include *.dll, *.exe
         foreach($dll in $dlls)
         {
             # Write-Output $dll.FullName
