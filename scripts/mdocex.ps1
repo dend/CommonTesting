@@ -8,7 +8,6 @@ $outputFolder = ($Env:BUILD_REPOSITORY_LOCALPATH + "\mdoc-output")
 Write-Output $outputFolder
 
 $individualPackages = Get-ChildItem -Path $azureLibs -Directory
-$includeFiles = ("*.dll","*.exe")
 
 Write-Output "Current packages:"
 foreach($package in $individualPackages)
@@ -17,7 +16,7 @@ foreach($package in $individualPackages)
         # Write-Output $package.FullName
         New-Item $outputFolder\$package -Type Directory -force
 
-        $dlls = Get-ChildItem -Path ($package.FullName) -Include $includeFiles
+        $dlls = Get-ChildItem -Path ($package.FullName + "\*") -Include *.dll,*.exe
         foreach($dll in $dlls)
         {
             # Write-Output $dll.FullName
