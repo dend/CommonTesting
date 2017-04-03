@@ -26,4 +26,4 @@ foreach($namespace in $sourceXml.Overview.Types.ChildNodes){
     $destinationXml.Overview.Types.AppendChild($importNode)
 }
 
-$destinationXml.Save("C:\Users\dendeli\Downloads\experimental\index.xml")
+$destinationXml.Save($indexXmlPath)
