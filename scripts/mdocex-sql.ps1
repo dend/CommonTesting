@@ -17,7 +17,7 @@ foreach($dll in $dlls)
     $docPath = ($libraries + "\" + $reflectionTarget + ".xml")
     $documentationXmlExists = Test-Path $docPath
 
-    #$resolutionPath = ($libraries + "\dependencies\sqlserver-2017")
+    $resolutionPath = ($libraries + "\dependencies\sqlserver-2017")
     #Write-Output ("Resolving from " + $resolutionPath)
 
     if ($documentationXmlExists)
