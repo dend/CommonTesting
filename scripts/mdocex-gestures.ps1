@@ -17,19 +17,19 @@ foreach($dll in $dlls)
     $docPath = ($libraries + "\" + $reflectionTarget + ".xml")
     $documentationXmlExists = Test-Path $docPath
 
-    #$resolutionPath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\sql\dependencies\sqlserver-2017")
+    $resolutionPath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\gestures\dependencies\gestures-1.0")
     #Write-Output ("Resolving from " + $resolutionPath)
 
     if ($documentationXmlExists)
     {
         Write-Output "Found XML documentation file!"
         Write-Output $dll.FullName
-        & $exePath update -i $docPath -o ($outputFolder) $dll.FullName --use-docid --debug
+        & $exePath update -i $docPath -o ($outputFolder) $dll.FullName -L ($resolutionPath) --use-docid --debug
     }
     else
     {
         Write-Output "There is no XML documentation file."
         Write-Output $dll.FullName
-        & $exePath update -o ($outputFolder) $dll.FullName --use-docid --debug
+        & $exePath update -o ($outputFolder) $dll.FullName -L ($resolutionPath) --use-docid --debug
     }
 }
