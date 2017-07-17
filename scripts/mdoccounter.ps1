@@ -2,7 +2,7 @@
 # (c) 2017 by Microsoft Corporation
 # Created by: Den Delimarsky (dendeli)
 
-$LookupPath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\nue-out")
+$LookupPath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\nue-out\")
 #$LookupPath = "C:\Users\dendeli\Downloads\neuoutput\"
 $TempDestination = ($Env:BUILD_REPOSITORY_LOCALPATH + "\tempdrop\")
 $TempOutput = ($Env:BUILD_REPOSITORY_LOCALPATH + "\tempout\")
