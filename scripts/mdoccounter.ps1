@@ -27,10 +27,12 @@ foreach($folder in $folders)
 
         & $MdocPath fx-bootstrap $TempDestination --debug
 
-        if (Test-Path ($LookupPath + "dependencies\" + $folder.ToString()))
+        $DependencyPath = ($LookupPath + "dependencies\" + $folder.ToString())
+        Write-Output ("Looking for " + $DependencyPath)
+        if (Test-Path $DependencyPath)
         {
             Write-Output "We have found the dependencies folder."
-            Copy-Item ($LookupPath + "dependencies\" + $folder.ToString()) ($TempDestination + "dependencies\" + $folder.ToString()) -Recurse -Force
+            Copy-Item $DependencyPath ($TempDestination + "dependencies\" + $folder.ToString()) -Recurse -Force
         }
         else
         {
