@@ -8,6 +8,7 @@ $TempDestination = ($Env:BUILD_REPOSITORY_LOCALPATH + "\tempdrop\")
 $TempOutput = ($Env:BUILD_REPOSITORY_LOCALPATH + "\tempout\")
 $MdocPath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\mdoc\mdoc.exe")
 $CounterPath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\counter\")
+$PopImportPath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\popimport\popimport.exe")
 
 New-Item $CounterPath -Type Directory -Force
 New-Item $TempDestination -Type Directory -Force
@@ -26,6 +27,9 @@ foreach($folder in $folders)
         Copy-Item $folder.FullName ($TempDestination + $folder) -Recurse -Force
 
         & $MdocPath fx-bootstrap $TempDestination --debug
+
+        # Run popimport
+        & $PopImportPath -f ($Env:BUILD_REPOSITORY_LOCALPATH + "\tempdrop")
 
         $DependencyPath = ($LookupPath + "dependencies\" + $folder.ToString())
         Write-Output ("Looking for " + $DependencyPath)
@@ -50,13 +54,33 @@ foreach($folder in $folders)
 
         # Start at -1 to account for the 1 FrameworksIndex file
         $TypeCounter = -1
+        $NamespaceCounter = 0
+        $BlankNamespaceSummaries = 0
 
         dir -recurse |  ?{ $_.PSIsContainer } | %{ $TypeCounter = $TypeCounter + (dir $_.FullName | Measure-Object).Count }
 
         $TypeSet = ($folder.ToString() + ": " + $TypeCounter)
         Write-Output $TypeSet
 
-        Add-Content ($CounterPath + "count.txt") $TypeSet
+        $NamespaceFiles = Get-ChildItem -Path $TempOutput –File
+        foreach($file in $NamespaceFiles)
+        {
+            if ($file.ToString() -like "ns-*")
+            {
+                Write-Output $file
+                $NamespaceCounter = $NamespaceCounter + 1
+                $content = [IO.File]::ReadAllText($file.FullName)
+                
+                if ($content -like "*<summary>To be added.</summary>*")
+                {
+                    $BlankNamespaceSummaries = $BlankNamespaceSummaries + 1
+                }
+            }
+        }
+
+        Write-Output ($TypeSet + " NS: " + $NamespaceCounter + " BNS: " + $BlankNamespaceSummaries)
+        
+        Add-Content ($CounterPath + "count.txt") ($TypeSet + " NS: " + $NamespaceCounter + " BNS: " + $BlankNamespaceSummaries)
 
         cd ..
 
