@@ -71,7 +71,7 @@ foreach($folder in $folders)
                 $NamespaceCounter = $NamespaceCounter + 1
                 $content = [IO.File]::ReadAllText($file.FullName)
                 
-                if ($content -like "*<summary>To be added.</summary>*")
+                if ($content -match "<summary>To be added")
                 {
                     $BlankNamespaceSummaries = $BlankNamespaceSummaries + 1
                 }
@@ -79,7 +79,7 @@ foreach($folder in $folders)
         }
 
         Write-Output ($TypeSet + " NS: " + $NamespaceCounter + " BNS: " + $BlankNamespaceSummaries)
-        
+
         Add-Content ($CounterPath + "count.txt") ($TypeSet + " NS: " + $NamespaceCounter + " BNS: " + $BlankNamespaceSummaries)
 
         cd ..
