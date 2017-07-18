@@ -1,7 +1,7 @@
 $exePath = ($Env:BUILD_REPOSITORY_LOCALPATH + "\mdoc\mdoc.exe")
 Write-Output $exePath
 
-$libraries = ($Env:BUILD_REPOSITORY_LOCALPATH + "\sql\SSMS")
+$libraries = ($Env:BUILD_REPOSITORY_LOCALPATH + "\sql\smo")
 Write-Output $libraries
 
 $outputFolder = ($Env:BUILD_REPOSITORY_LOCALPATH + "\mdoc-output")
