@@ -31,6 +31,10 @@ foreach($folder in $folders)
         # Run popimport
         & $PopImportPath -f ($Env:BUILD_REPOSITORY_LOCALPATH + "\tempdrop")
 
+        Get-ChildItem
+        $frameworks = [IO.File]::ReadAllText($Env:BUILD_REPOSITORY_LOCALPATH + "\tempdrop\frameworks.xml")
+        Write-Output $frameworks
+
         $DependencyPath = ($LookupPath + "dependencies\" + $folder.ToString())
         Write-Output ("Looking for " + $DependencyPath)
         if (Test-Path $DependencyPath)
