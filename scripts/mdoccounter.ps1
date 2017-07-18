@@ -85,6 +85,12 @@ foreach($folder in $folders)
         Write-Output ($TypeSet + " NS: " + $NamespaceCounter + " BNS: " + $BlankNamespaceSummaries)
 
         Add-Content ($CounterPath + "count.txt") ($TypeSet + " NS: " + $NamespaceCounter + " BNS: " + $BlankNamespaceSummaries)
+        foreach($file in $NamespaceFiles)
+        {
+            Add-Content ($CounterPath + "count.txt") $file
+        }
+
+        Add-Content ($CounterPath + "count.txt") "============="
 
         cd ..
 
