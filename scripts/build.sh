@@ -8,6 +8,8 @@
 # sudo apt-get -y install unzip
 # sudo apt-get -f install
 
+brew update && brew install azure-cli
+
 mkdir $BUILD_SOURCESDIRECTORY/_dl
 mkdir $BUILD_SOURCESDIRECTORY/_bin
 mkdir $BUILD_SOURCESDIRECTORY/_publish
