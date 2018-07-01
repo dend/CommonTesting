@@ -16,5 +16,5 @@ wget -O $BUILD_SOURCESDIRECTORY/_dl/docfx.zip "https://github.com/dotnet/docfx/r
 unzip $BUILD_SOURCESDIRECTORY/_dl/docfx.zip -d $BUILD_SOURCESDIRECTORY/_bin/docfx
 
 cd $BUILD_SOURCESDIRECTORY/_publish
-mono $BUILD_SOURCESDIRECTORY/_bin/docfx.exe init
+mono $BUILD_SOURCESDIRECTORY/_bin/docfx/docfx.exe init
 
