@@ -1,2 +1,5 @@
-- name: Articles
-  href: articles/index.md
+- name: Index
+  href: index.md
+  items:
+    - name: Article
+      href: articles/index.md
