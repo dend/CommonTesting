@@ -6,6 +6,7 @@ sudo apt update
 
 sudo apt -y install mono-devel
 sudo apt-get -y install unzip
+sudo apt-get -f install
 
 mkdir $BUILD_SOURCESDIRECTORY/_dl
 mkdir $BUILD_SOURCESDIRECTORY/_bin
