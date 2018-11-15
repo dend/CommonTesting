@@ -1,3 +1,25 @@
+---
+topic: sample
+languages:
+- csharp
+- fsharp
+- vbnet
+technologies:
+- office
+- windows
+- xbox
+name: 'My amazing sample'
+urlFragment: my-amazing-sample
+description: 'I probably would have put an amazing description here as well.'
+statusNotificationTargets:
+- dendeli@microsoft.com
+azureDeploy: https://azuretemplate.bing.com/deployments/deploy.json
+extendedZipContent:
+- path: ../../media/header.png
+  target: /pictures
+extensions:
+- officeDevId: 3bb16609-f17e-4f5c-8a01-16db13c7c98c
+---
 # .NET Core Samples
 
 This folder contains all the sample code that is part of any topic under
