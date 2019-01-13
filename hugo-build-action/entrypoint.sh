@@ -1,7 +1,7 @@
 #!/bin/bash -l
 
 apt-get update
-apt-get install -y python-setuptools wget python-pip git
+apt-get install -y wget git
 
 wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb
 
