@@ -10,7 +10,7 @@ yes | dpkg -i hugo*.deb
 hugo version
 
 # Make sure we have the latest theme.
-git clone --progress --verbose https://github.com/taikii/whiteplain .testblog/themes
+git clone --progress --verbose https://github.com/taikii/whiteplain .testblog/themes/whiteplain
 
 cd .testblog
 hugo -v
