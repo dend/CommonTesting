@@ -2,3 +2,4 @@
 .testblog/public/
 obj/
 bin/
+test_environment/
