@@ -14,19 +14,14 @@ namespace json_restructure
     {
         static void Main(string[] args)
         {
-            var json = "[{\"id\":\"1127889\"},{\"id\":\"1075442\"},{\"id\":\"1201544\"}]";
-            var workingObject = JsonConvert.DeserializeObject<List<Entity>>(json);
+            string[] data = new string[] {"01-001-A-02", "01-001-A-01", "01-001-B-01", "01-002-A-01", "01-003-A-01"};
 
-            foreach(var t in workingObject)
+            var sorted = data.OrderBy(x => x).ThenBy(x=> x.Split('-')[3]);
+
+            foreach (var x in sorted)
             {
-                Console.WriteLine(t.id);
+                Console.WriteLine(x);
             }
-
-            var idList = new { id = (from c in workingObject select c.id).ToArray()};
-
-            var outputString = JsonConvert.SerializeObject(idList);
-
-            Console.WriteLine(outputString);
         }
     }
 }
