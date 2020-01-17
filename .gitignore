@@ -5,3 +5,4 @@ bin/
 test_environment/
 .env/
 .vscode/
+*.pyc

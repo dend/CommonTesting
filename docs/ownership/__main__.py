@@ -1,12 +1,16 @@
 import argparse
 from sys import argv
-import urllib2
+import urllib.request
 from bs4 import BeautifulSoup
 
 def get_owner(url):
-    response = urllib2.urlopen(url)
+    response = urllib.request.urlopen(url)
     page_source = response.read()
 
+    soup = BeautifulSoup(page_source, 'html.parser')
+    owner = soup.find("meta", attrs={'name':'ms.author'})
+    if owner is not None:
+    print(f'[info] Owner: {owner["content"]}')
 
 PARSER = argparse.ArgumentParser(description='ownership - version 0.1')
 SUB_PARSERS = PARSER.add_subparsers(dest="commands_parser")
@@ -33,7 +37,8 @@ else:
                 url_list = txt_file.read().splitlines()
 
             if url_list is not None:
-                for (url in url_list):
+                for url in url_list:
+                    print(f'[info] Looking for ownership for {url}...')
                     owner_map.append(get_owner(url))
             else:
                 print('[error] No URLs were read from the file.')

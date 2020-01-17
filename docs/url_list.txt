@@ -1,0 +1,5 @@
+https://docs.microsoft.com/en-us/dotnet/standard/generics
+https://docs.microsoft.com/en-us/dotnet/standard/clr
+https://docs.microsoft.com/en-us/azure/
+https://docs.microsoft.com/en-us/azure/governance/blueprints/
+https://docs.microsoft.com/en-us/azure/governance/blueprints/troubleshoot/general
