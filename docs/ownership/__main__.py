@@ -1,8 +1,10 @@
 import argparse
 from sys import argv
+import urllib2
 
 def get_owner(url):
-
+    response = urllib2.urlopen(url)
+    page_source = response.read()
 
 PARSER = argparse.ArgumentParser(description='ownership - version 0.1')
 SUB_PARSERS = PARSER.add_subparsers(dest="commands_parser")
