@@ -3,3 +3,5 @@
 obj/
 bin/
 test_environment/
+.env/
+.vscode/
