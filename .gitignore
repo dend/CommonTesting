@@ -6,3 +6,4 @@ test_environment/
 .env/
 .vscode/
 *.pyc
+docs/url_target.csv

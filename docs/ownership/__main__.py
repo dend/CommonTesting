@@ -2,6 +2,7 @@ import argparse
 from sys import argv
 import urllib.request
 from bs4 import BeautifulSoup
+import csv
 
 def get_owner(url):
     response = urllib.request.urlopen(url)
@@ -44,6 +45,15 @@ else:
 
                     url_pair = get_owner(url)
                     owner_map.append(get_owner(url))
+
+                    try:
+                        with open(ARGS.out, 'w') as csv_file:
+                            writer = csv.DictWriter(csv_file, fieldnames=['url', 'owner'])
+                            writer.writeheader()
+                            for data in owner_map:
+                                writer.writerow(data)
+                    except IOError:
+                        print('[error] Failed to save file.')
                     
             else:
                 print('[error] No URLs were read from the file.')
