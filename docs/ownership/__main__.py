@@ -1,19 +1,22 @@
 import argparse
 from sys import argv
-import urllib.request
+import urllib.request, urllib.error
 from bs4 import BeautifulSoup
 import csv
 
 def get_owner(url):
-    response = urllib.request.urlopen(url)
-    page_source = response.read()
+    try:
+        response = urllib.request.urlopen(url)
+        page_source = response.read()
 
-    soup = BeautifulSoup(page_source, 'html.parser')
-    owner = soup.find("meta", attrs={'name':'ms.author'})
-    if owner is not None:
-        return {'url': url, 'owner': owner["content"]}
-    else:
-        return {'url': url, 'owner': 'UNKNOWN'}
+        soup = BeautifulSoup(page_source, 'html.parser')
+        owner = soup.find("meta", attrs={'name':'ms.author'})
+        if owner is not None:
+            return {'url': url, 'owner': owner["content"]}
+        else:
+            return {'url': url, 'owner': 'UNKNOWN'}
+    except urllib.error.HTTPError:
+        return {'url': url, 'owner': '404'}
 
 PARSER = argparse.ArgumentParser(description='ownership - version 0.1')
 SUB_PARSERS = PARSER.add_subparsers(dest="commands_parser")
