@@ -4,4 +4,4 @@ The tool is designed to determine the author/person of contact for content in bu
 
 ## Usage
 
-`python -m ownership articles.csv output.csv`
+`python -m ownership find --list articles.csv --out output.csv`
